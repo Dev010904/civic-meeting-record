@@ -1,0 +1,45 @@
+{
+  "@odata.context": "https://ivgid.api.civicclerk.com/v1/$metadata#EventCategories",
+  "value": [
+    {
+      "id": 24,
+      "categoryDesc": "General",
+      "sortOrder": 1,
+      "isPublic": 1,
+      "parentId": -1,
+      "timeStamp": "AAAAAAAFKs0="
+    },
+    {
+      "id": 27,
+      "categoryDesc": "Audit Committee",
+      "sortOrder": 2,
+      "isPublic": 1,
+      "parentId": -1,
+      "timeStamp": "AAAAAAAFKs4="
+    },
+    {
+      "id": 26,
+      "categoryDesc": "Board of Trustees",
+      "sortOrder": 3,
+      "isPublic": 1,
+      "parentId": -1,
+      "timeStamp": "AAAAAAAFKs8="
+    },
+    {
+      "id": 29,
+      "categoryDesc": "Capital Investment Committee",
+      "sortOrder": 4,
+      "isPublic": 1,
+      "parentId": -1,
+      "timeStamp": "AAAAAAAFKtA="
+    },
+    {
+      "id": 28,
+      "categoryDesc": " Golf Advisory Committee",
+      "sortOrder": 5,
+      "isPublic": 1,
+      "parentId": -1,
+      "timeStamp": "AAAAAAAFKtE="
+    }
+  ]
+}
