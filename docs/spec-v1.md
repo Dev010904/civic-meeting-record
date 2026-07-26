@@ -153,12 +153,31 @@ This is the actual product.
 
 ### 2.6 Accuracy gate — must pass before publishing anything
 
-**Benchmark corpora:**
+**Benchmark corpus** *(corrected 26 July 2026; supersedes the original text)*:
 
-- **Augusta Charter Township, MI** — 146 minutes PDFs, text-extractable draft
-  minutes with roll-call votes. Includes a known clerical contradiction
-  (Trustee Prain recorded as both aye and absent on item 15, 24 Mar 2026).
-- **IVGID** — minutes with per-item media timestamps and structured vote blocks.
+- **The benchmark is the full IVGID minutes archive** (153 PDFs at first
+  assembly, 2021-05-12 → 2026-05-20), fetched live and cached. The original
+  spec named Augusta Charter Township's 146 PDFs; that predates the switch
+  to IVGID and measured nothing about this parser. **Augusta is deferred to
+  phase two as a generalisation test** (its known clerical contradiction —
+  Trustee Prain recorded as both aye and absent, item 15, 24 Mar 2026 —
+  remains the scoring case for contradiction detection when that phase runs).
+
+**Format eras discovered in the IVGID archive** (benchmark, 26 July 2026):
+
+| Era | Format | Stage A |
+|---|---|---|
+| 2025–2026 | Structured blocks: `MOTION:` / `Moved By X, Seconded by Y` / `YEAS:`/`NAYS:` / `MOTION PASSED` (with transitional sub-variants in early 2025) | **Parsed** |
+| Audit Committee, all years | Passive label `MOTION WAS MADE TO …`, outcome `MOTION CARRIED`, mover often unrecorded | **Parsed** |
+| 2023–2024 | Verbatim stenographic transcripts, two-column numbered lines; votes exist only as dialogue | Deferred (archive phase) |
+| 2021–2022 | Narrative prose ("Trustee Wong made a motion … the motion passed unanimously") | Deferred (archive phase) |
+
+**Product decision (fixed): v1 publishes new meetings only.** The archive
+backfill — the transcript and narrative eras — is a separate later phase.
+The published /accuracy number is therefore measured on the **live-format
+subset**: documents dated 2025-01-01 or later plus all Audit Committee
+documents. Full-archive coverage is tracked separately for regression
+purposes and is not the published number.
 
 **Targets:**
 
@@ -372,11 +391,22 @@ tokens toward rate limits.
 1. CivicClerk client with all six quirks handled, plus tests against real responses
 2. PDF fetch and text extraction
 3. Stage A deterministic parser for IVGID minutes
-4. Benchmark harness + Augusta corpus → **first published accuracy number**
-5. Stage B LLM fallback for parser misses
+4. Benchmark harness + full IVGID archive → **first published accuracy number**
+5. Stage A hardening, measured against the same corpus *(rewritten 26 July
+   2026 — was "Stage B LLM fallback". The benchmark proved the misses are
+   regex variants and format-era gaps, not LLM-shaped problems: outcome
+   spelling variants, mover-clause punctuation, the Audit Committee's
+   passive label, margin-noise artifacts. All are deterministic rules.)*
 6. Cross-meeting item tracking
 7. Static site with provenance links + corrections page + /accuracy page
 8. **Ship. Publish.**
+
+**Deferred to the archive phase — Stage B (LLM fallback).** Its real target
+is the 2023–2024 stenographic transcript era and the 2021–2022 narrative
+era, where votes exist only as prose or dialogue — not broken vote blocks
+in the structured era, which hardening already handles deterministically.
+Stage B remains subject to §2.3: it must never silently overwrite Stage A,
+and disagreement is flagged, not resolved.
 
 **Layer 2 gate — do not start audio work until all four are done:**
 - A human review step exists for every published quote (see §3.5)

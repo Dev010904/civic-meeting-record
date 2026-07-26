@@ -116,8 +116,11 @@ def _throttle() -> None:
 def _request(url: str, client: Optional[httpx.Client] = None) -> httpx.Response:
     """GET ``url`` with the $select guard, rate limit, timeout and retries.
 
-    Retries on 429 and 5xx with exponential backoff (1s, 2s, 4s); any other
-    error status raises ``httpx.HTTPStatusError`` immediately.
+    Retries with exponential backoff (1s, 2s, 4s) on 429, 5xx, and
+    transport-level failures (timeouts, DNS errors, connection resets —
+    ``httpx.TransportError``); the first full-archive benchmark showed all
+    of those occurring transiently against this API. Any other error status
+    raises ``httpx.HTTPStatusError`` immediately.
     """
     _check_url(url)
     headers = {"User-Agent": USER_AGENT}
@@ -127,7 +130,13 @@ def _request(url: str, client: Optional[httpx.Client] = None) -> httpx.Response:
     try:
         for attempt in range(MAX_RETRIES + 1):
             _throttle()
-            response = client.get(url, headers=headers, timeout=TIMEOUT_SECONDS)
+            try:
+                response = client.get(url, headers=headers, timeout=TIMEOUT_SECONDS)
+            except httpx.TransportError:
+                if attempt < MAX_RETRIES:
+                    time.sleep(BACKOFF_BASE_SECONDS * (2**attempt))
+                    continue
+                raise
             if response.status_code == 429 or response.status_code >= 500:
                 if attempt < MAX_RETRIES:
                     time.sleep(BACKOFF_BASE_SECONDS * (2**attempt))

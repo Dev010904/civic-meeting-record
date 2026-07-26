@@ -95,6 +95,8 @@ def _motion_summary(motion: parse_minutes.Motion) -> dict[str, Any]:
         "tally": motion.tally,
         "outcome": motion.outcome,
         "flags": motion.flags,
+        "kind": motion.kind,
+        "notes": motion.notes,
     }
 
 
@@ -173,6 +175,7 @@ def run_benchmark(
         for flag, count in d["flag_counts"].items():
             flags[flag] = flags.get(flag, 0) + count
     crashes = [d for d in documents if d["error"]]
+    live = live_metrics(documents)
 
     return {
         "spec_correction": (
@@ -197,7 +200,44 @@ def run_benchmark(
             "crashes": len(crashes),
             "flags": flags,
         },
+        "live": live,
         "documents": documents,
+    }
+
+
+def is_live_format(doc: dict[str, Any]) -> bool:
+    """The subset the live pipeline will actually meet: documents dated
+    2025-01-01 or later, plus all Audit Committee documents (that committee
+    still meets and has used its own format for years)."""
+    return doc["event_date"] >= "2025-01-01" or "audit" in doc["event_name"].lower()
+
+
+def live_metrics(documents: list[dict[str, Any]]) -> dict[str, Any]:
+    """Coverage and recall over the live-format subset — the numbers for the
+    published /accuracy page. Recall is reported as the list of subset
+    documents that yielded zero motions; each needs individual
+    investigation, because a genuinely motion-free meeting is a different
+    thing from a document the parser cannot see."""
+    subset = [d for d in documents if is_live_format(d)]
+    motions = sum(len(d["motions"]) for d in subset)
+    clean = sum(1 for d in subset for m in d["motions"] if not m["flags"])
+    zero = [
+        {"file_id": d["file_id"], "event_date": d["event_date"][:10],
+         "event_name": d["event_name"]}
+        for d in subset
+        if not d["motions"] and not d["error"]
+    ]
+    flags: dict[str, int] = {}
+    for d in subset:
+        for flag, count in d["flag_counts"].items():
+            flags[flag] = flags.get(flag, 0) + count
+    return {
+        "documents": len(subset),
+        "motions": motions,
+        "motions_clean": clean,
+        "coverage_pct": round(100 * clean / motions, 1) if motions else None,
+        "flags": flags,
+        "zero_motion_documents": zero,
     }
 
 

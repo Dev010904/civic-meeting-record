@@ -21,6 +21,17 @@ import benchmark  # noqa: E402
 BENCH_DIR = REPO_ROOT / "benchmark"
 CACHE_DIR = REPO_ROOT / "cache"
 
+# Step-4 baseline (26 July 2026), before Stage A hardening — kept for the
+# before/after comparison in the report.
+BASELINE = {
+    "date": "2026-07-26 (pre-hardening)",
+    "motions": 183,
+    "motions_clean": 149,
+    "coverage_pct": 81.4,
+    "flags": {"missing_mover": 24, "missing_outcome": 15,
+              "tally_mismatch": 9, "missing_vote_sections": 6},
+}
+
 
 def write_report(results: dict, sample: list[dict]) -> str:
     t = results["totals"]
@@ -48,6 +59,41 @@ def write_report(results: dict, sample: list[dict]) -> str:
         f"({t['coverage_pct']}%)**")
     add(f"- Documents crashed: **{t['crashes']}**")
     add("")
+    add("### Before/after (Stage A hardening, step 5)")
+    add("")
+    add("| | baseline | current |")
+    add("|---|---|---|")
+    add(f"| motions found | {BASELINE['motions']} | {t['motions']} |")
+    add(f"| motions clean | {BASELINE['motions_clean']} | {t['motions_clean']} |")
+    add(f"| coverage | {BASELINE['coverage_pct']}% | {t['coverage_pct']}% |")
+    add(f"| flags | {BASELINE['flags']} | {t['flags']} |")
+    add("")
+    live = results.get("live")
+    if live:
+        add("## Live-format subset (docs ≥ 2025-01-01 + all Audit Committee)")
+        add("")
+        add("This is the subset the live pipeline will meet, and the number "
+            "for the published /accuracy page. Reported separately from the "
+            "full archive; the archive includes deferred format eras.")
+        add("")
+        add(f"- Documents: **{live['documents']}**")
+        add(f"- Motions: **{live['motions']}**, clean **{live['motions_clean']}"
+            f"** (**{live['coverage_pct']}%**)")
+        add(f"- Flags: {live['flags'] or 'none'}")
+        add(f"- Zero-motion documents (recall): **{len(live['zero_motion_documents'])}**")
+        investigations = {}
+        inv_path = BENCH_DIR / "investigations.json"
+        if inv_path.exists():
+            investigations = {
+                int(k): v
+                for k, v in json.loads(inv_path.read_text(encoding="utf-8")).items()
+            }
+        for z in live["zero_motion_documents"]:
+            note = investigations.get(
+                z["file_id"], "NOT YET INVESTIGATED — do not publish until it is"
+            )
+            add(f"  - file {z['file_id']} ({z['event_date']} {z['event_name']}): {note}")
+        add("")
     add("### Flag breakdown")
     add("")
     if t["flags"]:
@@ -120,6 +166,18 @@ def write_report(results: dict, sample: list[dict]) -> str:
 
 
 def main() -> None:
+    if "--render-only" in sys.argv:
+        # Re-render REPORT.md from the existing results.json (e.g. after
+        # curating benchmark/investigations.json) without re-parsing.
+        results = json.loads(
+            (BENCH_DIR / "results.json").read_text(encoding="utf-8")
+        )
+        sample = benchmark.sample_for_verification(results)
+        (BENCH_DIR / "REPORT.md").write_text(
+            write_report(results, sample), encoding="utf-8"
+        )
+        print(f"re-rendered {BENCH_DIR / 'REPORT.md'}")
+        return
     results = benchmark.run_benchmark(cache_dir=CACHE_DIR)
     sample = benchmark.sample_for_verification(results)
 

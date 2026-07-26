@@ -302,6 +302,193 @@ def test_missing_outcome_is_flagged():
     assert motion.outcome is None
 
 
+# --- Stage A hardening: format variants (step 5) -------------------------
+
+
+def test_motion_passes_and_carried_terminators():
+    for terminator, expected in (
+        ("MOTION PASSES", "passed"),
+        ("MOTION CARRIED", "passed"),
+        ("MOTION FAILS", "failed"),
+    ):
+        block = [
+            _bl(2, 1, "MOTION: to Approve the Test Item."),
+            _bl(2, 2, "Moved By Trustee A, Seconded by Trustee B"),
+            _bl(2, 3, "YEAS: Trustee A, Trustee B 2"),
+            _bl(2, 4, "NAYS: None"),
+            _bl(2, 5, terminator),
+        ]
+        motion = pm._parse_motion_block(block, file_id=999)
+        assert motion.outcome == expected, terminator
+        assert motion.flags == []
+
+
+def test_bare_motion_terminator_is_truncated_not_overrun():
+    block = [
+        _bl(1, 1, "MOTION: to Approve and Follow the Agenda as Submitted."),
+        _bl(1, 2, "Moved By Committee Chair A"),
+        _bl(1, 3, "YEAS: Committee Chair A, Trustee B, Member C 3"),
+        _bl(1, 4, "NAYS: None 0"),
+        _bl(1, 5, "MOTION"),
+        _bl(1, 6, "D. REPORTS TO THE COMMITTEE - pages 3 - 8"),  # stray numbers
+    ]
+    motion = pm._parse_motion_block(block, file_id=999)
+    assert motion.flags == ["truncated_outcome"]  # outcome unknown, flagged
+    assert motion.outcome is None
+    assert motion.tally["aye"] == 3  # the overrun no longer poisons the tally
+    assert motion.notes == ["no_seconder"]
+    assert motion.mover == "Committee Chair A"
+
+
+def test_audit_passive_label_and_carried():
+    block = [
+        _bl(3, 1, "MOTION WAS MADE TO approve the 2nd Extension of the Audit."),
+        _bl(3, 2, "YEAS: Committee Members Brandle, Schmitz, and Tulloch 3"),
+        _bl(3, 3, "NAYS: None 0"),
+        _bl(3, 4, "MOTION CARRIED"),
+    ]
+    motion = pm._parse_motion_block(block, file_id=999)
+    assert motion.flags == []
+    assert motion.notes == ["mover_not_recorded"]  # passive style, not a failure
+    assert motion.outcome == "passed"
+    assert motion.yeas == ["Committee Members Brandle", "Schmitz", "Tulloch"]
+    assert motion.tally["aye"] == 3
+
+
+def test_mover_variants_semicolon_colon_and_missing_separator():
+    for mover_line in (
+        "Moved by Trustee A; Seconded by Trustee B",
+        "Moved by Trustee A Seconded by Trustee B",
+        "Moved by: Trustee A, Seconded by: Trustee B",
+    ):
+        block = [
+            _bl(4, 1, "MOTION: to Approve the Test Item."),
+            _bl(4, 2, mover_line),
+            _bl(4, 3, "YEAS: Trustee A, Trustee B 2"),
+            _bl(4, 4, "NAYS: None"),
+            _bl(4, 5, "MOTION PASSED"),
+        ]
+        motion = pm._parse_motion_block(block, file_id=999)
+        assert motion.mover == "Trustee A", mover_line
+        assert motion.seconder == "Trustee B", mover_line
+        assert motion.flags == []
+
+
+def test_mid_text_mover_clause_and_kerned_names():
+    block = [
+        _bl(5, 1, "MOTION: to Approve the Big Contract in the amount of"),
+        _bl(5, 2, "$755,000. Moved by Trustee"),
+        _bl(5, 3, "H oman, Seconded by"),
+        _bl(5, 4, "T rustee Noble"),
+        _bl(5, 5, "YEAS: Trustee Homan, Trustee Noble 2"),
+        _bl(5, 6, "NAYS: None"),
+        _bl(5, 7, "MOTION PASSED"),
+    ]
+    motion = pm._parse_motion_block(block, file_id=999)
+    assert motion.mover == "Trustee Homan"  # kerning "H oman" repaired
+    assert motion.seconder == "Trustee Noble"
+    assert "$755,000." in motion.text
+    assert motion.flags == []
+
+
+def test_no_seconder_is_note_not_flag():
+    block = [
+        _bl(9, 1, "MOTION: To remove Item H.5. from the Agenda"),
+        _bl(9, 2, "Moved by Trustee Tulloch, Trustee Chair T called for a Vote."),
+        _bl(9, 3, "YEAS: Trustee Tulloch 1"),
+        _bl(9, 4, "NAYS: Trustee A, Trustee B, Trustee C, Trustee D 4"),
+        _bl(9, 5, "MOTION FAILED"),
+    ]
+    motion = pm._parse_motion_block(block, file_id=999)
+    assert motion.mover == "Trustee Tulloch"
+    assert motion.seconder is None
+    assert motion.notes == ["no_seconder"]
+    assert motion.flags == []
+    assert motion.outcome == "failed"
+
+
+def test_no_recorded_vote_is_normal_per_nrs():
+    """NRS 241.035(1)(c): per-member vote records only at a member's
+    request. A terminated motion with no roll call is not a failure."""
+    block = [
+        _bl(2, 1, "MOTION By Trustee Noble to approve the recommendation"),
+        _bl(2, 2, "as contained in the staff report."),
+        _bl(2, 3, "The motion was seconded by Trustee Jezycki."),
+        _bl(2, 4, "MOTION PASSED"),
+    ]
+    motion = pm._parse_motion_block(block, file_id=999)
+    assert motion.flags == []
+    assert "no_recorded_vote" in motion.notes
+    assert motion.mover == "Trustee Noble"
+    assert motion.seconder == "Trustee Jezycki"
+    assert motion.tally == {"aye": None, "nay": None, "abstain": None, "absent": None}
+
+
+def test_amendment_chain_supersedes_without_flags():
+    first = [
+        _bl(16, 1, "MOTION: to Approve the draft letter with revisions:"),
+        _bl(16, 2, "Line 5: strike this and insert that; strike the other."),
+        _bl(16, 3, "Moved by: Trustee Noble"),
+    ]
+    successor = "Motion: To modify the motion on the floor by adding a revision"
+    motion = pm._parse_motion_block(first, file_id=999, successor_text=successor)
+    assert motion.kind == "amended"
+    assert motion.flags == []
+    assert "superseded_by_amendment" in motion.notes
+    assert motion.mover == "Trustee Noble"
+    assert motion.outcome is None  # the vote belongs to the successor
+
+    # Without an amendment successor, the same interrupted block is broken.
+    broken = pm._parse_motion_block(
+        first, file_id=999, successor_text="MOTION: to Approve something else."
+    )
+    assert broken.kind == "motion"
+    assert "missing_outcome" in broken.flags
+
+
+def test_none_with_stray_chars_tolerated_but_not_digits():
+    names, stated = pm._parse_vote_section(" Trustee A, Trustee B 2")
+    assert (names, stated) == (["Trustee A", "Trustee B"], [2])
+    names, stated = pm._parse_vote_section(" None t 0")  # clerk typo, observed
+    assert (names, stated) == ([], [0])
+    # A full word after None is NOT dismissed as a typo.
+    names, _ = pm._parse_vote_section(" None Trustee")
+    assert names == ["None Trustee"]
+
+
+def test_single_letter_noise_lines_dropped():
+    page = pdftext.Page(
+        page_number=3,
+        text="IVGID Board of Trustees -3- Meeting Minutes May 30, 2025\n"
+             "Real content line\nr\nAnother real line\n7",
+        char_count=100,
+    )
+    body = pm._strip_page_furniture([page], [])
+    texts = [bl.text for bl in body]
+    assert "r" not in texts  # letter noise dropped
+    assert "7" in texts  # lone digits kept (could be a wrapped count)
+
+
+def test_attribution_line_does_not_split_block():
+    """'Motion by X, Seconded by Y.' on its own line is the mover line of
+    the block above it, not a new motion label."""
+    block_lines = [
+        _bl(15, 1, "MOTION: Approve the following consent matters: Item G.1."),
+        _bl(15, 2, "and Item G.2. as submitted."),
+        _bl(16, 1, "Motion by Trustee Secretary Noble, Seconded by Trustee Treasurer Homan."),
+        _bl(16, 2, "YEAS: Trustee Secretary Noble, Trustee Tulloch 2"),
+        _bl(16, 3, "NAYS: None 0"),
+        _bl(16, 4, "MOTION PASSED"),
+    ]
+    assert pm._label_kind(block_lines[2].text) is None  # attribution, not label
+    assert pm._label_kind("MOTION By Trustee Noble to approve the plan") == "mover_label"
+    motion = pm._parse_motion_block(block_lines, file_id=999)
+    assert motion.flags == []
+    assert motion.mover == "Trustee Secretary Noble"
+    assert motion.seconder == "Trustee Treasurer Homan"
+    assert motion.tally["aye"] == 2
+
+
 # --- Page furniture and provenance checks --------------------------------
 
 

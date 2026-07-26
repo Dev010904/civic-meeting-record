@@ -237,6 +237,44 @@ def test_retry_with_backoff_on_5xx_and_429(monkeypatch):
     assert sleeps == [1.0, 2.0]  # exponential backoff between attempts
 
 
+def test_retry_on_transport_errors(monkeypatch):
+    """Timeouts, DNS failures and connection resets retry with the same
+    backoff as 429/5xx (all were observed transiently in the benchmark)."""
+    sleeps: list[float] = []
+    monkeypatch.setattr(civicclerk.time, "sleep", sleeps.append)
+    errors = iter([httpx.ConnectError("dns fail"), httpx.ReadTimeout("slow")])
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        error = next(errors, None)
+        if error is not None:
+            raise error
+        return httpx.Response(200, json={"value": []})
+
+    with httpx.Client(transport=httpx.MockTransport(handler)) as client:
+        response = civicclerk._request(
+            "https://ivgid.api.civicclerk.com/v1/EventCategories", client=client
+        )
+    assert response.status_code == 200
+    assert sleeps == [1.0, 2.0]
+
+
+def test_transport_error_raises_after_max_retries(monkeypatch):
+    monkeypatch.setattr(civicclerk.time, "sleep", lambda _: None)
+    calls = {"n": 0}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        calls["n"] += 1
+        raise httpx.ReadError("connection reset")
+
+    with httpx.Client(transport=httpx.MockTransport(handler)) as client:
+        with pytest.raises(httpx.ReadError):
+            civicclerk._request(
+                "https://ivgid.api.civicclerk.com/v1/EventCategories",
+                client=client,
+            )
+    assert calls["n"] == civicclerk.MAX_RETRIES + 1
+
+
 def test_retry_gives_up_after_max_retries(monkeypatch):
     monkeypatch.setattr(civicclerk.time, "sleep", lambda _: None)
     calls = {"n": 0}

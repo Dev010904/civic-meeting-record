@@ -44,8 +44,24 @@ import pdftext
 # Pages with fewer characters than this cannot be parsed (scanned or empty).
 MIN_PARSEABLE_CHARS = 20
 
-# Safety bound when assembling a vote block that never terminates.
-MAX_MOTION_BLOCK_LINES = 30
+# Safety bound when assembling a vote block that never terminates. Amendment
+# motions carry embedded revision text and legitimately run past 30 lines
+# (observed: ~32 body lines), so the guard is generous; a runaway block is
+# still cut off and flagged rather than swallowing the document.
+MAX_MOTION_BLOCK_LINES = 60
+
+# Outcome terminator variants observed across eras: the structured era
+# writes "MOTION PASSED"/"MOTION FAILED", some 2025 clerks write "MOTION
+# PASSES", the Audit Committee writes "MOTION CARRIED". A bare "MOTION"
+# line (outcome word lost, seen in Audit Committee minutes) terminates the
+# block but yields no outcome — flagged `truncated_outcome`, never guessed.
+_OUTCOME_TERMINATORS = (
+    ("MOTIONPASSED", "passed"),
+    ("MOTIONPASSES", "passed"),
+    ("MOTIONCARRIED", "passed"),
+    ("MOTIONFAILED", "failed"),
+    ("MOTIONFAILS", "failed"),
+)
 
 _VOTE_SECTIONS = ("YEAS", "NAYS", "ABSTAIN", "ABSENT")
 _SECTION_TO_TALLY_KEY = {
@@ -66,11 +82,60 @@ _MEDIA_TIMESTAMP_RE = re.compile(
 _HEADER_RE = re.compile(
     r"IVGID\s*Board\s*of\s*Trustees\s*-\s*(\d+)\s*-\s*Meeting\s*Minutes", re.IGNORECASE
 )
-# "Moved By X, Seconded by Y" — tolerates the kerning-damaged "B y" form
-# (page 8 of ivgid_minutes_2778.pdf reads "B y Trustee Chair Tonking, …").
-_MOVER_RE = re.compile(
-    r"(?:Moved\s*)?B\s*y\s+(.+?),\s*Second(?:ed)?\s+by\s+(.+)$", re.IGNORECASE
+def _kt(word: str) -> str:
+    """Kerning-tolerant regex for a keyword: extraction sometimes splits a
+    word after its first letter ("B y", "M oved"), so allow whitespace
+    between every character."""
+    return r"\s*".join(re.escape(c) for c in word)
+
+
+# Mover/seconder attribution, searched over the reassembled pre-vote segment
+# (never a single line — clauses wrap across lines and pages). Name captures
+# are bounded at 45 characters: attribution names are short role+surname
+# strings, and the bound stops a match from swallowing sentence text.
+#
+# Full clause: "Moved By X, Seconded by Y" with observed separator variants
+# "," / ";" / none, optional colon after "by", optional "Moved" (a kerned
+# line can open with bare "B y"), and "Second by" for "Seconded by".
+_FULL_MOVER_RE = re.compile(
+    rf"(?<![A-Za-z])(?:{_kt('Motion')}\s+)?(?:{_kt('Moved')}\s+)?{_kt('By')}\s*:?\s+"
+    rf"([^,;:.]{{1,45}}?)[,;]?\s+"
+    rf"{_kt('Second')}(?:{_kt('ed')})?\s+{_kt('by')}\s*:?\s+([^,;]{{1,45}}?)(?=[.;,]|$)",
+    re.IGNORECASE,
 )
+# Mover alone (no seconder clause). Requires the literal "Moved" so prose
+# like "was moved to a future meeting" cannot match; the name stays on the
+# mover's own line (searched per line) so a following sentence is not
+# swallowed.
+_MOVED_BY_RE = re.compile(
+    rf"(?<![A-Za-z]){_kt('Moved')}\s+{_kt('By')}\s*:?\s+([^,;:.]{{1,45}})",
+    re.IGNORECASE,
+)
+# Seconder recorded on its own, possibly in prose ("The motion was seconded
+# by Trustee Jezycki.") or wrapped onto the next line.
+_SECONDED_RE = re.compile(
+    rf"(?<![A-Za-z]){_kt('Second')}(?:{_kt('ed')})?\s+{_kt('by')}\s*:?\s+"
+    r"([^,;.]{1,45}?)(?=[.;,]|$)",
+    re.IGNORECASE,
+)
+# The "MOTION By <name> to <verb>…" label form (2025 transitional): the name
+# is the run of capitalised words after "By".
+_LEADING_BY_RE = re.compile(
+    rf"^\s*(?:{_kt('Moved')}\s+)?{_kt('By')}\s*:?\s+"
+    r"((?:[A-Z][\w.'’-]*\s+)*[A-Z][\w.'’-]*)"
+)
+# An amendment motion announces itself with parliamentary language.
+_AMENDMENT_RE = re.compile(r"^\s*to\s+(?:modify|amend)\s+the\s+motion", re.IGNORECASE)
+
+
+def _clean_name(name: str) -> str:
+    """Normalise an extracted attribution name: squeeze whitespace, strip
+    stray separators, and repair kerning splits inside the name — a lone
+    uppercase letter glued back onto its lowercase continuation
+    ("H oman" -> "Homan", "T rustee" -> "Trustee"). "A" and "I" are excluded
+    because they are legitimate one-letter words."""
+    name = re.sub(r"\s+", " ", name).strip(" .,:;")
+    return re.sub(r"\b([B-HJ-Z])\s+([a-z]{2,})", r"\1\2", name)
 _COMMENT_MARKER_RE = re.compile(
     r"Public\s+comments?\s+provided\s+by\s+.+?\s+is\s+transcribed\s+below",
     re.IGNORECASE,
@@ -82,6 +147,57 @@ _FOOTER_PATTERNS = (
     "www.yourtahoeplace.com",
 )
 _INT_RE = re.compile(r"\b\d+\b")
+
+
+# A pure attribution line — "Motion by X, Seconded by Y." with nothing else
+# on the line — belongs to the block above it and must not start a new one.
+_ATTRIBUTION_LINE_RE = re.compile(
+    rf"^\s*{_kt('Motion')}\s+(?:{_kt('Moved')}\s+)?{_kt('by')}\s*:?\s+[^,;:]{{1,45}}[,;]?\s+"
+    rf"{_kt('Second')}(?:{_kt('ed')})?\s+{_kt('by')}\s*:?\s+[^,;:]{{1,45}}\.?\s*$",
+    re.IGNORECASE,
+)
+
+
+def _label_kind(text: str) -> Optional[str]:
+    """Which motion-label form starts at this line, if any.
+
+    - "colon":       MOTION: to Approve …        (structured era)
+    - "passive":     MOTION WAS MADE TO approve … (Audit Committee)
+    - "mover_label": MOTION By X … / MOTION Moved by X: … (2025 transitional)
+
+    A full-line attribution clause ("Motion by X, Seconded by Y.") is not a
+    label — it is the mover line of the block above it.
+    """
+    dk = _dekern(text)
+    if _terminator(dk) is not None:
+        return None
+    if dk.startswith("MOTION:"):
+        return "colon"
+    if dk.startswith("MOTIONWASMADE"):
+        return "passive"
+    if dk.startswith("MOTIONBY") or dk.startswith("MOTIONMOVEDBY"):
+        if _ATTRIBUTION_LINE_RE.match(text):
+            return None
+        return "mover_label"
+    return None
+
+
+def _terminator(dk: str) -> Optional[tuple[Optional[str], bool]]:
+    """Is this de-kerned line an outcome terminator?
+
+    Returns (outcome, truncated): a known variant maps to "passed"/"failed";
+    a line that is exactly "MOTION" is a truncated terminator (outcome None,
+    truncated True). Returns None when the line is not a terminator.
+    """
+    # Tolerate one stray leading letter — margin noise sometimes glues onto
+    # the terminator line ("D MOTION PASSED" -> "DMOTIONPASSED").
+    for candidate in (dk, dk[1:] if dk[:1].isalpha() else dk):
+        for prefix, outcome in _OUTCOME_TERMINATORS:
+            if candidate.startswith(prefix):
+                return outcome, False
+        if candidate == "MOTION":
+            return None, True
+    return None
 
 
 def _dekern(text: str) -> str:
@@ -129,6 +245,21 @@ class Motion:
     provenance: Provenance
     flags: list[str] = field(default_factory=list)
     raw: str = ""
+    # "motion" | "amendment" (a motion to modify the motion on the floor) |
+    # "amended" (a motion superseded by a following amendment; the recorded
+    # vote belongs to its successor).
+    kind: str = "motion"
+    # Non-failure annotations, kept separate from ``flags`` (which mark
+    # parse failures and count against coverage):
+    # - no_seconder: mover found; the minutes record no second (procedural
+    #   motions, motions that die for lack of a second).
+    # - mover_not_recorded: passive "MOTION WAS MADE" style; the minutes do
+    #   not name a mover at all.
+    # - no_recorded_vote: terminated block with no YEAS/NAYS sections —
+    #   normal under NRS 241.035(1)(c), which requires per-member records
+    #   only at a member's request (spec §2.2).
+    # - superseded_by_amendment: see kind="amended".
+    notes: list[str] = field(default_factory=list)
 
 
 @dataclass
@@ -207,7 +338,11 @@ def _strip_page_furniture(
                     )
                 keep = keep[1:]
         for line_number, text in keep:
-            if text:
+            # A line consisting of exactly one letter is page-margin noise
+            # from extraction (observed as orphan "r"/"a"/"D" lines that
+            # corrupt names and vote sections). Lone digits are kept — a
+            # wrapped tally count could in principle land alone.
+            if text and not (len(text.strip()) == 1 and text.strip().isalpha()):
                 body.append(_BodyLine(page.page_number, line_number, text))
     return body
 
@@ -272,7 +407,7 @@ def _mark_comment_regions(
             )
             marked.append(_BodyLine(bl.page, bl.line, bl.text, in_comment=True))
             continue
-        if dk.startswith("MOTION:"):
+        if _label_kind(bl.text) is not None:
             in_marker_block = False
             marked.append(bl)
             continue
@@ -304,81 +439,161 @@ def _parse_vote_section(text: str) -> tuple[list[str], list[int]]:
     cleaned = _INT_RE.sub("", text)
     names: list[str] = []
     for token in cleaned.split(","):
-        token = token.strip(" .")
-        if not token or token.lower() == "none":
+        token = re.sub(r"\s+", " ", token).strip(" .")
+        # "None" with up to two stray non-digit characters is a clerk typo
+        # ("None t 0" observed); anything that could change a number is not
+        # tolerated — digits were already extracted above.
+        if not token or re.fullmatch(r"None(?:\s*[^\d\s]{1,2})?", token, re.IGNORECASE):
             continue
+        # Clerks write "and" before the final name of a list.
+        token = re.sub(r"^and\s+", "", token, flags=re.IGNORECASE)
         names.append(token)
     return names, stated
 
 
 def _parse_motion_block(
-    block: list[_BodyLine], file_id: int
+    block: list[_BodyLine],
+    file_id: int,
+    successor_text: Optional[str] = None,
 ) -> Motion:
     """Parse one fully reassembled motion block. The block must already span
     all its lines (across page breaks) — votes are never parsed from a
-    single line, which is what makes wrapped tallies safe."""
+    single line, which is what makes wrapped tallies safe.
+
+    ``successor_text`` is the first line of the next motion block when this
+    block was interrupted by one; it identifies amendment chains (a motion
+    superseded on the floor by "Motion: To modify the motion …")."""
     flags: list[str] = []
+    notes: list[str] = []
     raw = "\n".join(bl.text for bl in block)
     start_page = block[0].page
-
-    mover: Optional[str] = None
-    seconder: Optional[str] = None
-    mover_idx: Optional[int] = None
-    for idx, bl in enumerate(block):
-        match = _MOVER_RE.search(bl.text)
-        if match:
-            mover, seconder = match.group(1).strip(), match.group(2).strip()
-            mover_idx = idx
-            break
+    label = _label_kind(block[0].text) or "colon"
 
     # Locate vote-section label lines and the outcome line.
     outcome: Optional[str] = None
+    terminated = False
     section_starts: list[tuple[int, str]] = []
     end_idx = len(block)
     for idx, bl in enumerate(block):
         dk = _dekern(bl.text)
-        if dk.startswith("MOTIONPASSED"):
-            outcome, end_idx = "passed", idx
+        term = _terminator(dk)
+        if term is not None:
+            outcome, truncated = term
+            end_idx = idx
+            terminated = True
+            if truncated:
+                flags.append("truncated_outcome")
             break
-        if dk.startswith("MOTIONFAILED"):
-            outcome, end_idx = "failed", idx
-            break
-        for label in _VOTE_SECTIONS:
-            if dk.startswith(label):
-                section_starts.append((idx, label))
+        for lab in _VOTE_SECTIONS:
+            if dk.startswith(lab):
+                section_starts.append((idx, lab))
                 break
-    if outcome is None:
+
+    # The pre-vote segment: label line through the last line before the
+    # first vote section (or the whole block when votes are absent).
+    seg_end = section_starts[0][0] if section_starts else end_idx
+    seg_lines = [bl.text for bl in block[:seg_end]]
+    segment = _dehyphenate_join(seg_lines)
+    if label == "colon":
+        segment = re.sub(
+            rf"^\s*{_kt('MOTION')}\s*:\s*", "", segment, flags=re.IGNORECASE
+        )
+    elif label == "passive":
+        segment = re.sub(
+            rf"^\s*{_kt('MOTION')}\s+{_kt('WAS')}\s+{_kt('MADE')}(?:\s+{_kt('TO')})?:?\s*",
+            "",
+            segment,
+            flags=re.IGNORECASE,
+        )
+    else:  # mover_label: keep the By-clause for mover extraction
+        segment = re.sub(
+            rf"^\s*{_kt('MOTION')}\s+", "", segment, flags=re.IGNORECASE
+        )
+
+    # Mover and seconder, from the reassembled segment. Matched clause text
+    # is excised from the motion text afterwards.
+    mover: Optional[str] = None
+    seconder: Optional[str] = None
+    excise: list[str] = []
+    full = _FULL_MOVER_RE.search(segment)
+    if full:
+        mover, seconder = _clean_name(full.group(1)), _clean_name(full.group(2))
+        excise.append(full.group(0))
+    else:
+        if label == "mover_label":
+            lead = _LEADING_BY_RE.search(segment)
+            if lead:
+                mover = _clean_name(lead.group(1))
+                excise.append(lead.group(0))
+        if mover is None:
+            # Search line-by-line so a name cannot swallow a following
+            # sentence: the mover's name ends on the mover's own line.
+            for line in seg_lines:
+                by = _MOVED_BY_RE.search(line)
+                if by:
+                    mover = _clean_name(by.group(1))
+                    excise.append(by.group(0))
+                    break
+        sec = _SECONDED_RE.search(segment)
+        if sec:
+            seconder = _clean_name(sec.group(1))
+            excise.append(sec.group(0))
+
+    text = segment
+    for clause in excise:
+        text = text.replace(clause, " ", 1)
+    text = re.sub(r"\s+", " ", text).strip(" ;,").strip()
+
+    kind = "motion"
+    if _AMENDMENT_RE.match(text):
+        kind = "amendment"
+    if (
+        not terminated
+        and not section_starts
+        and successor_text is not None
+        and _AMENDMENT_RE.match(
+            re.sub(
+                rf"^\s*{_kt('MOTION')}\s*:?\s*",
+                "",
+                successor_text,
+                flags=re.IGNORECASE,
+            )
+        )
+    ):
+        # Superseded on the floor: the following amendment (and the vote
+        # recorded after it) replaces this block. Not a parse failure.
+        kind = "amended"
+        notes.append("superseded_by_amendment")
+    elif not terminated:
         flags.append("missing_outcome")
 
-    # Motion text: everything between "MOTION:" and the mover line (or the
-    # first vote section when the mover line is missing).
-    text_end = mover_idx if mover_idx is not None else (
-        section_starts[0][0] if section_starts else end_idx
-    )
-    text = _dehyphenate_join([bl.text for bl in block[:text_end]])
-    text = re.sub(r"^\s*MOTION\s*:\s*", "", text, flags=re.IGNORECASE).strip()
     if mover is None:
-        flags.append("missing_mover")
+        if label == "passive":
+            # "MOTION WAS MADE" style names no mover; nothing to extract.
+            notes.append("mover_not_recorded")
+        else:
+            flags.append("missing_mover")
+    elif seconder is None:
+        # Mover found, no second recorded — legitimate for procedural
+        # motions and motions that die for lack of a second.
+        notes.append("no_seconder")
 
     # Reassemble each vote section across its full line span, then parse.
     names_by_section: dict[str, list[str]] = {s: [] for s in _VOTE_SECTIONS}
     stated_by_section: dict[str, list[int]] = {s: [] for s in _VOTE_SECTIONS}
     tally: dict[str, Optional[int]] = {v: 0 for v in _SECTION_TO_TALLY_KEY.values()}
-    for pos, (idx, label) in enumerate(section_starts):
+    for pos, (idx, section) in enumerate(section_starts):
         next_idx = (
             section_starts[pos + 1][0] if pos + 1 < len(section_starts) else end_idx
         )
         section_text = " ".join(bl.text for bl in block[idx:next_idx])
         section_text = re.sub(
-            rf"^\s*{label[0]}\s*{''.join(c + r'\s*' for c in label[1:])}:?",
-            "",
-            section_text,
-            flags=re.IGNORECASE,
+            rf"^\s*{_kt(section)}:?", "", section_text, flags=re.IGNORECASE
         )
         names, stated = _parse_vote_section(section_text)
-        names_by_section[label] = names
-        stated_by_section[label] = stated
-        key = _SECTION_TO_TALLY_KEY[label]
+        names_by_section[section] = names
+        stated_by_section[section] = stated
+        key = _SECTION_TO_TALLY_KEY[section]
         # Validate, never guess: the parsed name count must match exactly one
         # stated number (or "None" with no/zero stated count). Otherwise the
         # tally stays None and the record is flagged (spec §2.6).
@@ -391,8 +606,14 @@ def _parse_motion_block(
             if "tally_mismatch" not in flags:
                 flags.append("tally_mismatch")
     if not section_starts:
-        flags.append("missing_vote_sections")
         tally = {v: None for v in _SECTION_TO_TALLY_KEY.values()}
+        if terminated:
+            # A terminated motion with no recorded roll call is normal:
+            # NRS 241.035(1)(c) requires per-member vote records only at a
+            # member's request (spec §2.2 — absence is not a failure).
+            notes.append("no_recorded_vote")
+        elif kind != "amended":
+            flags.append("missing_vote_sections")
 
     return Motion(
         text=text,
@@ -408,6 +629,8 @@ def _parse_motion_block(
         provenance=Provenance(file_id=file_id, page=start_page),
         flags=flags,
         raw=raw,
+        kind=kind,
+        notes=notes,
     )
 
 
@@ -444,18 +667,22 @@ def parse_minutes(pdf_bytes: bytes, file_id: int) -> ParsedMinutes:
     scan = [bl for bl in body if not bl.in_comment]
     i = 0
     while i < len(scan):
-        if _dekern(scan[i].text).startswith("MOTION:"):
+        if _label_kind(scan[i].text) is not None:
             block = [scan[i]]
             j = i + 1
             while j < len(scan) and len(block) < MAX_MOTION_BLOCK_LINES:
-                dk = _dekern(scan[j].text)
-                if dk.startswith("MOTION:"):
+                if _label_kind(scan[j].text) is not None:
                     break
                 block.append(scan[j])
-                if dk.startswith("MOTIONPASSED") or dk.startswith("MOTIONFAILED"):
+                if _terminator(_dekern(scan[j].text)) is not None:
                     break
                 j += 1
-            motions.append(_parse_motion_block(block, file_id))
+            successor = (
+                scan[j].text
+                if j < len(scan) and _label_kind(scan[j].text) is not None
+                else None
+            )
+            motions.append(_parse_motion_block(block, file_id, successor))
             i = j
         else:
             i += 1
