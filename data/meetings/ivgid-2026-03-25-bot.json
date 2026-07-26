@@ -1,0 +1,280 @@
+{
+  "body": "Board of Trustees",
+  "date": "2026-03-25",
+  "document": {
+    "flags": [
+      "raw_fallback_page:34"
+    ],
+    "unparseable_pages": [
+      20,
+      37,
+      39
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:21:12",
+        "provenance": {
+          "file_id": 2718,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "00:20:53"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:21:12",
+          "provenance": {
+            "file_id": 2718,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:20:53"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2718,
+            "page": 4,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "Approve the following consent calendar, Item G.1. as submitted. Action: Approve.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "G",
+      "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:27:51",
+        "provenance": {
+          "file_id": 2718,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "00:21:16"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:27:51",
+          "provenance": {
+            "file_id": 2718,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:21:16"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [
+            "Trustee Tulloch"
+          ],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2718,
+            "page": 5,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 1,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Approve the Revised Paragraphs in Ordinance 7 as discussed on January 11, 2026, Board Meeting, paragraphs 100 - 103, as well as the revisions suggested by Trustees during Board discussion.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan"
+          ]
+        }
+      ],
+      "number": "G.2",
+      "title": "Approve the Revised Paragraphs in Ordinance 7 as discussed at the January 11, 2026, Board Meeting (Paragraphs 100-103) (Requesting Staff Members: Director of Administrative Services Susan Herron, and Risk Manager Curtis Trujillo) Full discussion on revised Paragraphs in Ordinance 7 is available to be viewed/ heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:53:38",
+        "provenance": {
+          "file_id": 2718,
+          "page": 13,
+          "type": "pdf"
+        },
+        "start": "02:52:23"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:53:38",
+          "provenance": {
+            "file_id": 2718,
+            "page": 13,
+            "type": "pdf"
+          },
+          "start": "02:52:23"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2718,
+            "page": 13,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve and Adopt Resolution Number 1922: A Resolution regarding Commercial Watercraft Launching, A Pilot Program for the 2026 Season.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "H.3",
+      "title": "Review, Discuss and Possibly Adopt Resolution Number 1922: A Resolution regarding Commercial Watercraft Launching, A Pilot Program for the 2026 Season (Requesting Staff Members: Director of Administrative Services Susan Herron and Recreation Supervisor Adia R.Van Peborgh) Discussion and Adoption of Resolution No. 1922 – A Resolution regarding Commercial Watercraft Launching, a Pilot Program for 2026 is available to be viewed/ heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:58:13",
+        "provenance": {
+          "file_id": 2718,
+          "page": 14,
+          "type": "pdf"
+        },
+        "start": "02:53:40"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:58:13",
+          "provenance": {
+            "file_id": 2718,
+            "page": 14,
+            "type": "pdf"
+          },
+          "start": "02:53:40"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2718,
+            "page": 14,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve Community Services Key Rates for Watercraft Parking and Facilities Venue Rates.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "H.4",
+      "title": "Review, Discuss and Possibly Approve Community Services Key Rates for Watercraft Parking and Facilities Venue Rates. (Requesting Staff Member: Director of Community Services Mike Bandelin) The discussion on Community Service Key rates for Watercraft Parking and Facility Venue"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2026-03-25-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 2656,
+    "event_id": 752,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/768b16b360.mp4",
+    "minutes_file_id": 2718
+  }
+}

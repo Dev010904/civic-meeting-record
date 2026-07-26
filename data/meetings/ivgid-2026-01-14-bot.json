@@ -1,0 +1,173 @@
+{
+  "body": "Board of Trustees",
+  "date": "2026-01-14",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      15,
+      16
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted",
+          "vendor_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:02:30",
+        "provenance": {
+          "file_id": 1602,
+          "page": 7,
+          "type": "pdf"
+        },
+        "start": "01:01:48"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:02:30",
+          "provenance": {
+            "file_id": 1602,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "01:01:48"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$120,148.35",
+          "amount_usd": 120148.35,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1602,
+            "page": 7,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "amount",
+          "vendor": null
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1602,
+            "page": 7,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve CONSENT CALENDAR Item G.1. Approve of the IVGID Board of Trustees Meeting Minutes for December 10, 2025; Item G.2. Approve the Annual Application Service and Support Fees for Tyler Enterprise Resource Planning in the amount of $120,148.35; Item G.3. Approve Revised Goals and Objectives for the District General Manager for FY26. Item G.4. Approve and Authorize Human Resources to Fill 1.0 FTE Parks & Recreation Operations Manager position.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "G",
+      "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:04:52",
+        "provenance": {
+          "file_id": 1602,
+          "page": 8,
+          "type": "pdf"
+        },
+        "start": "01:03:06"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:04:52",
+          "provenance": {
+            "file_id": 1602,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "01:03:06"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1602,
+            "page": 8,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Ratify and Adopt Resolution No. 1921 authorizing Incline Village General Improvement District to create and maintain Fiduciary Fund 700 - Tahoe Water Supply Association. This Fund is established for the specific purpose of accounting for assets held by the Incline Village General Improvement District in a custodial capacity for the Tahoe Water Supply Association (TWSA).",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "H.1",
+      "title": "Review, Discuss and possibly Ratify and Adopt Resolution No. 1921 authorizing Incline Village General Improvement District to create and maintain Fiduciary Fund 700 - Tahoe Water Supply Association. This Fund is established for the specific purpose of accounting for assets held by the Incline Village General Improvement District in a custodial capacity for the Tahoe Water Supply Association (TWSA). (Requesting Staff Member Director of Finance Noemi Barter) - pages 176 - 184 Item H.1. Adoption of Resolution No. 1921 is available to be viewed/heard at"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2026-01-14-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1563,
+    "event_id": 737,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/1d9feeffc1.mp4",
+    "minutes_file_id": 1602
+  }
+}

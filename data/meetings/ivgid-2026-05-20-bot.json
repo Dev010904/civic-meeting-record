@@ -1,0 +1,116 @@
+{
+  "body": "Board of Trustees",
+  "date": "2026-05-20",
+  "document": {
+    "flags": [],
+    "unparseable_pages": []
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:18:18",
+        "provenance": {
+          "file_id": 2783,
+          "page": 2,
+          "type": "pdf"
+        },
+        "start": "00:16:46"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:18:18",
+          "provenance": {
+            "file_id": 2783,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:16:46"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$199,000.00",
+          "amount_usd": 199000.0,
+          "approximate": false,
+          "contingency": true,
+          "contract_ref": "CIP #2221WS22601",
+          "flags": [],
+          "provenance": {
+            "file_id": 2783,
+            "page": 2,
+            "type": "pdf"
+          },
+          "purpose": "Exterior Re-coating of Water Reservoir R6C-1",
+          "role": "amount",
+          "vendor": "Olympus & Associates, Inc"
+        },
+        {
+          "amount_raw": "$10,000",
+          "amount_usd": 10000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "CIP #2221WS22601",
+          "flags": [],
+          "provenance": {
+            "file_id": 2783,
+            "page": 2,
+            "type": "pdf"
+          },
+          "purpose": "Exterior Re-coating of Water Reservoir R6C-1",
+          "role": "not_to_exceed",
+          "vendor": "Olympus & Associates, Inc"
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2783,
+            "page": 2,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and Olympus & Associates, Inc. for Exterior Re-coating of Water Reservoir R6C-1; FY2025/26 Utilities: Water: CIP #2221WS22601; in the Amount of $199,000.00; and Authorize staff to Execute Change Orders for Additional Work if required, of Approximately 5% of the Construction Contract Value not to Exceed $10,000; FY 2025/26; Utilities: Water: CIP #2221WS22601.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "E.1",
+      "title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and Olympus & Associates, Inc. for Exterior Re-coating of Water Reservoir R6C-1; FY2025/26 Utilities: Water: CIP #2221WS22601; in the Amount of $199,000.00; and Authorize staff to Execute Change Orders for Additional Work if required, of Approximately 5% of the Construction Contract Value not to Exceed $10,000; FY 2025/26; Utilities: Water: CIP #2221WS22601; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson) - pages 3 - 12 Item E.1 – Approval of Agreement for Exterior Recoating of Water Reservoir R6C-1 is"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2026-05-20-bot",
+  "minutes_status": "draft",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 2734,
+    "event_id": 755,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/ff534af3ac.mp4",
+    "minutes_file_id": 2783
+  }
+}

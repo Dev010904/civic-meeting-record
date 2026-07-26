@@ -1,0 +1,636 @@
+{
+  "body": "Board of Trustees",
+  "date": "2025-06-11",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:46:37",
+        "provenance": {
+          "file_id": 1465,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "00:46:23"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:46:37",
+          "provenance": {
+            "file_id": 1465,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "00:46:23"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1465,
+            "page": 9,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "Approve Items F.1. and F.2. in the Consent Calendar as provided in the notice and Board materials, as submitted. A ction: Approve.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "F",
+      "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:02:33",
+        "provenance": {
+          "file_id": 1465,
+          "page": 10,
+          "type": "pdf"
+        },
+        "start": "00:46:45"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:02:33",
+          "provenance": {
+            "file_id": 1465,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "00:46:45"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1465,
+            "page": 10,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "That the Board of Trustees to acknowledge receipt, and authorize the Director of Finance to submit the finalized financial statements and associated audit documentation to the Nevada Department of Taxation no later than June 11th, 2025, and upon acceptance, proceed with the public posting of the financial statement and submission to any required oversight agencies and address any audit findings or recommendations for corrective action as outlined in the auditor's report.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.1",
+      "title": "Review and Acknowledge Receipt of the Incline Village General Improvement District’s Draft Audited Financial Statements, Auditor's report, and report on internal control for the fiscal year ended June 30, 2024, as presented; and, authorize the Director of Finance to proceed with Distribution of the District’s Annual Comprehensive Financial Report (ACFR), once produced, for public record, as required by law. (Requesting Staff Member: Director of Finance Jessica O'Connell, and Jennifer Farr with Davis Farr LLP - Certified Public Accountants) Item G.1. The Districts Draft Audited Financial Statements presentation and discussion can be viewed/heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1465,
+          "page": 11,
+          "type": "pdf"
+        },
+        "start": "01:02:20"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1465,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "01:02:20"
+        },
+        {
+          "end": "01:19:45",
+          "provenance": {
+            "file_id": 1465,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "01:04:16"
+        },
+        {
+          "end": "01:41:14",
+          "provenance": {
+            "file_id": 1465,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "01:20:14"
+        },
+        {
+          "end": "01:55:40",
+          "provenance": {
+            "file_id": 1465,
+            "page": 12,
+            "type": "pdf"
+          },
+          "start": "01:41:24"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [
+            "Trustee Tulloch"
+          ],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1465,
+            "page": 12,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 1,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Authorize Staff to move forward with preparing a contract for legal counsel services to engage Taggart & Taggart as District Legal Counsel effective July 1, 2025;",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.2",
+      "title": "Interview of Firms who submitted Legal Counsel Services responses to the District’s Request for Proposal and authorize Staff to move forward with preparing a contract for legal counsel services for the District effective July 1, 2025. (Requesting Staff Member: Director of Administrative Services Susan Herron) Item G.2. Interviews with law firms for the Districts' Legal Counsel Service needs can be"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:59:45",
+        "provenance": {
+          "file_id": 1465,
+          "page": 12,
+          "type": "pdf"
+        },
+        "start": "02:12:59"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:59:45",
+          "provenance": {
+            "file_id": 1465,
+            "page": 12,
+            "type": "pdf"
+          },
+          "start": "02:12:59"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1465,
+            "page": 13,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 1
+          },
+          "text": "to Approve the employee program for beach access pending a final vote. Following correspondence, and receiving returned responses, so that the Board is able to implement any limitations that may be necessary based upon the results.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.3",
+      "title": "Review, Discuss, and Approve the Employee Pass Program for Beach Access; Review, Discuss, and Approve Any Applicable Fees; Direct Staff to Send Correspondence to Property Owners to Determine Whether Any Property Owners Elect to Designate Staff (and Their Dependents) As Their Guests for Beach Access; Direct Staff to Monitor Daily Beach Visits and P rovide Weekly Reports. (Requesting Board Member: Trustee Dave Noble) Item G.3. Employee Pass Program for Beach Access can be viewed/heard"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "malformed_amount",
+          "purpose_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "03:09:46",
+        "provenance": {
+          "file_id": 1465,
+          "page": 14,
+          "type": "pdf"
+        },
+        "start": "02:59:49"
+      },
+      "media_timestamps": [
+        {
+          "end": "03:09:46",
+          "provenance": {
+            "file_id": 1465,
+            "page": 14,
+            "type": "pdf"
+          },
+          "start": "02:59:49"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$307,9250",
+          "amount_usd": null,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "malformed_amount",
+            "purpose_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1465,
+            "page": 14,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "not_to_exceed",
+          "vendor": "Abbey Agency"
+        },
+        {
+          "amount_raw": "$53,000",
+          "amount_usd": 53000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1465,
+            "page": 14,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": "Abbey Agency"
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1465,
+            "page": 14,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Authorize staff to enter into an agreement with the Abbey Agency for the 2025-26 fiscal year, Media Buying Services for Diamond Peak Ski Resort, Championship and Mountain Golf Courses and the Facilities Department for not to exceed a total of $307,9250 cash and $53,000 trade.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.4",
+      "title": "Review, Discuss and Possibly Approve an Agreement with The Abbi Agency for District Media Buying Services. (Requesting Staff Member: Marketing & Communications Manager Paul Raymore) Item G.4. Abbi Agency District Media Buying Services Agreement can be viewed/heard"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "03:13:58",
+        "provenance": {
+          "file_id": 1465,
+          "page": 14,
+          "type": "pdf"
+        },
+        "start": "03:09:54"
+      },
+      "media_timestamps": [
+        {
+          "end": "03:13:58",
+          "provenance": {
+            "file_id": 1465,
+            "page": 14,
+            "type": "pdf"
+          },
+          "start": "03:09:54"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1465,
+            "page": 14,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Adopt Policy and Procedure No. 137 - Resolution No. 1918 Regarding public records.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.5",
+      "title": "Review, Discuss and Approve a change to Policy Resolution 137 - Public Records (Requesting Staff Member: District General Counsel Sergio Rudin) Item G.5. Changes to Policy Procedure 137 - Resolution No. 1918 can be viewed/heard"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "03:26:36",
+        "provenance": {
+          "file_id": 1465,
+          "page": 15,
+          "type": "pdf"
+        },
+        "start": "03:14:15"
+      },
+      "media_timestamps": [
+        {
+          "end": "03:26:36",
+          "provenance": {
+            "file_id": 1465,
+            "page": 15,
+            "type": "pdf"
+          },
+          "start": "03:14:15"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [
+            "Trustee Tulloch"
+          ],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1465,
+            "page": 15,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 1,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Adopt Resolution No. 1919 - A Resolution to Codify the Value of a Recreation Punch Card and the Cost of an Additional Recreation Pass and/or Punch Card as determined at the May 30, 2025, Board of Trustees meeting.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.6",
+      "title": "Adopt Resolution No. 1919 - A Resolution to Codify the Value of a Recreation Punch Card and the Cost of an Additional Recreation Pass and/or Punch Card as determined at the May 30, 2025, Board of Trustees meeting. (Requesting Staff Member: Director of Administrative Services Susan Herron) Item G.6. Resolution No. 1919 - Codifying the Value of a Recreation Punch Card and the Cost of an additional Recreation Pass and/or Punch Card can be viewed/heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "03:39:40",
+        "provenance": {
+          "file_id": 1465,
+          "page": 15,
+          "type": "pdf"
+        },
+        "start": "03:26:46"
+      },
+      "media_timestamps": [
+        {
+          "end": "03:39:40",
+          "provenance": {
+            "file_id": 1465,
+            "page": 15,
+            "type": "pdf"
+          },
+          "start": "03:26:46"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1465,
+            "page": 16,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Adopt Resolution 1913 – A Resolution that Temporarily Revises Ordinance 7, paragraph 106. Administration – Effective Date June 12, 2025, End Date December 31, 2025.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.7",
+      "title": "Review, Discuss and possibly Adopt Resolution 1913 – A Resolution that Temporarily Revises Ordinance 7, paragraph 106. Administration – Effective Date June 12, 2025, End Date December 31, 2025. (Requesting Staff Member: Director of Administrative Services Susan Herron) Item G.7. Resolution No. 1913 - Temporarily revising Ordinance 7, can be viewed/heard"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2025-06-11-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1394,
+    "event_id": 578,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/f684378f79.mp4",
+    "minutes_file_id": 1465
+  }
+}

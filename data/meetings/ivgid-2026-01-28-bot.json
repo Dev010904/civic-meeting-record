@@ -1,0 +1,154 @@
+{
+  "body": "Board of Trustees",
+  "date": "2026-01-28",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:38:55",
+        "provenance": {
+          "file_id": 2636,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "00:38:23"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:38:55",
+          "provenance": {
+            "file_id": 2636,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:38:23"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2636,
+            "page": 4,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 3,
+            "nay": 0
+          },
+          "text": "to Approve the IVGID Board of Trustees Meeting Minutes for January 14, 2026.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Homan"
+          ]
+        }
+      ],
+      "number": "G.1",
+      "title": "Approval of the IVGID Board of Trustees Meeting Minutes for January 14, 2026. (Requesting Staff Member: District Clerk Heidi White) - pages 3 - 18 Discussion on Consent Calendar Item G.1. Approval of the IVGID Board of Trustees Meeting Minutes for January 14, 2026, is available to be viewed/ heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2636,
+            "page": 5,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 1
+          },
+          "text": "to Approve the Employee Separation Incentive Program; MOTION AMENDED: to Approve the Employee Separation Incentive Program with the approval of any application that the general manager consults with legal and or HR; Amended By Trustee Noble Trustee Homan Accepted the Amendment suggested by Trustee Noble. Moved By Trustee Homan,",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan"
+          ]
+        }
+      ],
+      "number": "H.1",
+      "title": "Review, Discuss and possibly Approve the Employee Separation Incentive Program. (Requesting Staff Member: District General Manager Robert Harrison) - pages 19 - 22 Item H.1. Discussion on the Employee Separation Incentive Program is available to be"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2026-01-28-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1580,
+    "event_id": 749,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/dc2ee1af96.mp4",
+    "minutes_file_id": 2636
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "body": "Board of Trustees",
+  "date": "2025-06-06",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 2748,
+          "page": 3,
+          "type": "pdf"
+        },
+        "start": "00:14:14"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 2748,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:14:14"
+        },
+        {
+          "end": "00:21:10",
+          "provenance": {
+            "file_id": 2748,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:18:20"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$27,000",
+          "amount_usd": 27000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 2748,
+            "page": 3,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": "Baker Tilly"
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [
+            "Trustee Tulloch"
+          ],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2748,
+            "page": 3,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 1,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Authorize the District General Manager to Execute a Contract Amendment Increasing the Baker Tilly Contract by $27,000 for Additional Accounting Resources Required to Support Continued Work on Daily operational Activities and Special Projects as Previously Prioritized by the Board.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "E.1",
+      "title": "Authorize the District General Manager to Execute a Contract Amendment Increasing the Baker Tilly Contract by $27,000 for Additional Accounting Resources Required to Support Continued Work on Daily operational Activities and Special Projects as Previously Prioritized by the Board. (Requesting Staff Member: Director of Finance Jessica O'Connell) Full discussion on Item E.1. can be viewed/heard at"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2025-06-06-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1374,
+    "event_id": 712,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/9f4325fe30.mp4",
+    "minutes_file_id": 2748
+  }
+}

@@ -1,0 +1,742 @@
+{
+  "body": "Board of Trustees",
+  "date": "2025-12-10",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+    ]
+  },
+  "items": [
+    {
+      "disposition": "failed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:37:24",
+        "provenance": {
+          "file_id": 1570,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "00:36:39"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:37:24",
+          "provenance": {
+            "file_id": 1570,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "00:36:39"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Tulloch",
+          "nays": [
+            "Trustee Secretary Noble",
+            "Trustee Treasurer Homan",
+            "Trustee Vice Chair Jezycki",
+            "Trustee Chair Tonking"
+          ],
+          "notes": [
+            "no_seconder"
+          ],
+          "outcome": "failed",
+          "provenance": {
+            "file_id": 1570,
+            "page": 9,
+            "type": "pdf"
+          },
+          "seconder": null,
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 1,
+            "nay": 4
+          },
+          "text": "To remove Item H.5. from the Agenda, Trustee Chair Tonking called for a Vote to remove Item H.5. from the agenda as requested.",
+          "yeas": [
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "D",
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted",
+          "vendor_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:36:48",
+        "provenance": {
+          "file_id": 1570,
+          "page": 15,
+          "type": "pdf"
+        },
+        "start": "01:36:02"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:36:48",
+          "provenance": {
+            "file_id": 1570,
+            "page": 15,
+            "type": "pdf"
+          },
+          "start": "01:36:02"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$861.91",
+          "amount_usd": 861.91,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "Resolution No. 1911",
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1570,
+            "page": 15,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": null
+        },
+        {
+          "amount_raw": "$100891.61",
+          "amount_usd": 100891.61,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "Resolution No. 1911",
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1570,
+            "page": 15,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "total",
+          "vendor": null
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Secretary Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1570,
+            "page": 15,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Treasurer Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "Approve the following consent matters, as submitted: Item G.1. Approve the IVGID Board of Trustees Meeting Minutes for November 12, 2025; Item G.2. Approve an additional $861.91 for the BBK Purchase order for a total of $100891.61; Item G.3. Approve the request for the Board of Trustees to waive the requirements of Board Policy and Procedure 144; Resolution No. 1911 (B); and Authorize the District General Manager to Appoint Noemi Barter to the Director of Finance Position, without posting said Position Externally or Requiring a Trustee to sit in on the Interview Process.",
+          "yeas": [
+            "Trustee Secretary Noble",
+            "Trustee Tulloch",
+            "Trustee Treasurer Homan",
+            "Trustee Vice Chair Jezycki",
+            "Trustee Chair Tonking"
+          ]
+        }
+      ],
+      "number": "G",
+      "title": "C ONSENT CALENDAR"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:01:40",
+        "provenance": {
+          "file_id": 1570,
+          "page": 16,
+          "type": "pdf"
+        },
+        "start": "01:44:54"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:01:40",
+          "provenance": {
+            "file_id": 1570,
+            "page": 16,
+            "type": "pdf"
+          },
+          "start": "01:44:54"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$9,415,617",
+          "amount_usd": 9415617.0,
+          "approximate": false,
+          "contingency": true,
+          "contract_ref": "Project #3973LI1302",
+          "flags": [
+            "purpose_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1570,
+            "page": 16,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "amount",
+          "vendor": "CORE West Inc. dba CORE Construction"
+        },
+        {
+          "amount_raw": "$235,000",
+          "amount_usd": 235000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "Project #3973LI1302",
+          "flags": [
+            "purpose_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1570,
+            "page": 16,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "not_to_exceed",
+          "vendor": "CORE West Inc. dba CORE Construction"
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1570,
+            "page": 16,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 1
+          },
+          "text": "to Approve and Authorize the Board Chair and Board Secretary to Sign and Execute the Design-Build Construction Agreement with CORE West Inc. dba CORE Construction in the amount of $9,415,617 and an approximate 2.5% Owners Design-Build Contract Contingency, not to Exceed $235,000, for the Incline Beach House Project - FY 2025/26 Capital Improvement Project; Fund: Beach; Division: Incline Beach; Project #3973LI1302.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Chair Tonking"
+          ]
+        }
+      ],
+      "number": "H.1",
+      "title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute the Design-Build Construction Agreement with CORE West Inc., dba CORE Construction in the amount of $9,415,617 and an approximate 2.5% Owners Design-Build Contract Contingency, not to Exceed $235,000, for the Incline Beach House Project - FY 2025/26 Capital Improvement Project; Fund: Beach; Division: Incline Beach; Project #3973LI1302. (Requesting Staff Member: Public Works Director Kate Nelson and District Asset and Project Manager Bree Waters) Full discussion and approval of the Design-Build Construction Agreement between IVGID and Core West Inc. for the Incline Beach House Project FY 2025/26 is available to be viewed"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:13:46",
+        "provenance": {
+          "file_id": 1570,
+          "page": 17,
+          "type": "pdf"
+        },
+        "start": "02:01:43"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:13:46",
+          "provenance": {
+            "file_id": 1570,
+            "page": 17,
+            "type": "pdf"
+          },
+          "start": "02:01:43"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$297,000",
+          "amount_usd": 297000.0,
+          "approximate": false,
+          "contingency": true,
+          "contract_ref": "Project #4378LI2601",
+          "flags": [],
+          "provenance": {
+            "file_id": 1570,
+            "page": 17,
+            "type": "pdf"
+          },
+          "purpose": "Construction of the Incline Bike Park - Phase II",
+          "role": "amount",
+          "vendor": "American Ramp Company"
+        },
+        {
+          "amount_raw": "$29,700",
+          "amount_usd": 29700.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "Project #4378LI2601",
+          "flags": [],
+          "provenance": {
+            "file_id": 1570,
+            "page": 17,
+            "type": "pdf"
+          },
+          "purpose": "Construction of the Incline Bike Park - Phase II",
+          "role": "not_to_exceed",
+          "vendor": "American Ramp Company"
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [
+            "Trustee Tulloch"
+          ],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1570,
+            "page": 17,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 1,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and American Ramp Company for Construction of the Incline Bike Park - Phase II in the Amount of $297,000; and Authorize Staff to Execute Change Orders for Additional Work if Required, of Approximately 10% of the Construction Contract Value; not to Exceed $29,700; Project funding via combination of private donor funds and IVGID Capital Funds; FY 2025/26 Capital Improvement Project; Fund: Community Services; Division: Parks; Project #4378LI2601.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Chair Tonking"
+          ]
+        }
+      ],
+      "number": "H.2",
+      "title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and American Ramp Company for Construction of the Incline Bike Park - Phase II in the Amount of $297,000; and Authorize Staff to Execute Change Orders for Additional Work if Required, of Approximately 10% of the Construction Contract Value; not to Exceed $29,700; Project funding via combination of private donor funds and IVGID Capital Funds; FY 2025/26 Capital Improvement Project; Fund: Community Services; Division: Parks; Project #4378LI2601. Discussion and Possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson). Full discussion and approval of the Construction Agreement between IVGID and American Ramp Company for the Incline Bike Park Phase II Project FY 2025/26 is available to be"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:15:12",
+        "provenance": {
+          "file_id": 1570,
+          "page": 17,
+          "type": "pdf"
+        },
+        "start": "02:13:48"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:15:12",
+          "provenance": {
+            "file_id": 1570,
+            "page": 17,
+            "type": "pdf"
+          },
+          "start": "02:13:48"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1570,
+            "page": 18,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve and Authorize the District General Manager to Sign and Execute an Agreement with the Incline Tahoe Foundation for Improvements at the Disc Golf Course.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Chair Tonking"
+          ]
+        }
+      ],
+      "number": "H.3",
+      "title": "Approve and Authorize the District General Manager to Sign and Execute an Agreement with the Incline Tahoe Foundation for Improvements at the Disc Golf Course. (Requesting Board Member: Trustee Dave Noble) Full discussion and approval of the Agreement between IVGID and Incline Tahoe Foundation for Improvements at the Disc Golf Course is available to be viewed or heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:21:30",
+        "provenance": {
+          "file_id": 1570,
+          "page": 18,
+          "type": "pdf"
+        },
+        "start": "02:15:13"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:21:30",
+          "provenance": {
+            "file_id": 1570,
+            "page": 18,
+            "type": "pdf"
+          },
+          "start": "02:15:13"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [
+            "Trustee Tulloch"
+          ],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1570,
+            "page": 18,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 1,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Approve and Authorize the District General Manager to Sign and Execute an Agreement between Incline Village General Improvement District and West Shore Technologies Inc, (dba, Paddles and Peaks) for the renting of the District's Pickleball Courts.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Chair Tonking"
+          ]
+        }
+      ],
+      "number": "H.4",
+      "title": "Approve and Authorize the District General Manager to Sign and Execute an Agreement between Incline Village General Improvement District and West Shore Technologies Inc, (dba, Paddles and Peaks) for the renting of the District's Pickleball Courts. (Requesting Staff Member: Director of Community Services Mike Bandelin) Full discussion and approval of the Agreement between IVGID and West Shore Technologies for bulk rental of the Districts Pickleball Courts for the 2026 pickleball season is available to"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:45:30",
+        "provenance": {
+          "file_id": 1570,
+          "page": 20,
+          "type": "pdf"
+        },
+        "start": "02:38:04"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:45:30",
+          "provenance": {
+            "file_id": 1570,
+            "page": 20,
+            "type": "pdf"
+          },
+          "start": "02:38:04"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1570,
+            "page": 21,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 1
+          },
+          "text": "to Approve Resolution 1920 - Guest Employee Beach Access Program.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Chair Tonking"
+          ]
+        }
+      ],
+      "number": "H.6",
+      "title": "Review, Discuss and possibly Approve Resolution 1920 - Guest Employee Beach Access Program. (Requesting Staff Member: Director of Administrative Services Susan Herron) Staff and Board discussion, and adoption Resolution No. 1920 is available to be viewed or"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "03:01:15",
+        "provenance": {
+          "file_id": 1570,
+          "page": 21,
+          "type": "pdf"
+        },
+        "start": "02:45:33"
+      },
+      "media_timestamps": [
+        {
+          "end": "03:01:15",
+          "provenance": {
+            "file_id": 1570,
+            "page": 21,
+            "type": "pdf"
+          },
+          "start": "02:45:33"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1570,
+            "page": 21,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the District General Manager's Proposed Goals, with the changes discussed.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Chair Tonking"
+          ]
+        }
+      ],
+      "number": "H.7",
+      "title": "Review, Discuss and possibly Approve the District General Manager's Proposed Goals. (Requesting Staff and Board Member: Director of Human Resources Eric Milavsky and Trustee Vice Chair Michelle Jezycki) Discussion and Approval of the District General Managers Goals are available to be viewed"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "03:03:10",
+        "provenance": {
+          "file_id": 1570,
+          "page": 22,
+          "type": "pdf"
+        },
+        "start": "03:01:17"
+      },
+      "media_timestamps": [
+        {
+          "end": "03:03:10",
+          "provenance": {
+            "file_id": 1570,
+            "page": 22,
+            "type": "pdf"
+          },
+          "start": "03:01:17"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [
+            "Trustee Tulloch"
+          ],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1570,
+            "page": 22,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 1,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to approve the current 2025 slate of officers to remain in seat for 2026 - Chair - Trustee Michalea Tonking; Vice-Chair - Trustee Michelle Jezycki; Treasurer - Trustee Mick Homan; Secretary - Trustee Dave Noble;",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Chair Tonking"
+          ]
+        }
+      ],
+      "number": "H.8",
+      "title": "Election of Board of Trustees Officers for the 2026 Term. (Requesting Staff Member: District Clerk Heidi White) The Election of the 2026 Term for the Board of Trustees Officers is available to be viewed or"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2025-12-10-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1551,
+    "event_id": 588,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/2069aca9fd.mp4",
+    "minutes_file_id": 1570
+  }
+}

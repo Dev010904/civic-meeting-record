@@ -1,0 +1,427 @@
+{
+  "body": "Board of Trustees",
+  "date": "2025-02-26",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1227,
+            "page": 3,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "Approve the following consent matters: approval of Items F.1. Meeting Minutes for February 12, 2025. Item F.2. Approval of District Purchase Order for Procurement of a Replacement 32-Passenger Shuttle Bus, and Item F.3. Approval of a Donation from the Hyatt Hotel for Beach Furniture. Action: Approve.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "F",
+      "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1227,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "00:41:53"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1227,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:41:53"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1227,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:42:24"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1227,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:42:39"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1227,
+            "page": 4,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "To appoint both candidates, Mr. Marc Kelly and Ms. Kim Lighthart to the Vacant Seats of the Audit Committee as At-Large Members, for a term of 2 years from February 28, 2025, to February 28, 2027.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.1",
+      "title": "At-Large Audit Committee Interview of Candidates, Marc Kelly and Kim Lighthart. Review, Discuss and Possibly Nominate Candidate(s) to Vacant Audit Committee At-large Seats, effective from the Date of Board Appointment through February 28, 2027 (Two-year Term), Discussion and Possible Action. (Requesting Staff Member: District General Manager Robert Harrison) The Board of Trustees conducted At Large Audit Committee Interviews - the"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1227,
+          "page": 5,
+          "type": "pdf"
+        },
+        "start": "00:41:53"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1227,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:41:53"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1227,
+            "page": 5,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "To nominate Trustee Michaela Tonking as the newest Board Member of the Audit Committee.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.2",
+      "title": "Nomination and Appointment of Audit Committee seat due to Term Expiration of Trustee Tulloch effective from February 28, 2024, Trustee Tulloch's term is due to expire February 28, 2025. (Requesting Staff Member: District Clerk Heidi White) A brief discussion of the Board of Trustees can be viewed at"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "truncated_outcome"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1227,
+          "page": 5,
+          "type": "pdf"
+        },
+        "start": "00:43:15"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1227,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:43:15"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [
+            "truncated_outcome"
+          ],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": null,
+          "provenance": {
+            "file_id": 1227,
+            "page": 5,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve Board Recommended Goals for District General Manager through June 30, 2025.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.3",
+      "title": "Review, Discuss and Approve Board Recommended Goals for District General Manager through June 30, 2025. (Requesting Board Member: Trustee Michelle Jezycki, and Requesting Staff Member: Human Resource Director Erin Feore) Human Resources Director Erin Feore and Trustee Jezycki provided an overview of the recommended targeted goals and key performance indicators (KPIs) for the District General Manager for the first 6 months. She clarified that the target dates are not carved in stone; the dates are to assist GM Harrison to schedule the many ongoing goals constructively. The full Board and Staff discussion can be viewed at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1227,
+          "page": 6,
+          "type": "pdf"
+        },
+        "start": "00:53:43"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1227,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:53:43"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1227,
+            "page": 6,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Tulloch",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "To approve the Budget Schedule with the understanding that if there needs to be some flexibility, the Board of Trustees will be notified, and the meeting schedule will be modified accordingly.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.4",
+      "title": "Review, Discuss, and Approve the 2025/2026 Budget Workshop Schedule: Discussion, Direction, and possible Action. (Requesting Staff Member: District General Manager Robert Harrison) The full Board and Staff discussion can be viewed at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1227,
+          "page": 6,
+          "type": "pdf"
+        },
+        "start": "01:03:27"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1227,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "01:03:27"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1227,
+            "page": 6,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve Diamond Peak Ski Resort’s Season Pass Rates for the 2025-26 Ski Season.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.5",
+      "title": "Review, Discuss and possibly Approve Diamond Peak Ski Resort’s Season Pass Rates for 2025-2026 Ski Season. (Requesting Staff Member: Diamond Peak General Manager Mike Bandelin) Diamond Peak Ski General Manager Mike Bandelin provided a brief overview of the Diamond Peak Ski Resort Season Pass Rates for 2025-2026. The full Board and Staff discussion can be viewed at"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2025-02-26-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1131,
+    "event_id": 561,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/3a6f13687f.mp4",
+    "minutes_file_id": 1227
+  }
+}

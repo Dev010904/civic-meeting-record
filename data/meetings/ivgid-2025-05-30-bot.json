@@ -1,0 +1,773 @@
+{
+  "body": "Board of Trustees",
+  "date": "2025-05-30",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1433,
+          "page": 10,
+          "type": "pdf"
+        },
+        "start": "00:42:27"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1433,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "00:42:27"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1433,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "00:45:22"
+        },
+        {
+          "end": "00:48:33",
+          "provenance": {
+            "file_id": 1433,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "00:45:47"
+        },
+        {
+          "end": "00:50:20",
+          "provenance": {
+            "file_id": 1433,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "00:48:53"
+        },
+        {
+          "end": "00:51:27",
+          "provenance": {
+            "file_id": 1433,
+            "page": 12,
+            "type": "pdf"
+          },
+          "start": "00:50:41"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1433,
+            "page": 13,
+            "type": "pdf"
+          },
+          "start": "00:54:00"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1433,
+            "page": 10,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "made a motion to open the Public Hearing on the Fiscal Year 2025-2026 Operating and Capital Improvement Projects Budgets;",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1433,
+            "page": 13,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to close the Public Hearing on the Fiscal Year 2025-2026 Operating and Capital Improvement Projects Budgets.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "E",
+      "title": "PUBLIC HEARING - Public Hearing for the Incline"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted",
+          "vendor_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1433,
+          "page": 13,
+          "type": "pdf"
+        },
+        "start": "00:45:22"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1433,
+            "page": 13,
+            "type": "pdf"
+          },
+          "start": "00:45:22"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1433,
+            "page": 15,
+            "type": "pdf"
+          },
+          "start": "02:31:58"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$4.05 Million",
+          "amount_usd": 4050000.0,
+          "approximate": true,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1433,
+            "page": 14,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": null
+        },
+        {
+          "amount_raw": "$1,375",
+          "amount_usd": 1375.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1433,
+            "page": 14,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "rate",
+          "vendor": null
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1433,
+            "page": 14,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Adopt the Fiscal Year 2025/2026 Incline Village General Improvement District Capital Improvement Projects Budget;",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1433,
+            "page": 14,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Adopt a fee value of 60% for individual punch cards for the equitable usage of Capital Improvement;",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1433,
+            "page": 14,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Approve the Central Services Cost Allocation Plan, allocating Approximately $4.05 Million in the General Fund costs to the utility, Community Services and Beach Funds;",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1433,
+            "page": 14,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Approve the Staffing levels and full-time salary ranges as presented;",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1433,
+            "page": 14,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Approve the Recreation Facility Fee totaling $1,375;",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1433,
+            "page": 15,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Adopt the FY 2025 Fiscal Year 2025/2026 Incline Village General Improvement District Budget Final Form 4f404LGF;",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "E.1",
+      "title": "Adopt the Fiscal Year 2025/2026 Incline Village General Improvement District Budgets of which there are six (6) components: (1) Operating Budget; (2) Capital Improvement Projects Budget; (3) Facility Fees (consisting of a Recreation Facility Fee and Beach Facility Fee); (4) Authorized Positions List; (5) Final Form 4404LGF; and (6) Central Services Cost Allrocation Plan (Requesting Staff Member: Director of Finance Jessica O'Connell) Full discussion on Item E.1. FY 2025-2026 District Budgets can be heard/viewed"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1433,
+          "page": 15,
+          "type": "pdf"
+        },
+        "start": "01:56:09"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1433,
+            "page": 15,
+            "type": "pdf"
+          },
+          "start": "01:56:09"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1433,
+            "page": 16,
+            "type": "pdf"
+          },
+          "start": "01:58:23"
+        },
+        {
+          "end": "02:01:35",
+          "provenance": {
+            "file_id": 1433,
+            "page": 16,
+            "type": "pdf"
+          },
+          "start": "01:58:31"
+        },
+        {
+          "end": "02:05:17",
+          "provenance": {
+            "file_id": 1433,
+            "page": 17,
+            "type": "pdf"
+          },
+          "start": "02:02:12"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1433,
+            "page": 15,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to open the Public Hearing for the Incline Village General Improvement District Fiscal Year 2025/2026 Facility Fees Public Hearing for the Incline Village General Improvement District Fiscal Year 2025/2026 Facility Fees",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1433,
+            "page": 18,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Close the Public Heaaring for the Incline Village General Improvement District Fiscal Year 2025/2026 Facility Fees Public Hearing for the Incline Village General Improvement District Fiscal Year 2025/2026 Facility Fees.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "F",
+      "title": "PUBLIC HEARING - Public Hearing for the Incline"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted",
+          "vendor_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1433,
+          "page": 18,
+          "type": "pdf"
+        },
+        "start": "02:41:38"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1433,
+            "page": 18,
+            "type": "pdf"
+          },
+          "start": "02:41:38"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$720",
+          "amount_usd": 720.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "Resolution 1917",
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1433,
+            "page": 18,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "amount",
+          "vendor": null
+        },
+        {
+          "amount_raw": "$655",
+          "amount_usd": 655.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "Resolution 1917",
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1433,
+            "page": 18,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": null
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1433,
+            "page": 18,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "To Adopt Resolution 1917 for the Collection of Recreation Standby Service Charges for Fiscal Year 25-26 in the amount of $720 for recreation and $655 for beach.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "F.1",
+      "title": "Review, Discuss and Possibly Adopt Resolution No. 1917 - A Resolution Approving the Report for Collection of Recreation Standby and Service Charges (Also Known as the Recreation Facility Fee and Beach Facility Fee), for Fiscal Year 2025-2026 (Requesting Staff Member: Director of F inance Jessica O'Connell) Full discussion on Item F.1. Adopt Resolution No. 1917 - Approving the Report for Collection of Recreation Standby and Service Charges can be heard/viewed"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1433,
+          "page": 19,
+          "type": "pdf"
+        },
+        "start": "02:42:09"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1433,
+            "page": 19,
+            "type": "pdf"
+          },
+          "start": "02:42:09"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1433,
+            "page": 19,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Approve the proposed fee as adjusted in Item E.1. tied to 60% of the facility fee;",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.1",
+      "title": "Review, discuss and possibly approve setting a fee for the purchase of an Additional Recreation Pass for 2025/2026 in accordance with Ordinance 7, paragraph 104 (Requesting Staff Member: Diamond Peak Ski Resort Manager Mike Bandelin) Full discussion on Item G.1. Approval to set a fee for the purchase of an Additional Recreation Pass for 2025/2026 can be heard/viewed at"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2025-05-30-bot",
+  "minutes_status": "draft",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1362,
+    "event_id": 646,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/e2fc7e03a0.mp4",
+    "minutes_file_id": 1433
+  }
+}

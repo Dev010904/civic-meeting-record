@@ -1,0 +1,311 @@
+{
+  "body": "Board of Trustees",
+  "date": "2025-03-19",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1261,
+          "page": 3,
+          "type": "pdf"
+        },
+        "start": "00:24:41"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1261,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:24:41"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$100,000",
+          "amount_usd": 100000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "GL# 30364999-7560",
+          "flags": [],
+          "provenance": {
+            "file_id": 1261,
+            "page": 3,
+            "type": "pdf"
+          },
+          "purpose": "Fire Reduction (Defensible Space) Services",
+          "role": "unclassified",
+          "vendor": "North Lake Tahoe Fire Protection District"
+        },
+        {
+          "amount_raw": "$50,000",
+          "amount_usd": 50000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "GL#20002299-7560",
+          "flags": [],
+          "provenance": {
+            "file_id": 1261,
+            "page": 3,
+            "type": "pdf"
+          },
+          "purpose": "Fire Reduction (Defensible Space) Services",
+          "role": "unclassified",
+          "vendor": "North Lake Tahoe Fire Protection District"
+        },
+        {
+          "amount_raw": "$50,000",
+          "amount_usd": 50000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "GL#20002599-7560",
+          "flags": [],
+          "provenance": {
+            "file_id": 1261,
+            "page": 3,
+            "type": "pdf"
+          },
+          "purpose": "Fire Reduction (Defensible Space) Services",
+          "role": "unclassified",
+          "vendor": "North Lake Tahoe Fire Protection District"
+        },
+        {
+          "amount_raw": "$200,000",
+          "amount_usd": 200000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "GL#20002599-7560",
+          "flags": [],
+          "provenance": {
+            "file_id": 1261,
+            "page": 3,
+            "type": "pdf"
+          },
+          "purpose": "Fire Reduction (Defensible Space) Services",
+          "role": "not_to_exceed",
+          "vendor": "North Lake Tahoe Fire Protection District"
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [
+            "Chair Tonking",
+            "Trustee Tulloch"
+          ],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1261,
+            "page": 3,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 2,
+            "aye": 3,
+            "nay": 0
+          },
+          "text": "to Approve the Amended and Restated Cooperative Agreement with North Lake Tahoe Fire Protection District for Fire Reduction (Defensible Space) Services: FY 2025/26 Fund: Community Services; Division: Administration; GL# 30364999-7560 (50% - $100,000): Fund: Utilities; Division; Water; GL#20002299-7560 (25% - $50,000): Fund: Utilities; Division; Sewer; GL#20002599-7560 (25% - $50,000), in an Amount Not to Exceed $200,000, and we readdress any additional funding as a part of the Utility Rate Discussion.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ]
+        }
+      ],
+      "number": "E.1",
+      "title": "Review, Discuss and Approve the Amended and Restated Cooperative Agreement with North Lake Tahoe Fire Protection District for Fire Reduction (Defensible Space) Services: FY 2025/26 Fund: Community Services; Division: Administration; GL# 30364999-7560 (50% - $100,000): Fund: Utilities; Division; Water; GL#20002299-7560 (25% - $50,000): Fund: Utilities; Division; Sewer; GL#20002599-7560 (25% - $50,000), in an Amount Not to Exceed $200,000. (Requesting Staff Member: Director of Public Works Kate Nelson) Following the introduction to Item E.1. - Chair Tonking recused herself, noting a conflict of interest. The full Board discussion regarding Item E.1. to Approve the Amended Cooperative Agreement with North Lake Tahoe Fire Protection District can be viewed/ heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1261,
+          "page": 6,
+          "type": "pdf"
+        },
+        "start": "02:35:00"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1261,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "02:35:00"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1261,
+            "page": 6,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the Beach (Ski, Incline and Burnt Cedar) Rates for the 2025 Season and to amend and increase the Rates for Kayak Rack Rental and Paddle-board Rack Rental to 25% increase; and to increase all Boat Launch and Ramp fees by an additional 10%.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "E.3",
+      "title": "Review, and possibly Approve the Beach (Ski, Incline and Burnt Cedar) Rates for the 2025 Season: Discussion and possible Action. (Requesting Staff Member: Director of Parks and Recreation Karen Crocker) The full Board discussion regarding Item E.3. to Approve District Beach Rates for the 2025 Season can be viewed/ heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1261,
+          "page": 7,
+          "type": "pdf"
+        },
+        "start": "02:45:36"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1261,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "02:45:36"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1261,
+            "page": 7,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the proposed Golf Rates as presented with the exception of Play Cards; direction to staff to return to the Board with Additional Options to the Play Passes to include a PM pass and Couples pass options",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "E.4",
+      "title": "Review and Discuss Historical Financial results of District-Owned Golf Courses (Mountain, and Championship) and possibly Approve the Recommended Rates, Rate Structure and Course Operations for the 2025 Golf Season: Discussion, and Possible Action. (Requesting Staff Member: Senior Head Golf Professional Rob Bruce) The full Board discussion regarding Item E.4. to Approve District-owned Golf Courses (Mountain, and Championship) recommended rates, and rate structure and course operations for the 2025 Season can be viewed/ heard at"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2025-03-19-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1180,
+    "event_id": 625,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/63fa750360.mp4",
+    "minutes_file_id": 1261
+  }
+}

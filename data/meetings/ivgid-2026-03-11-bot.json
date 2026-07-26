@@ -1,0 +1,655 @@
+{
+  "body": "Board of Trustees",
+  "date": "2026-03-11",
+  "document": {
+    "flags": [
+      "raw_fallback_page:34"
+    ],
+    "unparseable_pages": [
+      18,
+      28,
+      30,
+      33,
+      36,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:06:40",
+        "provenance": {
+          "file_id": 2665,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "01:03:53"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:06:40",
+          "provenance": {
+            "file_id": 2665,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "01:03:53"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2665,
+            "page": 10,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "Approve the following consent matters: Item G.1. Approval of the IVGID Board of Trustee Meeting Minutes for February 25, 2026; and Item G.2. Review, discuss and approve the Veterans War Memorial Monument Design at the Village Green, as submitted.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "G",
+      "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:10:42",
+        "provenance": {
+          "file_id": 2665,
+          "page": 10,
+          "type": "pdf"
+        },
+        "start": "01:06:45"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:10:42",
+          "provenance": {
+            "file_id": 2665,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "01:06:45"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$40,000",
+          "amount_usd": 40000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "CIP #3653BD1502",
+          "flags": [
+            "purpose_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 2665,
+            "page": 11,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": "Snow Engineering Group"
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2665,
+            "page": 11,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 1
+          },
+          "text": "to Approve the Change Order #2 for the Snowflake Lodge Needs Assessment, FY 2025.26 Ski, CIP #3653BD1502; Consultant: Snow Engineering Group; $40,000.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan"
+          ]
+        }
+      ],
+      "number": "G.3",
+      "title": "Review, Discuss and Approve the Change Order #2 for the Snowflake Lodge Needs Assessment, FY 2025.26 Ski, CIP #3653BD1502; Consultant: Snow Engineering Group; $40,000. (Requesting Staff Member: Director of Public Works Kate Nelson). - pages 211 - 516 Full discussion and approval of ItemH.1. Formerly G.3. Is available to be viewed/ heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted",
+          "vendor_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:16:00",
+        "provenance": {
+          "file_id": 2665,
+          "page": 11,
+          "type": "pdf"
+        },
+        "start": "01:10:44"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:16:00",
+          "provenance": {
+            "file_id": 2665,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "01:10:44"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$112,000",
+          "amount_usd": 112000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "Project #4378LI2601",
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 2665,
+            "page": 11,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "amount",
+          "vendor": null
+        },
+        {
+          "amount_raw": "$56,000",
+          "amount_usd": 56000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "Project #4378LI2601",
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 2665,
+            "page": 11,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": null
+        },
+        {
+          "amount_raw": "$56,000",
+          "amount_usd": 56000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "Project #4378LI2601",
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 2665,
+            "page": 11,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": null
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2665,
+            "page": 11,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 1
+          },
+          "text": "to Approve a Community Services Budget Transfer to Increase Capital Funds Available for Construction of the Incline Bike Park - Phase II to Authorize a Change Order to Pave the Existing and New Pump Tracks in the Amount of $112,000; IVGID Portion of $56,000, Private Donor Portion of $56,000; FY 2025/26 Capital Improvement Project; Fund: Community Services; Division: Parks; Project #4378LI2601.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan"
+          ]
+        }
+      ],
+      "number": "H.1",
+      "title": "Discuss and Possibly Approve a Community Services Budget Transfer to Increase Capital Funds Available for Construction of the Incline Bike Park - Phase II to Authorize a Change Order to Pave the Existing and New Pump Tracks in the Amount of $112,000; IVGID Portion of $56,000, Private Donor Portion of $56,000; FY 2025/26 Capital Improvement Project; Fund: Community Services; Division: Parks; Project #4378LI2601. Discussion and Possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson). - pages 217 - 119 Full discussion related to the request for Community Services budget transfer to increase capital funds available for construction of the Incline Bike Park - Phase II, is available to be"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted",
+          "vendor_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:29:00",
+        "provenance": {
+          "file_id": 2665,
+          "page": 12,
+          "type": "pdf"
+        },
+        "start": "01:16:02"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:29:00",
+          "provenance": {
+            "file_id": 2665,
+            "page": 12,
+            "type": "pdf"
+          },
+          "start": "01:16:02"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$3500",
+          "amount_usd": 3500.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 2665,
+            "page": 14,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": null
+        },
+        {
+          "amount_raw": "$50",
+          "amount_usd": 50.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 2665,
+            "page": 15,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "rate",
+          "vendor": null
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2665,
+            "page": 12,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 1
+          },
+          "text": "to Approve the proposed Golf Key Rates as presented with a 3% increase in all Daily Green Fees and Numbered Play Pass products (10 play, 20 play passes) while the Seasonal Play Passes (Season Pass, Season Couples Passes) remain the same as the 2025 season as presented in Supplementary Item H.2. that replaced page 226 and on pages 230 and 231 of the Board packet.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2665,
+            "page": 13,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to approve the increase to the Picture Pass Holder Daily Ski Lift Ticket Products. Adjust (tier four) Picture Pass Holder Ski Season Pass Prices with a discount on Non-resident Passes to match (tier three) pass products. Non-resident ski pass products within (tier four), as provided in Item H.2. Supplemental Material replacing page 228 in the Board packet.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2665,
+            "page": 13,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the Annual Senior Couples Membership Rates as presented and no changes to Recreation Center Memberships and Daily Rates through December 31, 2026, as it appears on page 223, of the Board packet.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2665,
+            "page": 13,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the proposed Beach Rates for Entrance Products and Watercraft Launching Products through December 31, 2026, as provided in the Board packet.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2665,
+            "page": 14,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 1
+          },
+          "text": "to Approve the proposed increase to Beach Kayak and Paddleboard Storage Rack Rental as presented through December 31, 2026, as provided in the Board packet.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2665,
+            "page": 14,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the proposed increase to Group Picnic Rentals (Recreation & Beach) as presented and no proposed increase to Field Rentals through December 31, 2026.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2665,
+            "page": 14,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the proposed increase to Sports Season Field Use Rates as discussed to $3500 in 2026 through December 31, 2026.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2665,
+            "page": 15,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the proposed tennis and pickleball center key rates as presented for memberships and daily entry through December 31st, 2026, as they appear in the column for 2025, applying the same exact rate for 2026 with a 5-count guest pass, and a 10% discount for early birds.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2665,
+            "page": 15,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the increase of the Wetlands Hunting Rate for Public and IVGID Resident Adults by $50 each.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "H.2",
+      "title": "Review, Discuss and possibly Approve Key Rates and Charges within the District's Community Services Division. (Requesting Staff Member: Director of Community Services Mike Bandelin) - pages 220 - 231 Full discussion and approval of the Key Rates and charges within the District's Community Services Division is available to be viewed/ heard at"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2026-03-11-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 2641,
+    "event_id": 739,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/330f2f05ec.mp4",
+    "minutes_file_id": 2665
+  }
+}

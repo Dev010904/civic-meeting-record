@@ -1,0 +1,145 @@
+{
+  "body": "Audit Committee",
+  "date": "2024-12-19",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      6,
+      7,
+      8
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": null,
+          "nays": [],
+          "notes": [
+            "mover_not_recorded"
+          ],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1051,
+            "page": 3,
+            "type": "pdf"
+          },
+          "seconder": null,
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 3,
+            "nay": 0
+          },
+          "text": "approve the 2nd Extension of the Audited Financial Statements to the Department of Taxation.",
+          "yeas": [
+            "Committee Members Brandle",
+            "Schmitz",
+            "Tulloch"
+          ]
+        }
+      ],
+      "number": "D",
+      "title": "GENERAL BUSINESS ITEMS"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": null,
+          "nays": [],
+          "notes": [
+            "mover_not_recorded"
+          ],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1051,
+            "page": 4,
+            "type": "pdf"
+          },
+          "seconder": null,
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 3,
+            "nay": 0
+          },
+          "text": "Approve the Audit Committee Meeting Minutes for October 15, 2024.",
+          "yeas": [
+            "Committee Members Brandle",
+            "Schmitz",
+            "Tulloch"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": null,
+          "nays": [],
+          "notes": [
+            "mover_not_recorded"
+          ],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1051,
+            "page": 5,
+            "type": "pdf"
+          },
+          "seconder": null,
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 3,
+            "nay": 0
+          },
+          "text": "Approve the Audit Committee Meeting Minutes for November 18, 2024.",
+          "yeas": [
+            "Committee Members Brandle",
+            "Schmitz",
+            "Tulloch"
+          ]
+        }
+      ],
+      "number": "F",
+      "title": "MEETING MINUTES"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2024-12-19-audit",
+  "minutes_status": null,
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1038,
+    "event_id": 501,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/1fba9926ca.mp4",
+    "minutes_file_id": 1051
+  }
+}

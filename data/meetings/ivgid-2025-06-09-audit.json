@@ -1,0 +1,276 @@
+{
+  "body": "Audit Committee",
+  "date": "2025-06-09",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1527,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "00:16:27"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1527,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:16:27"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1527,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:20:00"
+        },
+        {
+          "end": "01:05:25",
+          "provenance": {
+            "file_id": 1527,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:22:19"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1527,
+            "page": 5,
+            "type": "pdf"
+          },
+          "seconder": "At-Large Member Kelly",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Appoint Vito Brandle as Chair of the Audit Committee for the 2025 term.",
+          "yeas": [
+            "Trustee Homan",
+            "Trustee Tonking",
+            "At-Large Member Kelly",
+            "At-Large Member Lighthart",
+            "At-Large Member Brandle"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Tonking",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1527,
+            "page": 5,
+            "type": "pdf"
+          },
+          "seconder": "At-Large Member Kelly",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Appoint Trustee Mick Homan as Vice-Chair of the Audit Committee for the 2025 term.",
+          "yeas": [
+            "Trustee Homan",
+            "Trustee Tonking",
+            "At-Large Member Kelly",
+            "At-Large Member Lighthart",
+            "Audit Committee Chair Brandle"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Audit Committee Chair Brandle",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1527,
+            "page": 6,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Tonking",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Acknowledge receipt of the Incline Village General Improvement District’s Draft Audited Financial Statements, Auditor's report, and report on internal control for the fiscal year ended June 30, 2024, as presented; and, authorize the Director of Finance to proceed with Distribution of the District’s Annual Comprehensive Financial Report (ACFR), once produced, for public record, as required by law;",
+          "yeas": [
+            "Trustee Homan",
+            "Trustee Tonking",
+            "At-Large Member Kelly",
+            "At-Large Member Lighthart",
+            "Audit Committee Chair Brandle"
+          ]
+        }
+      ],
+      "number": "D",
+      "title": "GENERAL BUSINESS ITEMS"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1527,
+          "page": 7,
+          "type": "pdf"
+        },
+        "start": "01:11:26"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1527,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "01:11:26"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Tonking",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1527,
+            "page": 7,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the Audit Committee Meeting Minutes for December 19, 2024.",
+          "yeas": [
+            "Trustee Homan",
+            "Trustee Tonking",
+            "At-Large Audit Committee Member Kelly",
+            "At-Large Audit Committee Member Lighthart",
+            "Audit Committee Chair Brandle"
+          ]
+        }
+      ],
+      "number": "F",
+      "title": "MEETING MINUTES"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2025-06-09-audit",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1382,
+    "event_id": 647,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/d048b2f8e8.mp4",
+    "minutes_file_id": 1527
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "body": "Board of Trustees",
+  "date": "2025-04-09",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1344,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "00:45:35"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:45:35"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$553,925",
+          "amount_usd": 553925.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "Project #2524SS1010",
+          "flags": [
+            "purpose_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1344,
+            "page": 4,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "not_to_exceed",
+          "vendor": "Construction Material Engineers, Inc"
+        },
+        {
+          "amount_raw": "$100,301",
+          "amount_usd": 100301.0,
+          "approximate": false,
+          "contingency": true,
+          "contract_ref": null,
+          "flags": [],
+          "provenance": {
+            "file_id": 1344,
+            "page": 4,
+            "type": "pdf"
+          },
+          "purpose": "Procurement of a Hazardous Waste Storage Container -",
+          "role": "amount",
+          "vendor": "American Hazmat Rentals (AHR)"
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1344,
+            "page": 4,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to approve the Consent Calendar as documented. Item F.1. Meeting Minutes for March 12, 2025; Item F.2. Meeting Minutes for March 19, 2025; Item F.3. Approve an Agreement between Incline Village General Improvement District and Construction Material Engineers, Inc. to provide Professional Services for Full-Time Construction Inspection and Materials Testing, for an Amount Not to Exceed $553,925 Effluent Export Line Project, GMP2 - FY24/25 Capital Improvement Project; Fund: Utilities; Division: Sewer; Project #2524SS1010; and, Item F.4. Approve a Purchase Agreement between the District and American Hazmat Rentals (AHR) for Procurement of a Hazardous Waste Storage Container - FY 2024/25 Capital Improvement Project; Fund: Utilities; Division: Solid Waste; in the amount of $100,301. Action: Approve, Motion by Trustee Homan, Seconded by Trustee Jezycki.",
+          "yeas": [
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "F",
+      "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1344,
+          "page": 6,
+          "type": "pdf"
+        },
+        "start": "00:46:11"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:46:11"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1344,
+            "page": 6,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Approve Amendment No. 2, as discussed and edited-with the removal of food service; of the Agreement with Incline Spirits to provide services at the restricted beaches managed by Incline Village General Improvement District; for the record Legal Counsel Rudin recited the modifications, to approve Amendment No. 2; of the Retail Concession Agreement between Incline Village General Improvement District and Incline Spirits to provide Services at the Restricted Access Beaches managed by IVGID as provided in the Supplemental Material with the following modifications to the recitals: include reference to - as amended by Amendment No. 1, prior to the definition of the original agreement; addition of a new section 11 - amending sections 1 and section 5 of the original agreement to remove food service and provide that the concessionaire services to be provided only include beverage services; Trustee Jezycki agreed with t he modifications.",
+          "yeas": [
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.2",
+      "title": "Approve and Authorize the District General Manager to Sign and Execute Amendment 2 of the Retail Concession Agreement between Incline Village General Improvement District and Incline Spirits Inc. to Provide Services at the Restricted Access Beaches Managed by the Incline Village General Improvement District, Discussion and possible Action. (Requesting Staff Member: Director of Parks and Recreation Karen Crocker) Full staff report and Board discussion for Item G.1. formerly G.2. can be viewed/ heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1344,
+          "page": 6,
+          "type": "pdf"
+        },
+        "start": "00:58:38"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:58:38"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1344,
+            "page": 6,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Set the Date and Time for the Public Hearing to Implement Amendments to the Sewer and Water rates, as well as Adjustments to the Fee Schedule, for Wednesday, May 14, 2025, at 5:00 p.m.",
+          "yeas": [
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.3",
+      "title": "Set the Date and Time for the Public Hearing to Implement Amendments to the Sewer and Water rates, as well as Adjustments to the Fee Schedule, for Wednesday, May 14, 2025, at 5:00 p.m. or as Otherwise Determined by the Board of Trustees. (Requesting Staff Member: Director of Public Works Kate Nelson). Full staff report and Board discussion for Item G.2. formerly G.3. can be viewed/ heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1344,
+          "page": 8,
+          "type": "pdf"
+        },
+        "start": "01:09:36"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "01:09:36"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1344,
+            "page": 8,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 3,
+            "nay": 1
+          },
+          "text": "to Adopt Resolution No. 1912 Codifying the transfer of the Parks Operations from Community Services to the General Fund in Fiscal Year 2023/2024 and Codifying the transfer of the Parks Operations back to Community Services from the General Fund effective July 1, 2025;",
+          "yeas": [
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.5",
+      "title": "Adopt Resolution No. 1912 Codifying the transfer of the Parks Operations from Community Services to the General Fund in Fiscal Year 2023/2024 and Codifying the transfer of the Parks Operations back to Community Services from the General Fund effective July 1, 2025; Discussion and possible Action (Requesting Staff Member: Director of Administrative Services Susan Herron) Full staff and Board discussion for Item G.4. formerly G.5. can be viewed/ heard at"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2025-04-09-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1241,
+    "event_id": 372,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/ce2241b586.mp4",
+    "minutes_file_id": 1344
+  }
+}

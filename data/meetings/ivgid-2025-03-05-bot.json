@@ -1,0 +1,264 @@
+{
+  "body": "Board of Trustees",
+  "date": "2025-03-05",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1229,
+          "page": 2,
+          "type": "pdf"
+        },
+        "start": "00:13:59"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1229,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:13:59"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1229,
+            "page": 2,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 3,
+            "nay": 1
+          },
+          "text": "to approve staff's recommendation as contained in the memo of the Board packet; approving the 2025/2026 Group Picnic Rental Fee Rate Schedule, with an Increase of 3.5% to Group Picnic Rentals as Shown in Table 1; and approving the IVGID Recreation Pass Holder Discount of 20% of Public Rates for Picnic Area Rental Rates (Table 1); with the understanding that staff will do an analysis of the District costs for providing these Group Picnic Site Reservations with the understanding that the public can use these sites without a reservation.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "E.2",
+      "title": "Review, Discuss and possibly Approve the 2025/2026 Group Picnic Rental Fee Rate Schedule . (Requesting Staff Member: Parks and Recreation Director Karen Crocker) Item E.2. Board and Staff discussion can be viewed in its entirety at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted",
+          "vendor_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1229,
+          "page": 3,
+          "type": "pdf"
+        },
+        "start": "00:31:06"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1229,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:31:06"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$200",
+          "amount_usd": 200.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1229,
+            "page": 3,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "rate",
+          "vendor": null
+        },
+        {
+          "amount_raw": "$3000",
+          "amount_usd": 3000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1229,
+            "page": 3,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "rate",
+          "vendor": null
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [
+            "Trustee Tulloch"
+          ],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [
+            "narrative_motion"
+          ],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1229,
+            "page": 3,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 1,
+            "aye": 3,
+            "nay": 0
+          },
+          "text": "to approve the Field Rental Fee Rate Schedule to include: Item 1 - an increase of 3.5% to Field Rental Rates as shown in (Table 1); Item 2 - IVGID Recreation Pass Holder Discount of 20% of Public Rates for Field Rental Rates (Table 1); Item 3 - the new daily tournament fee of $200 per field per day; and Item 5 - the Local Youth Sports League Fee ($3000 season); to exclude Item 4 - the local Non-Profit Rate. Additionally, he provided direction for the Staff to review the percentage of resident tournament participation and return to the Board for consideration to implement resident and non-resident rates; Staff directed to monitor the tournament play this summer; and track additional Staff time and district expenses born by fixing and maintaining fields following tournaments and determine if there is need for a protocol to be developed; Staff to return to the Board to review the implementation of additional fees to cover costs incurred, for consideration next year.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "E.3",
+      "title": "Review, Discuss and Possibly Approve the Fields Fee Rate Schedule. (Requesting Staff Member: Director Parks and Recreation Karen Crocker) Item E.3. Board and Staff discussion can be viewed in its entirety at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1229,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "00:45:07"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1229,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:45:07"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [
+            "narrative_motion"
+          ],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1229,
+            "page": 4,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 3,
+            "nay": 1
+          },
+          "text": "to approve staff recommendations and direct staff to prepare the budget with the Parks Division in the Community Services Fund instead of the General Fund for Fiscal Year 2025-26.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "E.4",
+      "title": "Review, Discuss and Provide Direction Regarding Funding of the Parks Division; Currently part of the General Fund and the recommendation to move the Parks Division to the Community Services Fund for Fiscal Year 2025-26 and Subsequent Years. (Requesting Staff Members Director of Finance Jessica O'Connell and Director of Parks and Recreation Karen Crocker) Item E.4. Board and Staff discussion can be viewed in its entirety at"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2025-03-05-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1153,
+    "event_id": 609,
+    "media_url": null,
+    "minutes_file_id": 1229
+  }
+}

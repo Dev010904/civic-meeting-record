@@ -1,0 +1,91 @@
+{
+  "body": "Board of Trustees",
+  "date": "2025-02-12",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1171,
+            "page": 3,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "Approve the following consent matters, as submitted: Item F.1. Approval of the IVGID Board of Trustees Special Meeting Minutes for January 16, 2025; and Item F.2. Approval of the IVGID Board of Trustees Meeting Minutes for January 29, 2025. Media Timestamp 02:00:34 Action: Approve.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "F",
+      "title": "CONSENT CALENDAR"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2025-02-12-bot",
+  "minutes_status": null,
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1114,
+    "event_id": 358,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/f968e5abbb.mp4",
+    "minutes_file_id": 1171
+  }
+}

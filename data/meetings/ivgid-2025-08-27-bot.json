@@ -1,0 +1,811 @@
+{
+  "body": "Board of Trustees",
+  "date": "2025-08-27",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      18,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1511,
+            "page": 7,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 3,
+            "nay": 0
+          },
+          "text": "To approve and follow the agenda as submitted/posted.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ]
+        }
+      ],
+      "number": "D",
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:51:53",
+        "provenance": {
+          "file_id": 1511,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "00:50:34"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:51:53",
+          "provenance": {
+            "file_id": 1511,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "00:50:34"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1511,
+            "page": 9,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 3,
+            "nay": 0
+          },
+          "text": "Approve the following consent matters, Items F.1. F.2. F.3. F.4. F.5. and F.6. as submitted.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ]
+        }
+      ],
+      "number": "F",
+      "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted",
+          "vendor_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:57:26",
+        "provenance": {
+          "file_id": 1511,
+          "page": 10,
+          "type": "pdf"
+        },
+        "start": "00:51:53"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:57:26",
+          "provenance": {
+            "file_id": 1511,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "00:51:53"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$400,000",
+          "amount_usd": 400000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1511,
+            "page": 11,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": null
+        },
+        {
+          "amount_raw": "$433,302",
+          "amount_usd": 433302.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1511,
+            "page": 11,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": null
+        },
+        {
+          "amount_raw": "$833,302",
+          "amount_usd": 833302.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1511,
+            "page": 11,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "total",
+          "vendor": null
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1511,
+            "page": 11,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 3,
+            "nay": 0
+          },
+          "text": "to Approve and Authorize staff to create a Community Services CIP Project for Phase Two (Implementation) of the Point of Sale (POS) System Project; and, Approve and authorize staff to re-budget $400,000 from the FY25/26 Community Services CIP Budget to the FY26/27 CIP Budget and include an additional $433,302 in FY26/27 for a total Community Services CIP Point of Sale System Project Budget of $833,302 in Fiscal Year 2026/2027;",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ]
+        }
+      ],
+      "number": "G.1",
+      "title": "Approve and Authorize staff to create a Community Services CIP Project for Phase Two (Implementation) of the Point of Sale (POS) System Project; and, Approve and authorize staff to re-budget $400,000 from the FY25/26 Community Services CIP Budget to the FY26/27 CIP Budget and include an additional $433,302 in FY26/27 for a total Community Services CIP Point of Sale System Project Budget of $833,302 in Fiscal Year 2026/2027. (Requesting Staff Members: Director of Administrative Services Susan Herron and Information Technology Manager Mike Gove) The full discussion related to Item G.1. Phase 2 of the Point-of-Sale Project can be"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:08:23",
+        "provenance": {
+          "file_id": 1511,
+          "page": 12,
+          "type": "pdf"
+        },
+        "start": "01:05:16"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:08:23",
+          "provenance": {
+            "file_id": 1511,
+            "page": 12,
+            "type": "pdf"
+          },
+          "start": "01:05:16"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$41,000",
+          "amount_usd": 41000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1511,
+            "page": 12,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "amount",
+          "vendor": "Davis Farr"
+        },
+        {
+          "amount_raw": "$127,040",
+          "amount_usd": 127040.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1511,
+            "page": 12,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "total",
+          "vendor": "Davis Farr"
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1511,
+            "page": 12,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 3,
+            "nay": 0
+          },
+          "text": "to Approve and Authorize Additional Funding for Davis Farr in the Amount of $41,000 for additional work, bringing the Total Contract Agreement to $127,040.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ]
+        }
+      ],
+      "number": "G.3",
+      "title": "Approve and Authorize Additional Funding for Davis Farr in the Amount of $41,000 for additional work, bringing the Total Contract Agreement to $127,040. (Requesting Staff Member: Director of Finance Jessica O'Connell) The full discussion related to Item G.3. Additional funding for Davis Farr can be"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:07:12",
+        "provenance": {
+          "file_id": 1511,
+          "page": 13,
+          "type": "pdf"
+        },
+        "start": "01:05:16"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:07:12",
+          "provenance": {
+            "file_id": 1511,
+            "page": 13,
+            "type": "pdf"
+          },
+          "start": "01:05:16"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$15,000",
+          "amount_usd": 15000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1511,
+            "page": 13,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "amount",
+          "vendor": "US Food Service"
+        },
+        {
+          "amount_raw": "$640,500",
+          "amount_usd": 640500.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1511,
+            "page": 13,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "total",
+          "vendor": "US Food Service"
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1511,
+            "page": 13,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 3,
+            "nay": 0
+          },
+          "text": "to Approve and Authorize Additional Funding for US Food Service in the Amount of a $15,000 increase on the Blanket Purchase Order related to Additional Costs and to bring the Total Purchase Order to $640,500.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ]
+        }
+      ],
+      "number": "G.4",
+      "title": "Approve and Authorize Additional Funding for US Food Service in the Amount of a $15,000 increase on the Blanket Purchase Order related to Additional Costs and to bring the Total Purchase Order to $640,500. (Requesting Staff Member: Director of Finance Jessica O'Connell) The full discussion related to Item G.4. Additional funding for US Food Service can"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:07:12",
+        "provenance": {
+          "file_id": 1511,
+          "page": 13,
+          "type": "pdf"
+        },
+        "start": "01:05:16"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:07:12",
+          "provenance": {
+            "file_id": 1511,
+            "page": 13,
+            "type": "pdf"
+          },
+          "start": "01:05:16"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$30,000",
+          "amount_usd": 30000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1511,
+            "page": 13,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "amount",
+          "vendor": "Armand Agra – Sierra Meats"
+        },
+        {
+          "amount_raw": "$255,000",
+          "amount_usd": 255000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1511,
+            "page": 13,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "total",
+          "vendor": "Armand Agra – Sierra Meats"
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1511,
+            "page": 13,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 3,
+            "nay": 0
+          },
+          "text": "to Approve and Authorize Additional Funding for Armand Agra – Sierra Meats in the Amount of $30,000, increasing the Blanket Purchase Order related to Additional Costs and bringing the Total Purchase Order to $255,000.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ]
+        }
+      ],
+      "number": "G.5",
+      "title": "Approve and Authorize Additional Funding for Armand Agra – Sierra Meats in the Amount of $30,000, increasing the Blanket Purchase Order related to Additional Costs and bringing the Total Purchase Order to $255,000. (Requesting Staff Member: Director of Finance Jessica O'Connell) The full discussion related to Item G.5. Additional funding for Armand Agra - dba Sierra Meats can be viewed/ heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:16:23",
+        "provenance": {
+          "file_id": 1511,
+          "page": 14,
+          "type": "pdf"
+        },
+        "start": "01:13:27"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:16:23",
+          "provenance": {
+            "file_id": 1511,
+            "page": 14,
+            "type": "pdf"
+          },
+          "start": "01:13:27"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1511,
+            "page": 14,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 3,
+            "nay": 0
+          },
+          "text": "to Approve and Authorize the Board Chair to Sign and Execute a Letter written by the Incline Village General Improvement District (District) to the Nevada Department of Taxation outlining the Districts' Corrective Action Plan related to the adherence to all applicable Statutes, Regulations, and Policies in the Districts' Administration of Financial Affairs, such as Expenditures, over Appropriations and Budget Augmentation as outlined in the letter dated July 28, 2025.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ]
+        }
+      ],
+      "number": "G.6",
+      "title": "Approve and Authorize the Board Chair to Sign and Execute a Letter written by the Incline Village General Improvement District (District) to the Nevada Department of Taxation outlining the Districts' Corrective Action Plan related to the adherence to all applicable Statutes, Regulations, and Policies in the Districts' Administration of Financial Affairs, such as Expenditures, over Appropriations and Budget Augmentation as outlined in the letter dated July 28, 2025. (Requesting Staff Member: Director of Finance Jessica O'Connell) The full discussion related to Item G.6. Letter to NV Department of Taxation regarding the Districts Corrective Action Plan can be viewed/ heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:18:22",
+        "provenance": {
+          "file_id": 1511,
+          "page": 14,
+          "type": "pdf"
+        },
+        "start": "01:16:23"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:18:22",
+          "provenance": {
+            "file_id": 1511,
+            "page": 14,
+            "type": "pdf"
+          },
+          "start": "01:16:23"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1511,
+            "page": 14,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 3,
+            "nay": 0
+          },
+          "text": "to Approve the Release of Assigned Net Position associated with the Effluent Pipeline Project and Revert Funds to its Source of Origin.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ]
+        }
+      ],
+      "number": "G.7",
+      "title": "Review, Discuss, and possibly Approve the Release of Assigned Net Position associated with Effluent Pipeline Project and Revert Funds to its Source of Origin. (Requesting Staff Member: Director of Finance Jessica O'Connell) The full discussion related to Item G.7. Release of Assigned Net Position associated with the Effluent Pipeline Project can be viewed/ heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:40:27",
+        "provenance": {
+          "file_id": 1511,
+          "page": 15,
+          "type": "pdf"
+        },
+        "start": "01:18:24"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:40:27",
+          "provenance": {
+            "file_id": 1511,
+            "page": 15,
+            "type": "pdf"
+          },
+          "start": "01:18:24"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1511,
+            "page": 16,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 3,
+            "nay": 0
+          },
+          "text": "to Appoint Vice Chair Michelle Jezycki as Board Liaison to work with the Human Resource Director to update an evaluation process for the District General Manager's 2026 annual review cycle.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ]
+        }
+      ],
+      "number": "G.8",
+      "title": "Review, Discuss and Conduct Incline Village General Improvement District’s General Manager, Robert W. Harrison, Six-Month Performance Evaluation; Direct Staff to work with Board to Establish FY 2026 Goals (Requesting Board Member: Chair Michaela Tonking) The full discussion related to Item G.8. The District General Manager's 6-month Performance review can be viewed/ heard at"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2025-08-27-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1480,
+    "event_id": 583,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/d8c81d3a1e.mp4",
+    "minutes_file_id": 1511
+  }
+}

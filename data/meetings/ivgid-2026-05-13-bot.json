@@ -1,0 +1,718 @@
+{
+  "body": "Board of Trustees",
+  "date": "2026-05-13",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      21,
+      22,
+      25
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:31:03",
+        "provenance": {
+          "file_id": 2779,
+          "page": 3,
+          "type": "pdf"
+        },
+        "start": "00:12:15"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:31:03",
+          "provenance": {
+            "file_id": 2779,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:12:15"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2779,
+            "page": 3,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Open the Public Hearing for the Proposed amendments to Ordinance No. 7 - An Ordinance Establishing Rates, Rules and Regulations for Recreation Passes and Recreation Punch Cards by the Incline Village General Improvement District.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2779,
+            "page": 5,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Close the Public Hearing on the Proposed amendments to Ordinance No. 7 - An Ordinance Establishing Rates, Rules and Regulations for Recreation Passes and Recreation Punch Cards by the Incline Village General Improvement District.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "E.1",
+      "title": "PUBLIC HEARING - Time: Not earlier than 4:00 PM and as soon thereafter as practicable. - page 5 Public Hearings for the Proposed amendments to Ordinance No. 7 - An Ordinance Establishing Rates, Rules and Regulations for Recreation Passes and Recreation Punch Cards by the Incline Village General Improvement District. Public Comments will be taken separately on this item. The Board Chair will set the time limit for these comments at the meeting. It is anticipated that the time limit will be set at 3 minutes. Item E.1. Public Hearing for proposed amendments to Ordinance No. 7 is available to be viewed/heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:45:33",
+        "provenance": {
+          "file_id": 2779,
+          "page": 5,
+          "type": "pdf"
+        },
+        "start": "00:30:30"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:45:33",
+          "provenance": {
+            "file_id": 2779,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:30:30"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2779,
+            "page": 6,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 1
+          },
+          "text": "to Adopt Resolution No. 1924 - A Resolution Approving Amendment to Ordinance No. 7, with the revision of removing the paragraphs under Article 10 unbuildable lots",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan"
+          ]
+        }
+      ],
+      "number": "E.1",
+      "title": "A. Review, Discuss and Possibly Adopt Resolution No. 1924 - A Resolution Approving Amendment to Ordinance No. 7 (Requesting Staff Member: Director of Community Services Mike Bandelin) - pages 6 – 63 Item E.1.A . Review and Discussion of the proposed Adoption of Resolution No. 1924 Approving the Amendments to Ordinance No. 7, is available to be"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:49:34",
+        "provenance": {
+          "file_id": 2779,
+          "page": 7,
+          "type": "pdf"
+        },
+        "start": "00:45:47"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:49:34",
+          "provenance": {
+            "file_id": 2779,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "00:45:47"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2779,
+            "page": 7,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Open the Public Hearing for Recommended Amendments to the Incline Village General Improvement District Water and Wastewater Rates and Adjustments to the Fee Schedule.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2779,
+            "page": 8,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Close the Public Hearing for Recommended Amendments to the Incline Village General Improvement District Water and Wastewater Rates and Adjustments to the Fee Schedule.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "E.2",
+      "title": "PUBLIC HEARING - Time: Not earlier than 4:00 PM and as soon thereafter as practicable. - page 64 Public Hearings for Recommended Amendments to the Incline Village General Improvement District Water and Wastewater Rates and Adjustments to the Fee Schedule. Public Comments will be taken separately on this item. The Board Chair will set the time limit for these comments at the meeting. It is anticipated that the time limit will be set at 3 minutes. Item E.2. The Public Hearing for Recommended Amendments to IVGID Water and Wastewater Rates and Adjustments to the Fee Schedule is available to be"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:51:10",
+        "provenance": {
+          "file_id": 2779,
+          "page": 8,
+          "type": "pdf"
+        },
+        "start": "00:49:51"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:51:10",
+          "provenance": {
+            "file_id": 2779,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "00:49:51"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Tulloch",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2779,
+            "page": 8,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 1
+          },
+          "text": "to Adopt Resolution No. 1923 – A Resolution Approving Amendments to the Water and Wastewater Rates and Adjustments to the Fee Schedule.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan"
+          ]
+        }
+      ],
+      "number": "E.2",
+      "title": "A Review, Discuss, and Possibly Adopt Resolution No. 1923 – A Resolution Approving Amendments to the Water and Wastewater Rates and Adjustments to the Fee Schedule. Requesting Staff Member: Director of Public Works Kate Nelson) - pages 65 - 73 The Review and Discussion of Item E.2.A. Adopt Resolution No. 1923 is available to be viewed/heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:24:49",
+        "provenance": {
+          "file_id": 2779,
+          "page": 13,
+          "type": "pdf"
+        },
+        "start": "01:23:31"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:24:49",
+          "provenance": {
+            "file_id": 2779,
+            "page": 13,
+            "type": "pdf"
+          },
+          "start": "01:23:31"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2779,
+            "page": 13,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the Consent Calendar Item H.1. and Item H.3. as provided in the Board Packet",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "H",
+      "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:40:52",
+        "provenance": {
+          "file_id": 2779,
+          "page": 13,
+          "type": "pdf"
+        },
+        "start": "01:24:41"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:40:52",
+          "provenance": {
+            "file_id": 2779,
+            "page": 13,
+            "type": "pdf"
+          },
+          "start": "01:24:41"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2779,
+            "page": 14,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Reject the Bid Protest in Reference to the Bid Submission by Olympus and Associates, Inc. for the IVGID Public Works Steel Reservoir R6C-1 Tank Recoating Project Bid Results.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "I.1",
+      "title": "Review, Discuss, and make a Determination on the Public Bid Protest Submitted by Resource Development Company in Reference to the Bid Submission by Olympus and Associates, Inc. for the IVGID Public Works Steel Reservoir R6C-1 Tank Recoating Project Bid Results. Fund: Utilities: Water; CIP #2221WS2601 (Requesting Staff Member: Director of Public Works Kate Nelson) - pages 173 - 211 Item I.1. Review and discussion related to the public Bid Protest and determination is available to be viewed/heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:41:06",
+        "provenance": {
+          "file_id": 2779,
+          "page": 15,
+          "type": "pdf"
+        },
+        "start": "01:36:10"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:41:06",
+          "provenance": {
+            "file_id": 2779,
+            "page": 15,
+            "type": "pdf"
+          },
+          "start": "01:36:10"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2779,
+            "page": 15,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the General Manager’s performance review template as modified.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "I.2",
+      "title": "Review, Discuss and Approve the District General Manager's Annual Performance Review Template. (Requesting Staff Member: Director of Human Resources Eric M ilavsky) - pages 212 – 221 Item I.2. The review and discussion related to the District General Mangers Annual Performance review template is available to be viewed/heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:44:39",
+        "provenance": {
+          "file_id": 2779,
+          "page": 16,
+          "type": "pdf"
+        },
+        "start": "01:41:16"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:44:39",
+          "provenance": {
+            "file_id": 2779,
+            "page": 16,
+            "type": "pdf"
+          },
+          "start": "01:41:16"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2779,
+            "page": 16,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 1
+          },
+          "text": "to Adopt (For Possible Action) Adopt Resolution No. 1925 - A Resolution Delegating Litigation Decision Authority to the Board Chair and District General Manager.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan"
+          ]
+        }
+      ],
+      "number": "I.3",
+      "title": "Adopt Resolution No. 1925 - A Resolution Delegating Litigation Decision Authority to the Board Chair and District General Manager. (Requesting Staff Member: District Legal C ounsel David Rigdon) - pages 222 – 225 Item I.3. Discussion related to the Adoption of Resolution No. 1925 delegating litigation decision authority to the Board Chair and District General Manager is available to be viewed/heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:46:14",
+        "provenance": {
+          "file_id": 2779,
+          "page": 16,
+          "type": "pdf"
+        },
+        "start": "01:44:51"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:46:14",
+          "provenance": {
+            "file_id": 2779,
+            "page": 16,
+            "type": "pdf"
+          },
+          "start": "01:44:51"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2779,
+            "page": 17,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the suggested revisions to Policy 15.1.0, including the removal of the word “review.”",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "H.2",
+      "title": "Approve Suggested Revisions to Policy 15.1.0 - Accounting, Auditing, and Financial Reporting, Audit Committee Charter, and Formally Adopt the Revisions, as recommended by the Audit Committee. (Requesting Staff Member: District Legal Counsel David Rigdon) - pages 141 – 150 Item I.4, formerly H.2. – Policy 15.1.0 Revisions (Accounting, Auditing, and Financial Reporting – Audit Committee Charter is available to be viewed / heard"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:47:05",
+        "provenance": {
+          "file_id": 2779,
+          "page": 17,
+          "type": "pdf"
+        },
+        "start": "01:46:42"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:47:05",
+          "provenance": {
+            "file_id": 2779,
+            "page": 17,
+            "type": "pdf"
+          },
+          "start": "01:46:42"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2779,
+            "page": 18,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Adopt the final Legislative Agenda for FY 2027 with the discussed amendment to the fourth federal objective.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "H.4",
+      "title": "Adopt the Final Legislative Agenda for the 2027 Fiscal Year. (Requesting Staff Member: District General M anager Robert Harrison) - pages 169 – 172 Agenda Item I.5 – formerly Item H.4. Adoption of Final Legislative Agenda for FY 2027 is available to be viewed/heard at"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2026-05-13-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 2729,
+    "event_id": 741,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/de9706c64a.mp4",
+    "minutes_file_id": 2779
+  }
+}

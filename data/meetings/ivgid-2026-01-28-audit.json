@@ -1,0 +1,132 @@
+{
+  "body": "Audit Committee",
+  "date": "2026-01-28",
+  "document": {
+    "flags": [],
+    "unparseable_pages": []
+  },
+  "items": [
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "truncated_outcome"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [
+            "truncated_outcome"
+          ],
+          "kind": "motion",
+          "mover": "Audit Committee Chair Brandle",
+          "nays": [],
+          "notes": [
+            "no_seconder"
+          ],
+          "outcome": null,
+          "provenance": {
+            "file_id": 2670,
+            "page": 1,
+            "type": "pdf"
+          },
+          "seconder": null,
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 3,
+            "nay": 0
+          },
+          "text": "to Approve and Follow the Agenda as Submitted/Posted.",
+          "yeas": [
+            "Audit Committee Chair Brandle",
+            "Trustee Homan",
+            "At-Large Audit Committee Member Lighthart"
+          ]
+        }
+      ],
+      "number": "C",
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:12:40",
+        "provenance": {
+          "file_id": 2670,
+          "page": 8,
+          "type": "pdf"
+        },
+        "start": "01:12:03"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:12:40",
+          "provenance": {
+            "file_id": 2670,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "01:12:03"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2670,
+            "page": 8,
+            "type": "pdf"
+          },
+          "seconder": "Audit Committee Member Kelly",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Approve the Audit Committee Meeting Minutes for October 28, 2025.",
+          "yeas": [
+            "Audit Committee Chair Brandle",
+            "Trustee Homan",
+            "At-Large Audit Committee Member Kelly",
+            "At-Large Audit Committee Member Lighthart"
+          ]
+        }
+      ],
+      "number": "G",
+      "title": "MEETING MINUTES"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2026-01-28-audit",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1588,
+    "event_id": 726,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/947c3441ea.mp4",
+    "minutes_file_id": 2670
+  }
+}

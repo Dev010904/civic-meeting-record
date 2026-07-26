@@ -1,0 +1,699 @@
+{
+  "body": "Board of Trustees",
+  "date": "2025-04-30",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1341,
+          "page": 3,
+          "type": "pdf"
+        },
+        "start": "00:43:25"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1341,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:43:25"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1341,
+            "page": 3,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "Approve the following consent matters: Item F.1. IVGID Board of Trustees Meeting Minutes for March 26, 2025; Item F.2. IVGID Board of Trustees Meeting Minutes for April 9, 2025; Item F.3. IVGID Board of Trustees Meeting Minutes for April 14, 2025; and Item F.5. Approve and authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and Resource Development Company for R&M or Operating Expense Exterior Recoating of Water Reservoirs R3-1 & R5-1; FY 2024/25 Utilities, as submitted. Action: Approve.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ]
+        }
+      ],
+      "number": "F",
+      "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted",
+          "vendor_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1341,
+          "page": 5,
+          "type": "pdf"
+        },
+        "start": "00:47:52"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1341,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:47:52"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$80",
+          "amount_usd": 80.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1341,
+            "page": 5,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "rate",
+          "vendor": null
+        },
+        {
+          "amount_raw": "$110",
+          "amount_usd": 110.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1341,
+            "page": 5,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": null
+        },
+        {
+          "amount_raw": "$900",
+          "amount_usd": 900.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1341,
+            "page": 5,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": null
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1341,
+            "page": 5,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "Approve the 2025/2026 Recreation Center Membership and Tennis/Pickleball Fee Rate as provided in the Schedules with the following modifications: 1) Striking the monthly pass for Tennis/Pickleball rather there will be a 10 pack at a cost of $80 for Picture Pass Holders and $110 for Non-Picture Pass Holders; 2) Adding to the Recreation Center Memberships, a family of two at $900 (with 8% Senior discount) and at Tennis and Pickleball 3) In Table 1, provide a standardized 20% differential base for Non-Picture Pass Holders. 4) Additional direction to staff to move toward the standardized 20% differential for the Recreation Center Memberships for 2026)",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ]
+        }
+      ],
+      "number": "G.2",
+      "title": "Review, Discuss and Possibly Approve the 2025/2026 Recreation Center Membership and Tennis/Pickleball Fee Rate Schedule (Requesting Staff Member: Director of Parks and Recreation Karen Crocker) Full staff report and Board discussion for Item G.2. can be viewed/heard"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1341,
+          "page": 6,
+          "type": "pdf"
+        },
+        "start": "01:25:18"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1341,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "01:25:18"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Tulloch",
+          "nays": [],
+          "notes": [
+            "label_variant:MOTION Moved"
+          ],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1341,
+            "page": 6,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "Direction to staff to move forward with the three firms that have submitted proposals and request an extension from BBK as well as a possible reconsideration to provide a proposal to the District RFP if they have an interest in remaining as District Legal Counsel.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ]
+        }
+      ],
+      "number": "G.3",
+      "title": "Review and discuss submitted responses to Legal Counsel Services RFP and possibly set a date for interviews of firms and discussion of applications received for In House District Counsel (Requesting Staff Members: Director of Administrative Services Susan Herron and Director of Human Resources Erin Feore) Full staff report and Board discussion for Item G.3. can be viewed/heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1341,
+          "page": 8,
+          "type": "pdf"
+        },
+        "start": "02:03:10"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1341,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "02:03:10"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$209,980.00",
+          "amount_usd": 209980.0,
+          "approximate": false,
+          "contingency": true,
+          "contract_ref": "CIP #1F24200300",
+          "flags": [],
+          "provenance": {
+            "file_id": 1341,
+            "page": 8,
+            "type": "pdf"
+          },
+          "purpose": "Capital Improvement Fire Hydrant Replacement – 2025",
+          "role": "amount",
+          "vendor": "KP Construction, Inc"
+        },
+        {
+          "amount_raw": "$20,000.00",
+          "amount_usd": 20000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "CIP #1F24200300",
+          "flags": [],
+          "provenance": {
+            "file_id": 1341,
+            "page": 8,
+            "type": "pdf"
+          },
+          "purpose": "Capital Improvement Fire Hydrant Replacement – 2025",
+          "role": "not_to_exceed",
+          "vendor": "KP Construction, Inc"
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1341,
+            "page": 8,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan Page 45 of 128",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and KP Construction, Inc. for Capital Improvement Fire Hydrant Replacement – 2025; FY 2023/24 Utilities: Water: CIP #1F24200300; in the Amount of $209,980.00; and Authorize staff to Execute Change Orders for Additional Work if required, of Approximately 10% of the Construction Contract Value; not to Exceed $20,000.00; FY 2024/25 Utilities: Water: CIP #1F24200300.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ]
+        }
+      ],
+      "number": "G.5",
+      "title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and KP Construction, Inc. for Capital Improvement Fire Hydrant Replacement – 2025; FY 2023/24 Utilities: Water: CIP #1F24200300; in the Amount of $209,980.00; and Authorize staff to Execute Change Orders for Additional Work if required, of Approximately 10% of the Construction Contract Value; not to Exceed $20,000.00; FY 2024/25 Utilities: Water: CIP #1F24200300; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson) Full staff report and Board discussion for Item G.5. can be viewed/heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1341,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "02:07:30"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1341,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "02:07:30"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1341,
+            "page": 9,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "Approve the Replacement of six (6) of the Charcoal Grills with Propane Grills at Burnt Cedar Beach consistent with the Memorandum of Item G.6.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ]
+        }
+      ],
+      "number": "G.6",
+      "title": "Review, Discuss, and Approve the Replacement of the Charcoal Grills with Propane Grills at Burnt Cedar Beach FY2024/25 Beaches: Admin: GL #39003999-7550 and GL #3900399-7510 in an Amount Not to Exceed $34,000; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson) Full staff report and Board discussion for Item G.6. can be viewed/heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "malformed_amount"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1341,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "02:23:11"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1341,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "02:23:11"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$359,97",
+          "amount_usd": null,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "GL #20002297-7510",
+          "flags": [
+            "malformed_amount"
+          ],
+          "provenance": {
+            "file_id": 1341,
+            "page": 9,
+            "type": "pdf"
+          },
+          "purpose": "Development of a SCADA Master Plan",
+          "role": "amount",
+          "vendor": "Carollo Engineers"
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1341,
+            "page": 9,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan Page 46 of 128",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 3,
+            "nay": 1
+          },
+          "text": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute a Professional Services Agreement between Incline Village General Improvement District and Carollo Engineers for Development of a SCADA Master Plan; FY 2024/25 Utilities: Water: GL #20002297-7510; in the Amount of $359,97;",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ]
+        }
+      ],
+      "number": "F.4",
+      "title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute a Professional Services Agreement between Incline Village General Improvement District and Carollo Engineers for Development of a SCADA Master Plan; FY 2024/25 Utilities: Water: GL #20002297-7510; in the Amount of $359,972; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson) Full staff report and Board discussion for Item G.7. (Formerly Consent Calendar Item F.4.) can be viewed/heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted",
+          "vendor_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1341,
+          "page": 10,
+          "type": "pdf"
+        },
+        "start": "02:31:11"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1341,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "02:31:11"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$375,000",
+          "amount_usd": 375000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "CIP # 2599BD1105",
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1341,
+            "page": 10,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": null
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1341,
+            "page": 10,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "Approve Utility Fund Re-Allocation of $375,000 from Utility CIP Sewer Fund to the Water Resource Recovery Facility (WRRF) Roof Replacement CIP # 2599BD1105; FY2024/25; Fund Utilities; Division: Sewer.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ]
+        }
+      ],
+      "number": "G.7",
+      "title": "Review, Discuss, and Possibly Approve Utility Fund Re-Allocation of $375,000 from Utility CIP Sewer Fund to the Water Resource Recovery Facility (WRRF) Roof Replacement CIP # 2599BD1105; FY2024/25; Fund Utilities; Division: Sewer, (Requesting Staff Member: Director of Public Works Kate Nelson) Full staff report and Board discussion for Item G.8. (Formerly Item G.7.) can be"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1341,
+          "page": 10,
+          "type": "pdf"
+        },
+        "start": "02:33:43"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1341,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "02:33:43"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1341,
+            "page": 10,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "Approve the Proposed Modifications to the Trustee Handbook.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ]
+        }
+      ],
+      "number": "G.8",
+      "title": "Review, Discuss, and Approve the Proposed Modifications to the Trustee Handbook. (Requesting Board Member: Trustee Dave Noble) Full staff report and Board discussion for Item G.9. (Formerly Item G.8.) can be"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2025-04-30-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1281,
+    "event_id": 575,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/119239e6b6.mp4",
+    "minutes_file_id": 1341
+  }
+}

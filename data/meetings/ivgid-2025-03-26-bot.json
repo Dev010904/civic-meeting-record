@@ -1,0 +1,348 @@
+{
+  "body": "Board of Trustees",
+  "date": "2025-03-26",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1343,
+          "page": 2,
+          "type": "pdf"
+        },
+        "start": "00:17:21"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1343,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:17:21"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$387,712.60",
+          "amount_usd": 387712.6,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "Budget #20002299-7510",
+          "flags": [
+            "purpose_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1343,
+            "page": 2,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "amount",
+          "vendor": "Hydro Specialties Co"
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1343,
+            "page": 2,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan Action: Approve",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "Approve the following consent matters as submitted: Items E.1. Approval of the IVGID Board of Trustees Meeting Minutes for February 26, 2025; E.2. Approval of the IVGID Board of Trustees Meeting Minutes for March 5, 2025; E.3. Approve a District Purchase Order for the Procurement of 1,860 Residential Water Meter Registers and 1,970 Transponders - FY 2024/25 Utilities Fund: Operating Budget #20002299-7510; Vendor: Hydro Specialties Co. in the Amount of $387,712.60; Motion by Trustee Noble, Seconded by Trustee Homan.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "E",
+      "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted",
+          "vendor_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1343,
+          "page": 3,
+          "type": "pdf"
+        },
+        "start": "00:18:26"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1343,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:18:26"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$140,960",
+          "amount_usd": 140960.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1343,
+            "page": 3,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": null
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1343,
+            "page": 3,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Tulloch",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "Approve the Updates to the Water Management Plan and the Purchase of 8.81 ac-ft of Incline Village General Improvement District Water Rights for $140,960 by Incline Hotel LLC; The Motion was modified by Trustee Tulloch to include direction to Public Works staff to research Water Right Rates and update the proposal, as needed.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "F.1",
+      "title": "Review, Discuss and Approve the Update to the Water Management Plan and the Purchase of 8.81 ac-ft of IVGID Water Rights for $140,960 by Incline Hotel LLC; for possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson) The full staff report and Board discussion for Item F.1. can be viewed/heard"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1343,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "00:28:23"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1343,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:28:23"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1343,
+            "page": 4,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to set the date and time for Public Hearing for the FY2025/2026 Budget and Recreation Roll for Wednesday, May 2 1, 2025, at 5:00 p.m.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "F.2",
+      "title": "Set the date and time for Public Hearing for the FY2025/2026 Budget and Recreation Roll for Wednesday, May 21, 2025, at 5:00 p.m. or as determined by the Board of Trustees (Requesting Staff M ember: Director of Finance Jessica O'Connell) The full discussion and background related to Item F.2. can be viewed/heard"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted",
+          "vendor_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1343,
+          "page": 5,
+          "type": "pdf"
+        },
+        "start": "00:35:53"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1343,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:35:53"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$400,000",
+          "amount_usd": 400000.0,
+          "approximate": true,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1343,
+            "page": 5,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": null
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [
+            "Trustee Tulloch",
+            "Trustee Tonking"
+          ],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1343,
+            "page": 5,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 3,
+            "nay": 2
+          },
+          "text": "to Approve placing up to $400,000 in the Community Service Fund budget for the rebuilding of Capstone (Ordinance 7 D atabase);",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ]
+        }
+      ],
+      "number": "F.4",
+      "title": "Review, Discuss, and Possibly Provide Budgetary Feedback on the rebuilding of Capstone at a value of up to $400,000 (Ordinance 7 Database). (Requesting Staff Members: Director of Admin. Services Susan Herron and Director of Information Technology M ike Gove) Director of Administrative Services Susan Herron and Director of Information Technology Mike Gove provided a brief overview of the Budgetary Feedback and what District staff are requesting on the rebuilding of Capstone. The full Staff report and Board discussion for Item F.4. can be viewed/heard"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2025-03-26-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1208,
+    "event_id": 371,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/a958831ebc.mp4",
+    "minutes_file_id": 1343
+  }
+}

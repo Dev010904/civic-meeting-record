@@ -1,0 +1,239 @@
+{
+  "body": "Board of Trustees",
+  "date": "2026-02-25",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:21:06",
+        "provenance": {
+          "file_id": 2649,
+          "page": 7,
+          "type": "pdf"
+        },
+        "start": "01:20:18"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:21:06",
+          "provenance": {
+            "file_id": 2649,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "01:20:18"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2649,
+            "page": 7,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "Approve Consent Calendar Items G.1. G.2. and G.3. as submitted.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "G",
+      "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:49:36",
+        "provenance": {
+          "file_id": 2649,
+          "page": 12,
+          "type": "pdf"
+        },
+        "start": "01:45:32"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:49:36",
+          "provenance": {
+            "file_id": 2649,
+            "page": 12,
+            "type": "pdf"
+          },
+          "start": "01:45:32"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2649,
+            "page": 12,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "In accordance with NRS 241.0395(1), Receive a Report Acknowledging the Attorney General's February 5, 2026, Findings of Fact and Conclusions of Law regarding Open Meeting Law Complaint Filed by Mr. Aaron Katz (OAG File No. 13897-530). Note: Pursuant to NRS 241.0395(2), an acknowledgment of an Attorney General’s findings of fact and conclusions of law is not an admission of wrongdoing for the purposes of a civil action, criminal prosecution, or injunctive relief.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "F.3",
+      "title": "In accordance with NRS 241.0395(1), Receive a Report Acknowledging the Attorney General's February 5, 2026, Findings of Fact and Conclusions of Law regarding Open Meeting Law Complaint Filed by Mr. Aaron Katz (OAG File No.: 13897-530). Note: Pursuant to NRS 241.0395(2), an acknowledgment of an Attorney General’s findings of fact and conclusions of law is not an admission of wrongdoing for the purposes of a civil action, criminal prosecution, or injunctive relief. (Requesting Staff Member: District Legal Counsel David Rigdon, Esq.) - pages 127 - 137 The full discussion related to the Report of the Attorney General's findings of fact and conclusions of law related to Mr. Katz's Open Meeting Law (OML) complaint is available to"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2026-02-25-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1624,
+    "event_id": 750,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/81650c56c4.mp4",
+    "minutes_file_id": 2649
+  }
+}

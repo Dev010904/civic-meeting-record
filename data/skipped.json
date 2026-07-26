@@ -1,0 +1,816 @@
+{
+  "built_by": "scripts/build_records.py",
+  "rejected": [],
+  "scope": {
+    "audit_committee_from": "2024-12-01",
+    "board_from": "2025-02-01",
+    "note": "Spec §2.6: v1 publishes new meetings only. The deferred stenographic-transcript and narrative-prose eras are the archive phase."
+  },
+  "skipped": [
+    {
+      "date": "2023-02-08",
+      "event_id": 75,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 481,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-02-22",
+      "event_id": 62,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 484,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-03-08",
+      "event_id": 76,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 486,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-03-22",
+      "event_id": 63,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 488,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-04-05",
+      "event_id": 91,
+      "event_name": "Special Meeting of the Board of Trustees",
+      "file_id": 490,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-04-12",
+      "event_id": 77,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 491,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-05-08",
+      "event_id": 94,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 493,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-05-10",
+      "event_id": 78,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 494,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-05-25",
+      "event_id": 65,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 495,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-06-14",
+      "event_id": 79,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 496,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-06-23",
+      "event_id": 132,
+      "event_name": "Special Meeting of the Board of Trustees",
+      "file_id": 499,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-06-28",
+      "event_id": 66,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 501,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-07-06",
+      "event_id": 156,
+      "event_name": "Special Meeting of the Board of Trustees",
+      "file_id": 503,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-01-25",
+      "event_id": 332,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 505,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-08-09",
+      "event_id": 109,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 509,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-07-12",
+      "event_id": 80,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 511,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-07-26",
+      "event_id": 67,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 513,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-08-30",
+      "event_id": 68,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 517,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-09-19",
+      "event_id": 69,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 520,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-09-27",
+      "event_id": 197,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 523,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-01-11",
+      "event_id": 333,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 529,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-10-11",
+      "event_id": 83,
+      "event_name": "Board of Trustees Townhall/ Forum",
+      "file_id": 535,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-10-25",
+      "event_id": 70,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 537,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-11-08",
+      "event_id": 84,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 539,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-12-13",
+      "event_id": 85,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 540,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-01-10",
+      "event_id": 86,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 544,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-01-25",
+      "event_id": 231,
+      "event_name": "Special Meeting of the Board of Trustees",
+      "file_id": 547,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-01-31",
+      "event_id": 201,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 553,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-02-14",
+      "event_id": 189,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 572,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-02-28",
+      "event_id": 202,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 577,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-03-06",
+      "event_id": 232,
+      "event_name": "Special Meeting of the Board of Trustees",
+      "file_id": 582,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-03-13",
+      "event_id": 166,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 586,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-04-10",
+      "event_id": 179,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 595,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-03-28",
+      "event_id": 268,
+      "event_name": "Special Meeting of the Board of Trustees",
+      "file_id": 602,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-04-24",
+      "event_id": 117,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 605,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-05-08",
+      "event_id": 118,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 610,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-05-20",
+      "event_id": 312,
+      "event_name": "Special Meeting of the Board of Trustees",
+      "file_id": 613,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-04-05",
+      "event_id": 280,
+      "event_name": "Special Meeting of the Golf Advisory Committee",
+      "file_id": 645,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-04-04",
+      "event_id": 267,
+      "event_name": "Regular Meeting of the Capitol Investment Committee",
+      "file_id": 649,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-03-28",
+      "event_id": 261,
+      "event_name": "Regular Meeting of the Golf Advisory Committee",
+      "file_id": 652,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2021-07-13",
+      "event_id": 2,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 699,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2021-08-10",
+      "event_id": 3,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 702,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2021-09-02",
+      "event_id": 4,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 705,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2021-09-30",
+      "event_id": 5,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 709,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2021-10-13",
+      "event_id": 397,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 713,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2021-11-03",
+      "event_id": 411,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 716,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2021-11-10",
+      "event_id": 398,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 719,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2021-11-22",
+      "event_id": 18,
+      "event_name": "Special Meeting of the Board of Trustees",
+      "file_id": 722,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2021-12-08",
+      "event_id": 7,
+      "event_name": "Regular Meeting of the IVGID Audit Committee",
+      "file_id": 725,
+      "reason": "narrative-prose Audit Committee minutes; the structured 'MOTION WAS MADE' format begins 2024-12-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2021-12-08",
+      "event_id": 412,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 728,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2021-12-14",
+      "event_id": 399,
+      "event_name": "Special Meeting  of the Board of Trustees (Workshop)",
+      "file_id": 732,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2021-12-16",
+      "event_id": 19,
+      "event_name": "Regular Meeting of the IVGID Audit Committee",
+      "file_id": 736,
+      "reason": "narrative-prose Audit Committee minutes; the structured 'MOTION WAS MADE' format begins 2024-12-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2022-01-12",
+      "event_id": 8,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 742,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2022-02-03",
+      "event_id": 413,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 747,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2022-02-09",
+      "event_id": 9,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 750,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2022-03-01",
+      "event_id": 415,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 755,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2022-03-09",
+      "event_id": 10,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 758,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2022-03-30",
+      "event_id": 22,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 761,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2022-04-13",
+      "event_id": 416,
+      "event_name": "Regular Meeting of the IVGID Audit Committee",
+      "file_id": 764,
+      "reason": "narrative-prose Audit Committee minutes; the structured 'MOTION WAS MADE' format begins 2024-12-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2022-04-13",
+      "event_id": 11,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 767,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2022-04-21",
+      "event_id": 56,
+      "event_name": "Regular Meeting of the Audit Committee",
+      "file_id": 771,
+      "reason": "narrative-prose Audit Committee minutes; the structured 'MOTION WAS MADE' format begins 2024-12-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2022-04-27",
+      "event_id": 23,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 774,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2022-05-10",
+      "event_id": 417,
+      "event_name": "Regular Meeting of the IVGID Audit Committee",
+      "file_id": 777,
+      "reason": "narrative-prose Audit Committee minutes; the structured 'MOTION WAS MADE' format begins 2024-12-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2022-05-11",
+      "event_id": 12,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 781,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2022-02-22",
+      "event_id": 435,
+      "event_name": "Regular Meeting of the IVGID Audit Committee",
+      "file_id": 782,
+      "reason": "narrative-prose Audit Committee minutes; the structured 'MOTION WAS MADE' format begins 2024-12-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2022-05-26",
+      "event_id": 24,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 785,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2022-06-01",
+      "event_id": 418,
+      "event_name": "Regular Meeting of the IVGID Audit Committee",
+      "file_id": 788,
+      "reason": "narrative-prose Audit Committee minutes; the structured 'MOTION WAS MADE' format begins 2024-12-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2022-06-08",
+      "event_id": 405,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 791,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2022-06-16",
+      "event_id": 406,
+      "event_name": "Regular Meeting of the IVGID Audit Committee",
+      "file_id": 794,
+      "reason": "narrative-prose Audit Committee minutes; the structured 'MOTION WAS MADE' format begins 2024-12-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2022-06-29",
+      "event_id": 377,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 797,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2022-07-27",
+      "event_id": 419,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 800,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2022-08-31",
+      "event_id": 420,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 803,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2022-09-14",
+      "event_id": 421,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 806,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2022-09-28",
+      "event_id": 453,
+      "event_name": "Regular Meeting of the IVGID Audit Committee",
+      "file_id": 810,
+      "reason": "narrative-prose Audit Committee minutes; the structured 'MOTION WAS MADE' format begins 2024-12-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2022-09-28",
+      "event_id": 378,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 813,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2022-10-12",
+      "event_id": 379,
+      "event_name": "Regular Meeting of the Board of Trustees ",
+      "file_id": 816,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2022-10-24",
+      "event_id": 422,
+      "event_name": "Special Meeting of the Board of Trustees",
+      "file_id": 820,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2022-11-09",
+      "event_id": 380,
+      "event_name": "Regular Meeting of the Board of Trustees ",
+      "file_id": 823,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2022-12-05",
+      "event_id": 459,
+      "event_name": "Regular Meeting of the IVGID Audit Committee ",
+      "file_id": 826,
+      "reason": "narrative-prose Audit Committee minutes; the structured 'MOTION WAS MADE' format begins 2024-12-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2022-12-14",
+      "event_id": 381,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 829,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2023-03-30",
+      "event_id": 89,
+      "event_name": "Regular Meeting of the Audit Committee",
+      "file_id": 931,
+      "reason": "narrative-prose Audit Committee minutes; the structured 'MOTION WAS MADE' format begins 2024-12-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-05-23",
+      "event_id": 335,
+      "event_name": "Special Meeting of the IVGID Board of Trustees",
+      "file_id": 934,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-05-28",
+      "event_id": 336,
+      "event_name": "Special Meeting of the IVGID Board of Trustees",
+      "file_id": 935,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-05-29",
+      "event_id": 106,
+      "event_name": "Regular Meeting of the IVGID Board of Trustees",
+      "file_id": 936,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-05-30",
+      "event_id": 349,
+      "event_name": "Regular Meeting of the Board of Trustees of 05/29/2024 (Public Hearing Continued)",
+      "file_id": 937,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-05-31",
+      "event_id": 337,
+      "event_name": "Regular Meeting of the Board of Trustees of 05/29/2024 (Public Hearing Continued)",
+      "file_id": 938,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-06-26",
+      "event_id": 206,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 940,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-07-10",
+      "event_id": 307,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 941,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-03-25",
+      "event_id": 269,
+      "event_name": "Special Meeting of the Audit Committee",
+      "file_id": 950,
+      "reason": "narrative-prose Audit Committee minutes; the structured 'MOTION WAS MADE' format begins 2024-12-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-07-31",
+      "event_id": 207,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 953,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-06-12",
+      "event_id": 306,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 959,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-08-20",
+      "event_id": 462,
+      "event_name": "Special Meeting of the Board of Trustees",
+      "file_id": 969,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-08-06",
+      "event_id": 195,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 970,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-09-11",
+      "event_id": 196,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 971,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-08-28",
+      "event_id": 208,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 972,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-06-17",
+      "event_id": 376,
+      "event_name": "Regular Meeting of the Audit Committee",
+      "file_id": 975,
+      "reason": "narrative-prose Audit Committee minutes; the structured 'MOTION WAS MADE' format begins 2024-12-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-08-20",
+      "event_id": 474,
+      "event_name": "Regular Meeting of Audit Committee",
+      "file_id": 977,
+      "reason": "narrative-prose Audit Committee minutes; the structured 'MOTION WAS MADE' format begins 2024-12-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-09-24",
+      "event_id": 225,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 1020,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-10-09",
+      "event_id": 239,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 1021,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-11-27",
+      "event_id": 524,
+      "event_name": "Special Meeting of the Board of Trustees",
+      "file_id": 1034,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-11-18",
+      "event_id": 499,
+      "event_name": "Regular Meeting of the Audit Committee",
+      "file_id": 1041,
+      "reason": "narrative-prose Audit Committee minutes; the structured 'MOTION WAS MADE' format begins 2024-12-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-10-15",
+      "event_id": 489,
+      "event_name": "Regular Meeting of the Audit Committee",
+      "file_id": 1048,
+      "reason": "narrative-prose Audit Committee minutes; the structured 'MOTION WAS MADE' format begins 2024-12-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-12-11",
+      "event_id": 368,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 1064,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-10-30",
+      "event_id": 226,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 1065,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-11-13",
+      "event_id": 240,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 1066,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2025-01-16",
+      "event_id": 562,
+      "event_name": "Special Meeting of the IVGID  Board of Trustees",
+      "file_id": 1096,
+      "reason": "January 2025 transitional window, before the live-format boundary 2025-02-01. The month is mixed: 2025-01-08 and 2025-01-16 are stenographic transcripts, but 2025-01-29 is already structured and parses clean. Excluded by scope, not by parser capability — revisit the boundary before the archive phase"
+    },
+    {
+      "date": "2025-01-08",
+      "event_id": 357,
+      "event_name": "Regular Meeting of the Board of Trustees",
+      "file_id": 1103,
+      "reason": "January 2025 transitional window, before the live-format boundary 2025-02-01. The month is mixed: 2025-01-08 and 2025-01-16 are stenographic transcripts, but 2025-01-29 is already structured and parses clean. Excluded by scope, not by parser capability — revisit the boundary before the archive phase"
+    },
+    {
+      "date": "2025-01-29",
+      "event_id": 549,
+      "event_name": "Regular Meeting of the IVGID Board of Trustees",
+      "file_id": 1140,
+      "reason": "January 2025 transitional window, before the live-format boundary 2025-02-01. The month is mixed: 2025-01-08 and 2025-01-16 are stenographic transcripts, but 2025-01-29 is already structured and parses clean. Excluded by scope, not by parser capability — revisit the boundary before the archive phase"
+    },
+    {
+      "date": "2021-06-09",
+      "event_id": 674,
+      "event_name": "Board of Trustees Meeting",
+      "file_id": 1277,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2021-05-26",
+      "event_id": 662,
+      "event_name": "Board of Trustees Meeting",
+      "file_id": 1289,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2021-05-12",
+      "event_id": 675,
+      "event_name": "Board of Trustees Meeting",
+      "file_id": 1293,
+      "reason": "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion passed unanimously') — deferred to the archive phase"
+    },
+    {
+      "date": "2023-09-26",
+      "event_id": 210,
+      "event_name": "Regular Meeting of the Capital Investment Committee",
+      "file_id": 1313,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2023-11-21",
+      "event_id": 228,
+      "event_name": "Regular Meeting of the Capital Investment Committee",
+      "file_id": 1318,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-03-04",
+      "event_id": 265,
+      "event_name": "Regular Meeting of the Capital Investment Committee",
+      "file_id": 1322,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    },
+    {
+      "date": "2024-08-20",
+      "event_id": 430,
+      "event_name": "Capital Investment Committee Meeting",
+      "file_id": 1324,
+      "reason": "stenographic transcript era (votes exist only as dialogue in two-column court-reporter lines); the structured format begins 2025-02-01 — deferred to the archive phase"
+    }
+  ]
+}

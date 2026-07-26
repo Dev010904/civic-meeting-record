@@ -1,0 +1,225 @@
+{
+  "body": "Audit Committee",
+  "date": "2026-03-31",
+  "document": {
+    "flags": [],
+    "unparseable_pages": []
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:03:28",
+        "provenance": {
+          "file_id": 2721,
+          "page": 7,
+          "type": "pdf"
+        },
+        "start": "00:40:38"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:03:28",
+          "provenance": {
+            "file_id": 2721,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "00:40:38"
+        },
+        {
+          "end": "01:08:52",
+          "provenance": {
+            "file_id": 2721,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "01:03:30"
+        },
+        {
+          "end": "01:10:29",
+          "provenance": {
+            "file_id": 2721,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "01:08:56"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Audit Committee Chair Brandle",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2721,
+            "page": 9,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve and provide a Recommendation to the Board of Trustees to Approve the Draft Financial Statements and Single Audit for June 30, 2025.",
+          "yeas": [
+            "Audit Committee Chair Brandle",
+            "Trustee Tonking",
+            "Trustee Homan",
+            "At-Large Audit Committee Member Kelly",
+            "At-Large Audit Committee Member Lighthart"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Audit Committee Chair Brandle",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2721,
+            "page": 10,
+            "type": "pdf"
+          },
+          "seconder": "At-Large Audit Committee Member Kelly",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve Suggested Revisions to Whistleblower Policy & Procedure 15.2 and Provide a Recommendation to the Board of Trustees to Formally Adopt the Revisions.",
+          "yeas": [
+            "Audit Committee Chair Brandle",
+            "Trustee Chair Tonking",
+            "Trustee Homan",
+            "At-Large Audit Committee Member Kelly",
+            "At-Large Audit Committee Member Lighthart"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Audit Committee Chair Brandle",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2721,
+            "page": 10,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the Audit Committee Chair's Quarterly Report of Whistlleblower Complaints for the First Quarter of 2026.",
+          "yeas": [
+            "Audit Committee Chair Brandle",
+            "Trustee Chair Tonking",
+            "Trustee Homan",
+            "At-Large Audit Committee Member Kelly",
+            "At-Large Audit Committee Member Lighthart"
+          ]
+        }
+      ],
+      "number": "E",
+      "title": "GENERAL BUSINESS ITEMS"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:23:52",
+        "provenance": {
+          "file_id": 2721,
+          "page": 12,
+          "type": "pdf"
+        },
+        "start": "01:23:28"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:23:52",
+          "provenance": {
+            "file_id": 2721,
+            "page": 12,
+            "type": "pdf"
+          },
+          "start": "01:23:28"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2721,
+            "page": 12,
+            "type": "pdf"
+          },
+          "seconder": "At-Large Audit Committee Member Lighthart",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the Audit Committee Meeting Minutes January 28, 2026.",
+          "yeas": [
+            "Audit Committee Chair Brandle",
+            "Trustee Chair Tonking",
+            "Trustee Homan",
+            "At-Large Audit Committee Member Kelly",
+            "At-Large Audit Committee Member Lighthart"
+          ]
+        }
+      ],
+      "number": "G",
+      "title": "MEETING MINUTES"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2026-03-31-audit",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 2664,
+    "event_id": 729,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/adf065be76.mp4",
+    "minutes_file_id": 2721
+  }
+}

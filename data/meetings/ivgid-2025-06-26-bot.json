@@ -1,0 +1,665 @@
+{
+  "body": "Board of Trustees",
+  "date": "2025-06-26",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1489,
+          "page": 11,
+          "type": "pdf"
+        },
+        "start": "02:30:12"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1489,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "02:30:12"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1489,
+            "page": 11,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "Approve the following consent matters, Item G.1. SUBJECT: Approval of the IVGID Board of Trustees Meeting Minutes for May 7, 2025, for possible Action; Item G.2, SUBJECT: Approval of the IVGID Board of Trustees Meeting Minutes for May 14, 2025, for possible Action; Items G.5. SUBJECT: Approve an Agreement with Taggart & Taggart for Legal Counsel Services Effective July 1, 2025; Item G.6. SUBJECT: Approve Main Line Extension for a Proposed Residence to be Located at 0 Summers Loop Lot 5 Crystal Bay, Nevada for the installation of approximately 675 LF of 8\" ductile iron or PVC pipe; and Item G.7. SUBJECT: Approve Blanket Purchase Orders Request for Fiscal Year 2025/2026, as submitted.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G",
+      "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:25:25",
+        "provenance": {
+          "file_id": 1489,
+          "page": 12,
+          "type": "pdf"
+        },
+        "start": "02:20:22"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:25:25",
+          "provenance": {
+            "file_id": 1489,
+            "page": 12,
+            "type": "pdf"
+          },
+          "start": "02:20:22"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1489,
+            "page": 12,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the Designation of an Auditing Firm, and Accept a Letter of Engagement from Clifton Larson Allen LLP, for Fiscal Year 2024/2025.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "H.1",
+      "title": "Approve the Designation of an Auditing Firm, and Accept a Letter of Engagement from Clifton Larson Allen LLP, for Fiscal Year 2024/2025. (Requesting Staff Member: District General Manager Robert Harrison) Item H.3. Approve the Designation of an Auditing Firm can be viewed/heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted",
+          "vendor_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:35:20",
+        "provenance": {
+          "file_id": 1489,
+          "page": 13,
+          "type": "pdf"
+        },
+        "start": "02:30:43"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:35:20",
+          "provenance": {
+            "file_id": 1489,
+            "page": 13,
+            "type": "pdf"
+          },
+          "start": "02:30:43"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$105,000",
+          "amount_usd": 105000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1489,
+            "page": 13,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "amount",
+          "vendor": null
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [
+            "Trustee Tulloch"
+          ],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1489,
+            "page": 13,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 1,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Approval of Settlement Agreement with Sheila A. Leijon in Amount of $105,000 Relating to Leijon v. Incline Village General Improvement District, Employee-Management Relations Board Case No. 2024-022.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.3",
+      "title": "Approval of Settlement Agreement with Sheila A. Leijon in Amount of $105,000 Relating to Leijon v. Incline Village General Improvement District, Employee-Management Relations Board Case No. 2024-022. (Requesting Staff Member: District General Counsel Sergio Rudin) General Business H.1. formerly G.3. Approval of Settlement Agreement with Sheila A. Leijon in Amount of $105,000 Relating to Leijon v. Incline Village General Improvement District, Employee-Management Relations Board Case No. 2024-022 can be viewed/ heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted",
+          "vendor_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:39:55",
+        "provenance": {
+          "file_id": 1489,
+          "page": 13,
+          "type": "pdf"
+        },
+        "start": "02:35:35"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:39:55",
+          "provenance": {
+            "file_id": 1489,
+            "page": 13,
+            "type": "pdf"
+          },
+          "start": "02:35:35"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$153",
+          "amount_usd": 153.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1489,
+            "page": 13,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": null
+        },
+        {
+          "amount_raw": "$128",
+          "amount_usd": 128.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1489,
+            "page": 13,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": null
+        },
+        {
+          "amount_raw": "$112",
+          "amount_usd": 112.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1489,
+            "page": 13,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": null
+        },
+        {
+          "amount_raw": "$88",
+          "amount_usd": 88.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1489,
+            "page": 13,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": null
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1489,
+            "page": 13,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve a proposed additional Tennis Center product consisting of a Tennis 10-visit play pass at the following prices: Adult (ages 18 +): $153 non-resident, $128 IVGID Recreation Pass and Junior (ages 13-17): $112 non-resident, $88 IVGID Recreation Pass.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "H.2",
+      "title": "formerly G.4. Review, discuss and possibly approve a proposed additional Tennis Center"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:44:58",
+        "provenance": {
+          "file_id": 1489,
+          "page": 14,
+          "type": "pdf"
+        },
+        "start": "02:40:05"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:44:58",
+          "provenance": {
+            "file_id": 1489,
+            "page": 14,
+            "type": "pdf"
+          },
+          "start": "02:40:05"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [
+            "Chair Tonking"
+          ],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1489,
+            "page": 14,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 1,
+            "aye": 3,
+            "nay": 1
+          },
+          "text": "to Approve the Cooperative Agreement with the North Lake Tahoe Fire Protection District for Defensible Space Spending for Fiscal Year 2025/2026 with the Amount Approved in the Fiscal Year 2025/2026 Budget.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ]
+        }
+      ],
+      "number": "H.4",
+      "title": "formerly H.2. Approve the Cooperative Agreement with the North Lake Tahoe Fire"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "03:24:40",
+        "provenance": {
+          "file_id": 1489,
+          "page": 14,
+          "type": "pdf"
+        },
+        "start": "02:45:07"
+      },
+      "media_timestamps": [
+        {
+          "end": "03:24:40",
+          "provenance": {
+            "file_id": 1489,
+            "page": 14,
+            "type": "pdf"
+          },
+          "start": "02:45:07"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "amended",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [
+            "no_seconder",
+            "superseded_by_amendment"
+          ],
+          "outcome": null,
+          "provenance": {
+            "file_id": 1489,
+            "page": 16,
+            "type": "pdf"
+          },
+          "seconder": null,
+          "tally": {
+            "absent": null,
+            "abstain": null,
+            "aye": null,
+            "nay": null
+          },
+          "text": "to Approve the draft letter with the following revisions: Pages 271 of 295 of the Board packet - Line 5: employee beach access program pending strike “receipt of” and insert “the outcome of this correspondence”; strike “a sufficient number” Line 9: as a property owner would you, strike “like” insert “be willing.” Continue on - to sponsor staff and their dependents as your guests for access to the beaches - and insert “knowing any applicable beach entry fees will be paid by staff and their dependents”; Lines 12 through 14: “If yes”(words) would be bolded, the rest would be underlined Line 16: “If no” (words) would be bolded. Page 272 of 295 of the Board packet: Line 31: Will specific staff and their dependents be assigned to me; strike “(that answer)” and insert “staff and their dependents will be pooled with property owners period”; then Line 41: starting after the period, the Board of Trustees - insert “has already” strike “also” so it would read: “The Board of Trustees has already directed staff to provide weekly reports on beach visits to monitor numbers” and then insert comma and insert the words “if the program moves forward it will include”; and then strike “in case limits on”, and then it will continue on the number of staff so that phrase would read “If the program moves forward, it will include the number of staff and their dependents”; and then strike “should it be implemented.” Page 273 of 295 - Line 52: starting with the word no: “no other people will be allowed beach access through the employee beach access program”. This wasn't discussed, but I would recommend just underlining that for emphasis: Lines 55 through 56: That Q&A would go to that would be #1 in the Q&As. Page 274 of 295 - Line 70: Will the employee beach access program expose it to legal challenges strike “it is possible there will be a legal challenge” insert “a legal challenge it's always a possibility” and then continue on “as IVGID cannot prevent anyone from filing” strike “unwarranted”. Line 74: Starts with deed strike the word “and” put a comma in, so that it would read “including” strike “this” insert “taking” and then the word “additional” insert the word “proactive” continues on “step of asking property owners if they would like to sponsor staff and their dependents as their guests” strike “for” insert the word “enabling access to the beaches” and then continue on with the rest.",
+          "yeas": []
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "amendment",
+          "mover": "Trustee Homan",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1489,
+            "page": 17,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 1
+          },
+          "text": "To modify the motion on the floor by adding the following revision to page 272 of 295 of the Board packet - Line 31: where \"the Answer\" was stricken, insert the word \"No\" before the proposed new answer - insert “no”. Trustee Noble accepted the Motion as modified.",
+          "yeas": [
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Chair Tonking"
+          ]
+        }
+      ],
+      "number": "H.5",
+      "title": "Formerly H.3. Draft Communication to Parcel Owners regarding District Employees Beach Access can be viewed/ heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "03:24:51",
+        "provenance": {
+          "file_id": 1489,
+          "page": 17,
+          "type": "pdf"
+        },
+        "start": "03:24:29"
+      },
+      "media_timestamps": [
+        {
+          "end": "03:24:51",
+          "provenance": {
+            "file_id": 1489,
+            "page": 17,
+            "type": "pdf"
+          },
+          "start": "03:24:29"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1489,
+            "page": 17,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "Appoint Trustee Michelle Jezycki to Serve on the Interview Panel for the Director of Community Services Position.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "H.6",
+      "title": "formerly H.4. Appointing a Trustee to Serve on the Interview Panel can be viewed/heard"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2025-06-26-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1410,
+    "event_id": 579,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/194aea0b09.mp4",
+    "minutes_file_id": 1489
+  }
+}

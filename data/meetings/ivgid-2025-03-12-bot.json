@@ -1,0 +1,419 @@
+{
+  "body": "Board of Trustees",
+  "date": "2025-03-12",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1262,
+          "page": 3,
+          "type": "pdf"
+        },
+        "start": "01:00:01"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "01:00:01"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$102,385.58",
+          "amount_usd": 102385.58,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "Budget #20002297-7510",
+          "flags": [],
+          "provenance": {
+            "file_id": 1262,
+            "page": 4,
+            "type": "pdf"
+          },
+          "purpose": "Adjustment of Manholes, Valve Covers and Meter Boxes",
+          "role": "amount",
+          "vendor": "Nevada Department of Transportation"
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1262,
+            "page": 4,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "Approve the following consent matters: Item F.1. Approve and Authorize the District General Manager to execute a Payment between the Incline General Improvement District and the Nevada Department of Transportation for the Adjustment of Manholes, Valve Covers and Meter Boxes; FY 2024/25 Utilities Fund Operating Budget #20002297-7510; in the Amount of $102,385.58. Action: Approve.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "F",
+      "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1262,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "01:00:47"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "01:00:47"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1262,
+            "page": 4,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Appoint Trustee Michelle Jezycki, Board Liaison, to attend the Interviews for Candidates for the General Manager of Golf Operations Position and Provide Feedback to Staff.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.1",
+      "title": "Review, Discuss and Appoint a Board Liaison to attend the Interviews of Candidates for the General Manager of Golf Operations Position and Provide Feedback to Staff. (Requesting Staff Member: Director of Human Resources Erin Feore) Item G.1. Board discussion regarding Board-appointed Liaison can be viewed/ heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1262,
+          "page": 5,
+          "type": "pdf"
+        },
+        "start": "01:04:36"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "01:04:36"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$755,000",
+          "amount_usd": 755000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "Project #3973LI1302",
+          "flags": [],
+          "provenance": {
+            "file_id": 1262,
+            "page": 5,
+            "type": "pdf"
+          },
+          "purpose": "100% Construction Development Contract for Incline Beach House Project -",
+          "role": "amount",
+          "vendor": "CORE West Inc. dba CORE Construction"
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [
+            "Trustee Tulloch"
+          ],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1262,
+            "page": 5,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 1,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Approve and Authorize the Board Chair and Secretary to Sign an Agreement between the District and CORE West Inc. dba CORE Construction for the 100% Construction Development Contract for Incline Beach House Project - FY 2024/25 Capital Improvement Project; Fund: Community Services; Division: Beaches; Project #3973LI1302; in the amount of $755,000.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.2",
+      "title": "Approve and Authorize the Board Chair and Secretary to Sign an Agreement between the District and CORE West Inc. dba CORE Construction for the 100% Construction Development Contract for Incline Beach House Project - FY 2024/25 Capital Improvement Project; Fund: Community Services; Division: Beaches; Project #3973LI1302; in the amount of $755,000; Discussion and Possible Action. (Requesting Staff Member: Public Works Director Kate Nelson) Item G.2. Presentations and full Board and Staff discussions can be viewed/ heard"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted",
+          "vendor_not_extracted"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1262,
+          "page": 5,
+          "type": "pdf"
+        },
+        "start": "01:49:05"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "01:49:05"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$500,000",
+          "amount_usd": 500000.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted",
+            "vendor_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1262,
+            "page": 5,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": null
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1262,
+            "page": 5,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Tulloch",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve a project budget of $500,000 to include the final design for Option 2 titlements permitting, and direct staff to move forward with Spohn Ranch, to provide a final construction proposal.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.3",
+      "title": "Review, Discuss and Provide Direction for the Final Design-Build Construction Contract for Skate Park Enhancement Project - FY 2024/25 Capital Improvement Project Fund: General; Division: Parks: Project #4378BD2202; (Requesting Staff Member: Director of Public Works Kate Nelson) Item G.3. Presentations and full Board and Staff discussions can be viewed/ heard"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1262,
+          "page": 7,
+          "type": "pdf"
+        },
+        "start": "02:53:02"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "02:53:02"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1262,
+            "page": 7,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Tulloch",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the engagement with Thorndal Armstrong, PC for defense of litigation filed as provided in the recommendation; amended by Trustee Tulloch to request a push for cost recovery.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "G.5",
+      "title": "Review, Discuss and Possibly Approve Engagement Letter Agreement with Thorndal Armstrong, PC. (Requesting Staff Members: District General Manager Robert Harrison and District Legal Counsel Sergio Rudin) Item G.5. The full Board, GM, and Legal Counsel discussion can be viewed/ heard"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2025-03-12-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1160,
+    "event_id": 574,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/32c74f9db7.mp4",
+    "minutes_file_id": 1262
+  }
+}

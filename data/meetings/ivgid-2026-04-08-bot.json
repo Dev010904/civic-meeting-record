@@ -1,0 +1,344 @@
+{
+  "body": "Board of Trustees",
+  "date": "2026-04-08",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      27,
+      29,
+      32,
+      43,
+      52,
+      54
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:06:39",
+        "provenance": {
+          "file_id": 2720,
+          "page": 7,
+          "type": "pdf"
+        },
+        "start": "01:05:26"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:06:39",
+          "provenance": {
+            "file_id": 2720,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "01:05:26"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2720,
+            "page": 7,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "Approve the following consent matters: Approve the Board of Trustees Meeting Minutes for March 25, 2026, receive the audit committee's quarterly report of the whistle-blower complaints for the first quarter, approve a site-use agreement between the district and Lake Tahoe Market LLC. and approval of the renewal with hometown health employees, health benefits, as submitted.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "G",
+      "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:30:10",
+        "provenance": {
+          "file_id": 2720,
+          "page": 10,
+          "type": "pdf"
+        },
+        "start": "01:28:57"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:30:10",
+          "provenance": {
+            "file_id": 2720,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "01:28:57"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2720,
+            "page": 10,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the Date and Time for the Public Hearing to Implement Amendments to the Water and Wastewater rates, as well as Adjustments to the Fee Schedule, for Wednesday, May 13, 2026, at 5:00 p.m.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "H.2",
+      "title": "Set the Date and Time for the Public Hearing to Implement Amendments to the Water and Wastewater rates, as well as Adjustments to the Fee Schedule, for Wednesday, May 13, 2026, at 5:00 p.m. or as Otherwise Determined by the Board of Trustees. (Requesting Staff Member: Director of Public Works Kate Nelson). Item H.2. – Setting the Date and Time for a Public Hearing to Implement Amendments to the Water and Wastewater Rates for FY 2026–2027 is available to be viewed/ heard"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:41:25",
+        "provenance": {
+          "file_id": 2720,
+          "page": 10,
+          "type": "pdf"
+        },
+        "start": "01:36:22"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:41:25",
+          "provenance": {
+            "file_id": 2720,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "01:36:22"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [
+            "Trustee Tulloch"
+          ],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2720,
+            "page": 10,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 1,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Approve the six-month contract extension and authorize the Board Chair to sign the MOU extending the existing Waste Management service.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan"
+          ]
+        }
+      ],
+      "number": "H.3",
+      "title": "Contract Extension of Six Months via Memorandum of Understanding with Waste Management for Solid Waste Services, Fund: Utilities; Division: Solid Waste (Requesting Staff Member: Director of Public Works Kate Nelson) Item H.3 – Contract Extension (Six Months) with Waste Management for Solid Waste Services via Memorandum of Understanding, Discussion is available to be viewed/ heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:41:00",
+        "provenance": {
+          "file_id": 2720,
+          "page": 13,
+          "type": "pdf"
+        },
+        "start": "02:27:54"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:41:00",
+          "provenance": {
+            "file_id": 2720,
+            "page": 13,
+            "type": "pdf"
+          },
+          "start": "02:27:54"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2720,
+            "page": 14,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the Draft Audited Financial Statements for Fiscal Year Ending June 30, 2025, as presented by Clifton Larson Allen.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "H.5",
+      "title": "Review, Discuss and Approve the Draft Audited Financial Statements for Fiscal Year Ending June 30, 2025, as presented by Clifton Larson Allen. (Requesting Staff Member: Director of Finance Noemi Barter) Item H.5 – Discussion, and Approval of Draft Audited Financial Statements for FY Ending June 30, 2025, is available to be viewed/ heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:55:30",
+        "provenance": {
+          "file_id": 2720,
+          "page": 16,
+          "type": "pdf"
+        },
+        "start": "02:53:59"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:55:30",
+          "provenance": {
+            "file_id": 2720,
+            "page": 16,
+            "type": "pdf"
+          },
+          "start": "02:53:59"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2720,
+            "page": 16,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve Date and Time for Public Hearing for the FY2026/2027 Budget and Recreation Roll for Wednesday, May 27, 2026, at 4:00 p.m.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Jezycki",
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Tulloch"
+          ]
+        }
+      ],
+      "number": "H.7",
+      "title": "Set the Date and Time for Public Hearing for the FY2026/2027 Budget and Recreation Roll for Wednesday, May 27, 2026, at 4:00 p.m. or as determined by the Board of Trustees (Requesting Staff Member: Director of Finance Noemi Barter) Item H.7 – Discussion and approval to Set a Date and Time for the Public Hearing for FY 2026–2027 Budget and Recreation Roll is available to be viewed/ heard at"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2026-04-08-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 2677,
+    "event_id": 740,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/a065323500.mp4",
+    "minutes_file_id": 2720
+  }
+}

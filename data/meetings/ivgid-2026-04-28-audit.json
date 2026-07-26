@@ -1,0 +1,212 @@
+{
+  "body": "Audit Committee",
+  "date": "2026-04-28",
+  "document": {
+    "flags": [],
+    "unparseable_pages": []
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:29:28",
+        "provenance": {
+          "file_id": 2806,
+          "page": 5,
+          "type": "pdf"
+        },
+        "start": "00:25:22"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:29:28",
+          "provenance": {
+            "file_id": 2806,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:25:22"
+        },
+        {
+          "end": "00:33:45",
+          "provenance": {
+            "file_id": 2806,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:29:29"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Chair Tonking",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2806,
+            "page": 5,
+            "type": "pdf"
+          },
+          "seconder": "At-Large Audit Committee Member Kelly",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Adopt the Rubin Brown Report Summary, Transferring Any Items that have not been fully Resolved to the Audit Finding Review and Formally Closing Out the Rubin Brown Report.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Homan",
+            "At-Large Audit Committee Member Kelly",
+            "At-Large Audit Committee Member Lighthart"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Chair Tonking",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2806,
+            "page": 5,
+            "type": "pdf"
+          },
+          "seconder": "At-Large Audit Committee Member Kelly",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Approve the Annual Audit Committee Assessment Report as required by Board Policy 15.1.0, section 2.9. to the Board of Trustees with the edits discussed.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Homan",
+            "At-Large Audit Committee Member Kelly",
+            "At-Large Audit Committee Member Lighthart"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Chair Tonking",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2806,
+            "page": 6,
+            "type": "pdf"
+          },
+          "seconder": "At-Large Audit Committee Member Kelly",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Approve Suggested Revisions to Policy 15.1.0, with the red-line edits presented and the additional amendment discussed by Trustee Homan, and Provide a Recommendation to the Board of Trustees to Formally Adopt the Revisions.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Homan",
+            "At-Large Audit Committee Member Kelly",
+            "At-Large Audit Committee Member Lighthart"
+          ]
+        }
+      ],
+      "number": "E",
+      "title": "GENERAL BUSINESS ITEMS"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:34:05",
+        "provenance": {
+          "file_id": 2806,
+          "page": 7,
+          "type": "pdf"
+        },
+        "start": "00:33:50"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:34:05",
+          "provenance": {
+            "file_id": 2806,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "00:33:50"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Chair Tonking",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 2806,
+            "page": 7,
+            "type": "pdf"
+          },
+          "seconder": "At-Large Audit Committee Member Kelly",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 0
+          },
+          "text": "to Approve the Audit Committee Meeting Minutes March 31, 2026.",
+          "yeas": [
+            "Trustee Chair Tonking",
+            "Trustee Homan",
+            "At-Large Audit Committee Member Kelly",
+            "At-Large Audit Committee Member Lighthart"
+          ]
+        }
+      ],
+      "number": "F",
+      "title": "MEETING MINUTES"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2026-04-28-audit",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 2700,
+    "event_id": 730,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/5e463a8393.mp4",
+    "minutes_file_id": 2806
+  }
+}

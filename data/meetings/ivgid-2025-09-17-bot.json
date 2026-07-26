@@ -1,0 +1,654 @@
+{
+  "body": "Board of Trustees",
+  "date": "2025-09-17",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:37:53",
+        "provenance": {
+          "file_id": 1540,
+          "page": 7,
+          "type": "pdf"
+        },
+        "start": "00:31:13"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:37:53",
+          "provenance": {
+            "file_id": 1540,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "00:31:13"
+        },
+        {
+          "end": "00:37:53",
+          "provenance": {
+            "file_id": 1540,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "00:32:32"
+        },
+        {
+          "end": "00:34:41",
+          "provenance": {
+            "file_id": 1540,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "00:32:54"
+        },
+        {
+          "end": "00:37:26",
+          "provenance": {
+            "file_id": 1540,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "00:35:07"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1540,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "00:37:35"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1540,
+            "page": 7,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to open the Public Hearing per Nevada Revised Statutes 288.153",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        },
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1540,
+            "page": 8,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Close the Public Hearing",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "E",
+      "title": "PUBLIC HEARINGS Reference: Nevada Revised Statutes"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:52:47",
+        "provenance": {
+          "file_id": 1540,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "00:38:04"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:52:47",
+          "provenance": {
+            "file_id": 1540,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "00:38:04"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1540,
+            "page": 10,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 1
+          },
+          "text": "to Approve and Authorize the Board Chair and Secretary to Sign and Execute the Collective Bargaining Agreements between Incline Village General Improvement District and the Operating Engineers Local Union No. 3, Skilled Workforce Bargaining Unit, Supervisors Bargaining Unit and the Superintendents’ Bargaining Unit, from July 1, 2025, through and including June 30, 2027.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "E.1",
+      "title": "Approve and Authorize the Board Chair and Secretary to Sign and Execute the Collective Bargaining Agreements between Incline Village General Improvement District and the Operating Engineers Local Union No. 3, Skilled Workforce Bargaining Unit, Supervisors Bargaining Unit and the Superintendents’ Bargaining Unit, from July 1, 2025, through and including June 30, 2027. (Requesting Staff Member: District General Manager Robert Harrison) The full discussion on Item E.1. Agreements between Incline Village General Improvement District and Operating Engineers Local Union No. 3 Collective Bargaining Units can be"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:23:08",
+        "provenance": {
+          "file_id": 1540,
+          "page": 13,
+          "type": "pdf"
+        },
+        "start": "01:22:40"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:23:08",
+          "provenance": {
+            "file_id": 1540,
+            "page": 13,
+            "type": "pdf"
+          },
+          "start": "01:22:40"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1540,
+            "page": 14,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the Consent Calendar Item H.1. Board of Trustees Meeting Minutes for August 27, 2025, as submitted.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "H",
+      "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:39:47",
+        "provenance": {
+          "file_id": 1540,
+          "page": 14,
+          "type": "pdf"
+        },
+        "start": "01:23:09"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:39:47",
+          "provenance": {
+            "file_id": 1540,
+            "page": 14,
+            "type": "pdf"
+          },
+          "start": "01:23:09"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Jezycki",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1540,
+            "page": 14,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "That we send a letter to Miss Joy Gumz, prepared by District General Counsel David Rigdon, asking if the records request PRR 24-116 has been successfully fulfilled;",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "I.1",
+      "title": "Review, discuss and possibly send a letter to Ms. Joy Gumz asking if she has received all the records she requested on PRR 24-116 (A request for the Rubin Brown work papers). (Requesting Staff Member: Director of Administrative Services Susan Herron) The full discussion related to Item I.1. Public Records (Rubin Brown Work papers) review can"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:55:54",
+        "provenance": {
+          "file_id": 1540,
+          "page": 14,
+          "type": "pdf"
+        },
+        "start": "01:39:49"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:55:54",
+          "provenance": {
+            "file_id": 1540,
+            "page": 14,
+            "type": "pdf"
+          },
+          "start": "01:39:49"
+        },
+        {
+          "end": "01:55:54",
+          "provenance": {
+            "file_id": 1540,
+            "page": 15,
+            "type": "pdf"
+          },
+          "start": "01:52:35"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1540,
+            "page": 15,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 1
+          },
+          "text": "to reinsert the Fire Pits as one of the alternates in the bid package for the Beach House Project.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "I.2",
+      "title": "Review, Discuss and Possibly Reaffirm and/or Amend the Prior Approval of the Added Alternates #1: Fire Pits and #2: Band Stand, for the Incline Beach House Project, CIP #3973L1302. (Requesting Staff Member: Project Manager Bree Waters) The full discussion related to Item I.2. Beach House Alternates discussion can be viewed/"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:01:57",
+        "provenance": {
+          "file_id": 1540,
+          "page": 15,
+          "type": "pdf"
+        },
+        "start": "01:55:55"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:01:57",
+          "provenance": {
+            "file_id": 1540,
+            "page": 15,
+            "type": "pdf"
+          },
+          "start": "01:55:55"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Chair Tonking",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1540,
+            "page": 15,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "To appoint Vice Chair Michelle Jezycki as the Board Liaison to participate in focus groups and the outreach to support the Hispanic Community outreach efforts;",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "I.3",
+      "title": "Review, Discuss and possibly provide Feedback regarding the District General Manager’s Plan for Outreach and Engagement of the Hispanic Community; and, Possibly Appoint a Board Liaison to Participate in the Focus Groups and Data Collection Process. (Requesting Staff Member: District General Manager Robert Harrison) The full discussion of Item I.3. GM's Plan for engagement of the Hispanic Community"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "flagged",
+        "flags": [
+          "purpose_not_extracted",
+          "truncated_outcome"
+        ],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:22:10",
+        "provenance": {
+          "file_id": 1540,
+          "page": 15,
+          "type": "pdf"
+        },
+        "start": "02:01:58"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:22:10",
+          "provenance": {
+            "file_id": 1540,
+            "page": 15,
+            "type": "pdf"
+          },
+          "start": "02:01:58"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$50,000+",
+          "amount_usd": 50000.0,
+          "approximate": true,
+          "contingency": false,
+          "contract_ref": null,
+          "flags": [
+            "purpose_not_extracted"
+          ],
+          "provenance": {
+            "file_id": 1540,
+            "page": 16,
+            "type": "pdf"
+          },
+          "purpose": null,
+          "role": "unclassified",
+          "vendor": "Incline Ice Foundation"
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [
+            "truncated_outcome"
+          ],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [],
+          "outcome": null,
+          "provenance": {
+            "file_id": 1540,
+            "page": 16,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 1
+          },
+          "text": "to Approve and Authorize the General Manager to Sign and Execute an Agreement with the Incline Ice Foundation for the Incline Village General Improvement District to Accept a Donation of an Ice Rink Package and a Grant of $50,000+ to Support the Ice Rink Activities.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "I.4",
+      "title": "Approve and Authorize the General Manager to Sign and Execute an Agreement with the Incline Ice Foundation for the Incline Village General Improvement District to Accept a Donation of an Ice Rink Package and a Grant of $50,000+ to Support the Ice Rink Activities. (Requesting Board Member: David Noble) The full discussion related to Item I.4. Incline Ice Foundation Agreement discussion can be"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:28:04",
+        "provenance": {
+          "file_id": 1540,
+          "page": 16,
+          "type": "pdf"
+        },
+        "start": "02:22:11"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:28:04",
+          "provenance": {
+            "file_id": 1540,
+            "page": 16,
+            "type": "pdf"
+          },
+          "start": "02:22:11"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1540,
+            "page": 16,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "To cancel November 26th and December 31st Board meetings;",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ]
+        }
+      ],
+      "number": "J.1",
+      "title": "Review, discuss and possibly Add or Remove Long Range Calendar Items to Future Board of Trustee Agendas. The full discussion related to Item J.1. The Long Range Calendar can be viewed/ heard at"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2025-09-17-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1499,
+    "event_id": 703,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/271e98e456.mp4",
+    "minutes_file_id": 1540
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "body": "Board of Trustees",
+  "date": "2025-11-12",
+  "document": {
+    "flags": [],
+    "unparseable_pages": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ]
+  },
+  "items": [
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1559,
+          "page": 14,
+          "type": "pdf"
+        },
+        "start": "01:05:15"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1559,
+            "page": 14,
+            "type": "pdf"
+          },
+          "start": "01:05:15"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1559,
+            "page": 14,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "Approve the following consent matters - Item G.1. Item G.2. Item G.3. and Item G.4. as submitted. Action: Approve.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Vice Chair Jezycki",
+            "Trustee Chair Tonking"
+          ]
+        }
+      ],
+      "number": "G",
+      "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:59:26",
+        "provenance": {
+          "file_id": 1559,
+          "page": 17,
+          "type": "pdf"
+        },
+        "start": "01:42:00"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:59:26",
+          "provenance": {
+            "file_id": 1559,
+            "page": 17,
+            "type": "pdf"
+          },
+          "start": "01:42:00"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1559,
+            "page": 17,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Tulloch",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve and Authorize the District General Manager to Sign and Execute a Grant Agreement between Incline Village General Improvement District and Michael Gross Family Charitable Fund for the Installation of a Memorial Plaza at the Village Green.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Vice Chair Jezycki",
+            "Trustee Chair Tonking"
+          ]
+        }
+      ],
+      "number": "H.1",
+      "title": "Approve and Authorize the District General Manager to Sign and Execute a Grant Agreement between Incline Village General Improvement District and Michael Gross Family Charitable Fund for the Installation of a Memorial Plaza at the Village Green. (Requesting Staff Member: District General Manager Robert Harrison) The Discussion and Approval of the Grant Agreement for the Installation of a Memorial Plaza at the Village Green is available to be viewed or heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:12:57",
+        "provenance": {
+          "file_id": 1559,
+          "page": 18,
+          "type": "pdf"
+        },
+        "start": "02:04:50"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:12:57",
+          "provenance": {
+            "file_id": 1559,
+            "page": 18,
+            "type": "pdf"
+          },
+          "start": "02:04:50"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1559,
+            "page": 18,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve Super Senior Rate(s) at the Recreation Center.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Vice Chair Jezycki",
+            "Trustee Chair Tonking"
+          ]
+        }
+      ],
+      "number": "H.2",
+      "title": "Review, Discuss and possibly Approve Super Senior Rate(s) at the Recreation Center. (Requesting Staff Member: District General Manager Robert Harrison) The Discussion and Approval of the Super Senior Rate at the Recreation Center is available"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:20:55",
+        "provenance": {
+          "file_id": 1559,
+          "page": 18,
+          "type": "pdf"
+        },
+        "start": "02:12:58"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:20:55",
+          "provenance": {
+            "file_id": 1559,
+            "page": 18,
+            "type": "pdf"
+          },
+          "start": "02:12:58"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Homan",
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1559,
+            "page": 19,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Noble",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 4,
+            "nay": 1
+          },
+          "text": "to Approve the revision to Policy 18.1.0 Adoption of the Central Service Cost Allocation Plan, Budgeting and Fiscal Management.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Vice Chair Jezycki",
+            "Trustee Chair Tonking"
+          ]
+        }
+      ],
+      "number": "H.3",
+      "title": "Revision to Policy 18.1.0 Adoption of Central Service Cost Allocation Plan, Budgeting and Fiscal Management. (Requesting Staff Member: Director of Finance Jessica O'Connell) The Discussion and Adoption of Revised Policy 18.1.0 is available to be viewed or heard at"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:25:59",
+        "provenance": {
+          "file_id": 1559,
+          "page": 19,
+          "type": "pdf"
+        },
+        "start": "02:20:56"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:25:59",
+          "provenance": {
+            "file_id": 1559,
+            "page": 19,
+            "type": "pdf"
+          },
+          "start": "02:20:56"
+        }
+      ],
+      "money": [
+        {
+          "amount_raw": "$3,154,402",
+          "amount_usd": 3154402.0,
+          "approximate": false,
+          "contingency": true,
+          "contract_ref": "CIP #4899BD2502",
+          "flags": [],
+          "provenance": {
+            "file_id": 1559,
+            "page": 20,
+            "type": "pdf"
+          },
+          "purpose": "Removal and Replacement of the Existing Recreation Center HVAC System",
+          "role": "amount",
+          "vendor": "Miles Construction Incorporated"
+        },
+        {
+          "amount_raw": "$315,440",
+          "amount_usd": 315440.0,
+          "approximate": false,
+          "contingency": false,
+          "contract_ref": "CIP #4899BD2502",
+          "flags": [],
+          "provenance": {
+            "file_id": 1559,
+            "page": 20,
+            "type": "pdf"
+          },
+          "purpose": "Removal and Replacement of the Existing Recreation Center HVAC System",
+          "role": "not_to_exceed",
+          "vendor": "Miles Construction Incorporated"
+        }
+      ],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1559,
+            "page": 20,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Homan",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the Agreement between Incline Village General Improvement District and Miles Construction Incorporated for Removal and Replacement of the Existing Recreation Center HVAC System FY 2025/26 Community Services: Rec Center CIP #4899BD2502; in the Amount of $3,154,402; and Authorize Staff to Execute Change Orders for Additional Work if required, of Approximately 10% of the Construction Contract Value; not to Exceed $315,440; FY 2025/26 Community Services: Rec Center CIP #4899BD2502.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Vice Chair Jezycki",
+            "Trustee Chair Tonking"
+          ]
+        }
+      ],
+      "number": "H.4",
+      "title": "Review, Discuss and Possibly Approve the Agreement between Incline Village General Improvement District and Miles Construction Incorporated for Removal and Replacement of the Existing Recreation Center HVAC System FY 2025/26 Community Services: Rec Center CIP #4899BD2502; in the Amount of $3,154,402; and Authorize Staff to Execute Change Orders for Additional Work if required, of Approximately 10% of the Construction Contract Value; not to Exceed $315,440; FY 2025/26 Community Services: Rec Center CIP #4899BD2502; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson). The Discussion and Approval of the Agreement with Miles Construction for removal and replacement of the Existing Recreation Center HVAC System is available to be viewed or"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:29:11",
+        "provenance": {
+          "file_id": 1559,
+          "page": 20,
+          "type": "pdf"
+        },
+        "start": "02:26:00"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:29:11",
+          "provenance": {
+            "file_id": 1559,
+            "page": 20,
+            "type": "pdf"
+          },
+          "start": "02:26:00"
+        }
+      ],
+      "money": [],
+      "motions": [
+        {
+          "absent": [],
+          "abstain": [],
+          "flags": [],
+          "kind": "motion",
+          "mover": "Trustee Noble",
+          "nays": [],
+          "notes": [],
+          "outcome": "passed",
+          "provenance": {
+            "file_id": 1559,
+            "page": 21,
+            "type": "pdf"
+          },
+          "seconder": "Trustee Vice Chair Jezycki",
+          "tally": {
+            "absent": 0,
+            "abstain": 0,
+            "aye": 5,
+            "nay": 0
+          },
+          "text": "to Approve the execution of a contract with Hometown Health Providers Insurance Company, Inc. to provide employee medical insurance coverage from January 1, 2026, to June 30, 2026.",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Vice Chair Jezycki",
+            "Trustee Chair Tonking"
+          ]
+        }
+      ],
+      "number": "H.5",
+      "title": "Review, discuss, and possibly approve execution of a contract with Hometown Health Providers Insurance Company, Inc. to provide employee medical insurance coverage from January 1, 2026, to June 30, 2026. (Requesting Staff Member: Director of Human Resources Eric Milavsky) The Discussion and Approval of an agreement with Hometown Health Providers for Employee Medical Insurance is available to be viewed or heard at"
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "meeting_id": "ivgid-2025-11-12-bot",
+  "minutes_status": "approved",
+  "public_comment_count": 0,
+  "schema_version": 1,
+  "source": {
+    "agenda_file_id": 1538,
+    "event_id": 587,
+    "media_url": "https://cpmedia.azureedge.net/ivgid/5149597995.mp4",
+    "minutes_file_id": 1559
+  }
+}
