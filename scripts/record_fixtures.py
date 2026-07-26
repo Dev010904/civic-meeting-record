@@ -134,14 +134,52 @@ def record_relative_media_event(max_pages: int = 4) -> None:
     print("WARNING: no relative-form mediaStreamPath found on any probed slug")
 
 
+def record_pdf(slug: str, file_id: int, label: str) -> None:
+    pdf = civicclerk.fetch_file(slug, file_id)
+    assert pdf.startswith(b"%PDF"), f"expected PDF magic, got {pdf[:16]!r}"
+    path = FIXTURES / f"{slug}_{label}_{file_id}.pdf"
+    path.write_bytes(pdf)
+    print(f"wrote {path.relative_to(REPO_ROOT)} ({len(pdf)} bytes)")
+
+
+def record_step2_pdfs() -> None:
+    """Step-2 fixtures: a real Minutes PDF and a large Agenda Packet.
+
+    Minutes: event 751 (Board of Trustees, 2026-04-29), approved minutes.
+    Packet: event 743 (Board of Trustees, 2026-07-22), multi-section packet.
+    Both fileIds were read live from each event's publishedFiles[].
+    """
+    minutes_event = civicclerk.get_event("ivgid", 751)
+    minutes = civicclerk.published_files(minutes_event, "Minutes")
+    assert minutes, "event 751 was expected to carry Minutes"
+    record_pdf("ivgid", minutes[0]["fileId"], "minutes")
+
+    # Draft minutes from event 755 (2026-05-20): fully text-extractable,
+    # unlike the approved 2026-04-29 minutes whose last pages are scans.
+    draft_event = civicclerk.get_event("ivgid", 755)
+    draft = civicclerk.published_files(draft_event, "Minutes")
+    assert draft, "event 755 was expected to carry Minutes"
+    record_pdf("ivgid", draft[0]["fileId"], "minutes_draft")
+
+    packet_event = civicclerk.get_event("ivgid", 743)
+    packets = civicclerk.published_files(packet_event, "Agenda Packet")
+    assert packets, "event 743 was expected to carry an Agenda Packet"
+    record_pdf("ivgid", packets[0]["fileId"], "packet")
+
+
 def main() -> None:
     FIXTURES.mkdir(parents=True, exist_ok=True)
+    if "--step2" in sys.argv:
+        record_step2_pdfs()
+        print("done")
+        return
     record_pages()
     event = record_single_event()
     record_categories()
     record_cancelled_event()
     record_agenda_pdf(event)
     record_relative_media_event()
+    record_step2_pdfs()
     print("done")
 
 
