@@ -77,13 +77,13 @@ ABSTAIN: Trustee Tulloch
 MOTION PASSED
 ```
 
-Values correct?      [ ] yes   [ ] no — what's wrong: ______________________
+Values correct?      [x] yes   [ ] no — mover, seconder, YEAS(3), NAYS(0), ABSTAIN Tulloch and PASSED all match the page exactly.
 
-Rule sound?          [ ] yes   [ ] no — why: _________________________________
+Rule sound?          [x] yes   [ ] no — "Trustee Noble made a Motion" is unambiguous, the mover is taken from the capitalised run before it, and a real vote block follows. No over-firing risk visible.
 
-Item association?    [ ] correct   [ ] wrong: ________________________________
+Item association?    [ ] correct   [x] WRONG: title over-runs. It should end at "...Director Parks and Recreation Karen Crocker)" but continues with a separate sentence: "Item E.3. Board and Staff discussion can be viewed in its entirety at". Title assembly stops at a URL but not at the clause introducing one.
 
-Money correct?       [ ] yes   [ ] no — what's wrong: ______________________
+Money correct?       [x] yes   [ ] no — $200 (daily tournament fee per field per day) and $3000 (Local Youth Sports League Fee, season) both correct, both correctly typed as rates with no vendor. The 3.5% and 20% figures are percentages, correctly not captured as amounts.
 
 ---
 
@@ -127,11 +127,11 @@ NAYS: Trustee Tulloch 1
 MOTION PASSED
 ```
 
-Values correct?      [ ] yes   [ ] no — what's wrong: ______________________
+Values correct?      [x] yes   [ ] no — mover Noble, seconder Jezycki, YEAS(3), NAYS(1) Tulloch, PASSED — all match the page.
 
-Rule sound?          [ ] yes   [ ] no — why: _________________________________
+Rule sound?          [x] yes   [ ] no — same narrative rule as block 1, same reasoning. Second confirmation on a different motion in the same document.
 
-Item association?    [ ] correct   [ ] wrong: ________________________________
+Item association?    [ ] correct   [x] WRONG: same title over-run defect. Should end at "...Director of Parks and Recreation Karen Crocker)" but continues "Item E.4. Board and Staff discussion can be viewed in its entirety at".
 
 ---
 
@@ -177,11 +177,13 @@ NAYS: None
 MOTION PASSED
 ```
 
-Values correct?      [ ] yes   [ ] no — what's wrong: ______________________
+Values correct?      [x] yes   [ ] no — mover Tulloch, seconder Noble, YEAS(4) Noble/Tulloch/Homan/Jezycki, NAYS(0), PASSED. Note the source wraps the YEAS list with the counts interleaved mid-name ("Trustee   4 / Jezycki   0"); parsed correctly.
 
-Rule sound?          [ ] yes   [ ] no — why: _________________________________
+Rule sound?          [x] yes   [ ] no — the block has a full recorded vote and the mover/seconder come from an ordinary "Moved By X, Seconded by Y" clause. Catching it on vote structure rather than label punctuation is right; "MOTION Moved:" is a clerk typo, not a distinct format.
 
-Item association?    [ ] correct   [ ] wrong: ________________________________
+Item association?    [ ] correct   [x] WRONG: same title over-run. Should end at "...Director of Human Resources Erin Feore)" but continues "Full staff report and Board discussion for Item G.3. can be viewed/heard at".
+
+NOTE: this document carries a visible DRAFT watermark, but the checklist reports minutes_status = approved. See the minutes-status note at the end of this file.
 
 ---
 
@@ -233,11 +235,14 @@ https://ivgid.portal.civicclerk.com/event/659/media
 Media Timestamp 00:16:07
 ```
 
-Values correct?      [ ] yes   [ ] no — what's wrong: ______________________
+Values correct?      [x] yes   [ ] no — YEAS(1) Tulloch and NAYS(4) Noble/Homan/Jezycki/Tonking match the page exactly. Outcome is genuinely absent from the source: there is no MOTION PASSED/FAILED line, only the following prose "The vote was 1/4 ... will remain on the agenda". Leaving the outcome null and flagging missing_outcome is correct behaviour.
+                     MINOR: the motion text begins "called for a vote on the request to remove this item from the agenda." — the walk-back opened mid-sentence and dropped the subject "Chair Tonking". Reads oddly; not a false claim.
 
-Rule sound?          [ ] yes   [ ] no — why: _________________________________
+Rule sound?          [x] yes   [ ] no — a recorded roll-call vote on a real question (removing an agenda item) belongs in the record whether or not a formal motion was made. Refusing to read the outcome out of the narrative sentence is the right call; interpreting prose is exactly what the parser should not do.
 
-Item association?    [ ] correct   [ ] wrong: ________________________________
+Item association?    [x] correct   [ ] wrong — D | APPROVAL OF AGENDA is right.
+
+NOTE: this document also carries a visible DRAFT watermark while reporting approved.
 
 ---
 
@@ -280,9 +285,71 @@ NAYS: Trustee Noble, Trustee Homan, Trustee Jezycki, Chair Tonking 4
 MOTION FAILED ITEM H.1. WILL REMAIN ON THE AGENDA
 ```
 
-Values correct?      [ ] yes   [ ] no — what's wrong: ______________________
+Values correct?      [x] yes   [ ] no — YEAS(1) Tulloch, NAYS(4) Noble/Homan/Jezycki/Chair Tonking, outcome FAILED. The outcome was correctly extracted from a line carrying trailing text ("MOTION FAILED ITEM H.1. WILL REMAIN ON THE AGENDA"), and the name form "Chair Tonking" was preserved verbatim rather than normalised.
 
-Rule sound?          [ ] yes   [ ] no — why: _________________________________
+Rule sound?          [x] yes   [ ] no — a decision block defined by its vote structure rather than its opening label is the correct general principle. This 1-4 FAILED vote to strip an item from the agenda was entirely invisible before, and nothing in the sample suggests the rule over-fires.
 
-Item association?    [ ] correct   [ ] wrong: ________________________________
+Item association?    [x] correct   [ ] wrong — D | APPROVAL OF AGENDA is right; section D continues from the previous page.
 
+
+
+---
+
+# VERIFICATION RESULT — new blocks
+
+**Verified:** 26 July 2026, by reading each cited page of the source PDF and comparing every field.
+
+## Headline
+
+**5 of 5 values correct. 5 of 5 rules sound.**
+
+Every mover, seconder, YEAS name, NAYS name, count and outcome matched the source —
+including block 1's ABSTAIN line, block 3's wrapped YEAS list with counts interleaved
+mid-name, and block 5's outcome extracted from a line carrying trailing text.
+
+**The recall rules are not over-firing.** That was the risk in this round: a rule loose
+enough to see new shapes is loose enough to invent motions. It did not happen in the
+complete set of blocks the fixes surfaced.
+
+Block 4 is the strongest evidence the parser behaves honestly under pressure: it found a
+genuine roll-call vote with no formal motion and no written outcome, recorded the vote,
+and left the outcome null with `missing_outcome` rather than reading "The vote was 1/4"
+out of the narrative sentence that followed.
+
+## Defect — item title over-run (3 of 5)
+
+Blocks 1, 2 and 3. The agenda-item title absorbs the sentence that introduces a media URL:
+
+```
+...(Requesting Staff Member: Director Parks and Recreation Karen Crocker)
+   Item E.3. Board and Staff discussion can be viewed in its entirety at
+```
+
+Everything from "Item E.3." onward is a separate sentence. Title assembly terminates at a
+URL but not at the clause introducing one. Affects published item titles in `data/meetings/`.
+
+Observed lead-in forms: `Item <N>. Board and Staff discussion can be viewed in its entirety at`,
+`Full staff report and Board discussion for Item <N>. can be viewed/heard at`.
+
+## Discrepancy — DRAFT watermark vs reported status
+
+Files **1341 and 1342** both carry a **visible DRAFT watermark** on the page, but both are
+recorded as `minutes_status: approved`. This is the known image-only-watermark ambiguity
+(no extractable text; the file name carries an approval signal), but it affects two files
+rather than one, and both are in the published record.
+
+Practical consequence: a reader following the source link from a published page sees DRAFT
+stamped across the document while the page asserts approved minutes. Worth surfacing on the
+page rather than resolving silently either way.
+
+## Minor — motion text opens mid-sentence (block 4)
+
+`called for a vote on the request to remove this item from the agenda.` — the walk-back
+opened at the matched phrase and dropped the subject (`Chair Tonking`). Not a false claim;
+reads badly.
+
+## Bearing on the published /accuracy figure
+
+Combined with round 1 (25/25 vote records correct), **30 of 30 hand-checked vote records
+have been correct**. Every defect found across both rounds has been in supporting fields —
+media timestamps, motion text formatting, item titles — never in a vote.
