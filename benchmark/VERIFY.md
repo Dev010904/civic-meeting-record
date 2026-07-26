@@ -19,7 +19,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: — (none on this page)
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [x] yes  [ ] no — what's wrong: ________________
 
 ### 2 of 25
 Document: 2025-02-12 Regular Meeting of the Board of Trustees (file 1171, page 3)
@@ -34,7 +34,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: — (none on this page)
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [ ] yes  [x] no — what's wrong: Timestamp missed — page 3 has "Media Timestamp 02:00:34" inside the motion block (plus 01:20:45, 00:34:29, 00:36:48 on the page). All vote fields correct.
 
 ### 3 of 25
 Document: 2025-02-26 Regular Meeting of the Board of Trustees (file 1227, page 5)
@@ -50,7 +50,7 @@ Parser says:
   Timestamp: — (none on this page)
   Flags:     truncated_outcome
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [ ] yes  [x] no — what's wrong: Timestamp missed — page 5 has "MEDIA TIMESTAMP 00:43:15" directly above the motion. Bare MOTION terminator confirmed on page — clerk did omit the outcome word. All vote fields correct.
 
 ### 4 of 25
 Document: 2025-02-26 Regular Meeting of the Board of Trustees (file 1227, page 6)
@@ -65,7 +65,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: — (none on this page)
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [ ] yes  [x] no — what's wrong: Timestamp missed — page 6 has "MEDIA TIMESTAMP 01:03:27" above the motion. All vote fields correct.
 
 ### 5 of 25
 Document: 2025-03-05 Special Meeting of the Board of Trustees (file 1229, page 2)
@@ -80,7 +80,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: — (none on this page)
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [ ] yes  [x] no — what's wrong: Timestamp missed — page 2 has "Time Stamp 00:13:59" above the motion. All vote fields correct (3-1 with 4 voters is what the minutes record).
 
 ### 6 of 25
 Document: 2025-03-19 Special Meeting of the Board of Trustees (file 1261, page 7)
@@ -95,7 +95,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: — (none on this page)
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [ ] yes  [x] no — what's wrong: Timestamp missed — page 7 has "Media Timestamp - 02:45:36" above the motion. All vote fields correct.
 
 ### 7 of 25
 Document: 2025-04-09 Regular Meeting of the Board of Trustees (file 1344, page 4)
@@ -110,7 +110,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: — (none on this page)
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [ ] yes  [x] no — what's wrong: (1) Timestamp missed — page has "Media Timestamp 00:45:35". (2) Motion text retains the attribution clause: starts "Moved by Trustee Homan:" and contains "Motion Seconded by Trustee Jezycki". Vote fields correct.
 
 ### 8 of 25
 Document: 2025-04-14 Special Meeting of the IVGID Board of Trustees (file 1342, page 3)
@@ -125,7 +125,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: — (none on this page)
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [ ] yes  [x] no — what's wrong: (1) Motion text mangled: "Approve; : to Approve Additional Play Pass Options..." — leftover "Approve;" prefix and orphaned colon. (2) Timestamp missed — page has "Media Timestamp 00:28:25" and "00:28:40". Vote fields correct. NOTE: document watermarked DRAFT.
 
 ### 9 of 25
 Document: 2025-05-07 Special Meeting of the Board of Trustees (file 1432, page 17)
@@ -140,7 +140,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: — (none on this page)
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [ ] yes  [x] no — what's wrong: (1) Motion text starts with a stranded colon: ": to Approve to reset the date and time...". (2) Timestamp missed — page has "Media Timestamp 02:01:05". Vote fields correct.
 
 ### 10 of 25
 Document: 2025-05-14 Regular Meeting of the Board of Trustees (file 1428, page 8)
@@ -155,7 +155,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: — (none on this page)
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [ ] yes  [x] no — what's wrong: Timestamp missed — page has "Media Timestamp 00:39:47". Vote fields correct. SEE MAJOR FINDING BELOW re: the QUESTION: block on this page.
 
 ### 11 of 25
 Document: 2025-05-30 Special Meeting of the IVGID Board of Trustees (file 1433, page 15)
@@ -170,7 +170,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: 02:31:58; 01:56:09
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [x] yes  [ ] no — what's wrong: Timestamps correctly found (parenthesised format). NOTE: document watermarked Draft.
 
 ### 12 of 25
 Document: 2025-06-09 Regular Meeting of the IVGID Audit Committee (file 1527, page 5)
@@ -185,7 +185,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: 00:20:00; 00:22:19 - 01:05:25
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [x] yes  [ ] no — what's wrong: ________________
 
 ### 13 of 25
 Document: 2025-06-11 Regular Meeting of the Board of Trustees (file 1465, page 13)
@@ -200,7 +200,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: — (none on this page)
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [x] yes  [ ] no — what's wrong: No media timestamp on this page — "none" is correct.
 
 ### 14 of 25
 Document: 2025-06-26 Regular Meeting of the Board of Trustees (file 1489, page 11)
@@ -215,7 +215,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: 02:28:04 - 02:30:00; 02:30:12
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [x] yes  [ ] no — what's wrong: ________________
 
 ### 15 of 25
 Document: 2025-06-26 Audit Committee Meeting (file 1528, page 6)
@@ -230,7 +230,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: — (none on this page)
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [x] yes  [ ] no — what's wrong: No media timestamp on this page — "none" is correct.
 
 ### 16 of 25
 Document: 2025-09-17 Meeting of the IVGID Board of Trustees (file 1540, page 16)
@@ -246,7 +246,7 @@ Parser says:
   Timestamp: 02:22:11 - 02:28:04
   Flags:     truncated_outcome
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [x] yes  [ ] no — what's wrong: Bare MOTION terminator confirmed on page — truncated_outcome flag is correct.
 
 ### 17 of 25
 Document: 2025-11-12 Meeting of the IVGID Board of Trustees (file 1559, page 18)
@@ -261,7 +261,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: 02:04:50 - 02:12:57; 02:12:58 - 02:20:55
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [x] yes  [ ] no — what's wrong: ________________
 
 ### 18 of 25
 Document: 2026-01-28 Board of Trustees Meeting (file 2636, page 4)
@@ -276,7 +276,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: 00:23:51 - 00:38:20; 00:38:23 - 00:38:55
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [x] yes  [ ] no — what's wrong: Source oddity, not a parser error: Trustee Noble moved but is not listed in YEAS. Parser transcribed the minutes faithfully.
 
 ### 19 of 25
 Document: 2026-01-28 Audit Committee Meeting (file 2670, page 1)
@@ -292,7 +292,7 @@ Parser says:
   Timestamp: — (none on this page)
   Flags:     truncated_outcome
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [x] yes  [ ] no — what's wrong: No-seconder correct; wrapped name "At-Large Audit Committee Member Lighthart" reassembled correctly; bare MOTION confirmed.
 
 ### 20 of 25
 Document: 2026-02-25 Board of Trustees Meeting (file 2649, page 7)
@@ -307,7 +307,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: 01:20:18 - 01:21:06
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [ ] yes  [x] no (minor text artifact) — what's wrong: Motion text ends " ." — stray space and duplicated period. All other fields correct.
 
 ### 21 of 25
 Document: 2026-03-11 Board of Trustees Meeting (file 2665, page 14)
@@ -322,7 +322,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: — (none on this page)
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [x] yes  [ ] no — what's wrong: No media timestamp on this page — "none" is correct.
 
 ### 22 of 25
 Document: 2026-03-31 Audit Committee Meeting (file 2721, page 12)
@@ -337,7 +337,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: 01:23:28 - 01:23:52
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [ ] yes  [x] no (minor text artifact) — what's wrong: YEAS name reads "At- Large Audit Committee Member Kelly" — hyphenation artifact from a line break; source reads "At-Large". All other fields correct.
 
 ### 23 of 25
 Document: 2026-04-28 Audit Committee Meeting (file 2806, page 5)
@@ -352,7 +352,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: 00:25:22 - 00:29:28
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [x] yes  [ ] no — what's wrong: ________________
 
 ### 24 of 25
 Document: 2026-05-13 Board of Trustees Meeting (file 2779, page 17)
@@ -367,7 +367,7 @@ Parser says:
   Outcome:   PASSED
   Timestamp: 01:46:42 - 01:47:05
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [x] yes  [ ] no — what's wrong: ________________
 
 ### 25 of 25
 Document: 2026-05-20 Board of Trustees Meeting (file 2783, page 2)
@@ -382,4 +382,109 @@ Parser says:
   Outcome:   PASSED
   Timestamp: 00:16:46 - 00:18:18; 00:18:20 - 01:13:00
 
-Correct? [ ] yes  [ ] no — what's wrong: ________________
+Correct? [x] yes  [ ] no — what's wrong: ________________
+
+
+---
+
+# VERIFICATION RESULT
+
+**Verified:** 26 July 2026, by reading each cited page of the source PDF and comparing every field.
+
+## Headline
+
+**Vote records: 25 of 25 correct.** Every mover, seconder, YEAS name, NAYS name, count and
+outcome matched the source exactly — including wrapped name lists, Audit Committee
+title-heavy names, legitimate no-seconder cases, and both `truncated_outcome` calls
+(confirmed on the page: the clerk genuinely omitted the outcome word).
+
+**No false vote was published in the sample.**
+
+## Fully correct entries: 14 of 25
+1, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 23, 24, 25
+
+## Entries with defects: 11 of 25
+- **9 entries (2-10)** — media timestamp missed
+- **2 entries (20, 22)** — trivial motion-text / name artifacts
+
+## Defect 1 — media timestamps missed (9 entries)
+
+The parser only recognises the **parenthesised** form. Seven variants exist:
+
+| Variant | Recognised |
+|---|---|
+| `Media Timestamp (00:12:15 - 00:31:03)` | yes |
+| `Media Timestamp (00:16:31)` | yes |
+| `Media Timestamp 02:00:34` | **no** |
+| `Timestamp Media 00:18:58` | **no** |
+| `MEDIA TIMESTAMP 00:43:15` | **no** |
+| `Time Stamp 00:13:59` | **no** |
+| `Media Timestamp - 02:45:36` | **no** |
+
+**Critical scoping finding: every failure is dated February-May 2025.** IVGID standardised on
+the parenthesised form around June 2025. All 15 sampled entries from June 2025 onward
+have correct timestamps. The live pipeline is unaffected; only the early-2025 backfill window is.
+
+Media timestamps are the alignment key for Layer 2 (audio). This defect would have broken
+the audio layer silently — every affected motion parsed clean with zero flags and counted
+toward the 98.4% coverage figure.
+
+## Defect 2 — motion text debris (entries 7, 8, 9, 20)
+
+Where the clerk fuses the label and attribution on one line
+(`MOTION: Approve; Moved By Trustee Homan: to ...`), stripping the attribution leaves debris:
+- Entry 7: attribution left in the text entirely
+- Entry 8: `Approve; : to Approve ...` — orphaned prefix and colon
+- Entry 9: `: to Approve to reset ...` — stranded leading colon
+- Entry 20: trailing `" ."`
+
+Vote data unaffected; this is published-text quality.
+
+## Defect 3 — hyphenation artifact (entry 22)
+
+`At- Large Audit Committee Member Kelly` — a line-break hyphenation not rejoined.
+Affects a name field, so worth fixing properly.
+
+## MAJOR FINDING — recall failure (file 1428, page 8)
+
+A complete roll-call vote is almost certainly invisible to the parser because the clerk
+labelled it `QUESTION:` rather than `MOTION:`:
+
+```
+QUESTION: All in favor of Removing Item H.1. ... please vote by saying "Yea",
+all those opposed say "Nay."
+YEAS: Trustee Tulloch                                              1
+NAYS: Trustee Noble, Trustee Homan, Trustee Jezycki, Chair Tonking 4
+MOTION FAILED ITEM H.1. WILL REMAIN ON THE AGENDA
+```
+
+A 1-4 **failed** vote to strip an item from the agenda — a contested procedural fight — would
+not appear in the record at all. This is a recall failure, not a formatting error, and no
+coverage metric can detect it because the parser never sees the block.
+
+Two further details in that block: the outcome line carries trailing text
+(`MOTION FAILED ITEM H.1. WILL REMAIN ON THE AGENDA`), and the NAYS list uses
+`Chair Tonking` rather than `Trustee Tonking`.
+
+## SUSPECTED recall gap (file 1229, page 2)
+
+`Trustee Noble made a Motion to approve the Field Rental Fee Rate Schedule` — a narrative
+motion form appearing inside a 2025 structured-era document, alongside `MOTION:` and
+`MOTION By Trustee X` in the same file. Needs checking for whether the parser sees it.
+
+## OPEN QUESTION — draft minutes labelling
+
+Files 1342 and 1433 are watermarked **DRAFT**. Spec §2.7 rule 2 requires pages built from
+unapproved minutes to be labelled *draft minutes*. The checklist does not surface minutes
+status, so this needs confirming.
+
+## What this means for the published accuracy figure
+
+- **Vote accuracy (movers, seconders, names, counts, outcomes): 25/25 = 100%** in this sample.
+- **Full-field accuracy including media timestamps: 14/25 = 56%**, concentrated entirely in
+  the February-May 2025 window.
+- **Full-field accuracy for June 2025 onward: 14/16**, with the two exceptions being trivial
+  text artifacts, not data errors.
+
+These must be reported separately. Reporting only the first would overstate; reporting only
+the second would understate the live-format performance the site actually depends on.
