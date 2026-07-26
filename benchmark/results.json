@@ -11,24 +11,25 @@
   },
   "totals": {
     "documents": 153,
-    "motions": 197,
-    "motions_clean": 189,
-    "coverage_pct": 95.9,
+    "motions": 202,
+    "motions_clean": 193,
+    "coverage_pct": 95.5,
     "crashes": 0,
     "flags": {
       "truncated_outcome": 3,
-      "missing_outcome": 5,
+      "missing_outcome": 6,
       "missing_mover": 5,
       "missing_vote_sections": 5
     }
   },
   "live": {
     "documents": 57,
-    "motions": 192,
-    "motions_clean": 189,
-    "coverage_pct": 98.4,
+    "motions": 197,
+    "motions_clean": 193,
+    "coverage_pct": 98.0,
     "flags": {
-      "truncated_outcome": 3
+      "truncated_outcome": 3,
+      "missing_outcome": 1
     },
     "zero_motion_documents": [
       {
@@ -168,6 +169,7 @@
       "public_comments": 0,
       "media_timestamps": 3,
       "doc_flags": [],
+      "minutes_status": "draft",
       "failures": []
     },
     {
@@ -501,8 +503,9 @@
         25
       ],
       "public_comments": 0,
-      "media_timestamps": 14,
+      "media_timestamps": 17,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -815,8 +818,9 @@
         29
       ],
       "public_comments": 10,
-      "media_timestamps": 26,
+      "media_timestamps": 30,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -933,6 +937,7 @@
       "public_comments": 0,
       "media_timestamps": 7,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -945,7 +950,7 @@
       "motions": [
         {
           "page": 7,
-          "text": "Approve the following consent matters: Approve the Board of Trustees Meeting Minutes for March 25, 2026, receive the audit committee's quarterly report of the whistle-blower complaints for the first quarter, approve a site-use agreement between the district and Lake Tahoe Market LLC., and approval o",
+          "text": "Approve the following consent matters: Approve the Board of Trustees Meeting Minutes for March 25, 2026, receive the audit committee's quarterly report of the whistle-blower complaints for the first quarter, approve a site-use agreement between the district and Lake Tahoe Market LLC. and approval of",
           "mover": "Trustee Jezycki",
           "seconder": "Trustee Noble",
           "yeas": [
@@ -1087,6 +1092,7 @@
       "public_comments": 0,
       "media_timestamps": 21,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -1132,7 +1138,7 @@
             "Audit Committee Chair Brandle",
             "Trustee Chair Tonking",
             "Trustee Homan",
-            "At- Large Audit Committee Member Kelly",
+            "At-Large Audit Committee Member Kelly",
             "At-Large Audit Committee Member Lighthart"
           ],
           "nays": [],
@@ -1158,7 +1164,7 @@
             "Audit Committee Chair Brandle",
             "Trustee Chair Tonking",
             "Trustee Homan",
-            "At- Large Audit Committee Member Kelly",
+            "At-Large Audit Committee Member Kelly",
             "At-Large Audit Committee Member Lighthart"
           ],
           "nays": [],
@@ -1184,7 +1190,7 @@
             "Audit Committee Chair Brandle",
             "Trustee Chair Tonking",
             "Trustee Homan",
-            "At- Large Audit Committee Member Kelly",
+            "At-Large Audit Committee Member Kelly",
             "At-Large Audit Committee Member Lighthart"
           ],
           "nays": [],
@@ -1207,6 +1213,7 @@
       "public_comments": 0,
       "media_timestamps": 12,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -1219,7 +1226,7 @@
       "motions": [
         {
           "page": 4,
-          "text": "Approve the following consent calendar, Item G.1., as submitted. Action: Approve, .",
+          "text": "Approve the following consent calendar, Item G.1. as submitted. Action: Approve.",
           "mover": "Trustee Noble",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -1334,6 +1341,7 @@
       "doc_flags": [
         "raw_fallback_page:34"
       ],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -1346,7 +1354,7 @@
       "motions": [
         {
           "page": 10,
-          "text": "Approve the following consent matters: Item G.1. Approval of the IVGID Board of Trustee Meeting Minutes for February 25, 2026; and Item G.2. Review, discuss and approve the Veterans War Memorial Monument Design at the Village Green, as submitted. .",
+          "text": "Approve the following consent matters: Item G.1. Approval of the IVGID Board of Trustee Meeting Minutes for February 25, 2026; and Item G.2. Review, discuss and approve the Veterans War Memorial Monument Design at the Village Green, as submitted.",
           "mover": "Trustee Noble",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -1680,6 +1688,7 @@
       "doc_flags": [
         "raw_fallback_page:34"
       ],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -1692,7 +1701,7 @@
       "motions": [
         {
           "page": 7,
-          "text": "Approve Consent Calendar Items G.1., G.2., and G.3., as submitted. .",
+          "text": "Approve Consent Calendar Items G.1. G.2. and G.3. as submitted.",
           "mover": "Trustee Noble",
           "seconder": "Trustee Jezycki",
           "yeas": [
@@ -1718,7 +1727,7 @@
         },
         {
           "page": 12,
-          "text": "In accordance with NRS 241.0395(1), Receive a Report Acknowledging the Attorney General's February 5, 2026, Findings of Fact and Conclusions of Law regarding Open Meeting Law Complaint Filed by Mr. Aaron Katz (OAG File No.: 13897-530). Note: Pursuant to NRS 241.0395(2), an acknowledgment of an Attor",
+          "text": "In accordance with NRS 241.0395(1), Receive a Report Acknowledging the Attorney General's February 5, 2026, Findings of Fact and Conclusions of Law regarding Open Meeting Law Complaint Filed by Mr. Aaron Katz (OAG File No. 13897-530). Note: Pursuant to NRS 241.0395(2), an acknowledgment of an Attorn",
           "mover": "Trustee Noble",
           "seconder": "Trustee Jezycki",
           "yeas": [
@@ -1840,6 +1849,7 @@
       "public_comments": 0,
       "media_timestamps": 17,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -1876,7 +1886,7 @@
         },
         {
           "page": 5,
-          "text": "to Approve the Employee Separation Incentive Program; Moved By Trustee Homan MOTION AMENDED: to Approve the Employee Separation Incentive Program with the approval of any application that the general manager consults with legal and or HR; Amended By Trustee Noble Trustee Homan Accepted the Amendment",
+          "text": "to Approve the Employee Separation Incentive Program; MOTION AMENDED: to Approve the Employee Separation Incentive Program with the approval of any application that the general manager consults with legal and or HR; Amended By Trustee Noble Trustee Homan Accepted the Amendment suggested by Trustee N",
           "mover": "Trustee Homan",
           "seconder": "Trustee Noble",
           "yeas": [
@@ -1933,6 +1943,7 @@
       "public_comments": 0,
       "media_timestamps": 9,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -2004,6 +2015,7 @@
       "public_comments": 0,
       "media_timestamps": 8,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": [
         {
           "file_id": 2670,
@@ -2083,8 +2095,9 @@
         16
       ],
       "public_comments": 0,
-      "media_timestamps": 18,
+      "media_timestamps": 20,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -2097,7 +2110,7 @@
       "motions": [
         {
           "page": 9,
-          "text": "To remove Item H.5. from the Agenda , Trustee Chair Tonking called for a Vote to remove Item H.5. from the agenda as requested.",
+          "text": "To remove Item H.5. from the Agenda, Trustee Chair Tonking called for a Vote to remove Item H.5. from the agenda as requested.",
           "mover": "Trustee Tulloch",
           "seconder": null,
           "yeas": [
@@ -2152,7 +2165,7 @@
         },
         {
           "page": 16,
-          "text": "to Approve and Authorize the Board Chair and Board Secretary to Sign and Execute the Design-Build Construction Agreement with CORE West Inc., dba CORE Construction in the amount of $9,415,617 and an approximate 2.5% Owners Design-Build Contract Contingency, not to Exceed $235,000, for the Incline Be",
+          "text": "to Approve and Authorize the Board Chair and Board Secretary to Sign and Execute the Design-Build Construction Agreement with CORE West Inc. dba CORE Construction in the amount of $9,415,617 and an approximate 2.5% Owners Design-Build Contract Contingency, not to Exceed $235,000, for the Incline Bea",
           "mover": "Trustee Noble",
           "seconder": "Trustee Jezycki",
           "yeas": [
@@ -2312,7 +2325,7 @@
         },
         {
           "page": 22,
-          "text": "to approve the current 2025 slate of officers to remain in seat for 2026 - Chair -Trustee Michalea Tonking; Vice-Chair - Trustee Michelle Jezycki; Treasurer - Trustee Mick Homan; Secretary - Trustee Dave Noble",
+          "text": "to approve the current 2025 slate of officers to remain in seat for 2026 - Chair - Trustee Michalea Tonking; Vice-Chair - Trustee Michelle Jezycki; Treasurer - Trustee Mick Homan; Secretary - Trustee Dave Noble;",
           "mover": "Trustee Homan",
           "seconder": "Trustee Jezycki",
           "yeas": [
@@ -2373,8 +2386,9 @@
         58
       ],
       "public_comments": 0,
-      "media_timestamps": 30,
+      "media_timestamps": 36,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -2387,7 +2401,7 @@
       "motions": [
         {
           "page": 14,
-          "text": "Approve the following consent matters - Item G.1., Item G.2., Item G.3., and Item G.4. as submitted. Action: Approve, .",
+          "text": "Approve the following consent matters - Item G.1. Item G.2. Item G.3. and Item G.4. as submitted. Action: Approve.",
           "mover": "Trustee Noble",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -2554,8 +2568,9 @@
         38
       ],
       "public_comments": 0,
-      "media_timestamps": 39,
+      "media_timestamps": 41,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -2725,8 +2740,9 @@
         40
       ],
       "public_comments": 0,
-      "media_timestamps": 14,
+      "media_timestamps": 16,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -2844,7 +2860,7 @@
         },
         {
           "page": 14,
-          "text": "That we send a letter to Miss Joy Gumz, prepared by District General Counsel David Rigdon, asking if the records request PRR 24-116 has been successfully fulfilled",
+          "text": "That we send a letter to Miss Joy Gumz, prepared by District General Counsel David Rigdon, asking if the records request PRR 24-116 has been successfully fulfilled;",
           "mover": "Trustee Jezycki",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -2897,7 +2913,7 @@
         },
         {
           "page": 15,
-          "text": "To appoint Vice Chair Michelle Jezycki as the Board Liaison to participate in focus groups and the outreach to support the Hispanic Community outreach efforts",
+          "text": "To appoint Vice Chair Michelle Jezycki as the Board Liaison to participate in focus groups and the outreach to support the Hispanic Community outreach efforts;",
           "mover": "Chair Tonking",
           "seconder": "Trustee Noble",
           "yeas": [
@@ -2952,7 +2968,7 @@
         },
         {
           "page": 16,
-          "text": "To cancel November 26th and December 31st Board meetings",
+          "text": "To cancel November 26th and December 31st Board meetings;",
           "mover": "Trustee Homan",
           "seconder": "Trustee Noble",
           "yeas": [
@@ -3011,6 +3027,7 @@
       "public_comments": 0,
       "media_timestamps": 30,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": [
         {
           "file_id": 1540,
@@ -3057,7 +3074,7 @@
         },
         {
           "page": 9,
-          "text": "Approve the following consent matters, Items F.1., F.2., F.3., F.4., F.5., and F.6., as submitted. .",
+          "text": "Approve the following consent matters, Items F.1. F.2. F.3. F.4. F.5. and F.6. as submitted.",
           "mover": "Trustee Noble",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -3332,8 +3349,9 @@
         98
       ],
       "public_comments": 0,
-      "media_timestamps": 21,
+      "media_timestamps": 22,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -3372,7 +3390,7 @@
         },
         {
           "page": 8,
-          "text": "Approve the following consent matters: Item G.1., Item G.2., Item G.3., Item G.4., Item G.5., Item G.6., Item G.7. as submitted. .",
+          "text": "Approve the following consent matters: Item G.1. Item G.2. Item G.3. Item G.4. Item G.5. Item G.6. Item G.7. as submitted.",
           "mover": "Trustee Noble",
           "seconder": "Trustee Jezycki",
           "yeas": [
@@ -3687,6 +3705,7 @@
       "doc_flags": [
         "raw_fallback_page:18"
       ],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -3740,6 +3759,7 @@
       "public_comments": 0,
       "media_timestamps": 5,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -3908,7 +3928,7 @@
         },
         {
           "page": 17,
-          "text": "To modify the motion on the floor by adding the following revision to page 272 of 295 of the Board packet - Line 31: where \"the Answer\" was stricken, insert the word \"No\" before the proposed new answer - insert \u201cno\u201d. Trustee Noble accepted the Motion as modified; .",
+          "text": "To modify the motion on the floor by adding the following revision to page 272 of 295 of the Board packet - Line 31: where \"the Answer\" was stricken, insert the word \"No\" before the proposed new answer - insert \u201cno\u201d. Trustee Noble accepted the Motion as modified.",
           "mover": "Trustee Homan",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -4032,8 +4052,9 @@
         87
       ],
       "public_comments": 0,
-      "media_timestamps": 20,
+      "media_timestamps": 21,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -4143,6 +4164,7 @@
       "public_comments": 0,
       "media_timestamps": 5,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -4155,7 +4177,7 @@
       "motions": [
         {
           "page": 9,
-          "text": "Approve Items F.1. and F.2. in the Consent Calendar as provided in the notice and Board materials, as submitted. A ction: Approve, .",
+          "text": "Approve Items F.1. and F.2. in the Consent Calendar as provided in the notice and Board materials, as submitted. A ction: Approve.",
           "mover": "Trustee Noble",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -4207,7 +4229,7 @@
         },
         {
           "page": 12,
-          "text": "to Authorize Staff to move forward with preparing a contract for legal counsel services to engage Taggart & Taggart as District Legal Counsel effective July 1, 2025",
+          "text": "to Authorize Staff to move forward with preparing a contract for legal counsel services to engage Taggart & Taggart as District Legal Counsel effective July 1, 2025;",
           "mover": "Trustee Noble",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -4410,6 +4432,7 @@
       "public_comments": 0,
       "media_timestamps": 25,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -4581,6 +4604,7 @@
       "public_comments": 0,
       "media_timestamps": 14,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -4629,8 +4653,9 @@
         10
       ],
       "public_comments": 0,
-      "media_timestamps": 4,
+      "media_timestamps": 5,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -4643,7 +4668,7 @@
       "motions": [
         {
           "page": 10,
-          "text": "made a motion to open the Public Hearing on the Fiscal Year 2025-2026 Operating and Capital Improvement Projects Budgets",
+          "text": "made a motion to open the Public Hearing on the Fiscal Year 2025-2026 Operating and Capital Improvement Projects Budgets;",
           "mover": "Trustee Homan",
           "seconder": "Trustee Jezycki",
           "yeas": [
@@ -4693,7 +4718,7 @@
         },
         {
           "page": 14,
-          "text": "to Adopt the Fiscal Year 2025/2026 Incline Village General Improvement District Capital Improvement Projects Budget",
+          "text": "to Adopt the Fiscal Year 2025/2026 Incline Village General Improvement District Capital Improvement Projects Budget;",
           "mover": "Trustee Jezycki",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -4718,7 +4743,7 @@
         },
         {
           "page": 14,
-          "text": "to Adopt a fee value of 60% for individual punch cards for the equitable usage of Capital Improvement",
+          "text": "to Adopt a fee value of 60% for individual punch cards for the equitable usage of Capital Improvement;",
           "mover": "Trustee Jezycki",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -4743,7 +4768,7 @@
         },
         {
           "page": 14,
-          "text": "to Approve the Central Services Cost Allocation Plan, allocating Approximately $4.05 Million in the General Fund costs to the utility, Community Services and Beach Funds",
+          "text": "to Approve the Central Services Cost Allocation Plan, allocating Approximately $4.05 Million in the General Fund costs to the utility, Community Services and Beach Funds;",
           "mover": "Trustee Homan",
           "seconder": "Trustee Jezycki",
           "yeas": [
@@ -4768,7 +4793,7 @@
         },
         {
           "page": 14,
-          "text": "to Approve the Staffing levels and full-time salary ranges as presented",
+          "text": "to Approve the Staffing levels and full-time salary ranges as presented;",
           "mover": "Trustee Homan",
           "seconder": "Trustee Jezycki",
           "yeas": [
@@ -4793,7 +4818,7 @@
         },
         {
           "page": 14,
-          "text": "to Approve the Recreation Facility Fee totaling $1,375",
+          "text": "to Approve the Recreation Facility Fee totaling $1,375;",
           "mover": "Trustee Homan",
           "seconder": "Trustee Jezycki",
           "yeas": [
@@ -4818,7 +4843,7 @@
         },
         {
           "page": 15,
-          "text": "to Adopt the FY 2025 Fiscal Year 2025/2026 Incline Village General Improvement District Budget Final Form 4f404LGF",
+          "text": "to Adopt the FY 2025 Fiscal Year 2025/2026 Incline Village General Improvement District Budget Final Form 4f404LGF;",
           "mover": "Trustee Homan",
           "seconder": "Trustee Jezycki",
           "yeas": [
@@ -4918,7 +4943,7 @@
         },
         {
           "page": 19,
-          "text": "to Approve the proposed fee as adjusted in Item E.1. tied to 60% of the facility fee",
+          "text": "to Approve the proposed fee as adjusted in Item E.1. tied to 60% of the facility fee;",
           "mover": "Trustee Homan",
           "seconder": "Trustee Jezycki",
           "yeas": [
@@ -5019,8 +5044,9 @@
         95
       ],
       "public_comments": 0,
-      "media_timestamps": 29,
+      "media_timestamps": 30,
       "doc_flags": [],
+      "minutes_status": "draft",
       "failures": []
     },
     {
@@ -5072,8 +5098,9 @@
         50
       ],
       "public_comments": 0,
-      "media_timestamps": 12,
+      "media_timestamps": 13,
       "doc_flags": [],
+      "minutes_status": "draft",
       "failures": []
     },
     {
@@ -5084,6 +5111,36 @@
       "minutes_name": "2025-0514 BOT Meeting Minutes (Approved)",
       "error": null,
       "motions": [
+        {
+          "page": 8,
+          "text": "All in favor of Removing Item H.1. Review, discuss, and possibly approve the Employee Pass Program for Beach access; From the Agenda, please vote by saying \"Yea\", all those opposed say \"Nay.\"",
+          "mover": null,
+          "seconder": null,
+          "yeas": [
+            "Trustee Tulloch"
+          ],
+          "nays": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Chair Tonking"
+          ],
+          "abstain": [],
+          "absent": [],
+          "tally": {
+            "aye": 1,
+            "nay": 4,
+            "abstain": 0,
+            "absent": 0
+          },
+          "outcome": "failed",
+          "flags": [],
+          "kind": "motion",
+          "notes": [
+            "label_variant:QUESTION",
+            "mover_not_recorded"
+          ]
+        },
         {
           "page": 8,
           "text": "To open the Public Hearing \u2013 on the Recommended Amendments to the Sewer and Water Rate Fee Schedule.",
@@ -5165,7 +5222,7 @@
         },
         {
           "page": 14,
-          "text": "Approve the following consent matters, Item G.1. and Item G.2. as submitted in the Agenda Packet. .",
+          "text": "Approve the following consent matters, Item G.1. and Item G.2. as submitted in the Agenda Packet.",
           "mover": "Trustee Noble",
           "seconder": "Trustee Jezycki",
           "yeas": [
@@ -5269,8 +5326,9 @@
         47
       ],
       "public_comments": 0,
-      "media_timestamps": 0,
+      "media_timestamps": 60,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -5283,7 +5341,7 @@
       "motions": [
         {
           "page": 16,
-          "text": ": Adopt proposed Changes to Policy 7.1.0 - Budgeting and Fiscal Management, Appropriate Level of Reserves, Effective Fiscal Year Ending June 30, 2022; Policy 18.1.0 - Budgeting and Fiscal Management, Adoption of Central Service Cost Allocation Plan Motion was",
+          "text": "Adopt proposed Changes to Policy 7.1.0 - Budgeting and Fiscal Management, Appropriate Level of Reserves, Effective Fiscal Year Ending June 30, 2022; Policy 18.1.0 - Budgeting and Fiscal Management, Adoption of Central Service Cost Allocation Plan",
           "mover": "Trustee Homan",
           "seconder": "Trustee Tonking",
           "yeas": [
@@ -5309,7 +5367,7 @@
         },
         {
           "page": 17,
-          "text": ": to Approve to reset the date and time for the Public Hearing(s) for the FY 2025/2026 Budget and Recreation Roll for Friday, May 30, 2025, at 12 noon.",
+          "text": "to Approve to reset the date and time for the Public Hearing(s) for the FY 2025/2026 Budget and Recreation Roll for Friday, May 30, 2025, at 12 noon.",
           "mover": "Trustee Noble",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -5375,8 +5433,9 @@
         54
       ],
       "public_comments": 0,
-      "media_timestamps": 0,
+      "media_timestamps": 8,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -5438,6 +5497,33 @@
           "notes": []
         },
         {
+          "page": 6,
+          "text": "Direction to staff to move forward with the three firms that have submitted proposals and request an extension from BBK as well as a possible reconsideration to provide a proposal to the District RFP if they have an interest in remaining as District Legal Counsel.",
+          "mover": "Trustee Tulloch",
+          "seconder": "Trustee Noble",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ],
+          "nays": [],
+          "abstain": [],
+          "absent": [],
+          "tally": {
+            "aye": 4,
+            "nay": 0,
+            "abstain": 0,
+            "absent": 0
+          },
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": [
+            "label_variant:MOTION Moved"
+          ]
+        },
+        {
           "page": 8,
           "text": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and KP Construction, Inc. for Capital Improvement Fire Hydrant Replacement \u2013 2025; FY 2023/24 Utilities: Water: CIP #1F24200300; in the Amount of $209,980.0",
           "mover": "Trustee Noble",
@@ -5489,7 +5575,7 @@
         },
         {
           "page": 9,
-          "text": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute a Professional Services Agreement between Incline Village General Improvement District and Carollo Engineers for Development of a SCADA Master Plan; FY 2024/25 Utilities: Water: GL #20002297-7510; in the Amount of $359,97",
+          "text": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute a Professional Services Agreement between Incline Village General Improvement District and Carollo Engineers for Development of a SCADA Master Plan; FY 2024/25 Utilities: Water: GL #20002297-7510; in the Amount of $359,97;",
           "mover": "Trustee Noble",
           "seconder": "Trustee Homan Page 46 of 128",
           "yeas": [
@@ -5608,8 +5694,9 @@
         53
       ],
       "public_comments": 0,
-      "media_timestamps": 0,
+      "media_timestamps": 25,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -5621,8 +5708,40 @@
       "error": null,
       "motions": [
         {
+          "page": 2,
+          "text": "called for a vote on the request to remove this item from the agenda.",
+          "mover": null,
+          "seconder": null,
+          "yeas": [
+            "Trustee Tulloch"
+          ],
+          "nays": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ],
+          "abstain": [],
+          "absent": [],
+          "tally": {
+            "aye": 1,
+            "nay": 4,
+            "abstain": 0,
+            "absent": 0
+          },
+          "outcome": null,
+          "flags": [
+            "missing_outcome"
+          ],
+          "kind": "motion",
+          "notes": [
+            "label_variant:CALLED FOR A VOTE",
+            "mover_not_recorded"
+          ]
+        },
+        {
           "page": 3,
-          "text": "Approve; : to Approve Additional Play Pass Options along with season Pass Sales Incentives and Rate Adjustment to the Pricing of the PM Season Pass",
+          "text": "to Approve Additional Play Pass Options along with season Pass Sales Incentives and Rate Adjustment to the Pricing of the PM Season Pass;",
           "mover": "Trustee Homan",
           "seconder": "Trustee Jezycki",
           "yeas": [
@@ -5648,7 +5767,9 @@
           "notes": []
         }
       ],
-      "flag_counts": {},
+      "flag_counts": {
+        "missing_outcome": 1
+      },
       "unparseable_pages": [
         9,
         10,
@@ -5669,9 +5790,20 @@
         25
       ],
       "public_comments": 0,
-      "media_timestamps": 0,
+      "media_timestamps": 11,
       "doc_flags": [],
-      "failures": []
+      "minutes_status": "approved",
+      "failures": [
+        {
+          "file_id": 1342,
+          "event_date": "2025-04-14T17:00:00Z",
+          "page": 2,
+          "flags": [
+            "missing_outcome"
+          ],
+          "raw": "called for a vote on the request to remove this item from the agenda.\nYEAS: Trustee Tulloch 1\nNAYS: Trustee Noble, Trustee Homan, Trustee Jezycki, Trustee Tonking 4\nThe vote was 1/4 (Trustee Tulloch voted in favor of removing Item E.2., and the\nremaining 4 Trustees voted in opposition to removing the Item). Item E.2. to review,\ndiscuss and possibly approve the Districts' Tentative Budget as filed on Nevada State\nForm 4404, will remain on the agenda.\nE. GENERAL BUSINESS (for possible action)\nE.1 Review, Discuss and Approve Additional Play Pass Options along with\nseason Pass Sales Incentives and Rate Adjustment to the Pricing of the\nPM Season Pass. (Requesting Staff Member: Senior Head Golf\nProfessional Rob Bruce)\nFull staff report and Board discussion for Item E.1. can be viewed/heard at:\nhttps://ivgid.portal.civicclerk.com/event/659/media\nMedia Timestamp 00:16:07"
+        }
+      ]
     },
     {
       "file_id": 1344,
@@ -5683,7 +5815,7 @@
       "motions": [
         {
           "page": 4,
-          "text": "Moved by Trustee Homan: to approve the Consent Calendar as documented; Motion Seconded by Trustee Jezycki. Item F.1. Meeting Minutes for March 12, 2025; Item F.2. Meeting Minutes for March 19, 2025; Item F.3. Approve an Agreement between Incline Village General Improvement District and Construction ",
+          "text": "to approve the Consent Calendar as documented. Item F.1. Meeting Minutes for March 12, 2025; Item F.2. Meeting Minutes for March 19, 2025; Item F.3. Approve an Agreement between Incline Village General Improvement District and Construction Material Engineers, Inc. to provide Professional Services fo",
           "mover": "Trustee Homan",
           "seconder": "Trustee Jezycki",
           "yeas": [
@@ -5708,7 +5840,7 @@
         },
         {
           "page": 6,
-          "text": ": to Approve Amendment No. 2, as discussed and edited-with the removal of food service; of the Agreement with Incline Spirits to provide services at the restricted beaches managed by Incline Village General Improvement District; for the record Legal Counsel Rudin recited the modifications, to approv",
+          "text": "to Approve Amendment No. 2, as discussed and edited-with the removal of food service; of the Agreement with Incline Spirits to provide services at the restricted beaches managed by Incline Village General Improvement District; for the record Legal Counsel Rudin recited the modifications, to approve ",
           "mover": "Trustee Jezycki",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -5733,7 +5865,7 @@
         },
         {
           "page": 6,
-          "text": ": to Set the Date and Time for the Public Hearing to Implement Amendments to the Sewer and Water rates, as well as Adjustments to the Fee Schedule, for Wednesday, May 14, 2025, at 5:00 p.m. Motion .",
+          "text": "to Set the Date and Time for the Public Hearing to Implement Amendments to the Sewer and Water rates, as well as Adjustments to the Fee Schedule, for Wednesday, May 14, 2025, at 5:00 p.m.",
           "mover": "Trustee Jezycki",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -5758,7 +5890,7 @@
         },
         {
           "page": 8,
-          "text": ": to Adopt Resolution No. 1912 Codifying the transfer of the Parks Operations from Community Services to the General Fund in Fiscal Year 2023/2024 and Codifying the transfer of the Parks Operations back to Community Services from the General Fund effective July 1, 2025; Motion",
+          "text": "to Adopt Resolution No. 1912 Codifying the transfer of the Parks Operations from Community Services to the General Fund in Fiscal Year 2023/2024 and Codifying the transfer of the Parks Operations back to Community Services from the General Fund effective July 1, 2025;",
           "mover": "Trustee Homan",
           "seconder": "Trustee Jezycki",
           "yeas": [
@@ -5811,8 +5943,9 @@
         36
       ],
       "public_comments": 0,
-      "media_timestamps": 0,
+      "media_timestamps": 28,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -5825,9 +5958,9 @@
       "motions": [
         {
           "page": 2,
-          "text": "MOVED BY Trustee Noble: Approve the following consent matters as submitted: Items E.1. Approval of the IVGID Board of Trustees Meeting Minutes for February 26, 2025; E.2. Approval of the IVGID Board of Trustees Meeting Minutes for March 5, 2025; E.3. Approve a District Purchase Order for the Procure",
+          "text": "Approve the following consent matters as submitted: Items E.1. Approval of the IVGID Board of Trustees Meeting Minutes for February 26, 2025; E.2. Approval of the IVGID Board of Trustees Meeting Minutes for March 5, 2025; E.3. Approve a District Purchase Order for the Procurement of 1,860 Residentia",
           "mover": "Trustee Noble",
-          "seconder": "Trustee Homan",
+          "seconder": "Trustee Homan Action: Approve",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
@@ -5851,7 +5984,7 @@
         },
         {
           "page": 3,
-          "text": ": Approve the Updates to the Water Management Plan and the Purchase of 8.81 ac-ft of Incline Village General Improvement District Water Rights for $140,960 by Incline Hotel LLC; The Motion was modified by Trustee Tulloch to include direction to Public Works staff to research Water Right Rates and up",
+          "text": "Approve the Updates to the Water Management Plan and the Purchase of 8.81 ac-ft of Incline Village General Improvement District Water Rights for $140,960 by Incline Hotel LLC; The Motion was modified by Trustee Tulloch to include direction to Public Works staff to research Water Right Rates and upda",
           "mover": "Trustee Noble",
           "seconder": "Trustee Tulloch",
           "yeas": [
@@ -5877,7 +6010,7 @@
         },
         {
           "page": 4,
-          "text": ": to set the date and time for Public Hearing for the FY2025/2026 Budget and Recreation Roll for Wednesday, May 2 1, 2025, at 5:00 p.m.; Motion .",
+          "text": "to set the date and time for Public Hearing for the FY2025/2026 Budget and Recreation Roll for Wednesday, May 2 1, 2025, at 5:00 p.m.",
           "mover": "Trustee Jezycki",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -5903,7 +6036,7 @@
         },
         {
           "page": 5,
-          "text": ": to Approve placing up to $400,000 in the Community Service Fund budget for the rebuilding of Capstone (Ordinance 7 D atabase); Motion",
+          "text": "to Approve placing up to $400,000 in the Community Service Fund budget for the rebuilding of Capstone (Ordinance 7 D atabase);",
           "mover": "Trustee Noble",
           "seconder": "Trustee Jezycki",
           "yeas": [
@@ -5939,8 +6072,9 @@
         14
       ],
       "public_comments": 0,
-      "media_timestamps": 0,
+      "media_timestamps": 16,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -6069,8 +6203,9 @@
         42
       ],
       "public_comments": 0,
-      "media_timestamps": 0,
+      "media_timestamps": 19,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -6135,7 +6270,7 @@
         },
         {
           "page": 5,
-          "text": "to Approve and Authorize the Board Chair and Secretary to Sign an Agreement between the District and CORE West Inc. dba CORE Construction for the 100% Construction Development Contract for Incline Beach House Project -FY 2024/25 Capital Improvement Project; Fund: Community Services; Division: Beache",
+          "text": "to Approve and Authorize the Board Chair and Secretary to Sign an Agreement between the District and CORE West Inc. dba CORE Construction for the 100% Construction Development Contract for Incline Beach House Project - FY 2024/25 Capital Improvement Project; Fund: Community Services; Division: Beach",
           "mover": "Trustee Jezycki",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -6241,8 +6376,9 @@
         35
       ],
       "public_comments": 0,
-      "media_timestamps": 0,
+      "media_timestamps": 26,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -6278,6 +6414,62 @@
           "flags": [],
           "kind": "motion",
           "notes": []
+        },
+        {
+          "page": 3,
+          "text": "to approve the Field Rental Fee Rate Schedule to include: Item 1 - an increase of 3.5% to Field Rental Rates as shown in (Table 1); Item 2 - IVGID Recreation Pass Holder Discount of 20% of Public Rates for Field Rental Rates (Table 1); Item 3 - the new daily tournament fee of $200 per field per day;",
+          "mover": "Trustee Noble",
+          "seconder": "Trustee Jezycki",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ],
+          "nays": [],
+          "abstain": [
+            "Trustee Tulloch"
+          ],
+          "absent": [],
+          "tally": {
+            "aye": 3,
+            "nay": 0,
+            "abstain": 1,
+            "absent": 0
+          },
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": [
+            "narrative_motion"
+          ]
+        },
+        {
+          "page": 4,
+          "text": "to approve staff recommendations and direct staff to prepare the budget with the Parks Division in the Community Services Fund instead of the General Fund for Fiscal Year 2025-26.",
+          "mover": "Trustee Noble",
+          "seconder": "Trustee Jezycki",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ],
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "abstain": [],
+          "absent": [],
+          "tally": {
+            "aye": 3,
+            "nay": 1,
+            "abstain": 0,
+            "absent": 0
+          },
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": [
+            "narrative_motion"
+          ]
         }
       ],
       "flag_counts": {},
@@ -6291,8 +6483,9 @@
         12
       ],
       "public_comments": 0,
-      "media_timestamps": 0,
+      "media_timestamps": 8,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -6491,8 +6684,9 @@
         34
       ],
       "public_comments": 0,
-      "media_timestamps": 0,
+      "media_timestamps": 19,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": [
         {
           "file_id": 1227,
@@ -6515,7 +6709,7 @@
       "motions": [
         {
           "page": 3,
-          "text": "Approve the following consent matters, as submitted: Item F.1. Approval of the IVGID Board of Trustees Special Meeting Minutes for January 16, 2025; and Item F.2. Approval of the IVGID Board of Trustees Meeting Minutes for January 29, 2025. Media Timestamp 02:00:34 Action: Approve, .",
+          "text": "Approve the following consent matters, as submitted: Item F.1. Approval of the IVGID Board of Trustees Special Meeting Minutes for January 16, 2025; and Item F.2. Approval of the IVGID Board of Trustees Meeting Minutes for January 29, 2025. Media Timestamp 02:00:34 Action: Approve.",
           "mover": "Trustee Noble",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -6568,8 +6762,9 @@
         31
       ],
       "public_comments": 0,
-      "media_timestamps": 0,
+      "media_timestamps": 12,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -6687,6 +6882,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -6724,6 +6920,7 @@
         "raw_fallback_page:1",
         "raw_fallback_page:26"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -6819,6 +7016,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -6917,6 +7115,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -6966,6 +7165,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -7010,6 +7210,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -7025,6 +7226,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -7104,6 +7306,7 @@
         "raw_fallback_page:1",
         "raw_fallback_page:3"
       ],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -7158,6 +7361,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -7173,6 +7377,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -7222,6 +7427,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -7248,6 +7454,7 @@
         "raw_fallback_page:1",
         "raw_fallback_page:30"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -7301,6 +7508,7 @@
         "raw_fallback_page:35",
         "raw_fallback_page:44"
       ],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -7386,6 +7594,7 @@
         "raw_fallback_page:8",
         "raw_fallback_page:37"
       ],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -7429,6 +7638,7 @@
         "raw_fallback_page:1",
         "raw_fallback_page:19"
       ],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -7444,6 +7654,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -7472,6 +7683,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -7536,6 +7748,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -7628,6 +7841,7 @@
         "raw_fallback_page:1",
         "raw_fallback_page:28"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -7658,6 +7872,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -7691,6 +7906,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -7706,6 +7922,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -7745,6 +7962,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -7769,6 +7987,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -7786,6 +8005,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -7857,6 +8077,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -7895,6 +8116,7 @@
         "raw_fallback_page:1",
         "raw_fallback_page:45"
       ],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -7924,6 +8146,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -7964,6 +8187,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8019,6 +8243,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8073,6 +8298,7 @@
         "raw_fallback_page:1",
         "raw_fallback_page:49"
       ],
+      "minutes_status": "approved",
       "failures": []
     },
     {
@@ -8103,6 +8329,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8120,6 +8347,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8137,6 +8365,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8154,6 +8383,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8171,6 +8401,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8186,6 +8417,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8210,6 +8442,7 @@
         "raw_fallback_page:1",
         "raw_fallback_page:19"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8253,6 +8486,7 @@
         "raw_fallback_page:1",
         "raw_fallback_page:27"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8268,6 +8502,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8320,6 +8555,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8398,6 +8634,7 @@
         "raw_fallback_page:1",
         "raw_fallback_page:24"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8415,6 +8652,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8432,6 +8670,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8449,6 +8688,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8464,6 +8704,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8481,6 +8722,7 @@
       "doc_flags": [
         "raw_fallback_page:3"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8499,6 +8741,7 @@
         "raw_fallback_page:1",
         "raw_fallback_page:36"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8516,6 +8759,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8534,6 +8778,7 @@
         "raw_fallback_page:1",
         "raw_fallback_page:30"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8578,6 +8823,7 @@
         "raw_fallback_page:1",
         "raw_fallback_page:4"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8596,6 +8842,7 @@
         "raw_fallback_page:1",
         "raw_fallback_page:22"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8682,6 +8929,7 @@
         "raw_fallback_page:1",
         "raw_fallback_page:22"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8814,6 +9062,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -8887,6 +9136,7 @@
       "doc_flags": [
         "raw_fallback_page:1"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -9049,6 +9299,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -9174,6 +9425,7 @@
         "raw_fallback_page:31",
         "raw_fallback_page:32"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -9211,6 +9463,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -9320,6 +9573,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -9403,6 +9657,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -9641,6 +9896,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -9801,6 +10057,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -9897,6 +10154,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -10159,6 +10417,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -10263,6 +10522,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -10352,6 +10612,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -10367,6 +10628,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -10510,6 +10772,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -10602,6 +10865,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -10759,6 +11023,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -10860,6 +11125,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -10932,6 +11198,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -10947,6 +11214,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -10985,6 +11253,7 @@
         "raw_fallback_page:104",
         "raw_fallback_page:105"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11002,6 +11271,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11026,6 +11296,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11055,6 +11326,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11089,6 +11361,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11106,6 +11379,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11121,6 +11395,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11138,6 +11413,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11163,6 +11439,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11188,6 +11465,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": "draft",
       "failures": []
     },
     {
@@ -11203,6 +11481,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11218,6 +11497,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11241,6 +11521,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11256,6 +11537,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11277,6 +11559,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11292,6 +11575,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11307,6 +11591,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11322,6 +11607,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11337,6 +11623,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11352,6 +11639,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11367,6 +11655,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11382,6 +11671,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11397,6 +11687,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11412,6 +11703,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11427,6 +11719,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11543,6 +11836,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": [
         {
           "file_id": 750,
@@ -11638,6 +11932,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": [
         {
           "file_id": 747,
@@ -11670,6 +11965,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11685,6 +11981,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11700,6 +11997,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11715,6 +12013,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11730,6 +12029,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11750,6 +12050,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11770,6 +12071,7 @@
       "doc_flags": [
         "raw_fallback_page:71"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11806,6 +12108,7 @@
         "raw_fallback_page:77",
         "raw_fallback_page:78"
       ],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11830,6 +12133,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11845,6 +12149,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11860,6 +12165,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11886,6 +12192,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11901,6 +12208,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11937,6 +12245,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11964,6 +12273,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     },
     {
@@ -11979,6 +12289,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
+      "minutes_status": null,
       "failures": []
     }
   ]
