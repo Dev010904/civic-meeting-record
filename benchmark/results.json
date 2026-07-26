@@ -11,16 +11,122 @@
   },
   "totals": {
     "documents": 153,
-    "motions": 183,
-    "motions_clean": 149,
-    "coverage_pct": 81.4,
+    "motions": 197,
+    "motions_clean": 189,
+    "coverage_pct": 95.9,
     "crashes": 0,
     "flags": {
-      "missing_outcome": 15,
-      "missing_mover": 24,
-      "tally_mismatch": 9,
-      "missing_vote_sections": 6
+      "truncated_outcome": 3,
+      "missing_outcome": 5,
+      "missing_mover": 5,
+      "missing_vote_sections": 5
     }
+  },
+  "live": {
+    "documents": 57,
+    "motions": 192,
+    "motions_clean": 189,
+    "coverage_pct": 98.4,
+    "flags": {
+      "truncated_outcome": 3
+    },
+    "zero_motion_documents": [
+      {
+        "file_id": 1427,
+        "event_date": "2025-05-21",
+        "event_name": "Special Meeting of the IVGID Board of Trustees"
+      },
+      {
+        "file_id": 1096,
+        "event_date": "2025-01-16",
+        "event_name": "Special Meeting of the IVGID  Board of Trustees"
+      },
+      {
+        "file_id": 1103,
+        "event_date": "2025-01-08",
+        "event_name": "Regular Meeting of the Board of Trustees"
+      },
+      {
+        "file_id": 1041,
+        "event_date": "2024-11-18",
+        "event_name": "Regular Meeting of the Audit Committee"
+      },
+      {
+        "file_id": 1048,
+        "event_date": "2024-10-15",
+        "event_name": "Regular Meeting of the Audit Committee"
+      },
+      {
+        "file_id": 977,
+        "event_date": "2024-08-20",
+        "event_name": "Regular Meeting of Audit Committee"
+      },
+      {
+        "file_id": 975,
+        "event_date": "2024-06-17",
+        "event_name": "Regular Meeting of the Audit Committee"
+      },
+      {
+        "file_id": 950,
+        "event_date": "2024-03-25",
+        "event_name": "Special Meeting of the Audit Committee"
+      },
+      {
+        "file_id": 931,
+        "event_date": "2023-03-30",
+        "event_name": "Regular Meeting of the Audit Committee"
+      },
+      {
+        "file_id": 826,
+        "event_date": "2022-12-05",
+        "event_name": "Regular Meeting of the IVGID Audit Committee "
+      },
+      {
+        "file_id": 810,
+        "event_date": "2022-09-28",
+        "event_name": "Regular Meeting of the IVGID Audit Committee"
+      },
+      {
+        "file_id": 794,
+        "event_date": "2022-06-16",
+        "event_name": "Regular Meeting of the IVGID Audit Committee"
+      },
+      {
+        "file_id": 788,
+        "event_date": "2022-06-01",
+        "event_name": "Regular Meeting of the IVGID Audit Committee"
+      },
+      {
+        "file_id": 777,
+        "event_date": "2022-05-10",
+        "event_name": "Regular Meeting of the IVGID Audit Committee"
+      },
+      {
+        "file_id": 771,
+        "event_date": "2022-04-21",
+        "event_name": "Regular Meeting of the Audit Committee"
+      },
+      {
+        "file_id": 764,
+        "event_date": "2022-04-13",
+        "event_name": "Regular Meeting of the IVGID Audit Committee"
+      },
+      {
+        "file_id": 782,
+        "event_date": "2022-02-22",
+        "event_name": "Regular Meeting of the IVGID Audit Committee"
+      },
+      {
+        "file_id": 736,
+        "event_date": "2021-12-16",
+        "event_name": "Regular Meeting of the IVGID Audit Committee"
+      },
+      {
+        "file_id": 725,
+        "event_date": "2021-12-08",
+        "event_name": "Regular Meeting of the IVGID Audit Committee"
+      }
+    ]
   },
   "documents": [
     {
@@ -52,7 +158,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -92,7 +200,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 5,
@@ -116,7 +226,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 6,
@@ -141,7 +253,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 7,
@@ -165,7 +279,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 8,
@@ -189,7 +305,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 8,
@@ -214,7 +332,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 13,
@@ -225,7 +345,7 @@
             "Trustee Chair Tonking",
             "Trustee Jezycki",
             "Trustee Noble",
-            "Trustee  Homan",
+            "Trustee Homan",
             "Trustee Tulloch"
           ],
           "nays": [],
@@ -238,7 +358,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 14,
@@ -262,7 +384,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 15,
@@ -286,7 +410,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 16,
@@ -311,7 +437,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 17,
@@ -335,7 +463,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 18,
@@ -359,7 +489,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -403,7 +535,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 8,
@@ -427,7 +561,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 11,
@@ -451,7 +587,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 13,
@@ -476,7 +614,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 15,
@@ -500,7 +640,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 17,
@@ -525,7 +667,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 17,
@@ -550,7 +694,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 17,
@@ -575,7 +721,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 19,
@@ -599,7 +747,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 20,
@@ -624,7 +774,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 21,
@@ -649,7 +801,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -681,7 +835,7 @@
           "yeas": [
             "Trustee Chair Tonking",
             "Trustee Homan",
-            "At-Large Audit Committee Member  Kelly",
+            "At-Large Audit Committee Member Kelly",
             "At-Large Audit Committee Member Lighthart"
           ],
           "nays": [],
@@ -694,7 +848,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 5,
@@ -704,7 +860,7 @@
           "yeas": [
             "Trustee Chair Tonking",
             "Trustee Homan",
-            "At-Large Audit Committee Member  Kelly",
+            "At-Large Audit Committee Member Kelly",
             "At-Large Audit Committee Member Lighthart"
           ],
           "nays": [],
@@ -717,7 +873,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 6,
@@ -727,7 +885,7 @@
           "yeas": [
             "Trustee Chair Tonking",
             "Trustee Homan",
-            "At-Large Audit Committee Member  Kelly",
+            "At-Large Audit Committee Member Kelly",
             "At-Large Audit Committee Member Lighthart"
           ],
           "nays": [],
@@ -740,7 +898,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 7,
@@ -750,7 +910,7 @@
           "yeas": [
             "Trustee Chair Tonking",
             "Trustee Homan",
-            "At-Large Audit Committee Member  Kelly",
+            "At-Large Audit Committee Member Kelly",
             "At-Large Audit Committee Member Lighthart"
           ],
           "nays": [],
@@ -763,7 +923,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -785,7 +947,7 @@
           "page": 7,
           "text": "Approve the following consent matters: Approve the Board of Trustees Meeting Minutes for March 25, 2026, receive the audit committee's quarterly report of the whistle-blower complaints for the first quarter, approve a site-use agreement between the district and Lake Tahoe Market LLC., and approval o",
           "mover": "Trustee Jezycki",
-          "seconder": "Trustee Noble.",
+          "seconder": "Trustee Noble",
           "yeas": [
             "Trustee Chair Tonking",
             "Trustee Jezycki",
@@ -803,7 +965,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 10,
@@ -827,7 +991,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 10,
@@ -852,7 +1018,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 14,
@@ -876,7 +1044,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 16,
@@ -900,7 +1070,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -934,7 +1106,7 @@
             "Audit Committee Chair Brandle",
             "Trustee Tonking",
             "Trustee Homan",
-            "At-Large  Audit Committee Member Kelly",
+            "At-Large Audit Committee Member Kelly",
             "At-Large Audit Committee Member Lighthart"
           ],
           "nays": [],
@@ -947,18 +1119,20 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 10,
           "text": "to Approve Suggested Revisions to Whistleblower Policy & Procedure 15.2 and Provide a Recommendation to the Board of Trustees to Formally Adopt the Revisions.",
           "mover": "Audit Committee Chair Brandle",
-          "seconder": "At-Large Audit Committee Member",
+          "seconder": "At-Large Audit Committee Member Kelly",
           "yeas": [
             "Audit Committee Chair Brandle",
             "Trustee Chair Tonking",
             "Trustee Homan",
-            "At-  Large Audit Committee Member Kelly",
+            "At- Large Audit Committee Member Kelly",
             "At-Large Audit Committee Member Lighthart"
           ],
           "nays": [],
@@ -971,7 +1145,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 10,
@@ -982,7 +1158,7 @@
             "Audit Committee Chair Brandle",
             "Trustee Chair Tonking",
             "Trustee Homan",
-            "At-  Large Audit Committee Member Kelly",
+            "At- Large Audit Committee Member Kelly",
             "At-Large Audit Committee Member Lighthart"
           ],
           "nays": [],
@@ -995,7 +1171,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 12,
@@ -1006,7 +1184,7 @@
             "Audit Committee Chair Brandle",
             "Trustee Chair Tonking",
             "Trustee Homan",
-            "At-  Large Audit Committee Member Kelly",
+            "At- Large Audit Committee Member Kelly",
             "At-Large Audit Committee Member Lighthart"
           ],
           "nays": [],
@@ -1019,7 +1197,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -1039,9 +1219,9 @@
       "motions": [
         {
           "page": 4,
-          "text": "Approve the following consent calendar, Item G.1., as submitted.",
+          "text": "Approve the following consent calendar, Item G.1., as submitted. Action: Approve, .",
           "mover": "Trustee Noble",
-          "seconder": "Trustee Homan.",
+          "seconder": "Trustee Homan",
           "yeas": [
             "Trustee Chair Tonking",
             "Trustee Jezycki",
@@ -1059,7 +1239,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 5,
@@ -1084,7 +1266,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 13,
@@ -1108,7 +1292,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 14,
@@ -1132,7 +1318,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -1158,9 +1346,9 @@
       "motions": [
         {
           "page": 10,
-          "text": "Approve the following consent matters: Item G.1. Approval of the IVGID Board of Trustee Meeting Minutes for February 25, 2026; and Item G.2. Review, discuss and approve the Veterans War Memorial Monument Design at the Village Green, as submitted.",
+          "text": "Approve the following consent matters: Item G.1. Approval of the IVGID Board of Trustee Meeting Minutes for February 25, 2026; and Item G.2. Review, discuss and approve the Veterans War Memorial Monument Design at the Village Green, as submitted. .",
           "mover": "Trustee Noble",
-          "seconder": "Trustee Homan.",
+          "seconder": "Trustee Homan",
           "yeas": [
             "Trustee Chair Tonking",
             "Trustee Jezycki",
@@ -1178,7 +1366,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 11,
@@ -1203,7 +1393,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 11,
@@ -1228,7 +1420,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 12,
@@ -1253,7 +1447,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 13,
@@ -1277,7 +1473,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 13,
@@ -1301,7 +1499,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 13,
@@ -1325,7 +1525,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 14,
@@ -1350,7 +1552,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 14,
@@ -1374,7 +1578,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 14,
@@ -1398,7 +1604,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 15,
@@ -1422,7 +1630,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 15,
@@ -1446,7 +1656,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -1480,9 +1692,9 @@
       "motions": [
         {
           "page": 7,
-          "text": "Approve Consent Calendar Items G.1., G.2., and G.3., as submitted.",
+          "text": "Approve Consent Calendar Items G.1., G.2., and G.3., as submitted. .",
           "mover": "Trustee Noble",
-          "seconder": "Trustee Jezycki.",
+          "seconder": "Trustee Jezycki",
           "yeas": [
             "Trustee Chair Tonking",
             "Trustee Jezycki",
@@ -1500,7 +1712,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 12,
@@ -1524,7 +1738,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -1654,7 +1870,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 5,
@@ -1679,7 +1897,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -1725,36 +1945,30 @@
       "motions": [
         {
           "page": 1,
-          "text": "to Approve and Follow the Agenda as Submitted/Posted. Moved By Audit Committee Chair Brandle",
-          "mover": null,
+          "text": "to Approve and Follow the Agenda as Submitted/Posted.",
+          "mover": "Audit Committee Chair Brandle",
           "seconder": null,
           "yeas": [
             "Audit Committee Chair Brandle",
             "Trustee Homan",
-            "At-Large Audit Committee  Member Lighthart"
+            "At-Large Audit Committee Member Lighthart"
           ],
-          "nays": [
-            "None  MOTION D. REPORTS TO THE COMMITTEE - (Not for possible Action) IVGID Audit Committee -- Meeting Minutes January",
-            "(Not for possible Action) - Progress on Material Weaknesses (MWs) & the Changes Associated with the Rubin Brown Report. (Requesting Staff Member: Director of Finance Noemi Barter) - pages  -  Full discussion on Item D.. Progress on Material Weaknesses (MW's) & the changes associated with the Rubin Brown Report can be viewed/ heard at: https://ivgid.portal.civicclerk.com/event//media Media Timestamp(:: - ::) Director of Finance Noemi Barter provided an update on the progress on material weaknesses associated with the Rubin Brown Report. She reportedthatthe auditprocesshasbegun;previousauditfindingsremain listed untilofficially resolved. Bankreconciliations are current and have been submitted to the state. The Tyler bank reconciliation module isunderway",
-            "currentlyin aside-by-side comparison phase.Internalservice fund billings are based on budget; a review ofthe prior six months and fiscal  is in progress to address shortfalls. Audit-related cash augmentations for the Board/fiscal  are to be submitted by June",
-            "; preparations are ongoing. Inventory counts are complete and awaiting auditor review. The initial indication is that the inventory balance is not material. Staff haveprovided auditors with capital asset schedules",
-            "including potential write-offs; auditor action will depend on materiality. Revenues and point-of-sale system entries are now uploaded daily and tracked monthly. The P-card transaction process is transitioning back to Wells Fargo for streamlining; it remainsmanual untilthe module is implemented. Committee member Mich Homan requested that future reports include specific dates on when material weaknesses are remedied to demonstrate progress. He emphasized that adding timelines for future actions such as budget reviews",
-            "inventory counts",
-            "and planned system"
-          ],
+          "nays": [],
           "abstain": [],
           "absent": [],
           "tally": {
             "aye": 3,
-            "nay": null,
+            "nay": 0,
             "abstain": 0,
             "absent": 0
           },
           "outcome": null,
           "flags": [
-            "missing_outcome",
-            "missing_mover",
-            "tally_mismatch"
+            "truncated_outcome"
+          ],
+          "kind": "motion",
+          "notes": [
+            "no_seconder"
           ]
         },
         {
@@ -1765,7 +1979,7 @@
           "yeas": [
             "Audit Committee Chair Brandle",
             "Trustee Homan",
-            "At-Large Audit Committee  Member Kelly",
+            "At-Large Audit Committee Member Kelly",
             "At-Large Audit Committee Member Lighthart"
           ],
           "nays": [],
@@ -1778,13 +1992,13 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {
-        "missing_outcome": 1,
-        "missing_mover": 1,
-        "tally_mismatch": 1
+        "truncated_outcome": 1
       },
       "unparseable_pages": [],
       "public_comments": 0,
@@ -1796,11 +2010,9 @@
           "event_date": "2026-01-28T10:00:00Z",
           "page": 1,
           "flags": [
-            "missing_outcome",
-            "missing_mover",
-            "tally_mismatch"
+            "truncated_outcome"
           ],
-          "raw": "MOTION: to Approve and Follow the Agenda as Submitted/Posted.\nMoved By Audit Committee Chair Brandle\nYEAS: Audit Committee Chair Brandle, Trustee Homan, At-Large Audit Committee 3\nMember Lighthart\nNAYS: None 0\nMOTION\nD. REPORTS TO THE COMMITTEE - (Not for possible Action)\nIVGID Audit Committee -2- Meeting Minutes January 28, 2026\n1. (Not for possible Action) - Progress on Material Weaknesses (MWs) & the Changes\nAssociated with the Rubin Brown Report. (Requesting Staff Member: Director of\nFinance Noemi Barter) - pages 3 - 8\nFull discussion on Item D.1. Progress on Material Weaknesses (MW's) & the changes associated\nwith the Rubin Brown Report can be viewed/ heard at:\nhttps://ivgid.portal.civicclerk.com/event/726/media Media Timestamp(00:11:40 - 00:18:08)\nDirector of Finance Noemi Barter provided an update on the progress on material weaknesses\nassociated with the Rubin Brown Report.\nShe reportedthatthe auditprocesshasbegun;previousauditfindingsremain listed untilofficially\nresolved. Bankreconciliations are current and have been submitted to the state. The Tyler bank\nreconciliation module isunderway,currentlyin aside-by-side comparison phase.Internalservice\nfund billings are based on budget; a review ofthe prior six months and fiscal 2025 is in progress\nto address shortfalls. Audit-related cash augmentations for the Board/fiscal 2026 are to be\nsubmitted by June 30, 2026; preparations are ongoing. Inventory counts are complete and\nawaiting auditor review. The initial indication is that the inventory balance is not material. Staff\nhaveprovided auditors with capital asset schedules, including potential write-offs; auditor action\nwill depend on materiality. Revenues and point-of-sale system entries are now uploaded daily\nand tracked monthly. The P-card transaction process is transitioning back to Wells Fargo for\nstreamlining; it remainsmanual untilthe module is implemented.\nCommittee member Mich Homan requested that future reports include specific dates on when\nmaterial weaknesses are remedied to demonstrate progress. He emphasized that adding\ntimelines for future actions such as budget reviews, inventory counts, and planned system"
+          "raw": "MOTION: to Approve and Follow the Agenda as Submitted/Posted.\nMoved By Audit Committee Chair Brandle\nYEAS: Audit Committee Chair Brandle, Trustee Homan, At-Large Audit Committee 3\nMember Lighthart\nNAYS: None 0\nMOTION"
         }
       ]
     },
@@ -1834,7 +2046,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 8,
@@ -1858,7 +2072,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -1881,8 +2097,8 @@
       "motions": [
         {
           "page": 9,
-          "text": "To remove Item H.5. from the Agenda Moved by Trustee Tulloch, Trustee Chair Tonking called for a Vote to remove Item H.5. from the agenda as requested.",
-          "mover": null,
+          "text": "To remove Item H.5. from the Agenda , Trustee Chair Tonking called for a Vote to remove Item H.5. from the agenda as requested.",
+          "mover": "Trustee Tulloch",
           "seconder": null,
           "yeas": [
             "Trustee Tulloch"
@@ -1890,7 +2106,7 @@
           "nays": [
             "Trustee Secretary Noble",
             "Trustee Treasurer Homan",
-            "Trustee Vice Chair  Jezycki",
+            "Trustee Vice Chair Jezycki",
             "Trustee Chair Tonking"
           ],
           "abstain": [],
@@ -1902,20 +2118,22 @@
             "absent": 0
           },
           "outcome": "failed",
-          "flags": [
-            "missing_mover"
+          "flags": [],
+          "kind": "motion",
+          "notes": [
+            "no_seconder"
           ]
         },
         {
           "page": 15,
           "text": "Approve the following consent matters, as submitted: Item G.1. Approve the IVGID Board of Trustees Meeting Minutes for November 12, 2025; Item G.2. Approve an additional $861.91 for the BBK Purchase order for a total of $100891.61; Item G.3. Approve the request for the Board of Trustees to waive the",
           "mover": "Trustee Secretary Noble",
-          "seconder": "Trustee Treasurer Homan.",
+          "seconder": "Trustee Treasurer Homan",
           "yeas": [
             "Trustee Secretary Noble",
             "Trustee Tulloch",
             "Trustee Treasurer Homan",
-            "Trustee  Vice Chair Jezycki",
+            "Trustee Vice Chair Jezycki",
             "Trustee Chair Tonking"
           ],
           "nays": [],
@@ -1928,7 +2146,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 16,
@@ -1953,7 +2173,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 17,
@@ -1978,7 +2200,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 18,
@@ -1990,7 +2214,7 @@
             "Trustee Tulloch",
             "Trustee Homan",
             "Trustee Jezycki",
-            "Chair  Tonking"
+            "Chair Tonking"
           ],
           "nays": [],
           "abstain": [],
@@ -2002,7 +2226,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 18,
@@ -2027,7 +2253,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 21,
@@ -2041,25 +2269,20 @@
             "Trustee Chair Tonking"
           ],
           "nays": [
-            "Trustee Tulloch  MOTION PASSES H. (For possible Action) Review",
-            "Discuss and possibly Approve the District General Manager's Proposed Goals. (Requesting Staff and Board Member: Director of Human Resources Eric Milavsky and Trustee Vice Chair Michelle Jezycki) Discussion and Approval of the District General Managers Goals are available to be viewed or heard at: https://ivgid.portal.civicclerk.com/event//media Media Timestamp (:: - ::) The Director of Human Resources",
-            "Eric Milavsky",
-            "presented the review and compilation of the District General Managers Goals. He explained that he reached out to each Trustee individually to gather feedback on goals and objectives for the General Manager (GM) for the remainder of the fiscal year. He and Trustee Jezycki then consolidated the feedback into a single working document",
-            "aiming to capture the spirit of all trustees' input. The compilation process included combining overlapping suggestions and rewording for clarity"
+            "Trustee Tulloch"
           ],
           "abstain": [],
           "absent": [],
           "tally": {
             "aye": 4,
-            "nay": null,
+            "nay": 1,
             "abstain": 0,
             "absent": 0
           },
-          "outcome": null,
-          "flags": [
-            "missing_outcome",
-            "tally_mismatch"
-          ]
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 21,
@@ -2071,30 +2294,25 @@
             "Trustee Tulloch",
             "Trustee Homan",
             "Trustee Jezycki",
-            "Trustee  Chair Tonking"
+            "Trustee Chair Tonking"
           ],
-          "nays": [
-            "None  MOTION PASSES The Boards suggested edits below: \u2022 Remove the legal advice objective (V..) from the GM Goals document. \u2022 Revise language on venue profitability and relative KPIs to focus on optimizing financial performance rather than mandating cost recovery or profitability. \u2022 Number  (pages  and ) add the Bike Park Phase II. \u2022 Adjust overly prescriptive objectives to broader",
-            "more flexible language",
-            "particularly for the timing and execution of senior team reviews. \u2022 Incorporate cost-benefit analysis as a KPI in section .B.. and clarify language in that section. \u2022 Add consideration of year-round/seasonal staff review and feedback to the organizational structure objectives. \u2022 The new Chart Style Tracking tool is in the development stage (per Trustee Jezycki). \u2022 HR Director Milavsky to update and distribute the revised document to Board members for final review before the January Board Meeting. *Note taken for the District Clerk to explore solutions to add pages to the digital agenda document for ease of navigation on Trustee iPads. H. (For possible Action) Election of Board of Trustees Officers for the  Term. (Requesting Staff Member: District Clerk Heidi White) The Election of the  Term for the Board of Trustees Officers is available to be viewed or heard at: https://ivgid.portal.civicclerk.com/event//media Media Timestamp (:: - ::)"
-          ],
+          "nays": [],
           "abstain": [],
           "absent": [],
           "tally": {
             "aye": 5,
-            "nay": null,
+            "nay": 0,
             "abstain": 0,
             "absent": 0
           },
-          "outcome": null,
-          "flags": [
-            "missing_outcome",
-            "tally_mismatch"
-          ]
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 22,
-          "text": "to approve the current 2025 slate of officers to remain in seat for 2026 - Chair -Trustee Michalea Tonking; Vice-Chair - Trustee Michelle Jezycki; Treasurer - Trustee Mick Homan; Secretary - Trustee Dave Noble;",
+          "text": "to approve the current 2025 slate of officers to remain in seat for 2026 - Chair -Trustee Michalea Tonking; Vice-Chair - Trustee Michelle Jezycki; Treasurer - Trustee Mick Homan; Secretary - Trustee Dave Noble",
           "mover": "Trustee Homan",
           "seconder": "Trustee Jezycki",
           "yeas": [
@@ -2115,14 +2333,12 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
-      "flag_counts": {
-        "missing_mover": 1,
-        "missing_outcome": 2,
-        "tally_mismatch": 2
-      },
+      "flag_counts": {},
       "unparseable_pages": [
         28,
         29,
@@ -2159,37 +2375,7 @@
       "public_comments": 0,
       "media_timestamps": 30,
       "doc_flags": [],
-      "failures": [
-        {
-          "file_id": 1570,
-          "event_date": "2025-12-10T17:00:00Z",
-          "page": 9,
-          "flags": [
-            "missing_mover"
-          ],
-          "raw": "MOTION: To remove Item H.5. from the Agenda\nMoved by Trustee Tulloch, Trustee Chair Tonking called for a Vote to remove Item H.5.\nfrom the agenda as requested.\nYEAS: Trustee Tulloch 1\nNAYS: Trustee Secretary Noble, Trustee Treasurer Homan, Trustee Vice Chair 4\nJezycki, Trustee Chair Tonking\nMOTION FAILED"
-        },
-        {
-          "file_id": 1570,
-          "event_date": "2025-12-10T17:00:00Z",
-          "page": 21,
-          "flags": [
-            "missing_outcome",
-            "tally_mismatch"
-          ],
-          "raw": "MOTION: to Approve Resolution 1920 - Guest Employee Beach Access Program.\nMoved By Trustee Jezycki, Seconded by Trustee Homan\nYEAS: Trustee Noble, Trustee Homan, Trustee Jezycki, Trustee Chair Tonking 4\nNAYS: Trustee Tulloch 1\nMOTION PASSES\nH.7 (For possible Action) Review, Discuss and possibly Approve the District\nGeneral Manager's Proposed Goals. (Requesting Staff and Board Member:\nDirector of Human Resources Eric Milavsky and Trustee Vice Chair Michelle\nJezycki)\nDiscussion and Approval of the District General Managers Goals are available to be viewed\nor heard at: https://ivgid.portal.civicclerk.com/event/588/media\nMedia Timestamp (02:45:33 - 03:01:15)\nThe Director of Human Resources, Eric Milavsky, presented the review and compilation of\nthe District General Managers Goals. He explained that he reached out to each Trustee\nindividually to gather feedback on goals and objectives for the General Manager (GM) for the\nremainder of the fiscal year. He and Trustee Jezycki then consolidated the feedback into a\nsingle working document, aiming to capture the spirit of all trustees' input. The compilation\nprocess included combining overlapping suggestions and rewording for clarity."
-        },
-        {
-          "file_id": 1570,
-          "event_date": "2025-12-10T17:00:00Z",
-          "page": 21,
-          "flags": [
-            "missing_outcome",
-            "tally_mismatch"
-          ],
-          "raw": "MOTION: to Approve the District General Manager's Proposed Goals, with the changes\ndiscussed.\nMoved By Trustee Homan, Seconded by Trustee Noble\nYEAS: Trustee Noble, Trustee Tulloch, Trustee Homan, Trustee Jezycki, Trustee 5\nChair Tonking\nNAYS: None 0\nMOTION PASSES\nThe Boards suggested edits below:\n\u2022 Remove the legal advice objective (V.12.) from the GM Goals document.\n\u2022 Revise language on venue profitability and relative KPIs to focus on optimizing\nfinancial performance rather than mandating cost recovery or profitability.\n\u2022 Number 12 (pages 337 and 344) add the Bike Park Phase II.\n\u2022 Adjust overly prescriptive objectives to broader, more flexible language, particularly\nfor the timing and execution of senior team reviews.\n\u2022 Incorporate cost-benefit analysis as a KPI in section 2.B.6. and clarify language in that\nsection.\n\u2022 Add consideration of year-round/seasonal staff review and feedback to the\norganizational structure objectives.\n\u2022 The new Chart Style Tracking tool is in the development stage (per Trustee Jezycki).\n\u2022 HR Director Milavsky to update and distribute the revised document to Board\nmembers for final review before the January Board Meeting.\n*Note taken for the District Clerk to explore solutions to add pages to the digital agenda\ndocument for ease of navigation on Trustee iPads.\nH.8 (For possible Action) Election of Board of Trustees Officers for the 2026 Term.\n(Requesting Staff Member: District Clerk Heidi White)\nThe Election of the 2026 Term for the Board of Trustees Officers is available to be viewed or\nheard at: https://ivgid.portal.civicclerk.com/event/588/media\nMedia Timestamp (03:01:17 - 03:03:10)"
-        }
-      ]
+      "failures": []
     },
     {
       "file_id": 1559,
@@ -2201,9 +2387,9 @@
       "motions": [
         {
           "page": 14,
-          "text": "Approve the following consent matters - Item G.1., Item G.2., Item G.3., and Item G.4. as submitted.",
+          "text": "Approve the following consent matters - Item G.1., Item G.2., Item G.3., and Item G.4. as submitted. Action: Approve, .",
           "mover": "Trustee Noble",
-          "seconder": "Trustee Homan.",
+          "seconder": "Trustee Homan",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
@@ -2221,7 +2407,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 17,
@@ -2232,7 +2420,7 @@
             "Trustee Noble",
             "Trustee Tulloch",
             "Trustee Homan",
-            "Trustee Vice Chair  Jezycki",
+            "Trustee Vice Chair Jezycki",
             "Trustee Chair Tonking"
           ],
           "nays": [],
@@ -2245,7 +2433,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 18,
@@ -2256,7 +2446,7 @@
             "Trustee Noble",
             "Trustee Tulloch",
             "Trustee Homan",
-            "Trustee Vice Chair  Jezycki",
+            "Trustee Vice Chair Jezycki",
             "Trustee Chair Tonking"
           ],
           "nays": [],
@@ -2269,7 +2459,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 19,
@@ -2280,7 +2472,7 @@
             "Trustee Noble",
             "Trustee Homan",
             "Trustee Vice Chair Jezycki",
-            "Trustee Chair  Tonking"
+            "Trustee Chair Tonking"
           ],
           "nays": [
             "Trustee Tulloch"
@@ -2294,7 +2486,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 20,
@@ -2305,7 +2499,7 @@
             "Trustee Noble",
             "Trustee Tulloch",
             "Trustee Homan",
-            "Trustee Vice Chair  Jezycki",
+            "Trustee Vice Chair Jezycki",
             "Trustee Chair Tonking"
           ],
           "nays": [],
@@ -2318,7 +2512,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 21,
@@ -2329,7 +2525,7 @@
             "Trustee Noble",
             "Trustee Tulloch",
             "Trustee Homan",
-            "Trustee Vice Chair  Jezycki",
+            "Trustee Vice Chair Jezycki",
             "Trustee Chair Tonking"
           ],
           "nays": [],
@@ -2342,7 +2538,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -2372,7 +2570,7 @@
           "page": 3,
           "text": "for a flexible Agenda and to move General Business Items E.1. and E.2. to the beginning of the meeting.",
           "mover": "Audit Committee Chair Brandle",
-          "seconder": "At-Large Audit Committee Member",
+          "seconder": "At-Large Audit Committee Member Kelly",
           "yeas": [
             "Trustee Homan",
             "Trustee Tonking",
@@ -2389,17 +2587,19 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 4,
           "text": "to approve and recommend that the Board of Trustees accepts and approves the Single Audit Report on Federal Awards as of June 30, 2023.",
           "mover": "Audit Committee Chair Brandle",
-          "seconder": "At-Large Audit Committee Member",
+          "seconder": "At-Large Audit Committee Member Kelly",
           "yeas": [
             "Trustee Treasurer Homan",
             "Trustee Chair Tonking",
-            "At-Large Audit Committee  Member Kelly",
+            "At-Large Audit Committee Member Kelly",
             "Audit Committee Chair Brandle"
           ],
           "nays": [],
@@ -2412,7 +2612,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 4,
@@ -2435,7 +2637,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 9,
@@ -2445,7 +2649,7 @@
           "yeas": [
             "Trustee Treasurer Homan",
             "Trustee Chair Tonking",
-            "At-Large Audit Committee  Member Kelly",
+            "At-Large Audit Committee Member Kelly",
             "Audit Committee Chair Brandle"
           ],
           "nays": [],
@@ -2458,7 +2662,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 9,
@@ -2468,7 +2674,7 @@
           "yeas": [
             "Trustee Treasurer Homan",
             "Trustee Chair Tonking",
-            "At-Large Audit Committee  Member Kelly",
+            "At-Large Audit Committee Member Kelly",
             "Audit Committee Chair Brandle"
           ],
           "nays": [],
@@ -2481,7 +2687,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -2539,7 +2747,7 @@
             "Trustee Tulloch",
             "Trustee Homan",
             "Trustee Jezycki",
-            "Trustee  Tonking"
+            "Trustee Tonking"
           ],
           "nays": [],
           "abstain": [],
@@ -2551,7 +2759,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 8,
@@ -2563,7 +2773,7 @@
             "Trustee Tulloch",
             "Trustee Homan",
             "Trustee Jezycki",
-            "Trustee  Tonking"
+            "Trustee Tonking"
           ],
           "nays": [],
           "abstain": [],
@@ -2575,7 +2785,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 10,
@@ -2600,7 +2812,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 14,
@@ -2612,7 +2826,7 @@
             "Trustee Tulloch",
             "Trustee Homan",
             "Trustee Jezycki",
-            "Trustee  Tonking"
+            "Trustee Tonking"
           ],
           "nays": [],
           "abstain": [],
@@ -2624,11 +2838,13 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 14,
-          "text": "That we send a letter to Miss Joy Gumz, prepared by District General Counsel David Rigdon, asking if the records request PRR 24-116 has been successfully fulfilled;",
+          "text": "That we send a letter to Miss Joy Gumz, prepared by District General Counsel David Rigdon, asking if the records request PRR 24-116 has been successfully fulfilled",
           "mover": "Trustee Jezycki",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -2636,7 +2852,7 @@
             "Trustee Tulloch",
             "Trustee Homan",
             "Trustee Jezycki",
-            "Trustee  Tonking"
+            "Trustee Tonking"
           ],
           "nays": [],
           "abstain": [],
@@ -2648,7 +2864,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 15,
@@ -2673,11 +2891,13 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 15,
-          "text": "To appoint Vice Chair Michelle Jezycki as the Board Liaison to participate in focus groups and the outreach to support the Hispanic Community outreach efforts;",
+          "text": "To appoint Vice Chair Michelle Jezycki as the Board Liaison to participate in focus groups and the outreach to support the Hispanic Community outreach efforts",
           "mover": "Chair Tonking",
           "seconder": "Trustee Noble",
           "yeas": [
@@ -2685,7 +2905,7 @@
             "Trustee Tulloch",
             "Trustee Homan",
             "Trustee Jezycki",
-            "Trustee  Tonking"
+            "Trustee Tonking"
           ],
           "nays": [],
           "abstain": [],
@@ -2697,7 +2917,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 16,
@@ -2711,33 +2933,26 @@
             "Trustee Tonking"
           ],
           "nays": [
-            "Trustee Tulloch  MOTION J. LONG RANGE CALENDAR - (for possible action) J. (For possible Action) - Review",
-            "discuss and possibly Add or Remove Long Range Calendar Items to Future Board of Trustee Agendas. The full discussion related to Item J.. The Long Range Calendar can be viewed/ heard at: https://ivgid.portal.civicclerk.com/event//media Media Timestamp (:: - ::) Director of Administrative Services Susan Herron began the conversation by letting the Board know that the next calendar will include  dates",
-            "continuing with once-a-month meetings by default",
-            "due to positive staff feedback. She then asked for a formal motion to cancel the November  and December",
-            "meetings",
-            "due to their proximity to holidays",
-            "clarifying that additional meetings can be scheduled as needed",
-            "designated as special meetings. She also noted that regular meeting starting times will be changed to : PM starting in the fall. Chair Tonking anticipates a need for extra workshops or meetings",
-            "especially related to strategic planning and the budget"
+            "Trustee Tulloch"
           ],
           "abstain": [],
           "absent": [],
           "tally": {
             "aye": 4,
-            "nay": null,
+            "nay": 1,
             "abstain": 0,
             "absent": 0
           },
           "outcome": null,
           "flags": [
-            "missing_outcome",
-            "tally_mismatch"
-          ]
+            "truncated_outcome"
+          ],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 16,
-          "text": "To cancel November 26th and December 31st Board meetings;",
+          "text": "To cancel November 26th and December 31st Board meetings",
           "mover": "Trustee Homan",
           "seconder": "Trustee Noble",
           "yeas": [
@@ -2745,7 +2960,7 @@
             "Trustee Tulloch",
             "Trustee Homan",
             "Trustee Jezycki",
-            "Trustee  Tonking"
+            "Trustee Tonking"
           ],
           "nays": [],
           "abstain": [],
@@ -2757,12 +2972,13 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {
-        "missing_outcome": 1,
-        "tally_mismatch": 1
+        "truncated_outcome": 1
       },
       "unparseable_pages": [
         20,
@@ -2801,10 +3017,9 @@
           "event_date": "2025-09-17T16:00:00Z",
           "page": 16,
           "flags": [
-            "missing_outcome",
-            "tally_mismatch"
+            "truncated_outcome"
           ],
-          "raw": "MOTION: to Approve and Authorize the General Manager to Sign and Execute an\nAgreement with the Incline Ice Foundation for the Incline Village General Improvement\nDistrict to Accept a Donation of an Ice Rink Package and a Grant of $50,000+ to Support the\nIce Rink Activities.\nM oved By Trustee Homan, Seconded by Trustee Jezycki\nYEAS: Trustee Noble, Trustee Homan, Trustee Jezycki, Trustee Tonking 4\nNAYS: Trustee Tulloch 1\nMOTION\nJ. LONG RANGE CALENDAR - (for possible action)\nJ.1 (For possible Action) - Review, discuss and possibly Add or Remove Long\nRange Calendar Items to Future Board of Trustee Agendas.\nThe full discussion related to Item J.1. The Long Range Calendar can be viewed/ heard at:\nhttps://ivgid.portal.civicclerk.com/event/703/media\nMedia Timestamp (02:22:11 - 02:28:04)\nDirector of Administrative Services Susan Herron began the conversation by letting the Board\nknow that the next calendar will include 2026 dates, continuing with once-a-month meetings\nby default, due to positive staff feedback. She then asked for a formal motion to cancel the\nNovember 26 and December 31, 2025, meetings, due to their proximity to holidays, clarifying\nthat additional meetings can be scheduled as needed, designated as special meetings. She\nalso noted that regular meeting starting times will be changed to 5:00 PM starting in the fall.\nChair Tonking anticipates a need for extra workshops or meetings, especially related to\nstrategic planning and the budget."
+          "raw": "MOTION: to Approve and Authorize the General Manager to Sign and Execute an\nAgreement with the Incline Ice Foundation for the Incline Village General Improvement\nDistrict to Accept a Donation of an Ice Rink Package and a Grant of $50,000+ to Support the\nIce Rink Activities.\nM oved By Trustee Homan, Seconded by Trustee Jezycki\nYEAS: Trustee Noble, Trustee Homan, Trustee Jezycki, Trustee Tonking 4\nNAYS: Trustee Tulloch 1\nMOTION"
         }
       ]
     },
@@ -2836,11 +3051,13 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 9,
-          "text": "Approve the following consent matters, Items F.1., F.2., F.3., F.4., F.5., and F.6., as submitted.",
+          "text": "Approve the following consent matters, Items F.1., F.2., F.3., F.4., F.5., and F.6., as submitted. .",
           "mover": "Trustee Noble",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -2858,7 +3075,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 11,
@@ -2880,7 +3099,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 12,
@@ -2902,7 +3123,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 13,
@@ -2924,7 +3147,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 13,
@@ -2946,7 +3171,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 14,
@@ -2968,7 +3195,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 14,
@@ -2990,7 +3219,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 16,
@@ -3012,7 +3243,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -3133,13 +3366,15 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 8,
-          "text": "Approve the following consent matters: Item G.1., Item G.2., Item G.3., Item G.4., Item G.5., Item G.6., Item G.7. as submitted.",
+          "text": "Approve the following consent matters: Item G.1., Item G.2., Item G.3., Item G.4., Item G.5., Item G.6., Item G.7. as submitted. .",
           "mover": "Trustee Noble",
-          "seconder": "Trustee Jezycki.",
+          "seconder": "Trustee Jezycki",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
@@ -3157,7 +3392,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 9,
@@ -3181,7 +3418,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 10,
@@ -3205,7 +3444,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 10,
@@ -3229,7 +3470,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 11,
@@ -3253,7 +3496,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 11,
@@ -3277,7 +3522,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 12,
@@ -3302,7 +3549,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 12,
@@ -3327,7 +3576,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 12,
@@ -3352,7 +3603,9 @@
             "absent": 0
           },
           "outcome": "failed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 12,
@@ -3377,7 +3630,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -3451,11 +3706,11 @@
             "Trustee Noble",
             "Trustee Tulloch",
             "Trustee Homan",
-            "Trustee  Tonking"
+            "Trustee Tonking"
           ],
           "nays": [],
           "abstain": [
-            "Trustee Jezycki  MOTION PASSES F. FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes Media Timestamp (:: - ::) Media Timestamp (:: - ::) G. ADJOURNMENT (for possible action) The meeting of the Board of Trustees was adjourned at : PM. Written Public Comment submitted for the Record July"
+            "Trustee Jezycki"
           ],
           "absent": [],
           "tally": {
@@ -3464,15 +3719,13 @@
             "abstain": 1,
             "absent": 0
           },
-          "outcome": null,
-          "flags": [
-            "missing_outcome"
-          ]
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
-      "flag_counts": {
-        "missing_outcome": 1
-      },
+      "flag_counts": {},
       "unparseable_pages": [
         6,
         7,
@@ -3487,17 +3740,7 @@
       "public_comments": 0,
       "media_timestamps": 5,
       "doc_flags": [],
-      "failures": [
-        {
-          "file_id": 1490,
-          "event_date": "2025-07-22T16:00:00Z",
-          "page": 3,
-          "flags": [
-            "missing_outcome"
-          ],
-          "raw": "MOTION: Appoint Trustee Jezycki to Serve on the Interview Panel for the\nDirector of Human Resource Position.\nMoved By Trustee Homan, Seconded by Trustee Noble\nYEAS: Trustee Noble, Trustee Tulloch, Trustee Homan, Trustee 4\nTonking\nNAYS: None 0\nABSTAIN: Trustee Jezycki 1\nMOTION PASSES\nF. FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes\nMedia Timestamp (00:07:29 - 00:10:04)\nMedia Timestamp (00:08:13 - 00:10:04)\nG. ADJOURNMENT (for possible action)\nThe meeting of the Board of Trustees was adjourned at 4:08 PM.\nWritten Public Comment\nsubmitted for the\nRecord\nJuly 22, 2025"
-        }
-      ]
+      "failures": []
     },
     {
       "file_id": 1489,
@@ -3511,13 +3754,13 @@
           "page": 11,
           "text": "Approve the following consent matters, Item G.1. SUBJECT: Approval of the IVGID Board of Trustees Meeting Minutes for May 7, 2025, for possible Action; Item G.2, SUBJECT: Approval of the IVGID Board of Trustees Meeting Minutes for May 14, 2025, for possible Action; Items G.5. SUBJECT: Approve an Agr",
           "mover": "Trustee Noble",
-          "seconder": "Trustee Homan.",
+          "seconder": "Trustee Homan",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
             "Trustee Homan",
             "Trustee Jezycki",
-            "Trustee  Tonking"
+            "Trustee Tonking"
           ],
           "nays": [],
           "abstain": [],
@@ -3529,7 +3772,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 12,
@@ -3541,7 +3786,7 @@
             "Trustee Tulloch",
             "Trustee Homan",
             "Trustee Jezycki",
-            "Trustee  Tonking"
+            "Trustee Tonking"
           ],
           "nays": [],
           "abstain": [],
@@ -3553,7 +3798,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 13,
@@ -3578,7 +3825,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 13,
@@ -3590,7 +3839,7 @@
             "Trustee Tulloch",
             "Trustee Homan",
             "Trustee Jezycki",
-            "Trustee  Tonking"
+            "Trustee Tonking"
           ],
           "nays": [],
           "abstain": [],
@@ -3602,7 +3851,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 14,
@@ -3628,12 +3879,14 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 16,
           "text": "to Approve the draft letter with the following revisions: Pages 271 of 295 of the Board packet - Line 5: employee beach access program pending strike \u201creceipt of\u201d and insert \u201cthe outcome of this correspondence\u201d; strike \u201ca sufficient number\u201d Line 9: as a property owner would you, strike \u201clike\u201d insert",
-          "mover": null,
+          "mover": "Trustee Noble",
           "seconder": null,
           "yeas": [],
           "nays": [],
@@ -3646,22 +3899,23 @@
             "absent": null
           },
           "outcome": null,
-          "flags": [
-            "missing_outcome",
-            "missing_mover",
-            "missing_vote_sections"
+          "flags": [],
+          "kind": "amended",
+          "notes": [
+            "superseded_by_amendment",
+            "no_seconder"
           ]
         },
         {
           "page": 17,
-          "text": "To modify the motion on the floor by adding the following revision to page 272 of 295 of the Board packet - Line 31: where \"the Answer\" was stricken, insert the word \"No\" before the proposed new answer - insert \u201cno\u201d. Moved by: Trustee Homan Trustee Noble accepted the Motion as modified; Seconded by ",
-          "mover": null,
-          "seconder": null,
+          "text": "To modify the motion on the floor by adding the following revision to page 272 of 295 of the Board packet - Line 31: where \"the Answer\" was stricken, insert the word \"No\" before the proposed new answer - insert \u201cno\u201d. Trustee Noble accepted the Motion as modified; .",
+          "mover": "Trustee Homan",
+          "seconder": "Trustee Homan",
           "yeas": [
             "Trustee Homan",
             "Trustee Jezycki",
             "Trustee Noble",
-            "and Chair Tonking"
+            "Chair Tonking"
           ],
           "nays": [
             "Trustee Tulloch"
@@ -3675,9 +3929,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": [
-            "missing_mover"
-          ]
+          "flags": [],
+          "kind": "amendment",
+          "notes": []
         },
         {
           "page": 17,
@@ -3689,7 +3943,7 @@
             "Trustee Tulloch",
             "Trustee Homan",
             "Trustee Jezycki",
-            "Trustee  Tonking"
+            "Trustee Tonking"
           ],
           "nays": [],
           "abstain": [],
@@ -3701,14 +3955,12 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
-      "flag_counts": {
-        "missing_outcome": 1,
-        "missing_mover": 2,
-        "missing_vote_sections": 1
-      },
+      "flag_counts": {},
       "unparseable_pages": [
         20,
         21,
@@ -3782,28 +4034,7 @@
       "public_comments": 0,
       "media_timestamps": 20,
       "doc_flags": [],
-      "failures": [
-        {
-          "file_id": 1489,
-          "event_date": "2025-06-26T16:00:00Z",
-          "page": 16,
-          "flags": [
-            "missing_outcome",
-            "missing_mover",
-            "missing_vote_sections"
-          ],
-          "raw": "MOTION: to Approve the draft letter with the following revisions:\nPages 271 of 295 of the Board packet - Line 5: employee beach access program pending\nstrike \u201creceipt of\u201d and insert \u201cthe outcome of this correspondence\u201d; strike \u201ca sufficient\nnumber\u201d\nLine 9: as a property owner would you, strike \u201clike\u201d insert \u201cbe willing.\u201d Continue on - to sponsor\nstaff and their dependents as your guests for access to the beaches - and insert \u201cknowing any\napplicable beach entry fees will be paid by staff and their dependents\u201d;\nLines 12 through 14: \u201cIf yes\u201d(words) would be bolded, the rest would be underlined\nLine 16: \u201cIf no\u201d (words) would be bolded.\nPage 272 of 295 of the Board packet: Line 31: Will specific staff and their dependents be\nassigned to me; strike \u201c(that answer)\u201d and insert \u201cstaff and their dependents will be pooled\nwith property owners period\u201d; then\nLine 41: starting after the period, the Board of Trustees - insert \u201chas already\u201d strike \u201calso\u201d so\nit would read: \u201cThe Board of Trustees has already directed staff to provide weekly reports on\nbeach visits to monitor numbers\u201d and then insert comma and insert the words \u201cif the program\nmoves forward it will include\u201d; and then strike \u201cin case limits on\u201d, and then it will continue on\nthe number of staff so that phrase would read \u201cIf the program moves forward, it will include\nthe number of staff and their dependents\u201d; and then strike \u201cshould it be implemented.\u201d\nPage 273 of 295 - Line 52: starting with the word no: \u201cno other people will be allowed beach\naccess through the employee beach access program\u201d. This wasn't discussed, but I would\nrecommend just underlining that for emphasis:\nLines 55 through 56: That Q&A would go to that would be #1 in the Q&As.\nPage 274 of 295 - Line 70: Will the employee beach access program expose it to legal\nchallenges strike \u201cit is possible there will be a legal challenge\u201d insert \u201ca legal challenge it's\nalways a possibility\u201d and then continue on \u201cas IVGID cannot prevent anyone from filing\u201d strike\n\u201cunwarranted\u201d.\nLine 74: Starts with deed strike the word \u201cand\u201d put a comma in, so that it would read\n\u201cincluding\u201d strike \u201cthis\u201d insert \u201ctaking\u201d and then the word \u201cadditional\u201d insert the word \u201cproactive\u201d\ncontinues on \u201cstep of asking property owners if they would like to sponsor staff and their\ndependents as their guests\u201d strike \u201cfor\u201d insert the word \u201cenabling access to the beaches\u201d and"
-        },
-        {
-          "file_id": 1489,
-          "event_date": "2025-06-26T16:00:00Z",
-          "page": 17,
-          "flags": [
-            "missing_mover"
-          ],
-          "raw": "Motion: To modify the motion on the floor by adding the following revision to page 272 of\n295 of the Board packet - Line 31: where \"the Answer\" was stricken, insert the word \"No\"\nbefore the proposed new answer - insert \u201cno\u201d.\nMoved by: Trustee Homan\nTrustee Noble accepted the Motion as modified; Seconded by Trustee Homan.\nYEAS: Trustee Homan, Trustee Jezycki, Trustee Noble, and Chair Tonking 4\nNAYS: Trustee Tulloch 1\nMOTION PASSED"
-        }
-      ]
+      "failures": []
     },
     {
       "file_id": 1528,
@@ -3834,7 +4065,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -3922,15 +4155,15 @@
       "motions": [
         {
           "page": 9,
-          "text": "Approve Items F.1. and F.2. in the Consent Calendar as provided in the notice and Board materials, as submitted.",
+          "text": "Approve Items F.1. and F.2. in the Consent Calendar as provided in the notice and Board materials, as submitted. A ction: Approve, .",
           "mover": "Trustee Noble",
-          "seconder": "Trustee Homan.",
+          "seconder": "Trustee Homan",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
             "Trustee Homan",
             "Trustee Jezycki",
-            "Trustee  Tonking"
+            "Trustee Tonking"
           ],
           "nays": [],
           "abstain": [],
@@ -3942,7 +4175,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 10,
@@ -3966,11 +4201,13 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 12,
-          "text": "to Authorize Staff to move forward with preparing a contract for legal counsel services to engage Taggart & Taggart as District Legal Counsel effective July 1, 2025;",
+          "text": "to Authorize Staff to move forward with preparing a contract for legal counsel services to engage Taggart & Taggart as District Legal Counsel effective July 1, 2025",
           "mover": "Trustee Noble",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -3981,29 +4218,19 @@
           ],
           "nays": [],
           "abstain": [
-            "Trustee Tulloch  MOTION PASSES G. Review",
-            "Discuss",
-            "and Approve the Employee Pass Program for Beach Access; Review",
-            "Discuss",
-            "and Approve Any Applicable Fees; Direct Staff to Send Correspondence to Property Owners to Determine Whether Any Property Owners Elect to Designate Staff (and Their Dependents) As Their Guests for Beach Access; Direct Staff to Monitor Daily Beach Visits and P rovide Weekly Reports. (Requesting Board Member: Trustee Dave Noble) Item G.. Employee Pass Program for Beach Access can be viewed/heard at: https://ivgid.portal.civicclerk.com/event//media Media Timestamp (:: - ::) Trustee Noble returned the proposed reinstatement of the employee pass program for beach access and provided outlined steps including review and approval of applicable fees",
-            "sending correspondence to property owners asking if they'd sponsor staff and dependence as beach guests",
-            "and setting up daily monitoring of beach visits with weekly reports. During Board deliberations",
-            "questions were raised about potential overcrowding and the authority provided by the beach deed regarding access for property owners and their guests. It was clarified by Legal Counsel Rudin that the deed grants the Board authority to set access rules and designating employees as guests does not require property owners to use their punch cards for employee access. Debate centered around whether revising assignment and guest provisions in Ordinance  was necessary",
-            "with clarity that this program operates under the 'guest' provision",
-            "not 'assignment'"
+            "Trustee Tulloch"
           ],
           "absent": [],
           "tally": {
             "aye": 4,
             "nay": 0,
-            "abstain": null,
+            "abstain": 1,
             "absent": 0
           },
-          "outcome": null,
-          "flags": [
-            "missing_outcome",
-            "tally_mismatch"
-          ]
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 13,
@@ -4028,7 +4255,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 14,
@@ -4052,7 +4281,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 14,
@@ -4076,7 +4307,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 15,
@@ -4101,7 +4334,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 16,
@@ -4125,13 +4360,12 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
-      "flag_counts": {
-        "missing_outcome": 1,
-        "tally_mismatch": 1
-      },
+      "flag_counts": {},
       "unparseable_pages": [
         19,
         20,
@@ -4176,18 +4410,7 @@
       "public_comments": 0,
       "media_timestamps": 25,
       "doc_flags": [],
-      "failures": [
-        {
-          "file_id": 1465,
-          "event_date": "2025-06-11T16:00:00Z",
-          "page": 12,
-          "flags": [
-            "missing_outcome",
-            "tally_mismatch"
-          ],
-          "raw": "MOTION: to Authorize Staff to move forward with preparing a contract for legal counsel\nservices to engage Taggart & Taggart as District Legal Counsel effective July 1, 2025;\nMoved By Trustee Noble, Seconded by Trustee Homan\nYEAS: Trustee Noble, Trustee Homan, Trustee Jezycki, Trustee Tonking 4\nNAYS: None 0\nABSTAIN: Trustee Tulloch 1\nMOTION PASSES\nG.3 Review, Discuss, and Approve the Employee Pass Program for Beach\nAccess; Review, Discuss, and Approve Any Applicable Fees; Direct Staff to\nSend Correspondence to Property Owners to Determine Whether Any\nProperty Owners Elect to Designate Staff (and Their Dependents) As Their\nGuests for Beach Access; Direct Staff to Monitor Daily Beach Visits and\nP rovide Weekly Reports. (Requesting Board Member: Trustee Dave Noble)\nItem G.3. Employee Pass Program for Beach Access can be viewed/heard\nat: https://ivgid.portal.civicclerk.com/event/578/media\nMedia Timestamp (02:12:59 - 02:59:45)\nTrustee Noble returned the proposed reinstatement of the employee pass program for\nbeach access and provided outlined steps including review and approval of applicable\nfees, sending correspondence to property owners asking if they'd sponsor staff and\ndependence as beach guests, and setting up daily monitoring of beach visits with\nweekly reports.\nDuring Board deliberations, questions were raised about potential overcrowding and the\nauthority provided by the beach deed regarding access for property owners and their\nguests.\nIt was clarified by Legal Counsel Rudin that the deed grants the Board authority to set\naccess rules and designating employees as guests does not require property owners to\nuse their punch cards for employee access.\nDebate centered around whether revising assignment and guest provisions in\nOrdinance 7 was necessary, with clarity that this program operates under the 'guest'\nprovision, not 'assignment'."
-        }
-      ]
+      "failures": []
     },
     {
       "file_id": 1527,
@@ -4206,7 +4429,7 @@
             "Trustee Homan",
             "Trustee Tonking",
             "At-Large Member Kelly",
-            "At-Large  Member Lighthart",
+            "At-Large Member Lighthart",
             "At-Large Member Brandle"
           ],
           "nays": [],
@@ -4219,7 +4442,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 5,
@@ -4230,7 +4455,7 @@
             "Trustee Homan",
             "Trustee Tonking",
             "At-Large Member Kelly",
-            "At-Large  Member Lighthart",
+            "At-Large Member Lighthart",
             "Audit Committee Chair Brandle"
           ],
           "nays": [],
@@ -4243,7 +4468,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 6,
@@ -4254,7 +4481,7 @@
             "Trustee Homan",
             "Trustee Tonking",
             "At-Large Member Kelly",
-            "At-Large  Member Lighthart",
+            "At-Large Member Lighthart",
             "Audit Committee Chair Brandle"
           ],
           "nays": [],
@@ -4267,7 +4494,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 7,
@@ -4277,7 +4506,7 @@
           "yeas": [
             "Trustee Homan",
             "Trustee Tonking",
-            "At-Large Audit Committee Member  Kelly",
+            "At-Large Audit Committee Member Kelly",
             "At-Large Audit Committee Member Lighthart",
             "Audit Committee Chair Brandle"
           ],
@@ -4291,7 +4520,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -4383,7 +4614,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -4410,9 +4643,9 @@
       "motions": [
         {
           "page": 10,
-          "text": "Moved By Trustee Homan; made a motion to open the Public Hearing on the Fiscal Year 2025-2026 Operating and Capital Improvement Projects Budgets; Seconded by Trustee Jezycki",
-          "mover": null,
-          "seconder": null,
+          "text": "made a motion to open the Public Hearing on the Fiscal Year 2025-2026 Operating and Capital Improvement Projects Budgets",
+          "mover": "Trustee Homan",
+          "seconder": "Trustee Jezycki",
           "yeas": [
             "Trustee Noble",
             "Trustee Homan",
@@ -4429,38 +4662,13 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": [
-            "missing_mover"
-          ]
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 13,
-          "text": "to close the Public Hearing on the Fiscal Year 2025-2026 Operating and Capital Improvement Projects Budgets. M oved By Trustee Jezycki; Seconded by Trustee Homan",
-          "mover": null,
-          "seconder": null,
-          "yeas": [
-            "Trustee Noble",
-            "Trustee Homan",
-            "Trustee Jezycki",
-            "Trustee Tonking"
-          ],
-          "nays": [],
-          "abstain": [],
-          "absent": [],
-          "tally": {
-            "aye": 4,
-            "nay": 0,
-            "abstain": 0,
-            "absent": 0
-          },
-          "outcome": "passed",
-          "flags": [
-            "missing_mover"
-          ]
-        },
-        {
-          "page": 14,
-          "text": "to Adopt the Fiscal Year 2025/2026 Incline Village General Improvement District Capital Improvement Projects Budget;",
+          "text": "to close the Public Hearing on the Fiscal Year 2025-2026 Operating and Capital Improvement Projects Budgets.",
           "mover": "Trustee Jezycki",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -4479,11 +4687,13 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 14,
-          "text": "to Adopt a fee value of 60% for individual punch cards for the equitable usage of Capital Improvement;",
+          "text": "to Adopt the Fiscal Year 2025/2026 Incline Village General Improvement District Capital Improvement Projects Budget",
           "mover": "Trustee Jezycki",
           "seconder": "Trustee Homan",
           "yeas": [
@@ -4492,52 +4702,48 @@
             "Trustee Jezycki",
             "Trustee Tonking"
           ],
-          "nays": [
-            "None t"
-          ],
+          "nays": [],
           "abstain": [],
           "absent": [],
           "tally": {
             "aye": 4,
-            "nay": null,
+            "nay": 0,
             "abstain": 0,
             "absent": 0
           },
           "outcome": "passed",
-          "flags": [
-            "tally_mismatch"
-          ]
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 14,
-          "text": "to Approve the Central Services Cost Allocation Plan, allocating a Approximately $4.05 Million in the General Fund costs to the utility, Community Services and Beach Funds;",
-          "mover": "Trustee Homan",
-          "seconder": "Trustee Jezycki",
+          "text": "to Adopt a fee value of 60% for individual punch cards for the equitable usage of Capital Improvement",
+          "mover": "Trustee Jezycki",
+          "seconder": "Trustee Homan",
           "yeas": [
             "Trustee Noble",
             "Trustee Homan",
             "Trustee Jezycki",
             "Trustee Tonking"
           ],
-          "nays": [
-            "None  D"
-          ],
+          "nays": [],
           "abstain": [],
           "absent": [],
           "tally": {
             "aye": 4,
-            "nay": null,
+            "nay": 0,
             "abstain": 0,
             "absent": 0
           },
           "outcome": "passed",
-          "flags": [
-            "tally_mismatch"
-          ]
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 14,
-          "text": "to Approve the Staffing levels and full-time salary ranges as presented;",
+          "text": "to Approve the Central Services Cost Allocation Plan, allocating Approximately $4.05 Million in the General Fund costs to the utility, Community Services and Beach Funds",
           "mover": "Trustee Homan",
           "seconder": "Trustee Jezycki",
           "yeas": [
@@ -4556,13 +4762,15 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 14,
-          "text": "to Approve the Recreation Facility Fee totaling $1,375; Moved By Trustee Homan, Seconded by Trustee Jezycki",
-          "mover": null,
-          "seconder": null,
+          "text": "to Approve the Staffing levels and full-time salary ranges as presented",
+          "mover": "Trustee Homan",
+          "seconder": "Trustee Jezycki",
           "yeas": [
             "Trustee Noble",
             "Trustee Homan",
@@ -4579,13 +4787,38 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": [
-            "missing_mover"
-          ]
+          "flags": [],
+          "kind": "motion",
+          "notes": []
+        },
+        {
+          "page": 14,
+          "text": "to Approve the Recreation Facility Fee totaling $1,375",
+          "mover": "Trustee Homan",
+          "seconder": "Trustee Jezycki",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ],
+          "nays": [],
+          "abstain": [],
+          "absent": [],
+          "tally": {
+            "aye": 4,
+            "nay": 0,
+            "abstain": 0,
+            "absent": 0
+          },
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 15,
-          "text": "to Adopt the FY 2025 Fiscal Year 2025/2026 Incline Village General Improvement District Budget Final Form 4f404LGF;",
+          "text": "to Adopt the FY 2025 Fiscal Year 2025/2026 Incline Village General Improvement District Budget Final Form 4f404LGF",
           "mover": "Trustee Homan",
           "seconder": "Trustee Jezycki",
           "yeas": [
@@ -4604,7 +4837,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 15,
@@ -4627,7 +4862,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 18,
@@ -4640,24 +4877,19 @@
             "Trustee Jezycki",
             "Trustee Tonking"
           ],
-          "nays": [
-            "None  D MOTION PASSED F. Review",
-            "Discuss and Possibly Adopt Resolution No.  - A Resolution Approving the Report for Collection of Recreation Standby and Service Charges (Also Known as the Recreation Facility Fee and Beach Facility Fee)",
-            "for Fiscal Year - (Requesting Staff Member: Director of F inance Jessica O'Connell) Full discussion on Item F.. Adopt Resolution No.  - Approving the Report for Collection of Recreation Standby and Service Charges can be heard/viewed at: https://ivgid.portal.civicclerk.com/event//media Media Timestamp (::)"
-          ],
+          "nays": [],
           "abstain": [],
           "absent": [],
           "tally": {
             "aye": 4,
-            "nay": null,
+            "nay": 0,
             "abstain": 0,
             "absent": 0
           },
-          "outcome": null,
-          "flags": [
-            "missing_outcome",
-            "tally_mismatch"
-          ]
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 18,
@@ -4680,11 +4912,13 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 19,
-          "text": "to Approve the proposed fee as adjusted in Item E.1. tied to 60% of the facility fee; f",
+          "text": "to Approve the proposed fee as adjusted in Item E.1. tied to 60% of the facility fee",
           "mover": "Trustee Homan",
           "seconder": "Trustee Jezycki",
           "yeas": [
@@ -4703,14 +4937,12 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
-      "flag_counts": {
-        "missing_mover": 3,
-        "tally_mismatch": 3,
-        "missing_outcome": 1
-      },
+      "flag_counts": {},
       "unparseable_pages": [
         23,
         24,
@@ -4789,63 +5021,7 @@
       "public_comments": 0,
       "media_timestamps": 29,
       "doc_flags": [],
-      "failures": [
-        {
-          "file_id": 1433,
-          "event_date": "2025-05-30T12:00:00Z",
-          "page": 10,
-          "flags": [
-            "missing_mover"
-          ],
-          "raw": "MOTION: Moved By Trustee Homan; made a motion to open the Public Hearing on\nthe Fiscal Year 2025-2026 Operating and Capital Improvement Projects\nBudgets; Seconded by Trustee Jezycki\nYEAS: Trustee Noble, Trustee Homan, Trustee Jezycki, Trustee Tonking 4\nNAYS: None 0\nMOTION PASSED"
-        },
-        {
-          "file_id": 1433,
-          "event_date": "2025-05-30T12:00:00Z",
-          "page": 13,
-          "flags": [
-            "missing_mover"
-          ],
-          "raw": "MOTION: to close the Public Hearing on the Fiscal Year 2025-2026 Operating and\nCapital Improvement Projects Budgets.\nM oved By Trustee Jezycki; Seconded by Trustee Homan\nYEAS: Trustee Noble, Trustee Homan, Trustee Jezycki, Trustee Tonking 4\nNAYS: None 0\nMOTION PASSED"
-        },
-        {
-          "file_id": 1433,
-          "event_date": "2025-05-30T12:00:00Z",
-          "page": 14,
-          "flags": [
-            "tally_mismatch"
-          ],
-          "raw": "MOTION: to Adopt a fee value of 60% for individual punch cards for the equitable\nusage of Capital Improvement;\nMoved By Trustee Jezycki, Seconded by Trustee Homan\nYEAS: Trustee Noble, Trustee Homan, Trustee Jezycki, Trustee Tonking 4\nNAYS: None t 0\nMOTION PASSED"
-        },
-        {
-          "file_id": 1433,
-          "event_date": "2025-05-30T12:00:00Z",
-          "page": 14,
-          "flags": [
-            "tally_mismatch"
-          ],
-          "raw": "MOTION: to Approve the Central Services Cost Allocation Plan, allocating\na\nApproximately $4.05 Million in the General Fund costs to the utility, Community\nServices and Beach Funds;\nMoved By Trustee Homan, Seconded by Trustee Jezycki\nr\nYEAS: Trustee Noble, Trustee Homan, Trustee Jezycki, Trustee Tonking 4\nNAYS: None 0\nD\nMOTION PASSED"
-        },
-        {
-          "file_id": 1433,
-          "event_date": "2025-05-30T12:00:00Z",
-          "page": 14,
-          "flags": [
-            "missing_mover"
-          ],
-          "raw": "MOTION: to Approve the Recreation Facility Fee totaling $1,375; Moved By Trustee\nHoman, Seconded by Trustee Jezycki\nYEAS: Trustee Noble, Trustee Homan, Trustee Jezycki, Trustee Tonking 4\nNAYS: None 0\nMOTION PASSED"
-        },
-        {
-          "file_id": 1433,
-          "event_date": "2025-05-30T12:00:00Z",
-          "page": 18,
-          "flags": [
-            "missing_outcome",
-            "tally_mismatch"
-          ],
-          "raw": "MOTION: to Close the Public Heaaring for the Incline Village General Improvement\nDistrict Fiscal Year 2025/2026 Facility Fees Public Hearing for the Incline Village\nGeneral Improvement District Fiscal Year 2025/2026 Facility Fees.\nM oved By Trustee Jezycki, Seconded by Trustee Homan\nr\nYEAS: Trustee Noble, Trustee Homan, Trustee Jezycki, Trustee Tonking 4\nNAYS: None 0\nD MOTION PASSED\nF.1 Review, Discuss and Possibly Adopt Resolution No. 1917 - A Resolution\nApproving the Report for Collection of Recreation Standby and Service\nCharges (Also Known as the Recreation Facility Fee and Beach Facility\nFee), for Fiscal Year 2025-2026 (Requesting Staff Member: Director of\nF inance Jessica O'Connell)\nFull discussion on Item F.1. Adopt Resolution No. 1917 - Approving the Report for\nCollection of Recreation Standby and Service Charges can be heard/viewed\nat: https://ivgid.portal.civicclerk.com/event/646/media Media Timestamp (02:41:38)"
-        }
-      ]
+      "failures": []
     },
     {
       "file_id": 1427,
@@ -4910,9 +5086,9 @@
       "motions": [
         {
           "page": 8,
-          "text": "To open the Public Hearing \u2013 on the Recommended Amendments to the Sewer and Water Rate Fee Schedule. Moved by Trustee Jezycki; Seconded by Trustee Homan",
-          "mover": null,
-          "seconder": null,
+          "text": "To open the Public Hearing \u2013 on the Recommended Amendments to the Sewer and Water Rate Fee Schedule.",
+          "mover": "Trustee Jezycki",
+          "seconder": "Trustee Homan",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
@@ -4930,15 +5106,15 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": [
-            "missing_mover"
-          ]
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 12,
-          "text": "to Close the Public Hearing - On the Recommended Amendments to the Sewer and Water Rate Fee Schedule. Moved by Trustee Noble; Seconded by Trustee Homan",
-          "mover": null,
-          "seconder": null,
+          "text": "to Close the Public Hearing - On the Recommended Amendments to the Sewer and Water Rate Fee Schedule.",
+          "mover": "Trustee Noble",
+          "seconder": "Trustee Homan",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
@@ -4956,20 +5132,20 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": [
-            "missing_mover"
-          ]
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 12,
-          "text": "to Adopt Resolution No. 1914 - a Resolution approving the Amendments to the Sewer and Water Rates, as well as Adjustments to the Fee Schedule, and the revised final proposed Alternate 4. Moved by Trustee Noble Seconded by Trustee Homan",
-          "mover": null,
-          "seconder": null,
+          "text": "to Adopt Resolution No. 1914 - a Resolution approving the Amendments to the Sewer and Water Rates, as well as Adjustments to the Fee Schedule, and the revised final proposed Alternate 4.",
+          "mover": "Trustee Noble",
+          "seconder": "Trustee Homan",
           "yeas": [
             "Trustee Noble",
             "Trustee Homan",
             "Trustee Jezycki",
-            "Trustee  Tonking"
+            "Trustee Tonking"
           ],
           "nays": [
             "Trustee Tulloch"
@@ -4983,15 +5159,15 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": [
-            "missing_mover"
-          ]
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 14,
-          "text": "Approve the following consent matters, Item G.1. and Item G.2. as submitted in the Agenda Packet.",
+          "text": "Approve the following consent matters, Item G.1. and Item G.2. as submitted in the Agenda Packet. .",
           "mover": "Trustee Noble",
-          "seconder": "Trustee Jezycki.",
+          "seconder": "Trustee Jezycki",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
@@ -5009,13 +5185,15 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 21,
-          "text": "to Adopt Resolution No.1915 \u2013 a Resolution prohibiting Commercial Watercraft Launching where prohibited by the Tahoe Regional Planning Agency (TRPA) Code of Ordinances and directing changes to Ordinance 7 \u2013 effective immediately. Moved by Trustee Noble; Seconded by Trustee Homan",
-          "mover": null,
-          "seconder": null,
+          "text": "to Adopt Resolution No.1915 \u2013 a Resolution prohibiting Commercial Watercraft Launching where prohibited by the Tahoe Regional Planning Agency (TRPA) Code of Ordinances and directing changes to Ordinance 7 \u2013 effective immediately.",
+          "mover": "Trustee Noble",
+          "seconder": "Trustee Homan",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
@@ -5033,15 +5211,15 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": [
-            "missing_mover"
-          ]
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 22,
-          "text": "Adopt Resolution No. 1916 - a Resolution Preliminarily Approving the Report for Collection of Recreation Standby and Service Charges for Fiscal Year 2025/2026 and Confirming the Public Hearing Date for Friday, May 30, 2025, at 12: 00 p.m. Moved by Trustee Noble; Seconded by Trustee Homan",
-          "mover": null,
-          "seconder": null,
+          "text": "Adopt Resolution No. 1916 - a Resolution Preliminarily Approving the Report for Collection of Recreation Standby and Service Charges for Fiscal Year 2025/2026 and Confirming the Public Hearing Date for Friday, May 30, 2025, at 12: 00 p.m.",
+          "mover": "Trustee Noble",
+          "seconder": "Trustee Homan",
           "yeas": [
             "Trustee Noble",
             "Trustee Homan",
@@ -5060,14 +5238,12 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": [
-            "missing_mover"
-          ]
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
-      "flag_counts": {
-        "missing_mover": 5
-      },
+      "flag_counts": {},
       "unparseable_pages": [
         26,
         27,
@@ -5095,53 +5271,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
-      "failures": [
-        {
-          "file_id": 1428,
-          "event_date": "2025-05-14T17:00:00Z",
-          "page": 8,
-          "flags": [
-            "missing_mover"
-          ],
-          "raw": "MOTION: To open the Public Hearing \u2013 on the Recommended Amendments to the\nSewer and Water Rate Fee Schedule.\nMoved by Trustee Jezycki; Seconded by Trustee Homan\nYEAS: Trustee Noble, Trustee Tulloch, Trustee Homan, Trustee Jezycki, 5\nTrustee Tonking 0\nNAYS: None\nMOTION PASSED"
-        },
-        {
-          "file_id": 1428,
-          "event_date": "2025-05-14T17:00:00Z",
-          "page": 12,
-          "flags": [
-            "missing_mover"
-          ],
-          "raw": "Motion: to Close the Public Hearing - On the Recommended Amendments to the\nSewer and Water Rate Fee Schedule.\nMoved by Trustee Noble; Seconded by Trustee Homan\nYEAS: Trustee Noble, Trustee Tulloch, Trustee Homan, Trustee Jezycki, 5\nTrustee Tonking 0\nNAYS: None\nMOTION PASSED"
-        },
-        {
-          "file_id": 1428,
-          "event_date": "2025-05-14T17:00:00Z",
-          "page": 12,
-          "flags": [
-            "missing_mover"
-          ],
-          "raw": "MOTION: to Adopt Resolution No. 1914 - a Resolution approving the\nAmendments to the Sewer and Water Rates, as well as Adjustments to the Fee\nSchedule, and the revised final proposed Alternate 4.\nMoved by Trustee Noble Seconded by Trustee Homan\nYEAS: Trustee Noble, Trustee Homan, Trustee Jezycki, Trustee 4\nTonking 1\nNAYS: Trustee Tulloch\nMOTION PASSED"
-        },
-        {
-          "file_id": 1428,
-          "event_date": "2025-05-14T17:00:00Z",
-          "page": 21,
-          "flags": [
-            "missing_mover"
-          ],
-          "raw": "MOTION: to Adopt Resolution No.1915 \u2013 a Resolution prohibiting Commercial\nWatercraft Launching where prohibited by the Tahoe Regional Planning Agency\n(TRPA) Code of Ordinances and directing changes to Ordinance 7 \u2013 effective\nimmediately. Moved by Trustee Noble; Seconded by Trustee Homan\nYEAS: Trustee Noble, Trustee Tulloch, Trustee Homan, Trustee Jezycki, 5\nTrustee Tonking 0\nNAYS: None\nMOTION PASSED"
-        },
-        {
-          "file_id": 1428,
-          "event_date": "2025-05-14T17:00:00Z",
-          "page": 22,
-          "flags": [
-            "missing_mover"
-          ],
-          "raw": "MOTION: Adopt Resolution No. 1916 - a Resolution Preliminarily Approving the\nReport for Collection of Recreation Standby and Service Charges for Fiscal Year\n2025/2026 and Confirming the Public Hearing Date for Friday, May 30, 2025, at 12:\n00 p.m. Moved by Trustee Noble; Seconded by Trustee Homan\nYEAS: Trustee Noble, Trustee Homan, Trustee Jezycki, Trustee Tonking 4\nNAYS: Trustee Tulloch 1\nMOTION PASSED"
-        }
-      ]
+      "failures": []
     },
     {
       "file_id": 1432,
@@ -5150,7 +5280,61 @@
       "event_date": "2025-05-07T17:00:00Z",
       "minutes_name": "2025-0507_Meeting_Minutes(Approved_2025-0626)",
       "error": null,
-      "motions": [],
+      "motions": [
+        {
+          "page": 16,
+          "text": ": Adopt proposed Changes to Policy 7.1.0 - Budgeting and Fiscal Management, Appropriate Level of Reserves, Effective Fiscal Year Ending June 30, 2022; Policy 18.1.0 - Budgeting and Fiscal Management, Adoption of Central Service Cost Allocation Plan Motion was",
+          "mover": "Trustee Homan",
+          "seconder": "Trustee Tonking",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ],
+          "nays": [],
+          "abstain": [],
+          "absent": [],
+          "tally": {
+            "aye": 5,
+            "nay": 0,
+            "abstain": 0,
+            "absent": 0
+          },
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": []
+        },
+        {
+          "page": 17,
+          "text": ": to Approve to reset the date and time for the Public Hearing(s) for the FY 2025/2026 Budget and Recreation Roll for Friday, May 30, 2025, at 12 noon.",
+          "mover": "Trustee Noble",
+          "seconder": "Trustee Homan",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ],
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "abstain": [],
+          "absent": [],
+          "tally": {
+            "aye": 4,
+            "nay": 1,
+            "abstain": 0,
+            "absent": 0
+          },
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": []
+        }
+      ],
       "flag_counts": {},
       "unparseable_pages": [
         19,
@@ -5207,12 +5391,12 @@
           "page": 3,
           "text": "Approve the following consent matters: Item F.1. IVGID Board of Trustees Meeting Minutes for March 26, 2025; Item F.2. IVGID Board of Trustees Meeting Minutes for April 9, 2025; Item F.3. IVGID Board of Trustees Meeting Minutes for April 14, 2025; and Item F.5. Approve and authorize the Board Chair ",
           "mover": "Trustee Noble",
-          "seconder": "Trustee Homan.",
+          "seconder": "Trustee Homan",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
             "Trustee Homan",
-            "Trustee  Jezycki"
+            "Trustee Jezycki"
           ],
           "nays": [],
           "abstain": [],
@@ -5224,7 +5408,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 5,
@@ -5235,7 +5421,7 @@
             "Trustee Noble",
             "Trustee Tulloch",
             "Trustee Homan",
-            "Trustee  Jezycki"
+            "Trustee Jezycki"
           ],
           "nays": [],
           "abstain": [],
@@ -5247,18 +5433,20 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 8,
           "text": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and KP Construction, Inc. for Capital Improvement Fire Hydrant Replacement \u2013 2025; FY 2023/24 Utilities: Water: CIP #1F24200300; in the Amount of $209,980.0",
           "mover": "Trustee Noble",
-          "seconder": "Trustee Homan",
+          "seconder": "Trustee Homan Page 45 of 128",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
             "Trustee Homan",
-            "Trustee  Jezycki"
+            "Trustee Jezycki"
           ],
           "nays": [],
           "abstain": [],
@@ -5270,18 +5458,20 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 9,
-          "text": "Approve the Replacement of six (6) of the Charcoal Grills with Propane Grills at Burnt Cedar Beach consistent with the Memorandum of Item",
+          "text": "Approve the Replacement of six (6) of the Charcoal Grills with Propane Grills at Burnt Cedar Beach consistent with the Memorandum of Item G.6.",
           "mover": "Trustee Noble",
           "seconder": "Trustee Homan",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
             "Trustee Homan",
-            "Trustee  Jezycki"
+            "Trustee Jezycki"
           ],
           "nays": [],
           "abstain": [],
@@ -5293,13 +5483,15 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 9,
-          "text": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute a Professional Services Agreement between Incline Village General Improvement District and Carollo Engineers for Development of a SCADA Master Plan; FY 2024/25 Utilities: Water: GL #20002297-7510; in the",
+          "text": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute a Professional Services Agreement between Incline Village General Improvement District and Carollo Engineers for Development of a SCADA Master Plan; FY 2024/25 Utilities: Water: GL #20002297-7510; in the Amount of $359,97",
           "mover": "Trustee Noble",
-          "seconder": "Trustee",
+          "seconder": "Trustee Homan Page 46 of 128",
           "yeas": [
             "Trustee Noble",
             "Trustee Homan",
@@ -5317,18 +5509,20 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 10,
-          "text": "Approve Utility Fund Re-Allocation of $375,000 from Utility CIP Sewer Fund to the Water Resource Recovery Facility (WRRF) Roof Replacement CIP # 2599BD1105; FY2024/25; Fund Utilities; Division:",
+          "text": "Approve Utility Fund Re-Allocation of $375,000 from Utility CIP Sewer Fund to the Water Resource Recovery Facility (WRRF) Roof Replacement CIP # 2599BD1105; FY2024/25; Fund Utilities; Division: Sewer.",
           "mover": "Trustee Noble",
           "seconder": "Trustee Homan",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
             "Trustee Homan",
-            "Trustee  Jezycki"
+            "Trustee Jezycki"
           ],
           "nays": [],
           "abstain": [],
@@ -5340,18 +5534,20 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 10,
-          "text": "Approve the Proposed Modifications to the Trustee",
+          "text": "Approve the Proposed Modifications to the Trustee Handbook.",
           "mover": "Trustee Noble",
           "seconder": "Trustee Homan",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
             "Trustee Homan",
-            "Trustee  Jezycki"
+            "Trustee Jezycki"
           ],
           "nays": [],
           "abstain": [],
@@ -5363,7 +5559,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -5424,9 +5622,9 @@
       "motions": [
         {
           "page": 3,
-          "text": "Approve; Moved By Trustee Homan: to Approve Additional Play Pass Options along with season Pass Sales Incentives and Rate Adjustment to the Pricing of the PM Season Pass; Seconded by Trustee Jezycki",
-          "mover": null,
-          "seconder": null,
+          "text": "Approve; : to Approve Additional Play Pass Options along with season Pass Sales Incentives and Rate Adjustment to the Pricing of the PM Season Pass",
+          "mover": "Trustee Homan",
+          "seconder": "Trustee Jezycki",
           "yeas": [
             "Trustee Noble",
             "Trustee Homan",
@@ -5445,14 +5643,12 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": [
-            "missing_mover"
-          ]
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
-      "flag_counts": {
-        "missing_mover": 1
-      },
+      "flag_counts": {},
       "unparseable_pages": [
         9,
         10,
@@ -5475,17 +5671,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
-      "failures": [
-        {
-          "file_id": 1342,
-          "event_date": "2025-04-14T17:00:00Z",
-          "page": 3,
-          "flags": [
-            "missing_mover"
-          ],
-          "raw": "MOTION: Approve; Moved By Trustee Homan: to Approve Additional Play Pass\nOptions along with season Pass Sales Incentives and Rate Adjustment to the Pricing\nof the PM Season Pass; Seconded by Trustee Jezycki\nYEAS: Trustee Noble, Trustee Homan, Trustee Jezycki, Trustee Tonking 4\nNAYS: Trustee Tulloch 1\nMOTION PASSED"
-        }
-      ]
+      "failures": []
     },
     {
       "file_id": 1344,
@@ -5494,7 +5680,109 @@
       "event_date": "2025-04-09T17:00:00Z",
       "minutes_name": " 2025-0409_BOT_MeetingMinutes_Approved 0430",
       "error": null,
-      "motions": [],
+      "motions": [
+        {
+          "page": 4,
+          "text": "Moved by Trustee Homan: to approve the Consent Calendar as documented; Motion Seconded by Trustee Jezycki. Item F.1. Meeting Minutes for March 12, 2025; Item F.2. Meeting Minutes for March 19, 2025; Item F.3. Approve an Agreement between Incline Village General Improvement District and Construction ",
+          "mover": "Trustee Homan",
+          "seconder": "Trustee Jezycki",
+          "yeas": [
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ],
+          "nays": [],
+          "abstain": [],
+          "absent": [],
+          "tally": {
+            "aye": 4,
+            "nay": 0,
+            "abstain": 0,
+            "absent": 0
+          },
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": []
+        },
+        {
+          "page": 6,
+          "text": ": to Approve Amendment No. 2, as discussed and edited-with the removal of food service; of the Agreement with Incline Spirits to provide services at the restricted beaches managed by Incline Village General Improvement District; for the record Legal Counsel Rudin recited the modifications, to approv",
+          "mover": "Trustee Jezycki",
+          "seconder": "Trustee Homan",
+          "yeas": [
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ],
+          "nays": [],
+          "abstain": [],
+          "absent": [],
+          "tally": {
+            "aye": 4,
+            "nay": 0,
+            "abstain": 0,
+            "absent": 0
+          },
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": []
+        },
+        {
+          "page": 6,
+          "text": ": to Set the Date and Time for the Public Hearing to Implement Amendments to the Sewer and Water rates, as well as Adjustments to the Fee Schedule, for Wednesday, May 14, 2025, at 5:00 p.m. Motion .",
+          "mover": "Trustee Jezycki",
+          "seconder": "Trustee Homan",
+          "yeas": [
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ],
+          "nays": [],
+          "abstain": [],
+          "absent": [],
+          "tally": {
+            "aye": 4,
+            "nay": 0,
+            "abstain": 0,
+            "absent": 0
+          },
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": []
+        },
+        {
+          "page": 8,
+          "text": ": to Adopt Resolution No. 1912 Codifying the transfer of the Parks Operations from Community Services to the General Fund in Fiscal Year 2023/2024 and Codifying the transfer of the Parks Operations back to Community Services from the General Fund effective July 1, 2025; Motion",
+          "mover": "Trustee Homan",
+          "seconder": "Trustee Jezycki",
+          "yeas": [
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ],
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "abstain": [],
+          "absent": [],
+          "tally": {
+            "aye": 3,
+            "nay": 1,
+            "abstain": 0,
+            "absent": 0
+          },
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": []
+        }
+      ],
       "flag_counts": {},
       "unparseable_pages": [
         13,
@@ -5534,7 +5822,113 @@
       "event_date": "2025-03-26T17:00:00Z",
       "minutes_name": "2025-0326_BOT_Meeting_Minutes_Approved 0430",
       "error": null,
-      "motions": [],
+      "motions": [
+        {
+          "page": 2,
+          "text": "MOVED BY Trustee Noble: Approve the following consent matters as submitted: Items E.1. Approval of the IVGID Board of Trustees Meeting Minutes for February 26, 2025; E.2. Approval of the IVGID Board of Trustees Meeting Minutes for March 5, 2025; E.3. Approve a District Purchase Order for the Procure",
+          "mover": "Trustee Noble",
+          "seconder": "Trustee Homan",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ],
+          "nays": [],
+          "abstain": [],
+          "absent": [],
+          "tally": {
+            "aye": 5,
+            "nay": 0,
+            "abstain": 0,
+            "absent": 0
+          },
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": []
+        },
+        {
+          "page": 3,
+          "text": ": Approve the Updates to the Water Management Plan and the Purchase of 8.81 ac-ft of Incline Village General Improvement District Water Rights for $140,960 by Incline Hotel LLC; The Motion was modified by Trustee Tulloch to include direction to Public Works staff to research Water Right Rates and up",
+          "mover": "Trustee Noble",
+          "seconder": "Trustee Tulloch",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ],
+          "nays": [],
+          "abstain": [],
+          "absent": [],
+          "tally": {
+            "aye": 5,
+            "nay": 0,
+            "abstain": 0,
+            "absent": 0
+          },
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": []
+        },
+        {
+          "page": 4,
+          "text": ": to set the date and time for Public Hearing for the FY2025/2026 Budget and Recreation Roll for Wednesday, May 2 1, 2025, at 5:00 p.m.; Motion .",
+          "mover": "Trustee Jezycki",
+          "seconder": "Trustee Homan",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ],
+          "nays": [],
+          "abstain": [],
+          "absent": [],
+          "tally": {
+            "aye": 5,
+            "nay": 0,
+            "abstain": 0,
+            "absent": 0
+          },
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": []
+        },
+        {
+          "page": 5,
+          "text": ": to Approve placing up to $400,000 in the Community Service Fund budget for the rebuilding of Capstone (Ordinance 7 D atabase); Motion",
+          "mover": "Trustee Noble",
+          "seconder": "Trustee Jezycki",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Homan",
+            "Trustee Jezycki"
+          ],
+          "nays": [
+            "Trustee Tulloch",
+            "Trustee Tonking"
+          ],
+          "abstain": [],
+          "absent": [],
+          "tally": {
+            "aye": 3,
+            "nay": 2,
+            "abstain": 0,
+            "absent": 0
+          },
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": []
+        }
+      ],
       "flag_counts": {},
       "unparseable_pages": [
         9,
@@ -5580,7 +5974,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 6,
@@ -5604,13 +6000,15 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 7,
-          "text": "to Approve the proposed Golf Rates as presented with the exception of Play Cards; direction to staff to return to the Board with Additional Options to the Play Passes to include a PM pass and Couples pass options Moved By Trustee H oman, Seconded by Trustee Noble",
-          "mover": null,
-          "seconder": null,
+          "text": "to Approve the proposed Golf Rates as presented with the exception of Play Cards; direction to staff to return to the Board with Additional Options to the Play Passes to include a PM pass and Couples pass options",
+          "mover": "Trustee Homan",
+          "seconder": "Trustee Noble",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
@@ -5628,14 +6026,12 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": [
-            "missing_mover"
-          ]
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
-      "flag_counts": {
-        "missing_mover": 1
-      },
+      "flag_counts": {},
       "unparseable_pages": [
         9,
         10,
@@ -5675,17 +6071,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
-      "failures": [
-        {
-          "file_id": 1261,
-          "event_date": "2025-03-19T17:00:00Z",
-          "page": 7,
-          "flags": [
-            "missing_mover"
-          ],
-          "raw": "MOTION: to Approve the proposed Golf Rates as presented with the exception of\nPlay Cards; direction to staff to return to the Board with Additional Options to the Play\nPasses to include a PM pass and Couples pass options Moved By Trustee\nH oman, Seconded by Trustee Noble\nYEAS: Trustee Noble, Trustee Tulloch, Trustee Homan, Trustee Jezycki, 5\nTrustee Tonking 0\nNAYS: None\nMOTION PASSED"
-        }
-      ]
+      "failures": []
     },
     {
       "file_id": 1262,
@@ -5699,7 +6085,7 @@
           "page": 4,
           "text": "Approve the following consent matters: Item F.1. Approve and Authorize the District General Manager to execute a Payment between the Incline General Improvement District and the Nevada Department of Transportation for the Adjustment of Manholes, Valve Covers and Meter Boxes; FY 2024/25 Utilities Fun",
           "mover": "Trustee Homan",
-          "seconder": "Trustee Noble.",
+          "seconder": "Trustee Noble",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
@@ -5717,13 +6103,15 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 4,
-          "text": "to Appoint Trustee Michelle Jezycki, Board Liaison, to attend the Interviews for Candidates for the General Manager of Golf Operations Position and Provide Feedback to Staff. Moved by Trustee Homan, Seconded by Trustee Noble",
-          "mover": null,
-          "seconder": null,
+          "text": "to Appoint Trustee Michelle Jezycki, Board Liaison, to attend the Interviews for Candidates for the General Manager of Golf Operations Position and Provide Feedback to Staff.",
+          "mover": "Trustee Homan",
+          "seconder": "Trustee Noble",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
@@ -5741,15 +6129,15 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": [
-            "missing_mover"
-          ]
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 5,
           "text": "to Approve and Authorize the Board Chair and Secretary to Sign an Agreement between the District and CORE West Inc. dba CORE Construction for the 100% Construction Development Contract for Incline Beach House Project -FY 2024/25 Capital Improvement Project; Fund: Community Services; Division: Beache",
-          "mover": null,
-          "seconder": null,
+          "mover": "Trustee Jezycki",
+          "seconder": "Trustee Homan",
           "yeas": [
             "Trustee Noble",
             "Trustee Homan",
@@ -5768,15 +6156,15 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": [
-            "missing_mover"
-          ]
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 5,
-          "text": "to Approve a project budget of $500,000 to include the final design for Option 2 titlements permitting, and direct staff to move forward with Spohn Ranch, to provide a final construction proposal. Moved By Trustee Noble, Seconded by Trustee Tulloch",
-          "mover": null,
-          "seconder": null,
+          "text": "to Approve a project budget of $500,000 to include the final design for Option 2 titlements permitting, and direct staff to move forward with Spohn Ranch, to provide a final construction proposal.",
+          "mover": "Trustee Noble",
+          "seconder": "Trustee Tulloch",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
@@ -5794,15 +6182,15 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": [
-            "missing_mover"
-          ]
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 7,
-          "text": "to Approve the engagement with Thorndal Armstrong, PC for defense of litigation filed as provided in the recommendation; amended by Trustee Tulloch to request a push for cost recovery. Moved By Trustee Homan, Seconded by Trustee Tulloch",
-          "mover": null,
-          "seconder": null,
+          "text": "to Approve the engagement with Thorndal Armstrong, PC for defense of litigation filed as provided in the recommendation; amended by Trustee Tulloch to request a push for cost recovery.",
+          "mover": "Trustee Homan",
+          "seconder": "Trustee Tulloch",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
@@ -5820,14 +6208,12 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": [
-            "missing_mover"
-          ]
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
-      "flag_counts": {
-        "missing_mover": 4
-      },
+      "flag_counts": {},
       "unparseable_pages": [
         12,
         13,
@@ -5857,44 +6243,7 @@
       "public_comments": 0,
       "media_timestamps": 0,
       "doc_flags": [],
-      "failures": [
-        {
-          "file_id": 1262,
-          "event_date": "2025-03-12T17:00:00Z",
-          "page": 4,
-          "flags": [
-            "missing_mover"
-          ],
-          "raw": "MOTION: to Appoint Trustee Michelle Jezycki, Board Liaison, to attend the\nInterviews for Candidates for the General Manager of Golf Operations Position\nand Provide Feedback to Staff. Moved by Trustee Homan, Seconded by\nTrustee Noble\nYEAS: Trustee Noble, Trustee Tulloch, Trustee Homan, Trustee Jezycki, 5\nTrustee Tonking 0\nNAYS: None\nMOTION PASSED"
-        },
-        {
-          "file_id": 1262,
-          "event_date": "2025-03-12T17:00:00Z",
-          "page": 5,
-          "flags": [
-            "missing_mover"
-          ],
-          "raw": "MOTION: to Approve and Authorize the Board Chair and Secretary to Sign an\nAgreement between the District and CORE West Inc. dba CORE Construction for\nthe 100% Construction Development Contract for Incline Beach House Project -\nFY 2024/25 Capital Improvement Project; Fund: Community Services; Division:\nBeaches; Project #3973LI1302; in the amount of $755,000. Moved by Trustee\nJezycki, Seconded by Trustee Homan\nYEAS: Trustee Noble, Trustee Homan, Trustee Jezycki, Trustee Tonking 4\nNAYS: None 0\nABSTAIN: Trustee Tulloch\nMOTION PASSED"
-        },
-        {
-          "file_id": 1262,
-          "event_date": "2025-03-12T17:00:00Z",
-          "page": 5,
-          "flags": [
-            "missing_mover"
-          ],
-          "raw": "MOTION: to Approve a project budget of $500,000 to include the final design for\nOption 2 titlements permitting, and direct staff to move forward with Spohn Ranch,\nto provide a final construction proposal. Moved By Trustee Noble, Seconded by\nTrustee Tulloch\nYEAS: Trustee Noble, Trustee Tulloch, Trustee Homan, Trustee Jezycki, 5\nTrustee Tonking 0\nNAYS: None\nMOTION PASSED"
-        },
-        {
-          "file_id": 1262,
-          "event_date": "2025-03-12T17:00:00Z",
-          "page": 7,
-          "flags": [
-            "missing_mover"
-          ],
-          "raw": "MOTION: to Approve the engagement with Thorndal Armstrong, PC for defense of\nlitigation filed as provided in the recommendation; amended by Trustee Tulloch to\nrequest a push for cost recovery. Moved By Trustee Homan, Seconded by\nTrustee Tulloch\nYEAS: Trustee Noble, Trustee Tulloch, Trustee Homan, Trustee Jezycki, 5\nTrustee Tonking 0\nNAYS: None\nMOTION PASSED"
-        }
-      ]
+      "failures": []
     },
     {
       "file_id": 1229,
@@ -5903,7 +6252,34 @@
       "event_date": "2025-03-05T18:00:00Z",
       "minutes_name": "2025_0305-BOT_Meeting_Minutes_Approved_0326",
       "error": null,
-      "motions": [],
+      "motions": [
+        {
+          "page": 2,
+          "text": "to approve staff's recommendation as contained in the memo of the Board packet; approving the 2025/2026 Group Picnic Rental Fee Rate Schedule, with an Increase of 3.5% to Group Picnic Rentals as Shown in Table 1; and approving the IVGID Recreation Pass Holder Discount of 20% of Public Rates for Picn",
+          "mover": "Trustee Noble",
+          "seconder": "Trustee Jezycki",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ],
+          "nays": [
+            "Trustee Tulloch"
+          ],
+          "abstain": [],
+          "absent": [],
+          "tally": {
+            "aye": 3,
+            "nay": 1,
+            "abstain": 0,
+            "absent": 0
+          },
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": []
+        }
+      ],
       "flag_counts": {},
       "unparseable_pages": [
         6,
@@ -5929,14 +6305,14 @@
       "motions": [
         {
           "page": 3,
-          "text": "Approve the following consent matters: approval of Items F.1. Meeting Minutes for February 12, 2025. Item F.2. Approval of District Purchase Order for Procurement of a Replacement 32-Passenger Shuttle Bus, and Item F.3. Approval of a Donation from the Hyatt Hotel for Beach Furniture.",
+          "text": "Approve the following consent matters: approval of Items F.1. Meeting Minutes for February 12, 2025. Item F.2. Approval of District Purchase Order for Procurement of a Replacement 32-Passenger Shuttle Bus, and Item F.3. Approval of a Donation from the Hyatt Hotel for Beach Furniture. Action: Approve",
           "mover": "Trustee Noble",
-          "seconder": "Trustee Jezycki.",
+          "seconder": "Trustee Jezycki",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
             "Trustee Homan",
-            "Trustee  Jezycki",
+            "Trustee Jezycki",
             "Trustee Tonking"
           ],
           "nays": [],
@@ -5949,7 +6325,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 4,
@@ -5960,7 +6338,7 @@
             "Trustee Noble",
             "Trustee Tulloch",
             "Trustee Homan",
-            "Trustee  Jezycki",
+            "Trustee Jezycki",
             "Trustee Tonking"
           ],
           "nays": [],
@@ -5973,18 +6351,20 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 5,
-          "text": "To nominate Trustee Michaela Tonking as the newest Board Member of the Audit Committee. Moved By Trustee Jezycki, Seconded by T rustee Noble",
-          "mover": null,
-          "seconder": null,
+          "text": "To nominate Trustee Michaela Tonking as the newest Board Member of the Audit Committee.",
+          "mover": "Trustee Jezycki",
+          "seconder": "Trustee Noble",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
             "Trustee Homan",
-            "Trustee  Jezycki",
+            "Trustee Jezycki",
             "Trustee Tonking"
           ],
           "nays": [],
@@ -5997,9 +6377,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": [
-            "missing_mover"
-          ]
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 5,
@@ -6010,30 +6390,24 @@
             "Trustee Noble",
             "Trustee Tulloch",
             "Trustee Homan",
-            "Trustee  Jezycki",
+            "Trustee Jezycki",
             "Trustee Tonking"
           ],
-          "nays": [
-            "None MOTION G. Review",
-            "Discuss",
-            "and Approve the / Budget Workshop Schedule: Discussion",
-            "Direction",
-            "and possible Action. (Requesting Staff Member: District General Manager Robert Harrison) The full Board and Staff discussion can be viewed at: https://ivgid.portal.civicclerk.com/event//media",
-            "MEDIA TIMESTAMP ::"
-          ],
+          "nays": [],
           "abstain": [],
           "absent": [],
           "tally": {
             "aye": 5,
-            "nay": null,
+            "nay": 0,
             "abstain": 0,
             "absent": 0
           },
           "outcome": null,
           "flags": [
-            "missing_outcome",
-            "tally_mismatch"
-          ]
+            "truncated_outcome"
+          ],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 6,
@@ -6044,37 +6418,7 @@
             "Trustee Noble",
             "Trustee Tulloch",
             "Trustee Homan",
-            "Trustee  Jezycki",
-            "Trustee Tonking"
-          ],
-          "nays": [
-            "None M OTION PASSES G. Review",
-            "Discuss and possibly Approve Diamond Peak Ski Resort\u2019s Season Pass Rates for - Ski Season. (For possible Action) (Requesting Staff Member: Diamond Peak General Manager Mike Bandelin) Diamond Peak Ski General Manager Mike Bandelin provided a brief overview of the Diamond Peak Ski Resort Season Pass Rates for -. The full Board and Staff discussion can be viewed at: https://ivgid.portal.civicclerk.com/event//media",
-            "MEDIA TIMESTAMP ::"
-          ],
-          "abstain": [],
-          "absent": [],
-          "tally": {
-            "aye": 5,
-            "nay": 3,
-            "abstain": 0,
-            "absent": 0
-          },
-          "outcome": null,
-          "flags": [
-            "missing_outcome"
-          ]
-        },
-        {
-          "page": 6,
-          "text": "to Approve Diamond Peak Ski Resort\u2019s Season Pass Rates for the 2025-26 Ski Season.",
-          "mover": "Trustee Noble",
-          "seconder": "Trustee Jezycki",
-          "yeas": [
-            "Trustee Noble",
-            "Trustee Tulloch",
-            "Trustee Homan",
-            "Trustee  Jezycki",
+            "Trustee Jezycki",
             "Trustee Tonking"
           ],
           "nays": [],
@@ -6087,13 +6431,39 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
+        },
+        {
+          "page": 6,
+          "text": "to Approve Diamond Peak Ski Resort\u2019s Season Pass Rates for the 2025-26 Ski Season.",
+          "mover": "Trustee Noble",
+          "seconder": "Trustee Jezycki",
+          "yeas": [
+            "Trustee Noble",
+            "Trustee Tulloch",
+            "Trustee Homan",
+            "Trustee Jezycki",
+            "Trustee Tonking"
+          ],
+          "nays": [],
+          "abstain": [],
+          "absent": [],
+          "tally": {
+            "aye": 5,
+            "nay": 0,
+            "abstain": 0,
+            "absent": 0
+          },
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {
-        "missing_mover": 1,
-        "missing_outcome": 2,
-        "tally_mismatch": 1
+        "truncated_outcome": 1
       },
       "unparseable_pages": [
         12,
@@ -6129,28 +6499,9 @@
           "event_date": "2025-02-26T17:00:00Z",
           "page": 5,
           "flags": [
-            "missing_mover"
+            "truncated_outcome"
           ],
-          "raw": "MOTION: To nominate Trustee Michaela Tonking as the newest Board\nMember of the Audit Committee. Moved By Trustee Jezycki, Seconded by\nT rustee Noble\nYEAS: Trustee Noble, Trustee Tulloch, Trustee Homan, Trustee 5\nJezycki, Trustee Tonking 0\nNAYS: None\nMOTION PASSED"
-        },
-        {
-          "file_id": 1227,
-          "event_date": "2025-02-26T17:00:00Z",
-          "page": 5,
-          "flags": [
-            "missing_outcome",
-            "tally_mismatch"
-          ],
-          "raw": "MOTION: to Approve Board Recommended Goals for District General\nManager through June 30, 2025.\nMoved By Trustee Noble, Seconded by Trustee Homan\nYEAS: Trustee Noble, Trustee Tulloch, Trustee Homan, Trustee 5\nJezycki, Trustee Tonking 0\nNAYS: None\nMOTION\nG.4 Review, Discuss, and Approve the 2025/2026 Budget Workshop\nSchedule: Discussion, Direction, and possible Action.\n(Requesting Staff Member: District General Manager Robert\nHarrison)\nThe full Board and Staff discussion can be viewed at:\nhttps://ivgid.portal.civicclerk.com/event/561/media,\nMEDIA TIMESTAMP 00:53:43"
-        },
-        {
-          "file_id": 1227,
-          "event_date": "2025-02-26T17:00:00Z",
-          "page": 6,
-          "flags": [
-            "missing_outcome"
-          ],
-          "raw": "MOTION: To approve the Budget Schedule with the understanding that if\nthere needs to be some flexibility, the Board of Trustees will be notified, and\nthe meeting schedule will be modified accordingly.\nMoved By Trustee Noble, Seconded by Trustee Tulloch\nYEAS: Trustee Noble, Trustee Tulloch, Trustee Homan, Trustee 5\nJezycki, Trustee Tonking 0\nNAYS: None\nM OTION PASSES\nG.5 Review, Discuss and possibly Approve Diamond Peak Ski\nResort\u2019s Season Pass Rates for 2025-2026 Ski Season. (For\npossible Action) (Requesting Staff Member: Diamond Peak\nGeneral Manager Mike Bandelin)\nDiamond Peak Ski General Manager Mike Bandelin provided a brief overview\nof the Diamond Peak Ski Resort Season Pass Rates for 2025-2026.\nThe full Board and Staff discussion can be viewed at:\nhttps://ivgid.portal.civicclerk.com/event/561/media,\nMEDIA TIMESTAMP 01:03:27"
+          "raw": "MOTION: to Approve Board Recommended Goals for District General\nManager through June 30, 2025.\nMoved By Trustee Noble, Seconded by Trustee Homan\nYEAS: Trustee Noble, Trustee Tulloch, Trustee Homan, Trustee 5\nJezycki, Trustee Tonking 0\nNAYS: None\nMOTION"
         }
       ]
     },
@@ -6164,9 +6515,9 @@
       "motions": [
         {
           "page": 3,
-          "text": "Approve the following consent matters, as submitted: Item F.1. Approval of the IVGID Board of Trustees Special Meeting Minutes for January 16, 2025; and Item F.2. Approval of the IVGID Board of Trustees Meeting Minutes for January 29, 2025. Media Timestamp 02:00:34",
+          "text": "Approve the following consent matters, as submitted: Item F.1. Approval of the IVGID Board of Trustees Special Meeting Minutes for January 16, 2025; and Item F.2. Approval of the IVGID Board of Trustees Meeting Minutes for January 29, 2025. Media Timestamp 02:00:34 Action: Approve, .",
           "mover": "Trustee Noble",
-          "seconder": "Trustee Homan.",
+          "seconder": "Trustee Homan",
           "yeas": [
             "Trustee Noble",
             "Trustee Tulloch",
@@ -6184,7 +6535,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -6248,7 +6601,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 5,
@@ -6272,7 +6627,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 6,
@@ -6295,7 +6652,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 7,
@@ -6318,7 +6677,9 @@
             "absent": 0
           },
           "outcome": "passed",
-          "flags": []
+          "flags": [],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {},
@@ -6467,7 +6828,86 @@
       "event_date": "2024-12-19T16:00:00Z",
       "minutes_name": "2024-1219 Audit Committee Meeting MInutes for Approval",
       "error": null,
-      "motions": [],
+      "motions": [
+        {
+          "page": 3,
+          "text": "approve the 2nd Extension of the Audited Financial Statements to the Department of Taxation.",
+          "mover": null,
+          "seconder": null,
+          "yeas": [
+            "Committee Members Brandle",
+            "Schmitz",
+            "Tulloch"
+          ],
+          "nays": [],
+          "abstain": [],
+          "absent": [],
+          "tally": {
+            "aye": 3,
+            "nay": 0,
+            "abstain": 0,
+            "absent": 0
+          },
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": [
+            "mover_not_recorded"
+          ]
+        },
+        {
+          "page": 4,
+          "text": "Approve the Audit Committee Meeting Minutes for October 15, 2024.",
+          "mover": null,
+          "seconder": null,
+          "yeas": [
+            "Committee Members Brandle",
+            "Schmitz",
+            "Tulloch"
+          ],
+          "nays": [],
+          "abstain": [],
+          "absent": [],
+          "tally": {
+            "aye": 3,
+            "nay": 0,
+            "abstain": 0,
+            "absent": 0
+          },
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": [
+            "mover_not_recorded"
+          ]
+        },
+        {
+          "page": 5,
+          "text": "Approve the Audit Committee Meeting Minutes for November 18, 2024.",
+          "mover": null,
+          "seconder": null,
+          "yeas": [
+            "Committee Members Brandle",
+            "Schmitz",
+            "Tulloch"
+          ],
+          "nays": [],
+          "abstain": [],
+          "absent": [],
+          "tally": {
+            "aye": 3,
+            "nay": 0,
+            "abstain": 0,
+            "absent": 0
+          },
+          "outcome": "passed",
+          "flags": [],
+          "kind": "motion",
+          "notes": [
+            "mover_not_recorded"
+          ]
+        }
+      ],
       "flag_counts": {},
       "unparseable_pages": [
         6,
@@ -11017,7 +11457,9 @@
             "missing_outcome",
             "missing_mover",
             "missing_vote_sections"
-          ]
+          ],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 12,
@@ -11039,7 +11481,9 @@
             "missing_outcome",
             "missing_mover",
             "missing_vote_sections"
-          ]
+          ],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 26,
@@ -11061,7 +11505,9 @@
             "missing_outcome",
             "missing_mover",
             "missing_vote_sections"
-          ]
+          ],
+          "kind": "motion",
+          "notes": []
         },
         {
           "page": 27,
@@ -11083,7 +11529,9 @@
             "missing_outcome",
             "missing_mover",
             "missing_vote_sections"
-          ]
+          ],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {
@@ -11105,7 +11553,7 @@
             "missing_mover",
             "missing_vote_sections"
           ],
-          "raw": "MOTION: Trustee Schmitz moved to remove General Business Item 1.2. from the\nagenda. Trustee Dent seconded the motion. Trustee Tonking asked if we approve\nthose specific numbers in that agenda item, do they have to be those exact\nnumbers or can they go lower because I remember there was something with the\nrec fee that could be lower, but it couldn't go higher; I'm just curious about how that\nworks. District General Counsel Nelson said yes, we could go lower than what's\nposted on the agenda, and we wouldn't want to go higher. The motion carried 3-2.\nTrustees Wong and Tonking opposed. General Business Item 1.2., as well as\nConsent Item H.2. receiving the Audit Committee report was removed.\nE. DISTRICT GENERAL MANAGER REPORT*\nDistrict General Manager Winquest said I have two updates for my report and then\nhappy answer any questions. First, as everyone knows, we have hired special\ncounsel to review. I won't go through all these issues on page 6 of the board\npacket. I'm working with a couple of members of the Ordinance 7 committee; we\nput together draft recommendations that have been given to special counsel. The\nspecial counsel is currently reviewing them. I had another meeting with a member\nof the Ordinance 7 committee and special counsel. The special counsel is\ncomfortable with 90% of what has been given to him. There are a couple of other\nissues that we're continuing to work through as we gather more information.\n360\nMinutes\nMeeting of February 9, 2022\nPage 6\nHowever, I have enough information now where I am finalizing the draft\nrecommendations while layering in the survey materials, adding in some historical\ninformation, and painting the picture on all the different recommendations that\nwe're going to be making. I expect down with that middle of next week. Then, I will\nhave to call a final meeting with the Ordinance 7 committee to go over the draft\nrecommendations with the entire committee. If we need to make any final edits,\nwe will. I'll be emailing the full board about your availability for a special meeting to"
+          "raw": "MOTION: Trustee Schmitz moved to remove General Business Item 1.2. from the\nagenda. Trustee Dent seconded the motion. Trustee Tonking asked if we approve\nthose specific numbers in that agenda item, do they have to be those exact\nnumbers or can they go lower because I remember there was something with the\nrec fee that could be lower, but it couldn't go higher; I'm just curious about how that\nworks. District General Counsel Nelson said yes, we could go lower than what's\nposted on the agenda, and we wouldn't want to go higher. The motion carried 3-2.\nTrustees Wong and Tonking opposed. General Business Item 1.2., as well as\nConsent Item H.2. receiving the Audit Committee report was removed.\nE. DISTRICT GENERAL MANAGER REPORT*\nDistrict General Manager Winquest said I have two updates for my report and then\nhappy answer any questions. First, as everyone knows, we have hired special\ncounsel to review. I won't go through all these issues on page 6 of the board\npacket. I'm working with a couple of members of the Ordinance 7 committee; we\nput together draft recommendations that have been given to special counsel. The\nspecial counsel is currently reviewing them. I had another meeting with a member\nof the Ordinance 7 committee and special counsel. The special counsel is\ncomfortable with 90% of what has been given to him. There are a couple of other\nissues that we're continuing to work through as we gather more information.\n360\nMinutes\nMeeting of February 9, 2022\nPage 6\nHowever, I have enough information now where I am finalizing the draft\nrecommendations while layering in the survey materials, adding in some historical\ninformation, and painting the picture on all the different recommendations that\nwe're going to be making. I expect down with that middle of next week. Then, I will\nhave to call a final meeting with the Ordinance 7 committee to go over the draft\nrecommendations with the entire committee. If we need to make any final edits,\nwe will. I'll be emailing the full board about your availability for a special meeting to\ndeliver these recommendations. A lot of things will have to come together for a\nmeeting like that. We need all the trustees, special counsel, legal counsel and\nhoping to have all members of the Ordinance 7 committee present. We want to\nacknowledge them for all their hard work and help make presentations and answer\nquestions by this board. I know this has taken a lot longer than we all would have\nliked, including myself, but these are huge decisions that impact the community\nand our parcel owners in the district. We are taking the right path by having special\ncounsel review this. The special counsel is also reviewing all the other issues that\nwere included in the scope of work. And so he continues to work through all of that,\nask questions, gather information, and look at relevant case law that may be out\nthere. We're taking this very seriously because these are very serious decisions\nthat we will be making. I want to give you an update on that. I've been receiving\ncorrespondence regarding the United States Forest Service special use permit for\na potential dog park. And I finally was able to touch base with the planner we've\nbeen working with. And for those of you who don't know, there's a new US Forest\nService Manager. They needed to get all the information to him so that he can get\nfamiliar with this special use permit to decide whether or not they were going to\ncontinue to push forward and work with us. I've also been it's also been signaled\nto me by the United States Forest Service that they're extremely short-staffed. And\nthey've had some issues. And so for all these reasons, this process is now being\nslowed down, unfortunately. As I've stated, I'll be putting together an Advisory\nCommittee for a dog park over the next couple of weeks. Not just for this particular\nlocation, it could mean identifying other locations that we can continue to pursue\nas we try to build a dedicated dog park. Thank you, Trustee Schmitz, for\nvolunteering to represent the board on that committee. She and I work together on\nselecting reasonable and fair folks that we think would be productive on a\ncommittee like that. Unfortunately, I have found out that a few community members\nhave continued to reach out to the Forest Service in protest of us getting this\nparcel. I have two things to say about that one, based on what I've heard, a lot of\nthe things being said to the Forest Service are false as far as what we're trying to"
         },
         {
           "file_id": 750,
@@ -11116,7 +11564,7 @@
             "missing_mover",
             "missing_vote_sections"
           ],
-          "raw": "Motion: Trustee Wong moved to approve the consent calendar.\nTrustee Tonking seconded the motion. Board Chairman\nCallicratec called the question and the motion passed with\nTrustee Schmitz voting opposed and added that the suggestion\nshould have been incorporated.\nDistrict General Manager Winquest asked for clarification; are you\nsuggesting we put the actual GL account where it's being charged to into\nthe contract? Trustee Schmitz said in the conversation that I had with\nDirector of Finance Navazio, he indicated that there are additional numeric\ncodes that would help identify. If you recall, we've had issues with whether\nit is expensed or capitalized. So by identifying it here, the decision is being\nmade, and therefore, there isn't a judgment call when individual invoices\ncome in, and there's less probability of error so that was the suggestion.\nTrustee Wong said what Trustee Schmitz is suggesting is an accounting\nmatter and doesn't really have any bearing as to whether or not we approve\nthis contract. If this is something that she wants to work with our finance\nteam and District General Manager to bring a proposal back offline, I'm\ntotally fine with that. But that's an accounting matter, not a contract matter.\nTrustee Tonking asked if we do that in any of our other contracts? So it\nwould just be on this one which would be odd. Director of Finance Navazio\nsaid I think that's a correct assumption, we don't. I just might clarify that. I\nthink we understand Trustee Schmitz's intent in that is that we're all clear\nupfront about how we're going to account for it. I think it would be unusual\nto put in the contract, or what I would clarify if it's helpful is it when a contract\nlike this work to is approved, the next thing we do is set up a purchase order.\nThe purchase order has to tie to a specific account code based on where it's\nbudgeted and the nature of the expense. So as long as the vendor is\nreferencing the project, as noted here, and we set up the purchase order\nwith the proper accounting, that happens automatically. We would be\nproviding the vendor with the account codes because they don't make that"
+          "raw": "Motion: Trustee Wong moved to approve the consent calendar.\nTrustee Tonking seconded the motion. Board Chairman\nCallicratec called the question and the motion passed with\nTrustee Schmitz voting opposed and added that the suggestion\nshould have been incorporated.\nDistrict General Manager Winquest asked for clarification; are you\nsuggesting we put the actual GL account where it's being charged to into\nthe contract? Trustee Schmitz said in the conversation that I had with\nDirector of Finance Navazio, he indicated that there are additional numeric\ncodes that would help identify. If you recall, we've had issues with whether\nit is expensed or capitalized. So by identifying it here, the decision is being\nmade, and therefore, there isn't a judgment call when individual invoices\ncome in, and there's less probability of error so that was the suggestion.\nTrustee Wong said what Trustee Schmitz is suggesting is an accounting\nmatter and doesn't really have any bearing as to whether or not we approve\nthis contract. If this is something that she wants to work with our finance\nteam and District General Manager to bring a proposal back offline, I'm\ntotally fine with that. But that's an accounting matter, not a contract matter.\nTrustee Tonking asked if we do that in any of our other contracts? So it\nwould just be on this one which would be odd. Director of Finance Navazio\nsaid I think that's a correct assumption, we don't. I just might clarify that. I\nthink we understand Trustee Schmitz's intent in that is that we're all clear\nupfront about how we're going to account for it. I think it would be unusual\nto put in the contract, or what I would clarify if it's helpful is it when a contract\nlike this work to is approved, the next thing we do is set up a purchase order.\nThe purchase order has to tie to a specific account code based on where it's\nbudgeted and the nature of the expense. So as long as the vendor is\nreferencing the project, as noted here, and we set up the purchase order\nwith the proper accounting, that happens automatically. We would be\nproviding the vendor with the account codes because they don't make that\n367\nMinutes\nMeeting of February 9, 2022\nPage 13\ndetermination. Our process already is set up to ensure that the invoices are\npaid for the proper account based on the project, the fund, and the nature of\nthe expenditure.\nBoard Chairman Callicrate said the motion did pass as it was presented. But\nI think that moving forward with what Director of Finance Navazio had just\nmentioned, through the purchase order situation, the clarification that\nTrustee Schmitz brought up, I think that there is an opportunity, if that would\nbe the appropriate place. But if that's an opportunity to incorporate the\nconcerns of Trustee Schmitz, which are valid, to whether it's expensed or\ncapitalized, if we were able to do that through the PO situation, to give more\nclarity, so that there aren't any mistakes or misunderstandings, I think that\nwould be an appropriate opportunity.\nDirector of Finance Navazio said there is an opportunity for us to say some\nthings because there's no guarantee on a particular contract that every dollar\ncharge in the contract is going to one account code. So in the purchase\norder, there are different line items. Still, it's incumbent on the contractors to\naccurately report information on the invoice sufficient to allow Staff to be\nappropriately allocate by line item. So I don't want to give it the impression\nthat it's just a one-size-fits-all fix. Trustee Schmitz's comment arises from\npast situations where we've had some confusion. We've addressed them as\nbest we can we're going to continue to work on them. I'm not sure about\nputting in the contract the account codes because it'll depend on the nature\nof the expenditure.\nDistrict General Manager Winquest said I completely understand Trustee\nSchmitz's points of concern on this. The best thing to do is to work with\nTrustee Schmitz and show her the process we go through. And if she's still"
         },
         {
           "file_id": 750,
@@ -11138,7 +11586,7 @@
             "missing_mover",
             "missing_vote_sections"
           ],
-          "raw": "MOTION: Trustee Wong moved to approve the memorandum of\nunderstanding between the Incline Village General Improvement\nDistrict and the David and Cheryl Duffield Foundation for the\nconceptual phase of the expansion of the Recreation Center.\nTrustee Tonking seconded the motion.\nTrustee Schmitz said I just have a question for the District General Manager -when\nit talks about administrative space in Exhibit A, could you just clarify the\nadministrative space? I'm assuming you're not talking about administrative space,\ni.e., the admin staff's movement over to that building? District General Manager\nWinquest said that's correct. We envision, upon entry, a small front desk area to\ncheck people in. And then probably a couple of offices administration offices for\nStaff, such as an office for Staff and maybe one for the Boys & Girls Club. Trustee\nSchmitz said under the project cost estimation, I see that this will be an outsourced\nproject. But there still will be some element of IVGID staff time; it probably won't\nbe significant. But when we get the project cost estimation, can we please also\nestimate IVGID staff time? District General Manager Winquest said I want to\nclarify. I felt it is important. There will be a minimal amount of staff time during the\nconceptual phase. I have talked to the Duffield Foundation; they are aware that as\nwe move into the actual project, internal engineering time and staff time will all be\nincluded in the grant amount we will be getting from the Duffields. So it would\ninclude similar to what you see with our other projects, and estimation of\nengineering staff or engineering time as part of the project. Trustee Schmitz\nthanked the District General Manager for answering the questions. Trustee Wong\nsaid I just want to make sure we express our gratitude to the Duffields for their\ncontinued support of our community, and I'm very excited to see this project move\nforward. The motion carried unanimously. Chair Callicrate thanked Dave & Cheryl\nDuffield.\n382\nMinutes\nMeeting of February 9, 2022"
+          "raw": "MOTION: Trustee Wong moved to approve the memorandum of\nunderstanding between the Incline Village General Improvement\nDistrict and the David and Cheryl Duffield Foundation for the\nconceptual phase of the expansion of the Recreation Center.\nTrustee Tonking seconded the motion.\nTrustee Schmitz said I just have a question for the District General Manager -when\nit talks about administrative space in Exhibit A, could you just clarify the\nadministrative space? I'm assuming you're not talking about administrative space,\ni.e., the admin staff's movement over to that building? District General Manager\nWinquest said that's correct. We envision, upon entry, a small front desk area to\ncheck people in. And then probably a couple of offices administration offices for\nStaff, such as an office for Staff and maybe one for the Boys & Girls Club. Trustee\nSchmitz said under the project cost estimation, I see that this will be an outsourced\nproject. But there still will be some element of IVGID staff time; it probably won't\nbe significant. But when we get the project cost estimation, can we please also\nestimate IVGID staff time? District General Manager Winquest said I want to\nclarify. I felt it is important. There will be a minimal amount of staff time during the\nconceptual phase. I have talked to the Duffield Foundation; they are aware that as\nwe move into the actual project, internal engineering time and staff time will all be\nincluded in the grant amount we will be getting from the Duffields. So it would\ninclude similar to what you see with our other projects, and estimation of\nengineering staff or engineering time as part of the project. Trustee Schmitz\nthanked the District General Manager for answering the questions. Trustee Wong\nsaid I just want to make sure we express our gratitude to the Duffields for their\ncontinued support of our community, and I'm very excited to see this project move\nforward. The motion carried unanimously. Chair Callicrate thanked Dave & Cheryl\nDuffield.\n382\nMinutes\nMeeting of February 9, 2022\nPage 28\nJ. MEETING MINUTES (for possible action)\n1. Meeting Minutes of January 12, 2022 - The meeting minutes are\napproved pending the necessary changes that the District Clerk had\nidentified.\nK. FINAL PUBLIC COMMENTS*\nL. ADJOURNMENT (for possible action)\nThe meeting was adjourned at 9:31 p.m.\nRespectfully submitted,\nMisty A. Moga\nActing District Clerk\nAttachments*:\n*In accordance with NRS 241.035.1 (d), the following attachments are included but\nhave neither been fact checked or verified by the District and are solely the\nthoughts, opinions, statements, etc. of the author as identified below.\nSubmitted by Cliff Dobler\nSubmitted by Ellie Dobler\nContacted Mr. Katz about his written statements and he has none to provide at this\ntime.\n383\nPublic Comment - IVGID Board of Trustee Meeting 2-9-2022 by Cliff Dobler\nThis written statement is to be made part of the minutes of this meeting.\nRegarding the Budget Workshop held on February 3, 6 days ago, I provided a memo to Trustees Schmitz and Dent\nregarding several gross errors contained in the presentation. Trustee Schmitz asked that I refrain from public\ncomments as the items were embarrassing to the Board and she would disclose them at the meeting. She did not.\nDo not expect me to refrain from speaking any more.\nOn tonight's packet page 58, Underwood makes the following statement: \"There are Public Service Recreation\nirrigation accounts that do not pay excess water charges. Revising this long standing Board policy decision would\nSIGNIFICANTLY impact operating costs at these venues.\" If proper charges were instituted it would save the 4,000\nresidential customers $.30 per month $14,000 per year. I find it laughable that $14,000 per year is SIGNIFICANT"
         }
       ]
     },
@@ -11170,7 +11618,9 @@
             "missing_outcome",
             "missing_mover",
             "missing_vote_sections"
-          ]
+          ],
+          "kind": "motion",
+          "notes": []
         }
       ],
       "flag_counts": {
@@ -11198,7 +11648,7 @@
             "missing_mover",
             "missing_vote_sections"
           ],
-          "raw": "MOTION: Trustee Schmitz moved that the Board of Trustees\napproved policy 15.1.0 with the changes identified here this\nevening and in addition to make additions and corrections to the\nmemorandum to have the accurate up-to-date information in the\nmemorandum. Trustee Tonking seconded the motion which\ncarried unanimously 4-0. Trustee Wong was not in attendance.\nTrustee Callicrate thanked Trustees Tonking, Schmitz and Dent.\nH.1. SUBJECT: BOARD PRACTICE FOR APPROVAL - BUDGETING\nAND FISCAL MANAGEMENT, DISTRICT-WIDE PRICING FOR\nPRODUCTS AND SERVICES, PRACTICE 6.2.0\nRecommendation for Action: Review, discuss and possibly take action to\napprove the new Board Practice.\nDirector of Finance Paul Navazio said last year, it was identified as either a need\nor an improvement to try to craft a pricing policy to guide the setting of prices and\nfees for district services across all venues. As noted in the background section,\nthere is language currently in Policy 6.1 that basically references that the district\nwill adopt the process in a manner in which fees and charges are set through the\n315\nMinutes\nMeeting of February 3, 2022\nPage 8\nbudget process. And with the adoption of a formal practice to support policy 16.1,\nthat's the objective here. We discussed kind of a framework for pricing policy last\nNovember; we brought the first draft of the pricing policy for discussion at the\nDecember 10 meeting and based on feedback that we received, we have revised\nthe draft, which begins on page 18 of your board packet. I would note that right\nbehind it, beginning on page 25 is kind of the redline version to show the changes\nthat were incorporated into this draft from the version shared with the Board back\nin December. I would just note that in the board memo under the discussion section\non page 17, I'll highlight these. We modified the memo for this item after the"
+          "raw": "MOTION: Trustee Schmitz moved that the Board of Trustees\napproved policy 15.1.0 with the changes identified here this\nevening and in addition to make additions and corrections to the\nmemorandum to have the accurate up-to-date information in the\nmemorandum. Trustee Tonking seconded the motion which\ncarried unanimously 4-0. Trustee Wong was not in attendance.\nTrustee Callicrate thanked Trustees Tonking, Schmitz and Dent.\nH.1. SUBJECT: BOARD PRACTICE FOR APPROVAL - BUDGETING\nAND FISCAL MANAGEMENT, DISTRICT-WIDE PRICING FOR\nPRODUCTS AND SERVICES, PRACTICE 6.2.0\nRecommendation for Action: Review, discuss and possibly take action to\napprove the new Board Practice.\nDirector of Finance Paul Navazio said last year, it was identified as either a need\nor an improvement to try to craft a pricing policy to guide the setting of prices and\nfees for district services across all venues. As noted in the background section,\nthere is language currently in Policy 6.1 that basically references that the district\nwill adopt the process in a manner in which fees and charges are set through the\n315\nMinutes\nMeeting of February 3, 2022\nPage 8\nbudget process. And with the adoption of a formal practice to support policy 16.1,\nthat's the objective here. We discussed kind of a framework for pricing policy last\nNovember; we brought the first draft of the pricing policy for discussion at the\nDecember 10 meeting and based on feedback that we received, we have revised\nthe draft, which begins on page 18 of your board packet. I would note that right\nbehind it, beginning on page 25 is kind of the redline version to show the changes\nthat were incorporated into this draft from the version shared with the Board back\nin December. I would just note that in the board memo under the discussion section\non page 17, I'll highlight these. We modified the memo for this item after the\nrescheduling of this meeting based on feedback that we were receiving on some\nspecific aspects. We wanted to highlight that the two areas where staff continues\nto receive some feedback and at times some conflicting feedback which has to do\nwith the definition section. It was also noted during a public comment on whether\nthe pricing policy should define guests or residents or picture passholders because\nwe use that terminology throughout. And whether that's defined in this policy or\nOrdinance 7 or some other policy document, our goal is just to ensure that there's\nclarity in the policy, so there's no ambiguity. Any feedback from the Board on that\nwould be helpful. Also, there was comments about incorporating definitions or\nmaking sure the Board is comfortable with the definitions of full costs and operating\ncosts that are in here. And finally, some comments regarding the administration of\nthe policy. Ifs to clarify what fees the Board intends or wishes to formally approve\non an annual basis. And there are some fees that staff believes were absolutely\nappropriate for the Board to review and approve but not necessarily all the fees.\nWe want to make sure that the Board is comfortable with kind of how the\nadministration is drafted so that it's clear what authority the District General\nManager and venue managers have to set fees consistent with the policy versus\nwhat policy or what fees, particularly the picture passholder fees that would\ncontinue to come to the Board for approval. We just call that out in the memo.\nBased on feedback, we'll either modify again and bring it back, or see what the\npleasure is of the Board.\nDistrict General Manager Winquest said there wasn't an expectation necessarily\nfor the Board to approve this evening. What we are trying to do is gather feedback.\nWe believe this is based on feedback from the Board. We are prepared to take\nfeedback, do a quick turnaround, get the policy updated, and then have in front of\nyou on February 9. Our staff is currently working on developing preliminary\nbudgets and this policy helps dictate and guide what we are going to be doing with\na lot of the pricing and our revenue projects. The pricing policy is important, and\nwe1re excited to be coming to some closure on this issue. We had several public\ncomments about tennis and golf. I believe what we brought is what the Board has"
         }
       ]
     },
