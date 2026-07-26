@@ -158,6 +158,32 @@ _NARRATIVE_RE = re.compile(
 )
 
 
+# Agenda-item association (spec §2.4 `items[]`). Numbered items look like
+# "E.1 (For Possible Action) Approve and Authorize …"; lettered sections like
+# "G. MEETING MINUTES (For possible Action)". Audit Committee minutes carry
+# no numbered items at all, so a motion there associates with its section —
+# both forms are verbatim document structure, never inferred.
+_ITEM_NUMBER_RE = re.compile(r"^\s*([A-Z]\.\d+(?:\.\d+)*)[.)]?\s*(.*)$")
+_SECTION_NUMBER_RE = re.compile(r"^\s*([A-Z])[.)]\s*(.*)$")
+# The procedural action marker is a Nevada open-meeting annotation on the
+# heading, not part of the item's title.
+_ACTION_MARKER_RE = re.compile(r"\((?:not\s+)?for\s+possible\s+action\)", re.IGNORECASE)
+_URL_RE = re.compile(r"https?://", re.IGNORECASE)
+# A wrapped item title runs over several lines; the bound stops a heading
+# with no following structural boundary from swallowing the meeting.
+MAX_ITEM_TITLE_LINES = 12
+
+
+def _clean_title(text: str) -> str:
+    """Normalise a heading into a title: drop the "(For possible Action)"
+    annotation, squeeze whitespace, rejoin wrap-hyphenated words and strip
+    separator debris. Words, punctuation and case are otherwise untouched."""
+    text = _ACTION_MARKER_RE.sub(" ", text)
+    text = re.sub(r"\s+", " ", text)
+    text = _fix_wrap_hyphens(text)
+    return text.strip(" -–—.,;:")
+
+
 def _clean_name(name: str) -> str:
     """Normalise an extracted attribution name: squeeze whitespace, strip
     stray separators, and repair kerning splits inside the name — a lone
@@ -290,6 +316,12 @@ class Motion:
     #   only at a member's request (spec §2.2).
     # - superseded_by_amendment: see kind="amended".
     notes: list[str] = field(default_factory=list)
+    # The agenda item (or, where the body numbers no items, the lettered
+    # section) this motion sits under — verbatim document structure, used to
+    # group motions into spec §2.4 ``items[]``. None when the motion appears
+    # before any heading.
+    item_number: Optional[str] = None
+    item_title: Optional[str] = None
 
 
 @dataclass
@@ -301,6 +333,8 @@ class MediaTimestamp:
     start: str
     end: Optional[str]
     provenance: Provenance
+    item_number: Optional[str] = None
+    item_title: Optional[str] = None
 
 
 @dataclass
@@ -399,7 +433,13 @@ def _is_heading(text: str) -> tuple[bool, bool]:
     if re.match(r"^[A-Z]\.\d", dk):
         return True, True
     if re.match(r"^[A-Z]\.[A-Z]", dk):
-        return True, False
+        # Section headings are set in capitals. A sentence opening with an
+        # initialism ("U.S. as key reasons for the price difference") has the
+        # same shape once de-kerned, so the raw text is checked for lowercase
+        # up to any trailing annotation — the de-kerned copy is uppercased and
+        # cannot answer this.
+        head = re.split(r"[(\-–—]", text, maxsplit=1)[0]
+        return not re.search(r"[a-z]", head), False
     return False, False
 
 
@@ -459,6 +499,65 @@ def _mark_comment_regions(
             _BodyLine(bl.page, bl.line, bl.text, in_comment=in_region or in_marker_block)
         )
     return marked, comments
+
+
+def _title_continues(bl: _BodyLine) -> bool:
+    """May this line be part of the item title started above it?
+
+    A title stops at the next structural thing in the document: another
+    heading, a motion label, a vote section or outcome line, the clerk's
+    media-timestamp/URL pointer lines, or any public-comment text (which
+    must never reach output).
+    """
+    if bl.in_comment:
+        return False
+    if _is_heading(bl.text)[0] or _label_kind(bl.text) is not None:
+        return False
+    if _URL_RE.search(bl.text) or _MEDIA_TIMESTAMP_RE.search(bl.text):
+        return False
+    dk = _dekern(bl.text)
+    if _terminator(dk) is not None:
+        return False
+    return not any(dk.startswith(section) for section in _VOTE_SECTIONS)
+
+
+def _item_context(
+    body: list[_BodyLine],
+) -> dict[tuple[int, int], tuple[Optional[str], Optional[str]]]:
+    """Map every body line to the agenda item it sits under, as
+    ``(number, title)`` keyed by ``(page, line)``.
+
+    A numbered item heading ("E.1 …") wins over the lettered section it sits
+    in, and a new section clears the current item. Where a body numbers no
+    items at all — the Audit Committee format — every motion associates with
+    its section heading instead. Both are read verbatim from the document;
+    nothing is inferred, and a motion appearing before any heading maps to
+    ``(None, None)``.
+    """
+    context: dict[tuple[int, int], tuple[Optional[str], Optional[str]]] = {}
+    section: tuple[Optional[str], Optional[str]] = (None, None)
+    item: Optional[tuple[Optional[str], Optional[str]]] = None
+
+    for index, bl in enumerate(body):
+        heading, is_item = _is_heading(bl.text)
+        if heading:
+            pattern = _ITEM_NUMBER_RE if is_item else _SECTION_NUMBER_RE
+            match = pattern.match(bl.text)
+            number = match.group(1) if match else None
+            remainder = match.group(2) if match else bl.text
+            if is_item:
+                # Item titles wrap across lines; sections are single-line.
+                parts = [remainder]
+                for following in body[index + 1 : index + MAX_ITEM_TITLE_LINES]:
+                    if not _title_continues(following):
+                        break
+                    parts.append(following.text)
+                item = (number, _clean_title(" ".join(parts)) or None)
+            else:
+                section = (number, _clean_title(remainder) or None)
+                item = None
+        context[(bl.page, bl.line)] = item if item is not None else section
+    return context
 
 
 def _fix_wrap_hyphens(text: str) -> str:
@@ -544,6 +643,7 @@ def _parse_motion_block(
     successor_text: Optional[str] = None,
     intro: Optional[str] = None,
     intro_word: Optional[str] = None,
+    item: tuple[Optional[str], Optional[str]] = (None, None),
 ) -> Motion:
     """Parse one fully reassembled motion block. The block must already span
     all its lines (across page breaks) — votes are never parsed from a
@@ -763,6 +863,8 @@ def _parse_motion_block(
         raw=raw,
         kind=kind,
         notes=notes,
+        item_number=item[0],
+        item_title=item[1],
     )
 
 
@@ -849,6 +951,12 @@ def parse_minutes(
     parseable = [p for p in pages if p.page_number not in unparseable]
     body, noise_letters = _strip_page_furniture(parseable, doc_flags)
     body, comments = _mark_comment_regions(body, file_id)
+    # Agenda-item association, computed after comment segmentation so a
+    # title can never absorb public-comment text.
+    item_context = _item_context(body)
+
+    def item_at(bl: _BodyLine) -> tuple[Optional[str], Optional[str]]:
+        return item_context.get((bl.page, bl.line), (None, None))
 
     # Media timestamps: collected everywhere, including comment regions —
     # the timestamp itself is structural clerk text, not comment content.
@@ -867,6 +975,8 @@ def parse_minutes(
                     start=m.group(1),
                     end=m.group(2),
                     provenance=Provenance(file_id=file_id, page=bl.page),
+                    item_number=item_at(bl)[0],
+                    item_title=item_at(bl)[1],
                 )
             )
 
@@ -894,7 +1004,9 @@ def parse_minutes(
                 else None
             )
             consumed.update(range(i, i + len(block)))
-            entries.append((i, _parse_motion_block(block, file_id, successor)))
+            entries.append(
+                (i, _parse_motion_block(block, file_id, successor, item=item_at(scan[i])))
+            )
             i = j
         else:
             i += 1
@@ -919,7 +1031,16 @@ def parse_minutes(
             j += 1
         consumed.update(range(start, start + len(block)))
         entries.append(
-            (start, _parse_motion_block(block, file_id, intro=intro, intro_word=intro_word))
+            (
+                start,
+                _parse_motion_block(
+                    block,
+                    file_id,
+                    intro=intro,
+                    intro_word=intro_word,
+                    item=item_at(scan[start]),
+                ),
+            )
         )
 
     entries.sort(key=lambda e: e[0])
