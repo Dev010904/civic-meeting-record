@@ -15,12 +15,18 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 RESULTS = REPO_ROOT / "benchmark" / "results.json"
 
-# Achieved on the full 153-document IVGID corpus after Stage A hardening,
-# 26 July 2026 (pre-hardening baseline was 81.4%).
-COVERAGE_FLOOR_PCT = 95.9
+# Achieved on the full 153-document IVGID corpus after the hand-verification
+# round's recall fixes, 26 July 2026. These floors are LOWER than step 5's
+# (95.9 / 98.4) because the denominators grew: the recall fixes surfaced 5
+# previously invisible decision blocks (QUESTION:-labelled, chair-called and
+# narrative votes), of which one carries an honest missing_outcome flag.
+# 193 clean motions vs step 5's 189 — strictly more correct records; the
+# percentages are rates over different populations and not comparable.
+COVERAGE_FLOOR_PCT = 95.5
+MOTIONS_FLOOR = 202  # recall floor: the denominator itself must not shrink
 # Live-format subset (docs >= 2025-01-01 plus all Audit Committee docs) —
 # the published /accuracy number.
-LIVE_COVERAGE_FLOOR_PCT = 98.4
+LIVE_COVERAGE_FLOOR_PCT = 98.0
 CORPUS_FLOOR_DOCS = 153
 PARSER_CRASH_CEILING = 0
 
@@ -28,7 +34,10 @@ PARSER_CRASH_CEILING = 0
 def test_results_json_exists_and_is_committed_shape():
     results = json.loads(RESULTS.read_text(encoding="utf-8"))
     assert results["corpus"]["minutes_files"] >= CORPUS_FLOOR_DOCS
-    assert results["totals"]["motions"] > 0
+    # Recall floor: coverage percentages can hide recall loss, so the motion
+    # count itself is pinned — a change that makes motions invisible again
+    # must fail even if the survivors all parse clean.
+    assert results["totals"]["motions"] >= MOTIONS_FLOOR
 
 
 def test_coverage_does_not_regress():

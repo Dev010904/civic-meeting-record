@@ -104,7 +104,9 @@ def run_document(doc: CorpusDoc, pdf_bytes: bytes) -> dict[str, Any]:
     """Run Stage A over one document; capture rather than raise exceptions."""
     result: dict[str, Any] = {**asdict(doc), "error": None}
     try:
-        parsed = parse_minutes.parse_minutes(pdf_bytes, file_id=doc.file_id)
+        parsed = parse_minutes.parse_minutes(
+            pdf_bytes, file_id=doc.file_id, minutes_name=doc.minutes_name
+        )
     except Exception:
         result["error"] = traceback.format_exc(limit=3)
         result.update(
@@ -135,6 +137,7 @@ def run_document(doc: CorpusDoc, pdf_bytes: bytes) -> dict[str, Any]:
         public_comments=len(parsed.public_comments),
         media_timestamps=len(parsed.media_timestamps),
         doc_flags=parsed.flags,
+        minutes_status=parsed.minutes_status,
         failures=failures,
     )
     return result

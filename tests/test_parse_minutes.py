@@ -186,11 +186,16 @@ def test_draft_minutes_motion_with_absent_trustee(draft):
 
 
 def test_media_timestamps_including_url_sharing_line(approved):
-    assert len(approved.media_timestamps) == 26
+    # 30, not 26: the generalised rule (hand-verification round, step 6)
+    # legitimately finds four more — two where "Media"/"Timestamp" split
+    # across a line wrap, and two whose range dangles onto the next line.
+    assert len(approved.media_timestamps) == 30
     pairs = {(m.start, m.end, m.provenance.page) for m in approved.media_timestamps}
     # Shares a line with the portal URL on page 1:
     assert ("00:04:17", "00:32:19", 1) in pairs
     assert ("00:34:22", "00:41:14", 8) in pairs
+    # Dangling range rejoined across the line break (hand-verified):
+    assert ("03:19:07", "03:22:48", 21) in pairs
 
 
 def test_draft_media_timestamp_variants(draft):
@@ -463,9 +468,10 @@ def test_single_letter_noise_lines_dropped():
              "Real content line\nr\nAnother real line\n7",
         char_count=100,
     )
-    body = pm._strip_page_furniture([page], [])
+    body, noise = pm._strip_page_furniture([page], [])
     texts = [bl.text for bl in body]
     assert "r" not in texts  # letter noise dropped
+    assert noise == ["r"]  # but kept as a watermark signal
     assert "7" in texts  # lone digits kept (could be a wrapped count)
 
 
@@ -489,6 +495,230 @@ def test_attribution_line_does_not_split_block():
     assert motion.tally["aye"] == 2
 
 
+# --- Hand-verification round (step 6): recall and quality rules ----------
+
+
+def _parse_lines(lines: list[pm._BodyLine], file_id: int = 999):
+    """Run the full two-pass motion extraction over synthetic body lines."""
+    import pdftext as _pt
+
+    page_text = "\n".join(bl.text for bl in lines)
+    page = _pt.Page(page_number=lines[0].page, text=page_text, char_count=len(page_text))
+    # Build via parse loop internals: simplest is to go through parse of a
+    # fake single-page doc is not possible without a PDF, so replicate the
+    # two-pass loop using the module's own functions.
+    scan = lines
+    entries, consumed = [], set()
+    i = 0
+    while i < len(scan):
+        if pm._label_kind(scan[i].text) is not None:
+            block = [scan[i]]
+            j = i + 1
+            while j < len(scan) and len(block) < pm.MAX_MOTION_BLOCK_LINES:
+                if pm._label_kind(scan[j].text) is not None:
+                    break
+                block.append(scan[j])
+                if pm._terminator(pm._dekern(scan[j].text)) is not None:
+                    break
+                j += 1
+            consumed.update(range(i, i + len(block)))
+            entries.append((i, pm._parse_motion_block(block, file_id)))
+            i = j
+        else:
+            i += 1
+    for k, bl in enumerate(scan):
+        if k in consumed or not pm._dekern(bl.text).startswith("YEAS"):
+            continue
+        start, intro, word = pm._find_introducer(scan, k, consumed)
+        block = [scan[start]]
+        j = start + 1
+        while j < len(scan) and len(block) < pm.MAX_MOTION_BLOCK_LINES:
+            if j in consumed or pm._label_kind(scan[j].text) is not None:
+                break
+            block.append(scan[j])
+            if pm._terminator(pm._dekern(scan[j].text)) is not None:
+                break
+            j += 1
+        consumed.update(range(start, start + len(block)))
+        entries.append((start, pm._parse_motion_block(block, file_id, intro=intro, intro_word=word)))
+    entries.sort(key=lambda e: e[0])
+    return [m for _, m in entries]
+
+
+def test_question_labelled_vote_block_is_captured():
+    """A decision block is defined by its vote structure, not its opening
+    word: a QUESTION:-labelled roll call must be captured."""
+    motions = _parse_lines([
+        _bl(8, 1, 'QUESTION: All in favor of Removing Item H.1. from the Agenda,'),
+        _bl(8, 2, 'please vote by saying "Yea", all those opposed say "Nay."'),
+        _bl(8, 3, "YEAS: Trustee Tulloch 1"),
+        _bl(8, 4, "NAYS: Trustee Noble, Trustee Homan, Trustee Jezycki, Chair Tonking 4"),
+        _bl(8, 5, "MOTION FAILED ITEM H.1. WILL REMAIN ON THE AGENDA"),
+    ])
+    assert len(motions) == 1
+    motion = motions[0]
+    assert motion.flags == []
+    assert "label_variant:QUESTION" in motion.notes
+    assert motion.outcome == "failed"  # trailing commentary ignored
+    assert motion.tally == {"aye": 1, "nay": 4, "abstain": 0, "absent": 0}
+    assert motion.nays[-1] == "Chair Tonking"  # name form kept verbatim
+    assert motion.text.startswith("All in favor of Removing Item H.1.")
+
+
+def test_narrative_motion_with_vote_block_is_captured():
+    motions = _parse_lines([
+        _bl(4, 1, "Trustee Noble made a motion to approve staff recommendations and direct"),
+        _bl(4, 2, "staff to prepare the budget for Fiscal Year 2025-26. The motion was"),
+        _bl(4, 3, "seconded by Trustee Jezycki."),
+        _bl(4, 4, "YEAS: Trustee Noble, Trustee Jezycki, Trustee Tonking 3"),
+        _bl(4, 5, "NAYS: Trustee Tulloch 1"),
+        _bl(4, 6, "MOTION PASSED"),
+    ])
+    assert len(motions) == 1
+    motion = motions[0]
+    assert motion.flags == []
+    assert "narrative_motion" in motion.notes
+    assert motion.mover == "Trustee Noble"
+    assert motion.seconder == "Trustee Jezycki"
+    assert motion.text.startswith("to approve staff recommendations")
+    assert "seconded" not in motion.text.lower()  # attribution excised
+
+
+def test_narrative_motion_without_vote_block_is_not_captured():
+    """Without a following vote structure, narrative text must not be
+    mistaken for a motion (agenda headings, prose recaps)."""
+    motions = _parse_lines([
+        _bl(2, 1, "Trustee Noble made a motion to approve the schedule."),
+        _bl(2, 2, "Discussion followed with no action taken."),
+    ])
+    assert motions == []
+
+
+def test_media_timestamp_variants_one_general_rule():
+    cases = {
+        "Media Timestamp (00:12:15 - 00:31:03)": ("00:12:15", "00:31:03"),
+        "Media Timestamp (00:16:31)": ("00:16:31", None),
+        "Media Timestamp 02:00:34": ("02:00:34", None),
+        "Timestamp Media 00:18:58": ("00:18:58", None),
+        "MEDIA TIMESTAMP 00:43:15": ("00:43:15", None),
+        "Time Stamp 00:13:59": ("00:13:59", None),
+        "Media Timestamp - 02:45:36": ("02:45:36", None),
+        "(Media Timestamp 1:20:55 - 1:21:03)": ("1:20:55", "1:21:03"),
+        "Media Timestamp1:21:05 - 1:21:10)": ("1:21:05", "1:21:10"),
+    }
+    for text, expected in cases.items():
+        match = pm._MEDIA_TIMESTAMP_RE.search(text)
+        assert match, text
+        assert (match.group(1), match.group(2)) == expected, text
+    assert pm._MEDIA_TIMESTAMP_RE.search("The meeting ran until 02:45:36") is None
+
+
+def test_fused_label_attribution_leaves_clean_text():
+    """'MOTION Moved by X: to approve …; Motion Seconded by Y.' — the
+    attribution must come out of the text entirely."""
+    motion = pm._parse_motion_block([
+        _bl(4, 1, "MOTION Moved by Trustee Homan: to approve the Consent Calendar as"),
+        _bl(4, 2, "documented; Motion Seconded by Trustee Jezycki."),
+        _bl(4, 3, "YEAS: Trustee Homan, Trustee Jezycki 2"),
+        _bl(4, 4, "NAYS: None"),
+        _bl(4, 5, "MOTION PASSED"),
+    ], file_id=999)
+    assert motion.mover == "Trustee Homan"
+    assert motion.seconder == "Trustee Jezycki"
+    assert motion.text == "to approve the Consent Calendar as documented."
+    assert "Moved" not in motion.text and "Seconded" not in motion.text
+
+
+def test_label_echo_and_stranded_colon_removed():
+    motion = pm._parse_motion_block([
+        _bl(3, 1, "MOTION: Approve; Moved By Trustee Homan: to Approve Additional"),
+        _bl(3, 2, "Play Pass Options; Seconded by Trustee Jezycki"),
+        _bl(3, 3, "YEAS: Trustee Homan, Trustee Jezycki 2"),
+        _bl(3, 4, "NAYS: None"),
+        _bl(3, 5, "MOTION PASSED"),
+    ], file_id=999)
+    assert motion.text.startswith("to Approve Additional")  # echo + colon gone
+    assert not motion.text.startswith((":", ";", "Approve;"))
+    assert motion.mover == "Trustee Homan"
+    assert motion.seconder == "Trustee Jezycki"
+
+
+def test_quoted_attribution_deep_in_text_does_not_win():
+    """The attribution clause is the EARLIEST attribution-shaped text: a
+    quoted 'Motion by X, Seconded by Y' inside item text must not be chosen
+    over the clause at the block head."""
+    motion = pm._parse_motion_block([
+        _bl(4, 1, "MOTION Moved by Trustee Homan: to approve the Consent Calendar;"),
+        _bl(4, 2, "Item F.9. Minutes noting Motion by Trustee Ghost, Seconded by Trustee Phantom"),
+        _bl(4, 3, "as recorded previously."),
+        _bl(4, 4, "YEAS: Trustee Homan, Trustee Jezycki 2"),
+        _bl(4, 5, "NAYS: None"),
+        _bl(4, 6, "MOTION PASSED"),
+    ], file_id=999)
+    assert motion.mover == "Trustee Homan"  # not Trustee Ghost
+
+
+def test_wrap_hyphen_rejoined_in_names_and_text():
+    assert pm._fix_wrap_hyphens("At- Large Audit Committee") == "At-Large Audit Committee"
+    assert pm._fix_wrap_hyphens("Items G.1 - G.5") == "Items G.1 - G.5"  # untouched
+    motion = pm._parse_motion_block([
+        _bl(12, 1, "MOTION WAS MADE TO approve the report."),
+        _bl(12, 2, "YEAS: Trustee Homan, At-"),
+        _bl(12, 3, "Large Audit Committee Member Kelly 2"),
+        _bl(12, 4, "NAYS: None"),
+        _bl(12, 5, "MOTION CARRIED"),
+    ], file_id=999)
+    assert motion.yeas == ["Trustee Homan", "At-Large Audit Committee Member Kelly"]
+    assert motion.tally["aye"] == 2
+
+
+def test_minutes_status_detection():
+    import pdftext as _pt
+
+    blank = [_pt.Page(page_number=1, text="Some minutes body text here", char_count=27)]
+    # File-name signals win (the clerk's own labelling):
+    assert pm._minutes_status("2025-0530 Minutes Draft (For Approval)", blank, []) == "draft"
+    assert pm._minutes_status("Minutes - Approved 0430", blank, []) == "approved"
+    # Standalone uppercase watermark line:
+    marked = [_pt.Page(page_number=1, text="Body\nD R A F T\nMore", char_count=20)]
+    assert pm._minutes_status(None, marked, []) == "draft"
+    # Watermark leaking as single-letter noise:
+    assert pm._minutes_status(None, blank, ["t", "f", "a", "r", "D"]) == "draft"
+    # Prose mention is NOT a signal (a motion about "the draft letter"):
+    prose = [_pt.Page(page_number=1, text="to Approve the draft letter", char_count=27)]
+    assert pm._minutes_status(None, prose, []) is None
+
+
+def test_chair_called_vote_with_prose_outcome():
+    """'Chair X called for a vote …' introduces a decision block with no
+    label and no MOTION terminator; the prose after the vote must not
+    contaminate the tally, and the missing outcome stays flagged."""
+    motions = _parse_lines([
+        _bl(2, 1, "Trustee Tulloch then objected to leaving the Item on. Chair Tonking"),
+        _bl(2, 2, "called for a vote on the request to remove this item from the agenda."),
+        _bl(2, 3, "YEAS: Trustee Tulloch 1"),
+        _bl(2, 4, "NAYS: Trustee Noble, Trustee Homan, Trustee Jezycki, Trustee Tonking 4"),
+        _bl(2, 5, "The vote was 1/4 (Trustee Tulloch voted in favor of removing Item E.2., and"),
+        _bl(2, 6, "the remaining 4 Trustees voted in opposition). Item E.2. will remain."),
+    ])
+    assert len(motions) == 1
+    motion = motions[0]
+    assert "label_variant:CALLED FOR A VOTE" in motion.notes
+    assert motion.tally == {"aye": 1, "nay": 4, "abstain": 0, "absent": 0}
+    assert motion.nays == [
+        "Trustee Noble", "Trustee Homan", "Trustee Jezycki", "Trustee Tonking",
+    ]  # prose lines 5-6 did not leak into the section
+    assert "missing_outcome" in motion.flags  # outcome exists only as prose
+    assert "tally_mismatch" not in motion.flags
+
+
+def test_prose_after_vote_section_does_not_contaminate():
+    assert pm._is_name_continuation("Tonking 0")
+    assert pm._is_name_continuation("Jezycki, Trustee Tonking")
+    assert pm._is_name_continuation("and Chair Tonking 4")
+    assert not pm._is_name_continuation("The vote was 1/4 (Trustee Tulloch voted)")
+
+
 # --- Page furniture and provenance checks --------------------------------
 
 
@@ -508,7 +738,7 @@ def test_header_page_mismatch_is_flagged():
         char_count=70,
     )
     doc_flags: list[str] = []
-    body = pm._strip_page_furniture([page], doc_flags)
+    body, _ = pm._strip_page_furniture([page], doc_flags)
     assert doc_flags == ["header_page_mismatch:pdf_page=2,printed=3"]
     assert [bl.text for bl in body] == ["Body text here"]  # header stripped
 

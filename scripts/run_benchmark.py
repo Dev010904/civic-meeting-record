@@ -21,15 +21,18 @@ import benchmark  # noqa: E402
 BENCH_DIR = REPO_ROOT / "benchmark"
 CACHE_DIR = REPO_ROOT / "cache"
 
-# Step-4 baseline (26 July 2026), before Stage A hardening — kept for the
-# before/after comparison in the report.
+# Previous milestone, kept for the before/after comparison in the report.
+# (Step 4 pre-hardening was 149/183 = 81.4%; step 5 hardening reached the
+# numbers below; the current run adds the hand-verification round's recall
+# fixes — QUESTION:-labelled and narrative vote blocks — so the motion
+# count rises and percentages are NOT comparable across denominators.)
 BASELINE = {
-    "date": "2026-07-26 (pre-hardening)",
-    "motions": 183,
-    "motions_clean": 149,
-    "coverage_pct": 81.4,
-    "flags": {"missing_mover": 24, "missing_outcome": 15,
-              "tally_mismatch": 9, "missing_vote_sections": 6},
+    "date": "2026-07-26 (step 5, pre-verification-round)",
+    "motions": 197,
+    "motions_clean": 189,
+    "coverage_pct": 95.9,
+    "flags": {"missing_outcome": 5, "missing_mover": 5,
+              "missing_vote_sections": 5, "truncated_outcome": 3},
 }
 
 
@@ -59,7 +62,11 @@ def write_report(results: dict, sample: list[dict]) -> str:
         f"({t['coverage_pct']}%)**")
     add(f"- Documents crashed: **{t['crashes']}**")
     add("")
-    add("### Before/after (Stage A hardening, step 5)")
+    add(f"### Before/after (baseline: {BASELINE['date']})")
+    add("")
+    add("Recall fixes change the denominator — the motion counts differ, so "
+        "the two coverage percentages are rates over different populations "
+        "and must not be read as a like-for-like delta.")
     add("")
     add("| | baseline | current |")
     add("|---|---|---|")

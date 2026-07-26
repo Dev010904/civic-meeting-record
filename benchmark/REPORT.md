@@ -14,26 +14,28 @@ Spec §2.6 names Augusta Charter Township (146 PDFs) as the benchmark corpus; th
 
 ## Automated metrics (not accuracy)
 
-- Motions found: **197**
-- Motions parsed clean (coverage): **189 (95.9%)**
+- Motions found: **202**
+- Motions parsed clean (coverage): **193 (95.5%)**
 - Documents crashed: **0**
 
-### Before/after (Stage A hardening, step 5)
+### Before/after (baseline: 2026-07-26 (step 5, pre-verification-round))
+
+Recall fixes change the denominator — the motion counts differ, so the two coverage percentages are rates over different populations and must not be read as a like-for-like delta.
 
 | | baseline | current |
 |---|---|---|
-| motions found | 183 | 197 |
-| motions clean | 149 | 189 |
-| coverage | 81.4% | 95.9% |
-| flags | {'missing_mover': 24, 'missing_outcome': 15, 'tally_mismatch': 9, 'missing_vote_sections': 6} | {'truncated_outcome': 3, 'missing_outcome': 5, 'missing_mover': 5, 'missing_vote_sections': 5} |
+| motions found | 197 | 202 |
+| motions clean | 189 | 193 |
+| coverage | 95.9% | 95.5% |
+| flags | {'missing_outcome': 5, 'missing_mover': 5, 'missing_vote_sections': 5, 'truncated_outcome': 3} | {'truncated_outcome': 3, 'missing_outcome': 6, 'missing_mover': 5, 'missing_vote_sections': 5} |
 
 ## Live-format subset (docs ≥ 2025-01-01 + all Audit Committee)
 
 This is the subset the live pipeline will meet, and the number for the published /accuracy page. Reported separately from the full archive; the archive includes deferred format eras.
 
 - Documents: **57**
-- Motions: **192**, clean **189** (**98.4%**)
-- Flags: {'truncated_outcome': 3}
+- Motions: **197**, clean **193** (**98.0%**)
+- Flags: {'truncated_outcome': 3, 'missing_outcome': 1}
 - Zero-motion documents (recall): **19**
   - file 1427 (2025-05-21 Special Meeting of the IVGID Board of Trustees): Genuinely motion-free: presentation-only special meeting; no motion language anywhere in its 55 pages. Legitimate zero — not a parser gap.
   - file 1096 (2025-01-16 Special Meeting of the IVGID  Board of Trustees): Stenographic transcript format (interleaved two-column court-reporter lines) — the transcript era extends through January 2025. Deferred to the archive phase; not a live-format gap.
@@ -57,7 +59,7 @@ This is the subset the live pipeline will meet, and the number for the published
 
 ### Flag breakdown
 
-- `missing_outcome`: 5 — e.g. file 750 p5, file 750 p12, file 750 p26, file 750 p27, file 747 p7
+- `missing_outcome`: 6 — e.g. file 1342 p2, file 750 p5, file 750 p12, file 750 p26, file 750 p27
 - `missing_mover`: 5 — e.g. file 750 p5, file 750 p12, file 750 p26, file 750 p27, file 747 p7
 - `missing_vote_sections`: 5 — e.g. file 750 p5, file 750 p12, file 750 p26, file 750 p27, file 747 p7
 - `truncated_outcome`: 3 — e.g. file 2670 p1, file 1540 p16, file 1227 p5
@@ -218,7 +220,7 @@ Coverage is not accuracy. The following seeded random sample of 25 motions acros
 
 ### [ ] 1. file 1432, page 16 (2025-05-07 Special Meeting of the Board of Trustees)
 
-- text: : Adopt proposed Changes to Policy 7.1.0 - Budgeting and Fiscal Management, Appropriate Level of Reserves, Effective Fiscal Year Ending June 30, 2022; Policy 18.1.0 - Budgeting and Fiscal Management, Adoption of Central Service Cost Allocation Plan Motion was
+- text: Adopt proposed Changes to Policy 7.1.0 - Budgeting and Fiscal Management, Appropriate Level of Reserves, Effective Fiscal Year Ending June 30, 2022; Policy 18.1.0 - Budgeting and Fiscal Management, Adoption of Central Service Cost Allocation Plan
 - mover: Trustee Homan | seconder: Trustee Tonking
 - yeas (5): Trustee Noble, Trustee Tulloch, Trustee Homan, Trustee Jezycki, Trustee Tonking
 - nays (0): —
@@ -226,7 +228,7 @@ Coverage is not accuracy. The following seeded random sample of 25 motions acros
 
 ### [ ] 2. file 2649, page 12 (2026-02-25 Board of Trustees Meeting)
 
-- text: In accordance with NRS 241.0395(1), Receive a Report Acknowledging the Attorney General's February 5, 2026, Findings of Fact and Conclusions of Law regarding Open Meeting Law Complaint Filed by Mr. Aaron Katz (OAG File No.: 13897-530). Note: Pursuant to NRS 241.0395(2), an acknowledgment of an Attor
+- text: In accordance with NRS 241.0395(1), Receive a Report Acknowledging the Attorney General's February 5, 2026, Findings of Fact and Conclusions of Law regarding Open Meeting Law Complaint Filed by Mr. Aaron Katz (OAG File No. 13897-530). Note: Pursuant to NRS 241.0395(2), an acknowledgment of an Attorn
 - mover: Trustee Noble | seconder: Trustee Jezycki
 - yeas (5): Trustee Chair Tonking, Trustee Jezycki, Trustee Noble, Trustee Homan, Trustee Tulloch
 - nays (0): —
@@ -250,7 +252,7 @@ Coverage is not accuracy. The following seeded random sample of 25 motions acros
 
 ### [ ] 5. file 1171, page 3 (2025-02-12 Regular Meeting of the Board of Trustees)
 
-- text: Approve the following consent matters, as submitted: Item F.1. Approval of the IVGID Board of Trustees Special Meeting Minutes for January 16, 2025; and Item F.2. Approval of the IVGID Board of Trustees Meeting Minutes for January 29, 2025. Media Timestamp 02:00:34 Action: Approve, .
+- text: Approve the following consent matters, as submitted: Item F.1. Approval of the IVGID Board of Trustees Special Meeting Minutes for January 16, 2025; and Item F.2. Approval of the IVGID Board of Trustees Meeting Minutes for January 29, 2025. Media Timestamp 02:00:34 Action: Approve.
 - mover: Trustee Noble | seconder: Trustee Homan
 - yeas (5): Trustee Noble, Trustee Tulloch, Trustee Homan, Trustee Jezycki, Trustee Tonking
 - nays (0): —
@@ -282,7 +284,7 @@ Coverage is not accuracy. The following seeded random sample of 25 motions acros
 
 ### [ ] 9. file 1433, page 15 (2025-05-30 Special Meeting of the IVGID Board of Trustees)
 
-- text: to Adopt the FY 2025 Fiscal Year 2025/2026 Incline Village General Improvement District Budget Final Form 4f404LGF
+- text: to Adopt the FY 2025 Fiscal Year 2025/2026 Incline Village General Improvement District Budget Final Form 4f404LGF;
 - mover: Trustee Homan | seconder: Trustee Jezycki
 - yeas (4): Trustee Noble, Trustee Homan, Trustee Jezycki, Trustee Tonking
 - nays (0): —
@@ -331,7 +333,7 @@ Coverage is not accuracy. The following seeded random sample of 25 motions acros
 
 ### [ ] 15. file 2636, page 5 (2026-01-28 Board of Trustees Meeting)
 
-- text: to Approve the Employee Separation Incentive Program; Moved By Trustee Homan MOTION AMENDED: to Approve the Employee Separation Incentive Program with the approval of any application that the general manager consults with legal and or HR; Amended By Trustee Noble Trustee Homan Accepted the Amendment
+- text: to Approve the Employee Separation Incentive Program; MOTION AMENDED: to Approve the Employee Separation Incentive Program with the approval of any application that the general manager consults with legal and or HR; Amended By Trustee Noble Trustee Homan Accepted the Amendment suggested by Trustee N
 - mover: Trustee Homan | seconder: Trustee Noble
 - yeas (4): Trustee Chair Tonking, Trustee Jezycki, Trustee Noble, Trustee Homan
 - nays (1): Trustee Tulloch
@@ -377,10 +379,10 @@ Coverage is not accuracy. The following seeded random sample of 25 motions acros
 - nays (0): —
 - outcome: passed | flags: none
 
-### [ ] 21. file 1428, page 21 (2025-05-14 Regular Meeting of the Board of Trustees)
+### [ ] 21. file 1428, page 14 (2025-05-14 Regular Meeting of the Board of Trustees)
 
-- text: to Adopt Resolution No.1915 – a Resolution prohibiting Commercial Watercraft Launching where prohibited by the Tahoe Regional Planning Agency (TRPA) Code of Ordinances and directing changes to Ordinance 7 – effective immediately.
-- mover: Trustee Noble | seconder: Trustee Homan
+- text: Approve the following consent matters, Item G.1. and Item G.2. as submitted in the Agenda Packet.
+- mover: Trustee Noble | seconder: Trustee Jezycki
 - yeas (5): Trustee Noble, Trustee Tulloch, Trustee Homan, Trustee Jezycki, Trustee Tonking
 - nays (0): —
 - outcome: passed | flags: none
@@ -395,7 +397,7 @@ Coverage is not accuracy. The following seeded random sample of 25 motions acros
 
 ### [ ] 23. file 1342, page 3 (2025-04-14 Special Meeting of the IVGID Board of Trustees)
 
-- text: Approve; : to Approve Additional Play Pass Options along with season Pass Sales Incentives and Rate Adjustment to the Pricing of the PM Season Pass
+- text: to Approve Additional Play Pass Options along with season Pass Sales Incentives and Rate Adjustment to the Pricing of the PM Season Pass;
 - mover: Trustee Homan | seconder: Trustee Jezycki
 - yeas (4): Trustee Noble, Trustee Homan, Trustee Jezycki, Trustee Tonking
 - nays (1): Trustee Tulloch
@@ -409,10 +411,10 @@ Coverage is not accuracy. The following seeded random sample of 25 motions acros
 - nays (0): —
 - outcome: passed | flags: none
 
-### [ ] 25. file 1344, page 6 (2025-04-09 Regular Meeting of the Board of Trustees)
+### [ ] 25. file 1344, page 4 (2025-04-09 Regular Meeting of the Board of Trustees)
 
-- text: : to Set the Date and Time for the Public Hearing to Implement Amendments to the Sewer and Water rates, as well as Adjustments to the Fee Schedule, for Wednesday, May 14, 2025, at 5:00 p.m. Motion .
-- mover: Trustee Jezycki | seconder: Trustee Homan
+- text: to approve the Consent Calendar as documented. Item F.1. Meeting Minutes for March 12, 2025; Item F.2. Meeting Minutes for March 19, 2025; Item F.3. Approve an Agreement between Incline Village General Improvement District and Construction Material Engineers, Inc. to provide Professional Services fo
+- mover: Trustee Homan | seconder: Trustee Jezycki
 - yeas (4): Trustee Tulloch, Trustee Homan, Trustee Jezycki, Trustee Tonking
 - nays (0): —
 - outcome: passed | flags: none
@@ -736,4 +738,26 @@ YEAS: Trustee Noble, Trustee Tulloch, Trustee Homan, Trustee 5
 Jezycki, Trustee Tonking 0
 NAYS: None
 MOTION
+```
+
+### `missing_outcome` — 1 occurrence(s)
+
+**file 1342, page 2 (2025-04-14)**
+
+```
+called for a vote on the request to remove this item from the agenda.
+YEAS: Trustee Tulloch 1
+NAYS: Trustee Noble, Trustee Homan, Trustee Jezycki, Trustee Tonking 4
+The vote was 1/4 (Trustee Tulloch voted in favor of removing Item E.2., and the
+remaining 4 Trustees voted in opposition to removing the Item). Item E.2. to review,
+discuss and possibly approve the Districts' Tentative Budget as filed on Nevada State
+Form 4404, will remain on the agenda.
+E. GENERAL BUSINESS (for possible action)
+E.1 Review, Discuss and Approve Additional Play Pass Options along with
+season Pass Sales Incentives and Rate Adjustment to the Pricing of the
+PM Season Pass. (Requesting Staff Member: Senior Head Golf
+Professional Rob Bruce)
+Full staff report and Board discussion for Item E.1. can be viewed/heard at:
+https://ivgid.portal.civicclerk.com/event/659/media
+Media Timestamp 00:16:07
 ```

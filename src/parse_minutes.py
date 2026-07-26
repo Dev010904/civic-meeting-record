@@ -71,12 +71,20 @@ _SECTION_TO_TALLY_KEY = {
     "ABSENT": "absent",
 }
 
-# Observed separator is an ASCII hyphen in approved minutes but an en-dash
-# in draft minutes; drafts also use a single-timestamp form with no range,
-# e.g. "Media Timestamp (00:16:31)" — then `end` is None.
+# One general rule, not an enumeration of variants: the words "media" and
+# "time stamp"/"timestamp" in either order (media optional), any case,
+# optionally space-separated or fused, an optional -/–/: separator, then one
+# or two H:MM:SS or HH:MM:SS values, with or without parentheses. Observed
+# clerk forms include "Media Timestamp (00:12:15 - 00:31:03)",
+# "Media Timestamp 02:00:34", "Timestamp Media 00:18:58",
+# "MEDIA TIMESTAMP 00:43:15", "Time Stamp 00:13:59",
+# "Media Timestamp - 02:45:36", "(Media Timestamp 1:20:55 - 1:21:03)" and
+# the fused "Media Timestamp1:21:05". `end` is None for rangeless forms.
 _MEDIA_TIMESTAMP_RE = re.compile(
-    r"Media\s*Timestamp\s*\(\s*(\d{2}:\d{2}:\d{2})"
-    r"(?:\s*[-–—]\s*(\d{2}:\d{2}:\d{2}))?\s*\)",
+    r"\b(?:media\s*)?time\s*stamp(?:s)?(?:\s*media)?"
+    r"\s*[-–—:]?\s*"
+    r"\(?\s*(\d{1,2}:\d{2}:\d{2})"
+    r"(?:\s*[-–—]\s*(\d{1,2}:\d{2}:\d{2}))?\s*\)?",
     re.IGNORECASE,
 )
 _HEADER_RE = re.compile(
@@ -112,20 +120,42 @@ _MOVED_BY_RE = re.compile(
     re.IGNORECASE,
 )
 # Seconder recorded on its own, possibly in prose ("The motion was seconded
-# by Trustee Jezycki.") or wrapped onto the next line.
+# by Trustee Jezycki." / "Motion Seconded by X") or wrapped onto the next
+# line. The prose lead-in is part of the match so excision leaves no debris.
 _SECONDED_RE = re.compile(
-    rf"(?<![A-Za-z]){_kt('Second')}(?:{_kt('ed')})?\s+{_kt('by')}\s*:?\s+"
+    rf"(?<![A-Za-z])(?:(?:the\s+)?motion\s+was\s+|motion\s+)?"
+    rf"{_kt('Second')}(?:{_kt('ed')})?\s+{_kt('by')}\s*:?\s+"
     r"([^,;.]{1,45}?)(?=[.;,]|$)",
     re.IGNORECASE,
 )
+
+
+def _kti(word: str) -> str:
+    """Kerning-tolerant AND case-insensitive keyword regex, for patterns
+    whose name capture must stay case-sensitive (so re.IGNORECASE on the
+    whole pattern is not an option)."""
+    return r"\s*".join(f"[{c.upper()}{c.lower()}]" for c in word if c.isalpha())
+
+
 # The "MOTION By <name> to <verb>…" label form (2025 transitional): the name
 # is the run of capitalised words after "By".
 _LEADING_BY_RE = re.compile(
-    rf"^\s*(?:{_kt('Moved')}\s+)?{_kt('By')}\s*:?\s+"
+    rf"^\s*(?:{_kti('Moved')}\s+)?{_kti('By')}\s*:?\s+"
     r"((?:[A-Z][\w.'’-]*\s+)*[A-Z][\w.'’-]*)"
 )
 # An amendment motion announces itself with parliamentary language.
 _AMENDMENT_RE = re.compile(r"^\s*to\s+(?:modify|amend)\s+the\s+motion", re.IGNORECASE)
+# An arbitrary labelled introducer for an orphan vote block ("QUESTION: All
+# in favor of…"). A decision block is defined by its vote structure, not by
+# its opening word — any word+colon line can introduce one.
+_INTRODUCER_RE = re.compile(r"^\s*([A-Z][A-Za-z ]{1,24}):")
+_NON_INTRODUCER_WORDS = {"YEAS", "NAYS", "ABSTAIN", "ABSENT", "MOTION"}
+# Narrative motion inside a structured-era document: "Trustee Noble made a
+# Motion to approve …". Only captured when a real vote block follows, so
+# agenda headings are never mistaken for motions.
+_NARRATIVE_RE = re.compile(
+    r"((?:[A-Z][\w.'’-]*\s+)+)[Mm]ade\s+a\s+[Mm]otion\s+"
+)
 
 
 def _clean_name(name: str) -> str:
@@ -293,6 +323,10 @@ class ParsedMinutes:
     public_comments: list[PublicComment]
     unparseable_pages: list[int]
     flags: list[str]
+    # Spec §2.7 rule 2: pages built from unapproved minutes must be labelled
+    # draft. "draft" | "approved" | None (undetermined — treat as draft
+    # downstream rather than assuming approval).
+    minutes_status: Optional[str] = None
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -308,10 +342,15 @@ class _BodyLine:
 
 def _strip_page_furniture(
     pages: list[pdftext.Page], doc_flags: list[str]
-) -> list[_BodyLine]:
+) -> tuple[list[_BodyLine], list[str]]:
     """Remove per-page header/footer boilerplate; verify the printed page
-    number in the ``-N-`` header against the PDF page (provenance check)."""
+    number in the ``-N-`` header against the PDF page (provenance check).
+
+    Also returns the dropped single-letter noise lines: on draft-watermarked
+    documents those stray letters are the vertical DRAFT watermark leaking
+    into extraction, which :func:`_minutes_status` uses as a draft signal."""
     body: list[_BodyLine] = []
+    noise_letters: list[str] = []
     for page in pages:
         lines = page.text.split("\n")
         # Footer: drop matching lines in the final 6, plus the bare district
@@ -340,11 +379,16 @@ def _strip_page_furniture(
         for line_number, text in keep:
             # A line consisting of exactly one letter is page-margin noise
             # from extraction (observed as orphan "r"/"a"/"D" lines that
-            # corrupt names and vote sections). Lone digits are kept — a
+            # corrupt names and vote sections — on draft documents these are
+            # the vertical DRAFT watermark). Lone digits are kept — a
             # wrapped tally count could in principle land alone.
-            if text and not (len(text.strip()) == 1 and text.strip().isalpha()):
-                body.append(_BodyLine(page.page_number, line_number, text))
-    return body
+            if not text:
+                continue
+            if len(text.strip()) == 1 and text.strip().isalpha():
+                noise_letters.append(text.strip())
+                continue
+            body.append(_BodyLine(page.page_number, line_number, text))
+    return body, noise_letters
 
 
 def _is_heading(text: str) -> tuple[bool, bool]:
@@ -417,18 +461,57 @@ def _mark_comment_regions(
     return marked, comments
 
 
-def _dehyphenate_join(lines: list[str]) -> str:
-    """Join wrapped lines, rejoining hyphenated word breaks ("Non-\\nProfit"
-    -> "Non-Profit"). No other text alteration."""
-    out = ""
-    for line in lines:
-        if not out:
-            out = line
-        elif out.endswith("-"):
-            out += line
-        else:
-            out += " " + line
-    return out
+def _fix_wrap_hyphens(text: str) -> str:
+    """Rejoin hyphenated tokens split by a line break: after joining lines,
+    a wrap leaves the hyphen glued to the preceding word with a space after
+    it ("At- Large" -> "At-Large", "Non- Profit" -> "Non-Profit"). Genuinely
+    separate hyphen-delimited words ("Items G.1 - G.5") keep a space on
+    both sides of the hyphen and are untouched."""
+    return re.sub(r"(\w-)\s+(?=\w)", r"\1", text)
+
+
+def _clean_motion_text(text: str) -> str:
+    """Tidy motion text after attribution clauses are excised: no stranded
+    colons or semicolons, no duplicated separators, no space before
+    punctuation, no leading/trailing separator debris. Words, punctuation
+    inside the text, currency and case are untouched."""
+    text = re.sub(r"\s+", " ", text)
+    text = _fix_wrap_hyphens(text)
+    text = re.sub(r"\s+([,;:.])", r"\1", text)  # excision leaves " ;" etc.
+    text = re.sub(r"([,;:.])(?:\s*[,;:])+", r"\1", text)  # "; :" -> ";"
+    text = re.sub(r"[;,]\s*(?=\.)", "", text)  # ";." -> "."
+    text = re.sub(r"\.\s*\.", ".", text)  # ". ." -> "."
+    return text.strip().lstrip(";:,. ").strip()
+
+
+def _strip_block_label(first_line: str, label: str) -> str:
+    """Remove the block's opening label from its first line."""
+    if label == "colon":
+        return re.sub(rf"^\s*{_kt('MOTION')}\s*:\s*", "", first_line, flags=re.IGNORECASE)
+    if label == "passive":
+        return re.sub(
+            rf"^\s*{_kt('MOTION')}\s+{_kt('WAS')}\s+{_kt('MADE')}(?:\s+{_kt('TO')})?:?\s*",
+            "",
+            first_line,
+            flags=re.IGNORECASE,
+        )
+    if label == "mover_label":
+        return re.sub(rf"^\s*{_kt('MOTION')}\s+", "", first_line, flags=re.IGNORECASE)
+    if label == "variant":
+        return _INTRODUCER_RE.sub("", first_line, count=1).strip()
+    return first_line  # narrative: the attribution regex handles the prefix
+
+
+def _is_name_continuation(line: str) -> bool:
+    """Does this line look like the continuation of a wrapped vote name
+    list? Name lists are capitalised tokens (plus counts and "and"); a
+    prose sentence ("The vote was 1/4 …") is not, and must not leak into a
+    vote section."""
+    cleaned = _INT_RE.sub("", line)
+    words = re.findall(r"[A-Za-z][\w.'’-]*", cleaned)
+    if not words:
+        return True  # bare count line
+    return all(w[0].isupper() or w.lower() == "and" for w in words)
 
 
 def _parse_vote_section(text: str) -> tuple[list[str], list[int]]:
@@ -437,6 +520,10 @@ def _parse_vote_section(text: str) -> tuple[list[str], list[int]]:
     Integers are stripped from name tokens; "None" yields no names."""
     stated = [int(m) for m in _INT_RE.findall(text)]
     cleaned = _INT_RE.sub("", text)
+    # Rejoin wrap-hyphenated names AFTER count removal: the right-aligned
+    # count can land between the fragment and its continuation
+    # ("…, At- 5" / "Large Audit Committee Member Kelly").
+    cleaned = _fix_wrap_hyphens(cleaned)
     names: list[str] = []
     for token in cleaned.split(","):
         token = re.sub(r"\s+", " ", token).strip(" .")
@@ -455,6 +542,8 @@ def _parse_motion_block(
     block: list[_BodyLine],
     file_id: int,
     successor_text: Optional[str] = None,
+    intro: Optional[str] = None,
+    intro_word: Optional[str] = None,
 ) -> Motion:
     """Parse one fully reassembled motion block. The block must already span
     all its lines (across page breaks) — votes are never parsed from a
@@ -462,12 +551,21 @@ def _parse_motion_block(
 
     ``successor_text`` is the first line of the next motion block when this
     block was interrupted by one; it identifies amendment chains (a motion
-    superseded on the floor by "Motion: To modify the motion …")."""
+    superseded on the floor by "Motion: To modify the motion …").
+
+    ``intro`` marks blocks captured by their vote structure rather than a
+    MOTION label: "variant" (an arbitrary labelled introducer such as
+    ``QUESTION:``, with ``intro_word`` carrying the label word) or
+    "narrative" ("Trustee X made a motion to …")."""
     flags: list[str] = []
     notes: list[str] = []
     raw = "\n".join(bl.text for bl in block)
     start_page = block[0].page
-    label = _label_kind(block[0].text) or "colon"
+    label = intro if intro is not None else (_label_kind(block[0].text) or "colon")
+    if intro == "variant":
+        notes.append(f"label_variant:{intro_word or 'UNKNOWN'}")
+    elif intro == "narrative":
+        notes.append("narrative_motion")
 
     # Locate vote-section label lines and the outcome line.
     outcome: Optional[str] = None
@@ -493,56 +591,80 @@ def _parse_motion_block(
     # first vote section (or the whole block when votes are absent).
     seg_end = section_starts[0][0] if section_starts else end_idx
     seg_lines = [bl.text for bl in block[:seg_end]]
-    segment = _dehyphenate_join(seg_lines)
-    if label == "colon":
-        segment = re.sub(
-            rf"^\s*{_kt('MOTION')}\s*:\s*", "", segment, flags=re.IGNORECASE
-        )
-    elif label == "passive":
-        segment = re.sub(
-            rf"^\s*{_kt('MOTION')}\s+{_kt('WAS')}\s+{_kt('MADE')}(?:\s+{_kt('TO')})?:?\s*",
-            "",
-            segment,
-            flags=re.IGNORECASE,
-        )
-    else:  # mover_label: keep the By-clause for mover extraction
-        segment = re.sub(
-            rf"^\s*{_kt('MOTION')}\s+", "", segment, flags=re.IGNORECASE
-        )
+    if seg_lines:
+        seg_lines = [_strip_block_label(seg_lines[0], label), *seg_lines[1:]]
+    # Join with known offsets so per-line matches map to segment positions.
+    offsets: list[int] = []
+    pos = 0
+    for line in seg_lines:
+        offsets.append(pos)
+        pos += len(line) + 1
+    segment = " ".join(seg_lines)
 
-    # Mover and seconder, from the reassembled segment. Matched clause text
-    # is excised from the motion text afterwards.
+    # Attribution: the clause is the EARLIEST attribution-shaped text in the
+    # block — quoted attribution deep inside item-list text must never win
+    # over the clause at the block head. Chosen spans are excised from the
+    # motion text afterwards.
     mover: Optional[str] = None
     seconder: Optional[str] = None
-    excise: list[str] = []
-    full = _FULL_MOVER_RE.search(segment)
-    if full:
-        mover, seconder = _clean_name(full.group(1)), _clean_name(full.group(2))
-        excise.append(full.group(0))
+    spans: list[tuple[int, int]] = []
+    if label == "narrative":
+        nm = _NARRATIVE_RE.search(segment)
+        if nm:
+            mover = _clean_name(nm.group(1))
+            spans.append(nm.span())
     else:
+        candidates: list[tuple[int, str, Optional[str], tuple[int, int]]] = []
+        for m in _FULL_MOVER_RE.finditer(segment):
+            candidates.append(
+                (m.start(), _clean_name(m.group(1)), _clean_name(m.group(2)), m.span())
+            )
         if label == "mover_label":
-            lead = _LEADING_BY_RE.search(segment)
+            lead = _LEADING_BY_RE.match(segment)
             if lead:
-                mover = _clean_name(lead.group(1))
-                excise.append(lead.group(0))
-        if mover is None:
-            # Search line-by-line so a name cannot swallow a following
-            # sentence: the mover's name ends on the mover's own line.
-            for line in seg_lines:
-                by = _MOVED_BY_RE.search(line)
-                if by:
-                    mover = _clean_name(by.group(1))
-                    excise.append(by.group(0))
-                    break
+                candidates.append(
+                    (lead.start(), _clean_name(lead.group(1)), None, lead.span())
+                )
+        for offset, line in zip(offsets, seg_lines):
+            # Per line, so a mover's name cannot swallow a following
+            # sentence: the name ends on the mover's own line.
+            by = _MOVED_BY_RE.search(line)
+            if by:
+                candidates.append(
+                    (
+                        offset + by.start(),
+                        _clean_name(by.group(1)),
+                        None,
+                        (offset + by.start(), offset + by.end()),
+                    )
+                )
+        if candidates:
+            candidates.sort(key=lambda c: (c[0], c[2] is None))
+            _, mover, seconder, span = candidates[0]
+            spans.append(span)
+    if seconder is None:
         sec = _SECONDED_RE.search(segment)
-        if sec:
+        if sec and not any(s <= sec.start() < e for s, e in spans):
             seconder = _clean_name(sec.group(1))
-            excise.append(sec.group(0))
+            spans.append(sec.span())
 
-    text = segment
-    for clause in excise:
-        text = text.replace(clause, " ", 1)
-    text = re.sub(r"\s+", " ", text).strip(" ;,").strip()
+    # Motion text = segment minus the excised spans, tidied. A single-word
+    # fragment left in front of the attribution ("MOTION: Approve; Moved By
+    # X: to Approve …") is a label echo, not motion text — drop it.
+    spans.sort()
+    pieces: list[str] = []
+    cursor = 0
+    for s, e in spans:
+        if s < cursor:
+            continue
+        pieces.append(segment[cursor:s])
+        cursor = e
+    pieces.append(segment[cursor:])
+    if spans:
+        lead_fragment = pieces[0].strip()
+        if len(lead_fragment) <= 15 and re.fullmatch(r"\W*[\w$]+\W*", lead_fragment):
+            pieces[0] = ""
+    text = _clean_motion_text(" ".join(pieces))
 
     kind = "motion"
     if _AMENDMENT_RE.match(text):
@@ -568,8 +690,10 @@ def _parse_motion_block(
         flags.append("missing_outcome")
 
     if mover is None:
-        if label == "passive":
-            # "MOTION WAS MADE" style names no mover; nothing to extract.
+        if label in ("passive", "variant"):
+            # Passive "MOTION WAS MADE" style and labelled variants like
+            # "QUESTION:" (a chair-called vote) name no mover; nothing to
+            # extract, so absence is not a parse failure.
             notes.append("mover_not_recorded")
         else:
             flags.append("missing_mover")
@@ -586,7 +710,15 @@ def _parse_motion_block(
         next_idx = (
             section_starts[pos + 1][0] if pos + 1 < len(section_starts) else end_idx
         )
-        section_text = " ".join(bl.text for bl in block[idx:next_idx])
+        # Wrapped name lists continue across lines, but only lines shaped
+        # like name lists — prose after the last section (an outcome
+        # narrated in a sentence) must not contaminate the tally.
+        section_lines = [block[idx].text]
+        for bl in block[idx + 1 : next_idx]:
+            if not _is_name_continuation(bl.text):
+                break
+            section_lines.append(bl.text)
+        section_text = " ".join(section_lines)
         section_text = re.sub(
             rf"^\s*{_kt(section)}:?", "", section_text, flags=re.IGNORECASE
         )
@@ -634,9 +766,79 @@ def _parse_motion_block(
     )
 
 
-def parse_minutes(pdf_bytes: bytes, file_id: int) -> ParsedMinutes:
+def _minutes_status(
+    minutes_name: Optional[str],
+    pages: list[pdftext.Page],
+    noise_letters: list[str],
+) -> Optional[str]:
+    """Draft/approved status (spec §2.7 rule 2), from the clerk's own file
+    name when available, else from the document itself.
+
+    Document signals for draft: a standalone uppercase DRAFT (or spaced
+    D R A F T) line — the watermark, when it extracts as text — or the
+    stray single-letter noise spelling out the vertical DRAFT watermark.
+    Prose mentions ("the draft letter") are deliberately not a signal.
+    Caveat: a purely image-based watermark leaves no text at all; with no
+    file-name signal either, the status stays None (undetermined)."""
+    if minutes_name:
+        name = minutes_name.lower()
+        if "draft" in name:
+            return "draft"
+        if "approved" in name:
+            return "approved"
+    for page in pages:
+        for line in page.text.split("\n"):
+            if re.fullmatch(r"\s*D\s*R\s*A\s*F\s*T\s*", line):
+                return "draft"
+    if {"d", "r", "a", "f", "t"} <= {c.lower() for c in noise_letters}:
+        return "draft"
+    return None
+
+
+def _find_introducer(
+    scan: list[_BodyLine], yeas_idx: int, consumed: set[int]
+) -> tuple[int, str, Optional[str]]:
+    """Walk back from an orphan YEAS line to the line that introduced the
+    decision block: either an arbitrary labelled introducer ("QUESTION: All
+    in favor of …") or a narrative motion ("Trustee X made a motion to …").
+    Falls back to the YEAS line itself when nothing qualifies. The walk is
+    bounded by structural boundaries (headings, consumed blocks, vote
+    sections) rather than a short line budget — narrative motion sentences
+    legitimately run long. The NEAREST introducer of any form wins: the
+    line closest above the vote is the one that called it."""
+    for back in range(1, 21):
+        idx = yeas_idx - back
+        if idx < 0 or idx in consumed:
+            break
+        text = scan[idx].text
+        if _is_heading(text)[0]:
+            break
+        dk = _dekern(text)
+        if _terminator(dk) is not None or any(
+            dk.startswith(v) for v in _VOTE_SECTIONS
+        ):
+            break
+        if _NARRATIVE_RE.search(text):
+            return idx, "narrative", None
+        if re.search(r"called\s+for\s+a\s+vote", text, re.IGNORECASE):
+            # Chair-called votes ("Chair Tonking called for a vote on the
+            # request to remove this item") — recurring clerk phrasing for
+            # votes with no formal motion.
+            return idx, "variant", "CALLED FOR A VOTE"
+        match = _INTRODUCER_RE.match(text)
+        if match and match.group(1).strip().upper() not in _NON_INTRODUCER_WORDS:
+            return idx, "variant", match.group(1).strip()
+    return yeas_idx, "variant", None
+
+
+def parse_minutes(
+    pdf_bytes: bytes, file_id: int, minutes_name: Optional[str] = None
+) -> ParsedMinutes:
     """Parse an IVGID minutes PDF into structured, provenance-carrying
-    records. Deterministic only; anything this misses is Stage B's input."""
+    records. Deterministic only; anything this misses is Stage B's input.
+
+    ``minutes_name`` is the publishedFiles[] entry name from the CivicClerk
+    event, used for draft/approved detection (spec §2.7 rule 2)."""
     doc_flags: list[str] = []
     pages = pdftext.extract_pages(pdf_bytes)
     unparseable = [p.page_number for p in pages if p.char_count < MIN_PARSEABLE_CHARS]
@@ -645,25 +847,34 @@ def parse_minutes(pdf_bytes: bytes, file_id: int) -> ParsedMinutes:
             doc_flags.append(f"raw_fallback_page:{page.page_number}")
 
     parseable = [p for p in pages if p.page_number not in unparseable]
-    body = _strip_page_furniture(parseable, doc_flags)
+    body, noise_letters = _strip_page_furniture(parseable, doc_flags)
     body, comments = _mark_comment_regions(body, file_id)
 
     # Media timestamps: collected everywhere, including comment regions —
     # the timestamp itself is structural clerk text, not comment content.
-    media = [
-        MediaTimestamp(
-            start=m.group(1),
-            end=m.group(2),
-            provenance=Provenance(file_id=file_id, page=bl.page),
-        )
-        for bl in body
-        for m in [_MEDIA_TIMESTAMP_RE.search(bl.text)]
-        if m
-    ]
+    # A range whose separator dangles at a line break ("… (03:19:07 -")
+    # continues on the next line; join before matching. The continuation
+    # line alone (bare digits) can never match, so nothing double-counts.
+    media = []
+    for idx, bl in enumerate(body):
+        text = bl.text
+        if re.search(r"[-–—]\s*$", text) and idx + 1 < len(body):
+            text = text + " " + body[idx + 1].text
+        m = _MEDIA_TIMESTAMP_RE.search(text)
+        if m:
+            media.append(
+                MediaTimestamp(
+                    start=m.group(1),
+                    end=m.group(2),
+                    provenance=Provenance(file_id=file_id, page=bl.page),
+                )
+            )
 
     # Motion blocks: assembled only from non-comment lines, from "MOTION:"
     # to the outcome line, across page breaks.
-    motions: list[Motion] = []
+    # Pass 1 — blocks opened by a recognised MOTION label.
+    entries: list[tuple[int, Motion]] = []
+    consumed: set[int] = set()
     scan = [bl for bl in body if not bl.in_comment]
     i = 0
     while i < len(scan):
@@ -682,10 +893,37 @@ def parse_minutes(pdf_bytes: bytes, file_id: int) -> ParsedMinutes:
                 if j < len(scan) and _label_kind(scan[j].text) is not None
                 else None
             )
-            motions.append(_parse_motion_block(block, file_id, successor))
+            consumed.update(range(i, i + len(block)))
+            entries.append((i, _parse_motion_block(block, file_id, successor)))
             i = j
         else:
             i += 1
+
+    # Pass 2 — decision blocks defined by their vote structure alone: a
+    # YEAS section outside every captured block is a vote the label pass
+    # could not see (clerk labelled it QUESTION:, wrote the motion as
+    # narrative, etc.). A block that has a vote is captured whatever word
+    # introduces it.
+    for k, bl in enumerate(scan):
+        if k in consumed or not _dekern(bl.text).startswith("YEAS"):
+            continue
+        start, intro, intro_word = _find_introducer(scan, k, consumed)
+        block = [scan[start]]
+        j = start + 1
+        while j < len(scan) and len(block) < MAX_MOTION_BLOCK_LINES:
+            if j in consumed or _label_kind(scan[j].text) is not None:
+                break
+            block.append(scan[j])
+            if _terminator(_dekern(scan[j].text)) is not None:
+                break
+            j += 1
+        consumed.update(range(start, start + len(block)))
+        entries.append(
+            (start, _parse_motion_block(block, file_id, intro=intro, intro_word=intro_word))
+        )
+
+    entries.sort(key=lambda e: e[0])
+    motions = [m for _, m in entries]
 
     parsed = ParsedMinutes(
         motions=motions,
@@ -693,6 +931,7 @@ def parse_minutes(pdf_bytes: bytes, file_id: int) -> ParsedMinutes:
         public_comments=comments,
         unparseable_pages=unparseable,
         flags=doc_flags,
+        minutes_status=_minutes_status(minutes_name, parseable, noise_letters),
     )
     validate(parsed)
     return parsed
