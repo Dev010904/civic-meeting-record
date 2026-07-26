@@ -211,13 +211,19 @@ def test_draft_media_timestamp_variants(draft):
 
 
 def test_public_comment_records_are_metadata_only(approved):
-    assert len(approved.public_comments) == 10
+    # 14, not the 10 this asserted before: the marker regex required the
+    # continuation "is transcribed below", so the four comments on pages
+    # 21-23 written as "is/are recorded as follows" were never segmented at
+    # all — their names and verbatim text stayed in the parsing stream. The
+    # leak test below missed it because it searched with the same narrow
+    # pattern the parser used, so the two agreed by construction.
+    assert len(approved.public_comments) == 14
     for comment in approved.public_comments:
         assert comment.commenter_type == "resident"
         assert isinstance(comment.provenance, pm.Provenance)
         assert set(vars(comment)) == {"topic", "commenter_type", "provenance", "flags"}
     assert [c.provenance.page for c in approved.public_comments] == [
-        1, 2, 2, 3, 3, 4, 5, 5, 6, 6,
+        1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 21, 22, 23, 23,
     ]
 
 
@@ -226,8 +232,12 @@ def test_no_verbatim_comment_text_or_names_in_output(approved):
     comment straight from the PDF, then prove none of it reaches output."""
     output = json.dumps(approved.to_dict())
     lines = pdftext.extract_lines((FIXTURES / "ivgid_minutes_2778.pdf").read_bytes())
+    # Deliberately broader than any single clerk phrasing: a leak test that
+    # reuses the parser's own matching cannot detect a marker the parser
+    # fails to recognise.
     marker = re.compile(
-        r"Public\s+comments?\s+provided\s+by\s+(.+?)\s+is\s+transcribed\s+below",
+        r"Public\s+comments?\s+provided\s+by\s+(.+?)"
+        r"\s+(?:is|are)\s+(?:transcribed|recorded)\s+(?:below|as\s+follows)",
         re.IGNORECASE,
     )
     names_found = 0
@@ -240,7 +250,9 @@ def test_no_verbatim_comment_text_or_names_in_output(approved):
         assert commenter not in output, f"commenter name leaked: {commenter}"
         first_comment_line = lines[i + 1].text
         assert first_comment_line not in output, "verbatim comment text leaked"
-    assert names_found == 10  # the harvest itself found every marker
+    # 14: the four "recorded as follows" comments on pages 21-23 that the
+    # narrower harvest never saw.
+    assert names_found == 14
     # Spot-check distinctive verbatim phrases read from the PDF by hand:
     assert "pickleball" not in output
     assert "I have been told that you guys" not in output

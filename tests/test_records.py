@@ -223,12 +223,110 @@ def test_no_public_comment_text_or_names_anywhere_in_data():
     assert checked > 0, "fixture yielded no commenter names to check"
 
 
+def test_no_comment_region_content_reaches_data_across_the_whole_corpus():
+    """The strong form of the leak test, over every committed record rather
+    than two fixtures.
+
+    Re-segments each source PDF, takes every line the parser marked as
+    public comment, and proves none of that content appears in data/. A
+    commenter's name is allowed through only when the same document also
+    names them *outside* every comment region — Aaron Katz is named in an
+    Attorney General open-meeting item and Michael Gross as a grant
+    counterparty, which is official business under fair report, not comment.
+    """
+    import pdftext
+
+    marker = re.compile(r"Public\s+comments?\s+provided\s+by\s+(.{2,60})", re.IGNORECASE)
+
+    checked_docs = checked_names = checked_lines = 0
+    for path in _record_paths():
+        # Scoped to this meeting's own record: the question is whether a
+        # document leaked its own commenters, and the same person can be a
+        # commenter at one meeting and official business at another.
+        blob = path.read_text(encoding="utf-8")
+        record = json.loads(blob)
+        file_id = record["source"]["minutes_file_id"]
+        pdf = REPO_ROOT / "cache" / f"{file_id}.pdf"
+        if not pdf.exists():
+            continue
+        pages = [
+            p for p in pdftext.extract_pages(pdf.read_bytes())
+            if p.char_count >= pm.MIN_PARSEABLE_CHARS
+        ]
+        body, _ = pm._strip_page_furniture(pages, [])
+        body, _ = pm._mark_comment_regions(body, file_id)
+        comment_lines = [bl.text for bl in body if bl.in_comment]
+        official = "\n".join(bl.text for bl in body if not bl.in_comment)
+        checked_docs += 1
+
+        for text in comment_lines:
+            stripped = text.strip()
+            # Substantial prose only: short fragments collide with ordinary
+            # agenda wording and would make the assertion meaningless.
+            if len(stripped) > 60 and stripped not in official:
+                checked_lines += 1
+                assert stripped not in blob, (
+                    f"file {file_id}: comment text reached data/ — {stripped[:70]!r}"
+                )
+
+            match = marker.search(text)
+            if not match:
+                continue
+            name = re.split(
+                r"\s+(?:is|are|regarding|relating|spoke|did|when)\b|[:.,]",
+                match.group(1), maxsplit=1,
+            )[0]
+            name = re.sub(r"^caller\s+\d+\s*-?\s*", "", name.strip(), flags=re.IGNORECASE)
+            name = name.strip(" -,.")
+            if len(name.split()) < 2 or len(name) < 6:
+                continue
+            checked_names += 1
+            if re.search(rf"\b{re.escape(name)}\b", blob) and name not in official:
+                raise AssertionError(
+                    f"file {file_id}: commenter name {name!r} reached data/ "
+                    "without appearing anywhere outside a comment region"
+                )
+
+    assert checked_docs >= 30, f"only checked {checked_docs} documents"
+    assert checked_names > 50, f"only checked {checked_names} commenter names"
+    assert checked_lines > 100, f"only checked {checked_lines} comment lines"
+
+
+def test_comment_marker_is_recognised_across_clerk_phrasings():
+    """The marker announcing a named member of the public varies by clerk and
+    year. Matching only one continuation segmented a single document in the
+    archive and left the rest of the verbatim comment in the parsing stream.
+    A timestamp on the same line must not suppress it either."""
+    for line in (
+        "Public comment provided by A Name is transcribed below:",
+        "Public Comment provided by A Name is as follows:",
+        "Public Comments provided by A Name are as follows:",
+        "Public Comment provided by A Name regarding the budget",
+        "Public Comment provided by caller 0815 A Name relating to the 2023 audit",
+        "MEDIA TIMESTAMP 00:05:14 - Public Comment provided by A Name",
+        "Time Stamp 00:06:11 - Public Comment provided by A Name regarding",
+    ):
+        assert pm._COMMENT_MARKER_RE.search(line), line
+
+
 def test_records_carry_no_commenter_fields(built):
     for record in built:
         keys = {k.lower() for k in records._find_keys(record)}
         assert not (keys & records._FORBIDDEN_KEYS)
-        # The aggregate count is the only comment-derived value permitted.
-        assert isinstance(record["public_comment_count"], int)
+
+
+def test_no_public_comment_count_is_published():
+    """A count cannot be made correct across every clerk phrasing (file 1051:
+    nine marker lines, six actual comments), and a wrong number is a false
+    claim about a public body. The field is absent, and reintroducing it
+    fails the validation gate rather than publishing a wrong figure."""
+    record = _valid_record()
+    assert "public_comment_count" not in record
+    assert records.validate_record(record) == []
+
+    record["public_comment_count"] = 0
+    violations = records.validate_record(record)
+    assert any("forbidden commenter-derived field" in v for v in violations)
 
 
 # --- Determinism ---------------------------------------------------------

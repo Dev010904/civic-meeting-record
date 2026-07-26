@@ -22,9 +22,9 @@ What this module guarantees:
 - **No name from audio** (§2.7 rule 3). Enforced now, before audio exists:
   any provenance whose type is not ``pdf`` fails validation.
 - **No private commenters** (§2.7 rule 4). The record has no field for
-  comment text, commenter names or topics — only an aggregate integer count
-  that comment occurred (§2.2). Officials named in motions are kept in full
-  (NRS 241.0353(1)).
+  comment text, commenter names or topics, and none for a comment count
+  either — see ``_FORBIDDEN_KEYS`` for why a count could not be made
+  correct. Officials named in motions are kept in full (NRS 241.0353(1)).
 
 Determinism: records are written with sorted keys and no timestamps, so
 rebuilding an unchanged corpus produces byte-identical files. These are
@@ -48,10 +48,12 @@ SCHEMA_VERSION = 1
 # Live-format scope (spec §2.6 product decision: v1 publishes new meetings
 # only). The boundaries are the format-era boundaries the benchmark located,
 # not calendar convenience: the structured Board format begins with the
-# February 2025 minutes (file 1171; January 2025 is still stenographic
-# transcript), and the structured Audit Committee format ("MOTION WAS MADE")
-# begins December 2024 (file 1051).
-LIVE_BOARD_FROM = "2025-02-01"
+# 2025-01-29 minutes (file 1140, four clean motions, all hand-verified
+# correct in round 1 — the two earlier January 2025 Board documents, files
+# 1103 and 1096, are still stenographic transcripts), and the structured
+# Audit Committee format ("MOTION WAS MADE") begins December 2024 (file
+# 1051).
+LIVE_BOARD_FROM = "2025-01-29"
 LIVE_AUDIT_FROM = "2024-12-01"
 TRANSCRIPT_ERA_FROM = "2023-01-01"
 
@@ -64,20 +66,6 @@ _SKIP_TRANSCRIPT = (
     "stenographic transcript era (votes exist only as dialogue in two-column "
     f"court-reporter lines); the structured format begins {LIVE_BOARD_FROM} — "
     "deferred to the archive phase"
-)
-# January 2025 is a mixed month and the reason recorded for it must say so
-# rather than claim a format the document does not have: 2025-01-08 (file
-# 1103) and 2025-01-16 (file 1096) are stenographic transcripts and yield no
-# motions, but 2025-01-29 (file 1140) is already structured and parses four
-# clean motions — all four hand-verified correct in the round-1 check. The
-# boundary is a scope decision, not a parser limit.
-TRANSITION_FROM = "2025-01-01"
-_SKIP_TRANSITION = (
-    "January 2025 transitional window, before the live-format boundary "
-    f"{LIVE_BOARD_FROM}. The month is mixed: 2025-01-08 and 2025-01-16 are "
-    "stenographic transcripts, but 2025-01-29 is already structured and "
-    "parses clean. Excluded by scope, not by parser capability — revisit "
-    "the boundary before the archive phase"
 )
 _SKIP_NARRATIVE = (
     "narrative-prose era (2021-2022: 'Trustee X made a motion … the motion "
@@ -365,8 +353,6 @@ def scope_decision(event_date: str, event_name: str) -> tuple[bool, Optional[str
         return False, _SKIP_AUDIT_NARRATIVE
     if date >= LIVE_BOARD_FROM:
         return True, None
-    if date >= TRANSITION_FROM:
-        return False, _SKIP_TRANSITION
     if date >= TRANSCRIPT_ERA_FROM:
         return False, _SKIP_TRANSCRIPT
     return False, _SKIP_NARRATIVE
@@ -541,10 +527,6 @@ def build_record(
             "minutes_file_id": file_id,
             "media_url": media_url,
         },
-        # Aggregate only (spec §2.2 records *that* comment occurred; §2.7
-        # rule 4 and NRS 241.0353(3) forbid the name or the text). There is
-        # deliberately no field here that could carry either.
-        "public_comment_count": len(parsed.public_comments),
         "document": {
             "unparseable_pages": sorted(parsed.unparseable_pages),
             "flags": sorted(parsed.flags),
@@ -557,8 +539,26 @@ def build_record(
 
 # Keys that would carry commenter-derived content. None is ever produced by
 # build_record; the gate exists so a future change cannot quietly add one.
+#
+# public_comment_count is on this list deliberately. A count is not a name or
+# a quote, but it is still a positive claim about what a public body did, and
+# it cannot be made correct as a general rule: it depends on recognising
+# every clerk phrasing for "a person spoke". File 1051 shows why — nine
+# marker lines cover six actual comments, because two record a caller who
+# did not respond or passed, and one is a Trustee Elect rather than a member
+# of the public. Reporting 0 for a meeting where eight people spoke, or 9
+# where six did, is a false statement about a public body; §2.7 rule 7 and
+# the fair-report framing in §5 both forbid publishing it. A missing field
+# is honest, so the field is absent rather than wrong.
 _FORBIDDEN_KEYS = frozenset(
-    {"commenter", "commenter_name", "comment_text", "public_comments", "speaker"}
+    {
+        "commenter",
+        "commenter_name",
+        "comment_text",
+        "public_comments",
+        "public_comment_count",
+        "speaker",
+    }
 )
 
 

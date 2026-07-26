@@ -192,8 +192,15 @@ def _clean_name(name: str) -> str:
     because they are legitimate one-letter words."""
     name = re.sub(r"\s+", " ", name).strip(" .,:;")
     return re.sub(r"\b([B-HJ-Z])\s+([a-z]{2,})", r"\1\2", name)
+# The clerk's line announcing that a named member of the public spoke. The
+# continuation varies by clerk and by year — "is transcribed below:", "is as
+# follows:", "are as follows:", "regarding <subject>.", "did not respond
+# when called upon." — so only the invariant opening is matched. Requiring
+# any one continuation (as this did) segmented one document in the archive
+# and left the rest of the verbatim comment text in the parsing stream.
+# The name after "by" is deliberately never captured.
 _COMMENT_MARKER_RE = re.compile(
-    r"Public\s+comments?\s+provided\s+by\s+.+?\s+is\s+transcribed\s+below",
+    r"Public\s+comments?\s+provided\s+by\b",
     re.IGNORECASE,
 )
 _FOOTER_PATTERNS = (
@@ -470,11 +477,13 @@ def _mark_comment_regions(
                 current_item_heading = bl.text
             marked.append(bl)
             continue
-        if _MEDIA_TIMESTAMP_RE.search(bl.text):
-            # Timestamp lines are structural, not comment text.
-            in_marker_block = False
-            marked.append(bl)
-            continue
+        # The marker is tested before the timestamp check because clerks
+        # routinely write both on one line ("MEDIA TIMESTAMP 00:05:14 -
+        # Public Comment provided by Judith …"). Testing the timestamp first
+        # treated those as structural and left the commenter's name in the
+        # parsing stream. Marking the line as comment does not lose the
+        # timestamp: media timestamps are harvested from the whole body,
+        # comment regions included.
         if _COMMENT_MARKER_RE.search(bl.text):
             in_marker_block = True
             flags = []
@@ -490,6 +499,12 @@ def _mark_comment_regions(
                 )
             )
             marked.append(_BodyLine(bl.page, bl.line, bl.text, in_comment=True))
+            continue
+        if _MEDIA_TIMESTAMP_RE.search(bl.text):
+            # A timestamp line carrying no comment marker is structural, not
+            # comment text, and ends the block above it.
+            in_marker_block = False
+            marked.append(bl)
             continue
         if _label_kind(bl.text) is not None:
             in_marker_block = False
