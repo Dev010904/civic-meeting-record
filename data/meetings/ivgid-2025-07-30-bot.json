@@ -204,7 +204,7 @@
         }
       ],
       "number": "H.1",
-      "title": "Approve and Authorize the District General Manager to Sign and Execute an Agreement between Incline Village General Improvement District and CCMedia Publishing for Magazine Publishing Services During Calendar Years 2026 Through 2030. (Requesting Staff Member: Marketing & Communications Manager Paul Raymore) Item H.1. Board and staff discussions can be viewed/heard at"
+      "title": "Approve and Authorize the District General Manager to Sign and Execute an Agreement between Incline Village General Improvement District and CCMedia Publishing for Magazine Publishing Services During Calendar Years 2026 Through 2030. (Requesting Staff Member: Marketing & Communications Manager Paul Raymore)"
     },
     {
       "disposition": "passed",
@@ -300,7 +300,7 @@
         }
       ],
       "number": "H.2",
-      "title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and K.G. Walters Construction for the Replacement of the Burnt Cedar Backup Generator Fuel Tank; FY 2025/26 Utilities: Water: CIP #2299DI1707; in the Amount of $425,000; and Authorize staff to Execute Change Orders for Additional Work if required, of Approximately 5% of the Construction Contract Value; not to Exceed $21,250; FY 2025/26 Utilities: Water: CIP#2299DI1707; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson). Item H.2. Board and staff discussions can be viewed/heard at"
+      "title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and K.G. Walters Construction for the Replacement of the Burnt Cedar Backup Generator Fuel Tank; FY 2025/26 Utilities: Water: CIP #2299DI1707; in the Amount of $425,000; and Authorize staff to Execute Change Orders for Additional Work if required, of Approximately 5% of the Construction Contract Value; not to Exceed $21,250; FY 2025/26 Utilities: Water: CIP#2299DI1707; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson)"
     },
     {
       "disposition": "passed",
@@ -396,7 +396,7 @@
         }
       ],
       "number": "H.3",
-      "title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and Spohn Ranch, Inc. for the 100% Design-Build Contract for Skate Park Enhancement Project - FY 2025/26 Capital Improvement Project; Fund: Community Services; Division: Parks; Project #4378BD2202; in an Amount of $400,000; and Approve a Construction Contingency of 10% in an Amount Not to Exceed $40,000; Discussion and possible Action. (Requesting Staff Member: District Asset and Project Manager Bree Waters) Item H.3. Board and staff discussions can be viewed/heard at"
+      "title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and Spohn Ranch, Inc. for the 100% Design-Build Contract for Skate Park Enhancement Project - FY 2025/26 Capital Improvement Project; Fund: Community Services; Division: Parks; Project #4378BD2202; in an Amount of $400,000; and Approve a Construction Contingency of 10% in an Amount Not to Exceed $40,000; Discussion and possible Action. (Requesting Staff Member: District Asset and Project Manager Bree Waters)"
     },
     {
       "disposition": "passed",
@@ -459,7 +459,7 @@
         }
       ],
       "number": "H.4",
-      "title": "Review, Discuss, and Possibly Approve a Proposed Amendment to Ordinance #2 - Sewer to Revise a Single Section to Allow Use of Hydromechanical Grease Interceptors within the District. (Requesting Staff Member: Director of Public Works Kate Nelson) Item H.4. Board and staff discussions can be viewed/heard at"
+      "title": "Review, Discuss, and Possibly Approve a Proposed Amendment to Ordinance #2 - Sewer to Revise a Single Section to Allow Use of Hydromechanical Grease Interceptors within the District. (Requesting Staff Member: Director of Public Works Kate Nelson)"
     },
     {
       "disposition": "passed",
@@ -707,17 +707,19 @@
         }
       ],
       "number": "H.5",
-      "title": "Review, Discuss and Possibly Approve the Added Alternates for the Incline Beach House Project, CIP #3973LI1302. (Requesting Staff Members: Director of Public Works Kate Nelson, and District Project Manager Bree Waters) Item H.5. Board and staff discussions can be viewed/heard at"
+      "title": "Review, Discuss and Possibly Approve the Added Alternates for the Incline Beach House Project, CIP #3973LI1302. (Requesting Staff Members: Director of Public Works Kate Nelson, and District Project Manager Bree Waters)"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-07-30-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1452,
     "event_id": 581,
     "media_url": "https://cpmedia.azureedge.net/ivgid/159caf198d.mp4",
     "minutes_file_id": 1491
-  }
+  },
+  "visual_draft_watermark": null
 }

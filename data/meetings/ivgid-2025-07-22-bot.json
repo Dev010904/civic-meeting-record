@@ -78,17 +78,19 @@
         }
       ],
       "number": "E.1",
-      "title": "Appoint a Trustee to Serve on the Interview Panel for the Director of Human Resource Position. (Requesting Staff Member: District G eneral Manager Robert Harrison) Item E.1. to Appoint a Trustee to serve on the Interview Panel can be"
+      "title": "Appoint a Trustee to Serve on the Interview Panel for the Director of Human Resource Position. (Requesting Staff Member: District G eneral Manager Robert Harrison)"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-07-22-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1439,
     "event_id": 724,
     "media_url": "https://cpmedia.azureedge.net/ivgid/b4a2ec21bc.mp4",
     "minutes_file_id": 1490
-  }
+  },
+  "visual_draft_watermark": null
 }

@@ -80,11 +80,13 @@
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-02-12-bot",
   "minutes_status": null,
+  "minutes_status_basis": null,
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1114,
     "event_id": 358,
     "media_url": "https://cpmedia.azureedge.net/ivgid/f968e5abbb.mp4",
     "minutes_file_id": 1171
-  }
+  },
+  "visual_draft_watermark": null
 }

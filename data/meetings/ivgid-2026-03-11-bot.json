@@ -166,7 +166,7 @@
         }
       ],
       "number": "G.3",
-      "title": "Review, Discuss and Approve the Change Order #2 for the Snowflake Lodge Needs Assessment, FY 2025.26 Ski, CIP #3653BD1502; Consultant: Snow Engineering Group; $40,000. (Requesting Staff Member: Director of Public Works Kate Nelson). - pages 211 - 516 Full discussion and approval of ItemH.1. Formerly G.3. Is available to be viewed/ heard at"
+      "title": "Review, Discuss and Approve the Change Order #2 for the Snowflake Lodge Needs Assessment, FY 2025.26 Ski, CIP #3653BD1502; Consultant: Snow Engineering Group; $40,000. (Requesting Staff Member: Director of Public Works Kate Nelson). - pages 211 - 516 Full discussion and approval of ItemH.1"
     },
     {
       "disposition": "passed",
@@ -291,7 +291,7 @@
         }
       ],
       "number": "H.1",
-      "title": "Discuss and Possibly Approve a Community Services Budget Transfer to Increase Capital Funds Available for Construction of the Incline Bike Park - Phase II to Authorize a Change Order to Pave the Existing and New Pump Tracks in the Amount of $112,000; IVGID Portion of $56,000, Private Donor Portion of $56,000; FY 2025/26 Capital Improvement Project; Fund: Community Services; Division: Parks; Project #4378LI2601. Discussion and Possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson). - pages 217 - 119 Full discussion related to the request for Community Services budget transfer to increase capital funds available for construction of the Incline Bike Park - Phase II, is available to be"
+      "title": "Discuss and Possibly Approve a Community Services Budget Transfer to Increase Capital Funds Available for Construction of the Incline Bike Park - Phase II to Authorize a Change Order to Pave the Existing and New Pump Tracks in the Amount of $112,000; IVGID Portion of $56,000, Private Donor Portion of $56,000; FY 2025/26 Capital Improvement Project; Fund: Community Services; Division: Parks; Project #4378LI2601. Discussion and Possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson)"
     },
     {
       "disposition": "passed",
@@ -638,17 +638,19 @@
         }
       ],
       "number": "H.2",
-      "title": "Review, Discuss and possibly Approve Key Rates and Charges within the District's Community Services Division. (Requesting Staff Member: Director of Community Services Mike Bandelin) - pages 220 - 231 Full discussion and approval of the Key Rates and charges within the District's Community Services Division is available to be viewed/ heard at"
+      "title": "Review, Discuss and possibly Approve Key Rates and Charges within the District's Community Services Division. (Requesting Staff Member: Director of Community Services Mike Bandelin)"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2026-03-11-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 2641,
     "event_id": 739,
     "media_url": "https://cpmedia.azureedge.net/ivgid/330f2f05ec.mp4",
     "minutes_file_id": 2665
-  }
+  },
+  "visual_draft_watermark": null
 }

@@ -311,7 +311,7 @@
         }
       ],
       "number": "G.1",
-      "title": "Approve and Authorize staff to create a Community Services CIP Project for Phase Two (Implementation) of the Point of Sale (POS) System Project; and, Approve and authorize staff to re-budget $400,000 from the FY25/26 Community Services CIP Budget to the FY26/27 CIP Budget and include an additional $433,302 in FY26/27 for a total Community Services CIP Point of Sale System Project Budget of $833,302 in Fiscal Year 2026/2027. (Requesting Staff Members: Director of Administrative Services Susan Herron and Information Technology Manager Mike Gove) The full discussion related to Item G.1. Phase 2 of the Point-of-Sale Project can be"
+      "title": "Approve and Authorize staff to create a Community Services CIP Project for Phase Two (Implementation) of the Point of Sale (POS) System Project; and, Approve and authorize staff to re-budget $400,000 from the FY25/26 Community Services CIP Budget to the FY26/27 CIP Budget and include an additional $433,302 in FY26/27 for a total Community Services CIP Point of Sale System Project Budget of $833,302 in Fiscal Year 2026/2027. (Requesting Staff Members: Director of Administrative Services Susan Herron and Information Technology Manager Mike Gove)"
     },
     {
       "disposition": "passed",
@@ -411,7 +411,7 @@
         }
       ],
       "number": "G.3",
-      "title": "Approve and Authorize Additional Funding for Davis Farr in the Amount of $41,000 for additional work, bringing the Total Contract Agreement to $127,040. (Requesting Staff Member: Director of Finance Jessica O'Connell) The full discussion related to Item G.3. Additional funding for Davis Farr can be"
+      "title": "Approve and Authorize Additional Funding for Davis Farr in the Amount of $41,000 for additional work, bringing the Total Contract Agreement to $127,040. (Requesting Staff Member: Director of Finance Jessica O'Connell)"
     },
     {
       "disposition": "passed",
@@ -611,7 +611,7 @@
         }
       ],
       "number": "G.5",
-      "title": "Approve and Authorize Additional Funding for Armand Agra – Sierra Meats in the Amount of $30,000, increasing the Blanket Purchase Order related to Additional Costs and bringing the Total Purchase Order to $255,000. (Requesting Staff Member: Director of Finance Jessica O'Connell) The full discussion related to Item G.5. Additional funding for Armand Agra - dba Sierra Meats can be viewed/ heard at"
+      "title": "Approve and Authorize Additional Funding for Armand Agra – Sierra Meats in the Amount of $30,000, increasing the Blanket Purchase Order related to Additional Costs and bringing the Total Purchase Order to $255,000. (Requesting Staff Member: Director of Finance Jessica O'Connell)"
     },
     {
       "disposition": "passed",
@@ -672,7 +672,7 @@
         }
       ],
       "number": "G.6",
-      "title": "Approve and Authorize the Board Chair to Sign and Execute a Letter written by the Incline Village General Improvement District (District) to the Nevada Department of Taxation outlining the Districts' Corrective Action Plan related to the adherence to all applicable Statutes, Regulations, and Policies in the Districts' Administration of Financial Affairs, such as Expenditures, over Appropriations and Budget Augmentation as outlined in the letter dated July 28, 2025. (Requesting Staff Member: Director of Finance Jessica O'Connell) The full discussion related to Item G.6. Letter to NV Department of Taxation regarding the Districts Corrective Action Plan can be viewed/ heard at"
+      "title": "Approve and Authorize the Board Chair to Sign and Execute a Letter written by the Incline Village General Improvement District (District) to the Nevada Department of Taxation outlining the Districts' Corrective Action Plan related to the adherence to all applicable Statutes, Regulations, and Policies in the Districts' Administration of Financial Affairs, such as Expenditures, over Appropriations and Budget Augmentation as outlined in the letter dated July 28, 2025. (Requesting Staff Member: Director of Finance Jessica O'Connell)"
     },
     {
       "disposition": "passed",
@@ -733,7 +733,7 @@
         }
       ],
       "number": "G.7",
-      "title": "Review, Discuss, and possibly Approve the Release of Assigned Net Position associated with Effluent Pipeline Project and Revert Funds to its Source of Origin. (Requesting Staff Member: Director of Finance Jessica O'Connell) The full discussion related to Item G.7. Release of Assigned Net Position associated with the Effluent Pipeline Project can be viewed/ heard at"
+      "title": "Review, Discuss, and possibly Approve the Release of Assigned Net Position associated with Effluent Pipeline Project and Revert Funds to its Source of Origin. (Requesting Staff Member: Director of Finance Jessica O'Connell)"
     },
     {
       "disposition": "passed",
@@ -794,17 +794,19 @@
         }
       ],
       "number": "G.8",
-      "title": "Review, Discuss and Conduct Incline Village General Improvement District’s General Manager, Robert W. Harrison, Six-Month Performance Evaluation; Direct Staff to work with Board to Establish FY 2026 Goals (Requesting Board Member: Chair Michaela Tonking) The full discussion related to Item G.8. The District General Manager's 6-month Performance review can be viewed/ heard at"
+      "title": "Review, Discuss and Conduct Incline Village General Improvement District’s General Manager, Robert W. Harrison, Six-Month Performance Evaluation; Direct Staff to work with Board to Establish FY 2026 Goals (Requesting Board Member: Chair Michaela Tonking)"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-08-27-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1480,
     "event_id": 583,
     "media_url": "https://cpmedia.azureedge.net/ivgid/d8c81d3a1e.mp4",
     "minutes_file_id": 1511
-  }
+  },
+  "visual_draft_watermark": null
 }

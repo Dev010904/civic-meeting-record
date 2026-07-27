@@ -302,11 +302,13 @@
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-10-28-audit",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1522,
     "event_id": 725,
     "media_url": "https://cpmedia.azureedge.net/ivgid/6057245e6f.mp4",
     "minutes_file_id": 1601
-  }
+  },
+  "visual_draft_watermark": null
 }

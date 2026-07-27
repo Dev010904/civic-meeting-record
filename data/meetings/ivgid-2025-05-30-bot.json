@@ -472,7 +472,7 @@
         }
       ],
       "number": "E.1",
-      "title": "Adopt the Fiscal Year 2025/2026 Incline Village General Improvement District Budgets of which there are six (6) components: (1) Operating Budget; (2) Capital Improvement Projects Budget; (3) Facility Fees (consisting of a Recreation Facility Fee and Beach Facility Fee); (4) Authorized Positions List; (5) Final Form 4404LGF; and (6) Central Services Cost Allrocation Plan (Requesting Staff Member: Director of Finance Jessica O'Connell) Full discussion on Item E.1. FY 2025-2026 District Budgets can be heard/viewed"
+      "title": "Adopt the Fiscal Year 2025/2026 Incline Village General Improvement District Budgets of which there are six (6) components: (1) Operating Budget; (2) Capital Improvement Projects Budget; (3) Facility Fees (consisting of a Recreation Facility Fee and Beach Facility Fee); (4) Authorized Positions List; (5) Final Form 4404LGF; and (6) Central Services Cost Allrocation Plan (Requesting Staff Member: Director of Finance Jessica O'Connell)"
     },
     {
       "disposition": "passed",
@@ -694,7 +694,7 @@
         }
       ],
       "number": "F.1",
-      "title": "Review, Discuss and Possibly Adopt Resolution No. 1917 - A Resolution Approving the Report for Collection of Recreation Standby and Service Charges (Also Known as the Recreation Facility Fee and Beach Facility Fee), for Fiscal Year 2025-2026 (Requesting Staff Member: Director of F inance Jessica O'Connell) Full discussion on Item F.1. Adopt Resolution No. 1917 - Approving the Report for Collection of Recreation Standby and Service Charges can be heard/viewed"
+      "title": "Review, Discuss and Possibly Adopt Resolution No. 1917 - A Resolution Approving the Report for Collection of Recreation Standby and Service Charges (Also Known as the Recreation Facility Fee and Beach Facility Fee), for Fiscal Year 2025-2026 (Requesting Staff Member: Director of F inance Jessica O'Connell) Full discussion on Item F.1. Adopt Resolution No"
     },
     {
       "disposition": "passed",
@@ -756,17 +756,19 @@
         }
       ],
       "number": "G.1",
-      "title": "Review, discuss and possibly approve setting a fee for the purchase of an Additional Recreation Pass for 2025/2026 in accordance with Ordinance 7, paragraph 104 (Requesting Staff Member: Diamond Peak Ski Resort Manager Mike Bandelin) Full discussion on Item G.1. Approval to set a fee for the purchase of an Additional Recreation Pass for 2025/2026 can be heard/viewed at"
+      "title": "Review, discuss and possibly approve setting a fee for the purchase of an Additional Recreation Pass for 2025/2026 in accordance with Ordinance 7, paragraph 104 (Requesting Staff Member: Diamond Peak Ski Resort Manager Mike Bandelin)"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-05-30-bot",
   "minutes_status": "draft",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1362,
     "event_id": 646,
     "media_url": "https://cpmedia.azureedge.net/ivgid/e2fc7e03a0.mp4",
     "minutes_file_id": 1433
-  }
+  },
+  "visual_draft_watermark": null
 }

@@ -172,7 +172,7 @@
         }
       ],
       "number": "G.1",
-      "title": "Review, Discuss and Appoint a Board Liaison to attend the Interviews of Candidates for the General Manager of Golf Operations Position and Provide Feedback to Staff. (Requesting Staff Member: Director of Human Resources Erin Feore) Item G.1. Board discussion regarding Board-appointed Liaison can be viewed/ heard at"
+      "title": "Review, Discuss and Appoint a Board Liaison to attend the Interviews of Candidates for the General Manager of Golf Operations Position and Provide Feedback to Staff. (Requesting Staff Member: Director of Human Resources Erin Feore)"
     },
     {
       "disposition": "passed",
@@ -253,7 +253,7 @@
         }
       ],
       "number": "G.2",
-      "title": "Approve and Authorize the Board Chair and Secretary to Sign an Agreement between the District and CORE West Inc. dba CORE Construction for the 100% Construction Development Contract for Incline Beach House Project - FY 2024/25 Capital Improvement Project; Fund: Community Services; Division: Beaches; Project #3973LI1302; in the amount of $755,000; Discussion and Possible Action. (Requesting Staff Member: Public Works Director Kate Nelson) Item G.2. Presentations and full Board and Staff discussions can be viewed/ heard"
+      "title": "Approve and Authorize the Board Chair and Secretary to Sign an Agreement between the District and CORE West Inc. dba CORE Construction for the 100% Construction Development Contract for Incline Beach House Project - FY 2024/25 Capital Improvement Project; Fund: Community Services; Division: Beaches; Project #3973LI1302; in the amount of $755,000; Discussion and Possible Action. (Requesting Staff Member: Public Works Director Kate Nelson)"
     },
     {
       "disposition": "passed",
@@ -339,7 +339,7 @@
         }
       ],
       "number": "G.3",
-      "title": "Review, Discuss and Provide Direction for the Final Design-Build Construction Contract for Skate Park Enhancement Project - FY 2024/25 Capital Improvement Project Fund: General; Division: Parks: Project #4378BD2202; (Requesting Staff Member: Director of Public Works Kate Nelson) Item G.3. Presentations and full Board and Staff discussions can be viewed/ heard"
+      "title": "Review, Discuss and Provide Direction for the Final Design-Build Construction Contract for Skate Park Enhancement Project - FY 2024/25 Capital Improvement Project Fund: General; Division: Parks: Project #4378BD2202; (Requesting Staff Member: Director of Public Works Kate Nelson)"
     },
     {
       "disposition": "passed",
@@ -402,17 +402,19 @@
         }
       ],
       "number": "G.5",
-      "title": "Review, Discuss and Possibly Approve Engagement Letter Agreement with Thorndal Armstrong, PC. (Requesting Staff Members: District General Manager Robert Harrison and District Legal Counsel Sergio Rudin) Item G.5. The full Board, GM, and Legal Counsel discussion can be viewed/ heard"
+      "title": "Review, Discuss and Possibly Approve Engagement Letter Agreement with Thorndal Armstrong, PC. (Requesting Staff Members: District General Manager Robert Harrison and District Legal Counsel Sergio Rudin)"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-03-12-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1160,
     "event_id": 574,
     "media_url": "https://cpmedia.azureedge.net/ivgid/32c74f9db7.mp4",
     "minutes_file_id": 1262
-  }
+  },
+  "visual_draft_watermark": null
 }

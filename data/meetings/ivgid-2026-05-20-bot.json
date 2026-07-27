@@ -105,11 +105,13 @@
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2026-05-20-bot",
   "minutes_status": "draft",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 2734,
     "event_id": 755,
     "media_url": "https://cpmedia.azureedge.net/ivgid/ff534af3ac.mp4",
     "minutes_file_id": 2783
-  }
+  },
+  "visual_draft_watermark": null
 }

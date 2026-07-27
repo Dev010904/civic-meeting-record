@@ -156,17 +156,19 @@
         }
       ],
       "number": "H.1",
-      "title": "Review, Discuss and possibly Ratify and Adopt Resolution No. 1921 authorizing Incline Village General Improvement District to create and maintain Fiduciary Fund 700 - Tahoe Water Supply Association. This Fund is established for the specific purpose of accounting for assets held by the Incline Village General Improvement District in a custodial capacity for the Tahoe Water Supply Association (TWSA). (Requesting Staff Member Director of Finance Noemi Barter) - pages 176 - 184 Item H.1. Adoption of Resolution No. 1921 is available to be viewed/heard at"
+      "title": "Review, Discuss and possibly Ratify and Adopt Resolution No. 1921 authorizing Incline Village General Improvement District to create and maintain Fiduciary Fund 700 - Tahoe Water Supply Association. This Fund is established for the specific purpose of accounting for assets held by the Incline Village General Improvement District in a custodial capacity for the Tahoe Water Supply Association (TWSA). (Requesting Staff Member Director of Finance Noemi Barter) - pages 176 - 184 Item H.1. Adoption of Resolution No"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2026-01-14-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1563,
     "event_id": 737,
     "media_url": "https://cpmedia.azureedge.net/ivgid/1d9feeffc1.mp4",
     "minutes_file_id": 1602
-  }
+  },
+  "visual_draft_watermark": null
 }

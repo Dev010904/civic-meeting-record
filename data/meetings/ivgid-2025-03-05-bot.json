@@ -75,7 +75,7 @@
         }
       ],
       "number": "E.2",
-      "title": "Review, Discuss and possibly Approve the 2025/2026 Group Picnic Rental Fee Rate Schedule . (Requesting Staff Member: Parks and Recreation Director Karen Crocker) Item E.2. Board and Staff discussion can be viewed in its entirety at"
+      "title": "Review, Discuss and possibly Approve the 2025/2026 Group Picnic Rental Fee Rate Schedule. (Requesting Staff Member: Parks and Recreation Director Karen Crocker)"
     },
     {
       "disposition": "passed",
@@ -182,7 +182,7 @@
         }
       ],
       "number": "E.3",
-      "title": "Review, Discuss and Possibly Approve the Fields Fee Rate Schedule. (Requesting Staff Member: Director Parks and Recreation Karen Crocker) Item E.3. Board and Staff discussion can be viewed in its entirety at"
+      "title": "Review, Discuss and Possibly Approve the Fields Fee Rate Schedule. (Requesting Staff Member: Director Parks and Recreation Karen Crocker)"
     },
     {
       "disposition": "passed",
@@ -247,17 +247,19 @@
         }
       ],
       "number": "E.4",
-      "title": "Review, Discuss and Provide Direction Regarding Funding of the Parks Division; Currently part of the General Fund and the recommendation to move the Parks Division to the Community Services Fund for Fiscal Year 2025-26 and Subsequent Years. (Requesting Staff Members Director of Finance Jessica O'Connell and Director of Parks and Recreation Karen Crocker) Item E.4. Board and Staff discussion can be viewed in its entirety at"
+      "title": "Review, Discuss and Provide Direction Regarding Funding of the Parks Division; Currently part of the General Fund and the recommendation to move the Parks Division to the Community Services Fund for Fiscal Year 2025-26 and Subsequent Years. (Requesting Staff Members Director of Finance Jessica O'Connell and Director of Parks and Recreation Karen Crocker)"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-03-05-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1153,
     "event_id": 609,
     "media_url": null,
     "minutes_file_id": 1229
-  }
+  },
+  "visual_draft_watermark": null
 }

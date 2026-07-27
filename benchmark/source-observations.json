@@ -1,0 +1,27 @@
+{
+  "_README": [
+    "Hand-verified observations about source PDFs that cannot be extracted from them.",
+    "Curated by a human, keyed by file_id, in the same idiom as investigations.json.",
+    "Nothing here is machine-derived; nothing here is inferred. Each entry records what",
+    "a person saw when they opened the document, and is published alongside the",
+    "machine-read status so a page can show both signals instead of picking one.",
+    "",
+    "visual_draft_watermark: the page carries a visible DRAFT watermark. This is not",
+    "detectable by this pipeline. The watermark leaves no extractable text, and the",
+    "PDFs carrying it are indistinguishable from those that do not by image content",
+    "(every minutes PDF has exactly one page-1 logo image) or by vector content",
+    "(15 of 39 published documents contain curves, including two named as draft and",
+    "many named as approved; they are embedded charts in staff reports). Absence of an",
+    "entry therefore means NOT INSPECTED, never 'no watermark'."
+  ],
+  "1341": {
+    "visual_draft_watermark": true,
+    "verified": "2026-07-26",
+    "note": "Named as approved minutes; page carries a visible DRAFT watermark. Found during the new-blocks hand verification."
+  },
+  "1342": {
+    "visual_draft_watermark": true,
+    "verified": "2026-07-26",
+    "note": "Named as approved minutes; page carries a visible DRAFT watermark. Found during the new-blocks hand verification."
+  }
+}

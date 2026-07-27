@@ -232,7 +232,7 @@
         }
       ],
       "number": "E.1",
-      "title": "PUBLIC HEARING - Time: Not earlier than 5:00 PM and as soon thereafter as practicable. Recommended Amendments to the Sewer and Water Rate Fee Schedule Public Comments will be taken Separately on this item. The Board Chair will set the time limit for these comments at the meeting. It is anticipated that the time limit will be set at 3 minutes. Public Hearing - Sewer and Water Rate Fee Schedule 2025-26 can be"
+      "title": "PUBLIC HEARING - Time: Not earlier than 5:00 PM and as soon thereafter as practicable. Recommended Amendments to the Sewer and Water Rate Fee Schedule Public Comments will be taken Separately on this item. The Board Chair will set the time limit for these comments at the meeting. It is anticipated that the time limit will be set at 3 minutes"
     },
     {
       "disposition": "passed",
@@ -278,7 +278,7 @@
         }
       ],
       "number": "E.1",
-      "title": "A Review Discuss and possibly Adopt Resolution No. 1914 - a Resolution approving the Amendments to the Sewer and Water Rates, as well as Adjustments to the Fee Schedule. Full presentation and discussion for Item E.1. A., can be heard/viewed at"
+      "title": "A Review Discuss and possibly Adopt Resolution No. 1914 - a Resolution approving the Amendments to the Sewer and Water Rates, as well as Adjustments to the Fee Schedule"
     },
     {
       "disposition": "passed",
@@ -404,7 +404,7 @@
         }
       ],
       "number": "H.3",
-      "title": "Review, Discuss and possibly Adopt Resolution No.1915 – a Resolution prohibiting Commercial Watercraft Launching where prohibited by the Tahoe Regional Planning Agency (TRPA) Code of Ordinances and directing changes to Ordinance 7 – effective immediately (Requesting Staff Member: Director of Administrative Services Susan Herron) Full discussion on Item H.3. To Adopt Resolution No. 1915 can be heard/viewed at"
+      "title": "Review, Discuss and possibly Adopt Resolution No.1915 – a Resolution prohibiting Commercial Watercraft Launching where prohibited by the Tahoe Regional Planning Agency (TRPA) Code of Ordinances and directing changes to Ordinance 7 – effective immediately (Requesting Staff Member: Director of Administrative Services Susan Herron) Full discussion on Item H.3. To Adopt Resolution No"
     },
     {
       "disposition": "passed",
@@ -468,17 +468,19 @@
         }
       ],
       "number": "H.4",
-      "title": "Review, Discuss and Possibly Adopt Resolution No. 1916 - a Resolution Preliminarily Approving the Report for Collection of Recreation Standby and Service Charges for Fiscal Year 2025/2026 and Confirming the Public Hearing Date for Friday, May 30, 2025, at 12: 00 p.m. (Requesting Staff Members: District General Manager Robert Harrison and Director of Administrative Services Susan Herron) Full discussion on Item H.4. To Adopt Resolution No. 1916 can be heard/viewed at"
+      "title": "Review, Discuss and Possibly Adopt Resolution No. 1916 - a Resolution Preliminarily Approving the Report for Collection of Recreation Standby and Service Charges for Fiscal Year 2025/2026 and Confirming the Public Hearing Date for Friday, May 30, 2025, at 12: 00 p.m. (Requesting Staff Members: District General Manager Robert Harrison and Director of Administrative Services Susan Herron) Full discussion on Item H.4. To Adopt Resolution No"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-05-14-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1329,
     "event_id": 576,
     "media_url": "https://cpmedia.azureedge.net/ivgid/ce3c87f0fe.mp4",
     "minutes_file_id": 1428
-  }
+  },
+  "visual_draft_watermark": null
 }

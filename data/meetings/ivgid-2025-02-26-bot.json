@@ -217,7 +217,7 @@
         }
       ],
       "number": "G.2",
-      "title": "Nomination and Appointment of Audit Committee seat due to Term Expiration of Trustee Tulloch effective from February 28, 2024, Trustee Tulloch's term is due to expire February 28, 2025. (Requesting Staff Member: District Clerk Heidi White) A brief discussion of the Board of Trustees can be viewed at"
+      "title": "Nomination and Appointment of Audit Committee seat due to Term Expiration of Trustee Tulloch effective from February 28, 2024, Trustee Tulloch's term is due to expire February 28, 2025. (Requesting Staff Member: District Clerk Heidi White)"
     },
     {
       "disposition": null,
@@ -284,7 +284,7 @@
         }
       ],
       "number": "G.3",
-      "title": "Review, Discuss and Approve Board Recommended Goals for District General Manager through June 30, 2025. (Requesting Board Member: Trustee Michelle Jezycki, and Requesting Staff Member: Human Resource Director Erin Feore) Human Resources Director Erin Feore and Trustee Jezycki provided an overview of the recommended targeted goals and key performance indicators (KPIs) for the District General Manager for the first 6 months. She clarified that the target dates are not carved in stone; the dates are to assist GM Harrison to schedule the many ongoing goals constructively. The full Board and Staff discussion can be viewed at"
+      "title": "Review, Discuss and Approve Board Recommended Goals for District General Manager through June 30, 2025. (Requesting Board Member: Trustee Michelle Jezycki, and Requesting Staff Member: Human Resource Director Erin Feore) Human Resources Director Erin Feore and Trustee Jezycki provided an overview of the recommended targeted goals and key performance indicators (KPIs) for the District General Manager for the first 6 months. She clarified that the target dates are not carved in stone; the dates are to assist GM Harrison to schedule the many ongoing goals constructively"
     },
     {
       "disposition": "passed",
@@ -347,7 +347,7 @@
         }
       ],
       "number": "G.4",
-      "title": "Review, Discuss, and Approve the 2025/2026 Budget Workshop Schedule: Discussion, Direction, and possible Action. (Requesting Staff Member: District General Manager Robert Harrison) The full Board and Staff discussion can be viewed at"
+      "title": "Review, Discuss, and Approve the 2025/2026 Budget Workshop Schedule: Discussion, Direction, and possible Action. (Requesting Staff Member: District General Manager Robert Harrison)"
     },
     {
       "disposition": "passed",
@@ -410,17 +410,19 @@
         }
       ],
       "number": "G.5",
-      "title": "Review, Discuss and possibly Approve Diamond Peak Ski Resort’s Season Pass Rates for 2025-2026 Ski Season. (Requesting Staff Member: Diamond Peak General Manager Mike Bandelin) Diamond Peak Ski General Manager Mike Bandelin provided a brief overview of the Diamond Peak Ski Resort Season Pass Rates for 2025-2026. The full Board and Staff discussion can be viewed at"
+      "title": "Review, Discuss and possibly Approve Diamond Peak Ski Resort’s Season Pass Rates for 2025-2026 Ski Season. (Requesting Staff Member: Diamond Peak General Manager Mike Bandelin) Diamond Peak Ski General Manager Mike Bandelin provided a brief overview of the Diamond Peak Ski Resort Season Pass Rates for 2025-2026"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-02-26-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1131,
     "event_id": 561,
     "media_url": "https://cpmedia.azureedge.net/ivgid/3a6f13687f.mp4",
     "minutes_file_id": 1227
-  }
+  },
+  "visual_draft_watermark": null
 }

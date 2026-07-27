@@ -230,7 +230,7 @@
         }
       ],
       "number": "G.2",
-      "title": "Review, Discuss and Possibly Approve the 2025/2026 Recreation Center Membership and Tennis/Pickleball Fee Rate Schedule (Requesting Staff Member: Director of Parks and Recreation Karen Crocker) Full staff report and Board discussion for Item G.2. can be viewed/heard"
+      "title": "Review, Discuss and Possibly Approve the 2025/2026 Recreation Center Membership and Tennis/Pickleball Fee Rate Schedule (Requesting Staff Member: Director of Parks and Recreation Karen Crocker)"
     },
     {
       "disposition": "passed",
@@ -294,7 +294,7 @@
         }
       ],
       "number": "G.3",
-      "title": "Review and discuss submitted responses to Legal Counsel Services RFP and possibly set a date for interviews of firms and discussion of applications received for In House District Counsel (Requesting Staff Members: Director of Administrative Services Susan Herron and Director of Human Resources Erin Feore) Full staff report and Board discussion for Item G.3. can be viewed/heard at"
+      "title": "Review and discuss submitted responses to Legal Counsel Services RFP and possibly set a date for interviews of firms and discussion of applications received for In House District Counsel (Requesting Staff Members: Director of Administrative Services Susan Herron and Director of Human Resources Erin Feore)"
     },
     {
       "disposition": "passed",
@@ -389,7 +389,7 @@
         }
       ],
       "number": "G.5",
-      "title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and KP Construction, Inc. for Capital Improvement Fire Hydrant Replacement – 2025; FY 2023/24 Utilities: Water: CIP #1F24200300; in the Amount of $209,980.00; and Authorize staff to Execute Change Orders for Additional Work if required, of Approximately 10% of the Construction Contract Value; not to Exceed $20,000.00; FY 2024/25 Utilities: Water: CIP #1F24200300; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson) Full staff report and Board discussion for Item G.5. can be viewed/heard at"
+      "title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and KP Construction, Inc. for Capital Improvement Fire Hydrant Replacement – 2025; FY 2023/24 Utilities: Water: CIP #1F24200300; in the Amount of $209,980.00; and Authorize staff to Execute Change Orders for Additional Work if required, of Approximately 10% of the Construction Contract Value; not to Exceed $20,000.00; FY 2024/25 Utilities: Water: CIP #1F24200300; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson)"
     },
     {
       "disposition": "passed",
@@ -451,7 +451,7 @@
         }
       ],
       "number": "G.6",
-      "title": "Review, Discuss, and Approve the Replacement of the Charcoal Grills with Propane Grills at Burnt Cedar Beach FY2024/25 Beaches: Admin: GL #39003999-7550 and GL #3900399-7510 in an Amount Not to Exceed $34,000; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson) Full staff report and Board discussion for Item G.6. can be viewed/heard at"
+      "title": "Review, Discuss, and Approve the Replacement of the Charcoal Grills with Propane Grills at Burnt Cedar Beach FY2024/25 Beaches: Admin: GL #39003999-7550 and GL #3900399-7510 in an Amount Not to Exceed $34,000; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson)"
     },
     {
       "disposition": "passed",
@@ -535,7 +535,7 @@
         }
       ],
       "number": "F.4",
-      "title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute a Professional Services Agreement between Incline Village General Improvement District and Carollo Engineers for Development of a SCADA Master Plan; FY 2024/25 Utilities: Water: GL #20002297-7510; in the Amount of $359,972; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson) Full staff report and Board discussion for Item G.7. (Formerly Consent Calendar Item F.4.) can be viewed/heard at"
+      "title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute a Professional Services Agreement between Incline Village General Improvement District and Carollo Engineers for Development of a SCADA Master Plan; FY 2024/25 Utilities: Water: GL #20002297-7510; in the Amount of $359,972; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson) Full staff report and Board discussion for Item G.7. (Formerly Consent Calendar Item F.4.)"
     },
     {
       "disposition": "passed",
@@ -620,7 +620,7 @@
         }
       ],
       "number": "G.7",
-      "title": "Review, Discuss, and Possibly Approve Utility Fund Re-Allocation of $375,000 from Utility CIP Sewer Fund to the Water Resource Recovery Facility (WRRF) Roof Replacement CIP # 2599BD1105; FY2024/25; Fund Utilities; Division: Sewer, (Requesting Staff Member: Director of Public Works Kate Nelson) Full staff report and Board discussion for Item G.8. (Formerly Item G.7.) can be"
+      "title": "Review, Discuss, and Possibly Approve Utility Fund Re-Allocation of $375,000 from Utility CIP Sewer Fund to the Water Resource Recovery Facility (WRRF) Roof Replacement CIP # 2599BD1105; FY2024/25; Fund Utilities; Division: Sewer, (Requesting Staff Member: Director of Public Works Kate Nelson) Full staff report and Board discussion for Item G.8. (Formerly Item G.7.)"
     },
     {
       "disposition": "passed",
@@ -682,17 +682,19 @@
         }
       ],
       "number": "G.8",
-      "title": "Review, Discuss, and Approve the Proposed Modifications to the Trustee Handbook. (Requesting Board Member: Trustee Dave Noble) Full staff report and Board discussion for Item G.9. (Formerly Item G.8.) can be"
+      "title": "Review, Discuss, and Approve the Proposed Modifications to the Trustee Handbook. (Requesting Board Member: Trustee Dave Noble) Full staff report and Board discussion for Item G.9. (Formerly Item G.8.)"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-04-30-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1281,
     "event_id": 575,
     "media_url": "https://cpmedia.azureedge.net/ivgid/119239e6b6.mp4",
     "minutes_file_id": 1341
-  }
+  },
+  "visual_draft_watermark": true
 }

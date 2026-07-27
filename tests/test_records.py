@@ -92,6 +92,52 @@ def test_minutes_status_is_present_and_valid_on_every_record(built):
         assert record["minutes_status"] in (None, "draft", "approved")
 
 
+def test_minutes_status_basis_is_recorded_on_every_record(built):
+    """A status read from the clerk's file name is uncorroborated by the
+    document. Publishing the basis lets a page show what the claim rests
+    on rather than asserting a status the source may contradict."""
+    for record in built:
+        assert "minutes_status_basis" in record
+        assert record["minutes_status_basis"] in (
+            None, "file_name", "document_text", "watermark_noise"
+        )
+        # Basis and status agree about whether anything was determined.
+        assert (record["minutes_status"] is None) == (
+            record["minutes_status_basis"] is None
+        )
+
+
+def test_visual_draft_watermark_is_tri_state(built):
+    """True means a human opened the PDF and saw a DRAFT watermark. None
+    means NOT INSPECTED — never 'no watermark'. The watermark is not machine
+    detectable, so nothing here may be inferred from the document."""
+    observed = 0
+    for record in built:
+        assert "visual_draft_watermark" in record
+        assert record["visual_draft_watermark"] in (True, False, None)
+        if record["visual_draft_watermark"]:
+            observed += 1
+            # The point of the field: it survives alongside a status that
+            # disagrees with it, instead of one silently overriding the other.
+            assert record["minutes_status"] is not None
+    assert observed >= 2, "expected the hand-verified watermark observations"
+
+
+def test_item_titles_do_not_absorb_the_media_reference_sentence(built):
+    """The clerk writes a separate sentence pointing at the recording after
+    the item title. It is not part of the title."""
+    for record in built:
+        for item in record["items"]:
+            title = item["title"] or ""
+            lowered = title.lower().rstrip(" .,;:")
+            assert "can be viewed" not in lowered, title
+            assert "viewed/heard" not in lowered, title
+            assert "available to be" not in lowered, title
+            # …and no title left hanging on the truncated form of the clause.
+            for tail in (" at", " be", " to be", " can be", " is available"):
+                assert not lowered.endswith(tail), title
+
+
 def test_every_claim_carries_provenance(built):
     """Spec §2.7 rule 7 — and rule 1: a vote's provenance must be this
     meeting's minutes file, never anything else."""

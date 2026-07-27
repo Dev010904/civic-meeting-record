@@ -104,7 +104,7 @@
         }
       ],
       "number": "E.3",
-      "title": "Budget Workshop Presentation - Fiscal Year 2025-26 - Review, Discuss and possibly Adopt proposed Changes to Policy 7.1.0 - Budgeting and Fiscal Management, Appropriate Level of Reserves, Effective Fiscal Year Ending June 30, 2022; Policy 18.1.0 - Budgeting and Fiscal Management, Adoption of Central Service Cost Allocation Plan, Effective Fiscal Year Ending June 30, 2022; Policy 21.1.0 - Purchasing Policy for Goods and Services, Effective February 14, 2024; and Policy 21.2.0 - Purchasing Policy for Public Works Contracts - Effective February 14, 2024 (Requesting Staff M ember: Director of Finance Jessica O'Connell) Full presentation and discussion on Item E.3. Budget Workshop Policy Review and Proposed changes to Policy 7.1.0 and 18.1.0 can be"
+      "title": "Budget Workshop Presentation - Fiscal Year 2025-26 - Review, Discuss and possibly Adopt proposed Changes to Policy 7.1.0 - Budgeting and Fiscal Management, Appropriate Level of Reserves, Effective Fiscal Year Ending June 30, 2022; Policy 18.1.0 - Budgeting and Fiscal Management, Adoption of Central Service Cost Allocation Plan, Effective Fiscal Year Ending June 30, 2022; Policy 21.1.0 - Purchasing Policy for Goods and Services, Effective February 14, 2024; and Policy 21.2.0 - Purchasing Policy for Public Works Contracts - Effective February 14, 2024 (Requesting Staff M ember: Director of Finance Jessica O'Connell)"
     },
     {
       "disposition": "passed",
@@ -168,17 +168,19 @@
         }
       ],
       "number": "E.4",
-      "title": "Review, Discuss and Approval to reset the date and time for the Public Hearing(s) for the FY 2025/2026 Budget and Recreation Roll Page 100 of 295 for Friday, May 30, 2025, at 12 noon (Requesting Staff Member: Director of Finance Jessica O'Connell) Full discussion on Item E.4. to Approve to reset the date and time for Public Hearing(s) can be viewed/heard at"
+      "title": "Review, Discuss and Approval to reset the date and time for the Public Hearing(s) for the FY 2025/2026 Budget and Recreation Roll Page 100 of 295 for Friday, May 30, 2025, at 12 noon (Requesting Staff Member: Director of Finance Jessica O'Connell) Full discussion on Item E.4. to Approve to reset the date and time for Public Hearing(s)"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-05-07-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1301,
     "event_id": 687,
     "media_url": "https://cpmedia.azureedge.net/ivgid/3dc76b0c0c.mp4",
     "minutes_file_id": 1432
-  }
+  },
+  "visual_draft_watermark": null
 }

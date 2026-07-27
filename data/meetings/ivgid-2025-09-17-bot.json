@@ -224,7 +224,7 @@
         }
       ],
       "number": "E.1",
-      "title": "Approve and Authorize the Board Chair and Secretary to Sign and Execute the Collective Bargaining Agreements between Incline Village General Improvement District and the Operating Engineers Local Union No. 3, Skilled Workforce Bargaining Unit, Supervisors Bargaining Unit and the Superintendents’ Bargaining Unit, from July 1, 2025, through and including June 30, 2027. (Requesting Staff Member: District General Manager Robert Harrison) The full discussion on Item E.1. Agreements between Incline Village General Improvement District and Operating Engineers Local Union No. 3 Collective Bargaining Units can be"
+      "title": "Approve and Authorize the Board Chair and Secretary to Sign and Execute the Collective Bargaining Agreements between Incline Village General Improvement District and the Operating Engineers Local Union No. 3, Skilled Workforce Bargaining Unit, Supervisors Bargaining Unit and the Superintendents’ Bargaining Unit, from July 1, 2025, through and including June 30, 2027. (Requesting Staff Member: District General Manager Robert Harrison) The full discussion on Item E.1. Agreements between Incline Village General Improvement District and Operating Engineers Local Union No"
     },
     {
       "disposition": "passed",
@@ -423,7 +423,7 @@
         }
       ],
       "number": "I.2",
-      "title": "Review, Discuss and Possibly Reaffirm and/or Amend the Prior Approval of the Added Alternates #1: Fire Pits and #2: Band Stand, for the Incline Beach House Project, CIP #3973L1302. (Requesting Staff Member: Project Manager Bree Waters) The full discussion related to Item I.2. Beach House Alternates discussion can be viewed/"
+      "title": "Review, Discuss and Possibly Reaffirm and/or Amend the Prior Approval of the Added Alternates #1: Fire Pits and #2: Band Stand, for the Incline Beach House Project, CIP #3973L1302. (Requesting Staff Member: Project Manager Bree Waters)"
     },
     {
       "disposition": "passed",
@@ -574,7 +574,7 @@
         }
       ],
       "number": "I.4",
-      "title": "Approve and Authorize the General Manager to Sign and Execute an Agreement with the Incline Ice Foundation for the Incline Village General Improvement District to Accept a Donation of an Ice Rink Package and a Grant of $50,000+ to Support the Ice Rink Activities. (Requesting Board Member: David Noble) The full discussion related to Item I.4. Incline Ice Foundation Agreement discussion can be"
+      "title": "Approve and Authorize the General Manager to Sign and Execute an Agreement with the Incline Ice Foundation for the Incline Village General Improvement District to Accept a Donation of an Ice Rink Package and a Grant of $50,000+ to Support the Ice Rink Activities. (Requesting Board Member: David Noble)"
     },
     {
       "disposition": "passed",
@@ -637,17 +637,19 @@
         }
       ],
       "number": "J.1",
-      "title": "Review, discuss and possibly Add or Remove Long Range Calendar Items to Future Board of Trustee Agendas. The full discussion related to Item J.1. The Long Range Calendar can be viewed/ heard at"
+      "title": "Review, discuss and possibly Add or Remove Long Range Calendar Items to Future Board of Trustee Agendas"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-09-17-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1499,
     "event_id": 703,
     "media_url": "https://cpmedia.azureedge.net/ivgid/271e98e456.mp4",
     "minutes_file_id": 1540
-  }
+  },
+  "visual_draft_watermark": null
 }

@@ -168,7 +168,7 @@
         }
       ],
       "number": "E.1",
-      "title": "Review, Discuss and Approve the Amended and Restated Cooperative Agreement with North Lake Tahoe Fire Protection District for Fire Reduction (Defensible Space) Services: FY 2025/26 Fund: Community Services; Division: Administration; GL# 30364999-7560 (50% - $100,000): Fund: Utilities; Division; Water; GL#20002299-7560 (25% - $50,000): Fund: Utilities; Division; Sewer; GL#20002599-7560 (25% - $50,000), in an Amount Not to Exceed $200,000. (Requesting Staff Member: Director of Public Works Kate Nelson) Following the introduction to Item E.1. - Chair Tonking recused herself, noting a conflict of interest. The full Board discussion regarding Item E.1. to Approve the Amended Cooperative Agreement with North Lake Tahoe Fire Protection District can be viewed/ heard at"
+      "title": "Review, Discuss and Approve the Amended and Restated Cooperative Agreement with North Lake Tahoe Fire Protection District for Fire Reduction (Defensible Space) Services: FY 2025/26 Fund: Community Services; Division: Administration; GL# 30364999-7560 (50% - $100,000): Fund: Utilities; Division; Water; GL#20002299-7560 (25% - $50,000): Fund: Utilities; Division; Sewer; GL#20002599-7560 (25% - $50,000), in an Amount Not to Exceed $200,000. (Requesting Staff Member: Director of Public Works Kate Nelson) Following the introduction to Item E.1. - Chair Tonking recused herself, noting a conflict of interest"
     },
     {
       "disposition": "passed",
@@ -231,7 +231,7 @@
         }
       ],
       "number": "E.3",
-      "title": "Review, and possibly Approve the Beach (Ski, Incline and Burnt Cedar) Rates for the 2025 Season: Discussion and possible Action. (Requesting Staff Member: Director of Parks and Recreation Karen Crocker) The full Board discussion regarding Item E.3. to Approve District Beach Rates for the 2025 Season can be viewed/ heard at"
+      "title": "Review, and possibly Approve the Beach (Ski, Incline and Burnt Cedar) Rates for the 2025 Season: Discussion and possible Action. (Requesting Staff Member: Director of Parks and Recreation Karen Crocker)"
     },
     {
       "disposition": "passed",
@@ -294,17 +294,19 @@
         }
       ],
       "number": "E.4",
-      "title": "Review and Discuss Historical Financial results of District-Owned Golf Courses (Mountain, and Championship) and possibly Approve the Recommended Rates, Rate Structure and Course Operations for the 2025 Golf Season: Discussion, and Possible Action. (Requesting Staff Member: Senior Head Golf Professional Rob Bruce) The full Board discussion regarding Item E.4. to Approve District-owned Golf Courses (Mountain, and Championship) recommended rates, and rate structure and course operations for the 2025 Season can be viewed/ heard at"
+      "title": "Review and Discuss Historical Financial results of District-Owned Golf Courses (Mountain, and Championship) and possibly Approve the Recommended Rates, Rate Structure and Course Operations for the 2025 Golf Season: Discussion, and Possible Action. (Requesting Staff Member: Senior Head Golf Professional Rob Bruce) The full Board discussion regarding Item E.4. to Approve District-owned Golf Courses (Mountain, and Championship)"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-03-19-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1180,
     "event_id": 625,
     "media_url": "https://cpmedia.azureedge.net/ivgid/63fa750360.mp4",
     "minutes_file_id": 1261
-  }
+  },
+  "visual_draft_watermark": null
 }

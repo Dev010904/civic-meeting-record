@@ -137,7 +137,7 @@
         }
       ],
       "number": "G.2",
-      "title": "Approve the Revised Paragraphs in Ordinance 7 as discussed at the January 11, 2026, Board Meeting (Paragraphs 100-103) (Requesting Staff Members: Director of Administrative Services Susan Herron, and Risk Manager Curtis Trujillo) Full discussion on revised Paragraphs in Ordinance 7 is available to be viewed/ heard at"
+      "title": "Approve the Revised Paragraphs in Ordinance 7 as discussed at the January 11, 2026, Board Meeting (Paragraphs 100-103) (Requesting Staff Members: Director of Administrative Services Susan Herron, and Risk Manager Curtis Trujillo)"
     },
     {
       "disposition": "passed",
@@ -200,7 +200,7 @@
         }
       ],
       "number": "H.3",
-      "title": "Review, Discuss and Possibly Adopt Resolution Number 1922: A Resolution regarding Commercial Watercraft Launching, A Pilot Program for the 2026 Season (Requesting Staff Members: Director of Administrative Services Susan Herron and Recreation Supervisor Adia R.Van Peborgh) Discussion and Adoption of Resolution No. 1922 – A Resolution regarding Commercial Watercraft Launching, a Pilot Program for 2026 is available to be viewed/ heard at"
+      "title": "Review, Discuss and Possibly Adopt Resolution Number 1922: A Resolution regarding Commercial Watercraft Launching, A Pilot Program for the 2026 Season (Requesting Staff Members: Director of Administrative Services Susan Herron and Recreation Supervisor Adia R.Van Peborgh) Discussion and Adoption of Resolution No"
     },
     {
       "disposition": "passed",
@@ -269,11 +269,13 @@
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2026-03-25-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 2656,
     "event_id": 752,
     "media_url": "https://cpmedia.azureedge.net/ivgid/768b16b360.mp4",
     "minutes_file_id": 2718
-  }
+  },
+  "visual_draft_watermark": null
 }

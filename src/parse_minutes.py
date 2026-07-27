@@ -174,13 +174,73 @@ _URL_RE = re.compile(r"https?://", re.IGNORECASE)
 MAX_ITEM_TITLE_LINES = 12
 
 
+# After the item's title the clerk writes a separate sentence pointing at the
+# recording ("Item E.3. Board and Staff discussion can be viewed in its
+# entirety at", "Full staff report and Board discussion for Item E.1. can be
+# viewed/heard at:", "…is available to be viewed/heard at:"). Title assembly
+# already stops at the URL itself, but the sentence introducing it is not a
+# title. The invariant across every observed phrasing is the clause "be" +
+# a media verb; the rule is that one, not the phrasings.
+_MEDIA_REFERENCE_RE = re.compile(
+    r"\bbe\s+(?:viewed|heard|watched|listened)"
+    r"(?:\s*/\s*(?:viewed|heard|watched|listened))*\b",
+    re.IGNORECASE,
+)
+# The same sentence, truncated wherever title assembly stopped: with the URL
+# on the following line the title can end "… can be", "… is available to be"
+# or "… is available", the verb never reaching it. Recognised by the last
+# sentence of the title reading like a media reference rather than by
+# enumerating the points it can be cut at. "Available" needs corroboration
+# because it occurs in ordinary titles ("Capital Funds Available for …");
+# a bare trailing auxiliary never does.
+_TRUNCATED_MEDIA_RE = re.compile(
+    r"\b(?:viewed|heard|watched|listened)\b"
+    r"|\bavailable\b(?=[\s\S]*\b(?:at|to|be)\b)"
+    r"|\bavailable\s*$"
+    r"|\bbe\s*$",
+    re.IGNORECASE,
+)
+# A sentence boundary is a period or close-paren before whitespace — except
+# the period ending an item reference ("Item E.3."), which is mid-sentence.
+_SENTENCE_BOUNDARY_RE = re.compile(r"(?:(?<!\b[A-Z]\.\d)\.|\))(?=\s)")
+
+
+def _trim_media_reference(text: str) -> str:
+    """Cut a title at the sentence boundary before a media-reference clause.
+
+    The title ends where the sentence pointing at the recording begins, so
+    the whole of that sentence is dropped however it is worded.
+    """
+    boundaries = [b.end() for b in _SENTENCE_BOUNDARY_RE.finditer(text)]
+    match = _MEDIA_REFERENCE_RE.search(text)
+    if match:
+        target = match.start()
+    else:
+        # No complete clause: check whether the title's last sentence is a
+        # truncated one.
+        last = boundaries[-1] if boundaries else 0
+        if not _TRUNCATED_MEDIA_RE.search(text[last:]):
+            return text
+        target = last
+    cut = 0
+    for boundary in boundaries:
+        if boundary <= target:
+            cut = boundary
+    trimmed = text[:cut].strip() if cut else text[:target].strip()
+    # Never trade a real title for an empty one.
+    return trimmed or text
+
+
 def _clean_title(text: str) -> str:
     """Normalise a heading into a title: drop the "(For possible Action)"
-    annotation, squeeze whitespace, rejoin wrap-hyphenated words and strip
-    separator debris. Words, punctuation and case are otherwise untouched."""
+    annotation, cut any trailing media-reference sentence, squeeze
+    whitespace, rejoin wrap-hyphenated words and strip separator debris.
+    Words, punctuation and case are otherwise untouched."""
     text = _ACTION_MARKER_RE.sub(" ", text)
     text = re.sub(r"\s+", " ", text)
     text = _fix_wrap_hyphens(text)
+    text = _trim_media_reference(text)
+    text = re.sub(r"\s+([,;:.])", r"\1", text)  # excising the marker leaves " ."
     return text.strip(" -–—.,;:")
 
 
@@ -368,6 +428,12 @@ class ParsedMinutes:
     # draft. "draft" | "approved" | None (undetermined — treat as draft
     # downstream rather than assuming approval).
     minutes_status: Optional[str] = None
+    # Which signal produced ``minutes_status``: "file_name" (the clerk's own
+    # naming, uncorroborated by the document), "document_text" (an extracted
+    # DRAFT line), "watermark_noise" (the vertical watermark leaking as
+    # single-letter noise), or None when undetermined. Published so a page
+    # can show what the status claim rests on.
+    minutes_status_basis: Optional[str] = None
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -659,6 +725,7 @@ def _parse_motion_block(
     intro: Optional[str] = None,
     intro_word: Optional[str] = None,
     item: tuple[Optional[str], Optional[str]] = (None, None),
+    prefix: Optional[str] = None,
 ) -> Motion:
     """Parse one fully reassembled motion block. The block must already span
     all its lines (across page breaks) — votes are never parsed from a
@@ -708,6 +775,10 @@ def _parse_motion_block(
     seg_lines = [bl.text for bl in block[:seg_end]]
     if seg_lines:
         seg_lines = [_strip_block_label(seg_lines[0], label), *seg_lines[1:]]
+        if prefix:
+            # The introducing phrase began mid-sentence; restore its subject
+            # so the motion text does not open with a bare predicate.
+            seg_lines[0] = f"{prefix} {seg_lines[0].lstrip()}"
     # Join with known offsets so per-line matches map to segment positions.
     offsets: list[int] = []
     pos = 0
@@ -887,9 +958,17 @@ def _minutes_status(
     minutes_name: Optional[str],
     pages: list[pdftext.Page],
     noise_letters: list[str],
-) -> Optional[str]:
-    """Draft/approved status (spec §2.7 rule 2), from the clerk's own file
-    name when available, else from the document itself.
+) -> tuple[Optional[str], Optional[str]]:
+    """Draft/approved status (spec §2.7 rule 2) and the signal it came from,
+    as ``(status, basis)``.
+
+    The basis matters as much as the status. A status read from the clerk's
+    file name is uncorroborated by the document itself, and files 1341 and
+    1342 show why that is worth publishing: both are named as approved while
+    the page carries a visible DRAFT watermark that leaves no extractable
+    text and no distinguishing image or vector content. Recording the basis
+    lets a page show the reader what the claim rests on instead of asserting
+    a status the source appears to contradict.
 
     Document signals for draft: a standalone uppercase DRAFT (or spaced
     D R A F T) line — the watermark, when it extracts as text — or the
@@ -900,21 +979,41 @@ def _minutes_status(
     if minutes_name:
         name = minutes_name.lower()
         if "draft" in name:
-            return "draft"
+            return "draft", "file_name"
         if "approved" in name:
-            return "approved"
+            return "approved", "file_name"
     for page in pages:
         for line in page.text.split("\n"):
             if re.fullmatch(r"\s*D\s*R\s*A\s*F\s*T\s*", line):
-                return "draft"
+                return "draft", "document_text"
     if {"d", "r", "a", "f", "t"} <= {c.lower() for c in noise_letters}:
-        return "draft"
-    return None
+        return "draft", "watermark_noise"
+    return None, None
+
+
+def _subject_prefix(scan: list[_BodyLine], idx: int, match_start: int) -> Optional[str]:
+    """The sentence subject preceding a predicate-shaped introducer.
+
+    "Chair Tonking called for a vote …" wraps so that the line the phrase was
+    matched on begins mid-sentence, leaving the subject at the end of the
+    line above. When nothing precedes the phrase on its own line, the tail of
+    the previous line after its last sentence boundary is returned — but only
+    when that tail is a short capitalised fragment, which is what a subject
+    looks like. Anything longer is prose and is left alone.
+    """
+    if scan[idx].text[:match_start].strip():
+        return None
+    if idx == 0:
+        return None
+    tail = re.split(r"(?<=[.;!?])\s", scan[idx - 1].text)[-1].strip()
+    if not tail or len(tail) > 60 or not tail[:1].isupper():
+        return None
+    return tail
 
 
 def _find_introducer(
     scan: list[_BodyLine], yeas_idx: int, consumed: set[int]
-) -> tuple[int, str, Optional[str]]:
+) -> tuple[int, str, Optional[str], Optional[str]]:
     """Walk back from an orphan YEAS line to the line that introduced the
     decision block: either an arbitrary labelled introducer ("QUESTION: All
     in favor of …") or a narrative motion ("Trustee X made a motion to …").
@@ -936,16 +1035,23 @@ def _find_introducer(
         ):
             break
         if _NARRATIVE_RE.search(text):
-            return idx, "narrative", None
-        if re.search(r"called\s+for\s+a\s+vote", text, re.IGNORECASE):
+            return idx, "narrative", None, None
+        called = re.search(r"called\s+for\s+a\s+vote", text, re.IGNORECASE)
+        if called:
             # Chair-called votes ("Chair Tonking called for a vote on the
             # request to remove this item") — recurring clerk phrasing for
-            # votes with no formal motion.
-            return idx, "variant", "CALLED FOR A VOTE"
+            # votes with no formal motion. Unlike a label, this phrase is a
+            # predicate, so the subject can sit on the line above it.
+            return (
+                idx,
+                "variant",
+                "CALLED FOR A VOTE",
+                _subject_prefix(scan, idx, called.start()),
+            )
         match = _INTRODUCER_RE.match(text)
         if match and match.group(1).strip().upper() not in _NON_INTRODUCER_WORDS:
-            return idx, "variant", match.group(1).strip()
-    return yeas_idx, "variant", None
+            return idx, "variant", match.group(1).strip(), None
+    return yeas_idx, "variant", None, None
 
 
 def parse_minutes(
@@ -1034,7 +1140,7 @@ def parse_minutes(
     for k, bl in enumerate(scan):
         if k in consumed or not _dekern(bl.text).startswith("YEAS"):
             continue
-        start, intro, intro_word = _find_introducer(scan, k, consumed)
+        start, intro, intro_word, prefix = _find_introducer(scan, k, consumed)
         block = [scan[start]]
         j = start + 1
         while j < len(scan) and len(block) < MAX_MOTION_BLOCK_LINES:
@@ -1054,6 +1160,7 @@ def parse_minutes(
                     intro=intro,
                     intro_word=intro_word,
                     item=item_at(scan[start]),
+                    prefix=prefix,
                 ),
             )
         )
@@ -1061,13 +1168,15 @@ def parse_minutes(
     entries.sort(key=lambda e: e[0])
     motions = [m for _, m in entries]
 
+    status, basis = _minutes_status(minutes_name, parseable, noise_letters)
     parsed = ParsedMinutes(
         motions=motions,
         media_timestamps=media,
         public_comments=comments,
         unparseable_pages=unparseable,
         flags=doc_flags,
-        minutes_status=_minutes_status(minutes_name, parseable, noise_letters),
+        minutes_status=status,
+        minutes_status_basis=basis,
     )
     validate(parsed)
     return parsed

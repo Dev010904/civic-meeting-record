@@ -48,7 +48,7 @@
         }
       ],
       "number": "F.1",
-      "title": "Approval of the IVGID Board of Trustees Meeting Minutes for January 8, 2025 . (Requesting Staff Member: District Clerk Heidi White) Trustee Dave Noble made a motion to Approve the Board Meeting Minutes for January 8, 2025, without exception. Chair Tonking asked if there was a second for the motion, or discussion. Trustee Michelle Jezycki provided a brief acknowledgment, stating that pages 4 - 122 of the Board Packet reiterates the same concern discussed at the last Board Meeting in looking at ways to be more efficient. She noted that AI can create summaries and pointed to the cost per page in the minutes"
+      "title": "Approval of the IVGID Board of Trustees Meeting Minutes for January 8, 2025. (Requesting Staff Member: District Clerk Heidi White) Trustee Dave Noble made a motion to Approve the Board Meeting Minutes for January 8, 2025, without exception. Chair Tonking asked if there was a second for the motion, or discussion. Trustee Michelle Jezycki provided a brief acknowledgment, stating that pages 4 - 122 of the Board Packet reiterates the same concern discussed at the last Board Meeting in looking at ways to be more efficient. She noted that AI can create summaries and pointed to the cost per page in the minutes"
     },
     {
       "disposition": "passed",
@@ -93,7 +93,7 @@
         }
       ],
       "number": "G.1",
-      "title": "Review, Discuss and Possibly Approve the Employment Contract with Robert W. Harrison to Serve as District General Manager (GM) . (Requesting Staff Member: Director of Human Resources Erin Feore) Director of Human Resources Erin Feore began with a brief summary of her memorandum regarding the District General Manager Employment Contract as it relates to the changes to the agreement that were negotiated with Mr. Harrison and opened the floor to Board questions and discussion. Trustee Michelle Jezycki provided her feedback related to the negotiation of the employment agreement with Mr. Harrison. She noted the initial contract terms as it relates to severance pay would not be added to the terms until July 1, 2025, allowing the Board time to work with Mr. Harrison, and Mr. Harrison time to kick the tires on the"
+      "title": "Review, Discuss and Possibly Approve the Employment Contract with Robert W. Harrison to Serve as District General Manager (GM). (Requesting Staff Member: Director of Human Resources Erin Feore) Director of Human Resources Erin Feore began with a brief summary of her memorandum regarding the District General Manager Employment Contract as it relates to the changes to the agreement that were negotiated with Mr. Harrison and opened the floor to Board questions and discussion. Trustee Michelle Jezycki provided her feedback related to the negotiation of the employment agreement with Mr. Harrison. She noted the initial contract terms as it relates to severance pay would not be added to the terms until July 1, 2025, allowing the Board time to work with Mr. Harrison, and Mr. Harrison time to kick the tires on the"
     },
     {
       "disposition": "passed",
@@ -137,7 +137,7 @@
         }
       ],
       "number": "G.2",
-      "title": "Review, Discuss and Possibly Approve the Request for Qualifications document for a Needs Assessment including Diamond Peak's Snowflake Lodge facility . (Requesting Staff Member: (Acting General Manager and General Manager of Diamond Peak Ski Resort Mike Bandelin) Acting General Manager and General Manager (GM) of Diamond Peak Ski Resort Mike Bandelin opened the discussion by providing an overview of the staff report and background on the Request for Qualifications (RFQ) document related to Needs Assessment, including key components for Diamond Peak's Snowflake Lodge facility. GM Bandelin opened the floor for questions and Board discussion. Trustee Noble made a motion to approve the Request for Qualifications (RFQ) document to perform a Needs Assessment of Diamond Peak's Snowflake Lodge Facility"
+      "title": "Review, Discuss and Possibly Approve the Request for Qualifications document for a Needs Assessment including Diamond Peak's Snowflake Lodge facility. (Requesting Staff Member: (Acting General Manager and General Manager of Diamond Peak Ski Resort Mike Bandelin) Acting General Manager and General Manager (GM) of Diamond Peak Ski Resort Mike Bandelin opened the discussion by providing an overview of the staff report and background on the Request for Qualifications (RFQ) document related to Needs Assessment, including key components for Diamond Peak's Snowflake Lodge facility. GM Bandelin opened the floor for questions and Board discussion. Trustee Noble made a motion to approve the Request for Qualifications (RFQ) document to perform a Needs Assessment of Diamond Peak's Snowflake Lodge Facility"
     },
     {
       "disposition": "passed",
@@ -181,17 +181,19 @@
         }
       ],
       "number": "G.3",
-      "title": "Open Discussion and Possible Direction on Proceeding with (a) a Request for Qualifications for District General Counsel Services and/or (b) Proceed with a Professional Recruitment of a District General Counsel (in house) . (Requesting Staff Member: Acting General Manager Mike Bandelin and Director of Administrative Services Susan Herron) Director of Administrative Services Susan Herron provided an introduction and recommendation to move forward with Professional Recruitment of an In-House District General Counsel and/ or direction for staff to proceed with the RFQ for District General Counsel Services Trustee Tulloch asked who the District General Counsel would be reporting to and stated that the Board of Trustees and Staff should have separate attorneys. Trustee Noble disagreed with fellow Trustee Tulloch's comments as they related to the"
+      "title": "Open Discussion and Possible Direction on Proceeding with (a) a Request for Qualifications for District General Counsel Services and/or (b) Proceed with a Professional Recruitment of a District General Counsel (in house). (Requesting Staff Member: Acting General Manager Mike Bandelin and Director of Administrative Services Susan Herron) Director of Administrative Services Susan Herron provided an introduction and recommendation to move forward with Professional Recruitment of an In-House District General Counsel and/ or direction for staff to proceed with the RFQ for District General Counsel Services Trustee Tulloch asked who the District General Counsel would be reporting to and stated that the Board of Trustees and Staff should have separate attorneys. Trustee Noble disagreed with fellow Trustee Tulloch's comments as they related to the"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-01-29-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1089,
     "event_id": 549,
     "media_url": "https://cpmedia.azureedge.net/ivgid/ef06ef2488.mp4",
     "minutes_file_id": 1140
-  }
+  },
+  "visual_draft_watermark": null
 }

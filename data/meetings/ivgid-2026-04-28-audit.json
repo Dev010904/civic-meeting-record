@@ -201,11 +201,13 @@
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2026-04-28-audit",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 2700,
     "event_id": 730,
     "media_url": "https://cpmedia.azureedge.net/ivgid/5e463a8393.mp4",
     "minutes_file_id": 2806
-  }
+  },
+  "visual_draft_watermark": null
 }

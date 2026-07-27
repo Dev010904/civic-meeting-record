@@ -181,7 +181,7 @@
         }
       ],
       "number": "F.1",
-      "title": "Review, Discuss and Approve the Update to the Water Management Plan and the Purchase of 8.81 ac-ft of IVGID Water Rights for $140,960 by Incline Hotel LLC; for possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson) The full staff report and Board discussion for Item F.1. can be viewed/heard"
+      "title": "Review, Discuss and Approve the Update to the Water Management Plan and the Purchase of 8.81 ac-ft of IVGID Water Rights for $140,960 by Incline Hotel LLC; for possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson)"
     },
     {
       "disposition": "passed",
@@ -244,7 +244,7 @@
         }
       ],
       "number": "F.2",
-      "title": "Set the date and time for Public Hearing for the FY2025/2026 Budget and Recreation Roll for Wednesday, May 21, 2025, at 5:00 p.m. or as determined by the Board of Trustees (Requesting Staff M ember: Director of Finance Jessica O'Connell) The full discussion and background related to Item F.2. can be viewed/heard"
+      "title": "Set the date and time for Public Hearing for the FY2025/2026 Budget and Recreation Roll for Wednesday, May 21, 2025, at 5:00 p.m. or as determined by the Board of Trustees (Requesting Staff M ember: Director of Finance Jessica O'Connell)"
     },
     {
       "disposition": "passed",
@@ -331,17 +331,19 @@
         }
       ],
       "number": "F.4",
-      "title": "Review, Discuss, and Possibly Provide Budgetary Feedback on the rebuilding of Capstone at a value of up to $400,000 (Ordinance 7 Database). (Requesting Staff Members: Director of Admin. Services Susan Herron and Director of Information Technology M ike Gove) Director of Administrative Services Susan Herron and Director of Information Technology Mike Gove provided a brief overview of the Budgetary Feedback and what District staff are requesting on the rebuilding of Capstone. The full Staff report and Board discussion for Item F.4. can be viewed/heard"
+      "title": "Review, Discuss, and Possibly Provide Budgetary Feedback on the rebuilding of Capstone at a value of up to $400,000 (Ordinance 7 Database). (Requesting Staff Members: Director of Admin. Services Susan Herron and Director of Information Technology M ike Gove) Director of Administrative Services Susan Herron and Director of Information Technology Mike Gove provided a brief overview of the Budgetary Feedback and what District staff are requesting on the rebuilding of Capstone"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-03-26-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1208,
     "event_id": 371,
     "media_url": "https://cpmedia.azureedge.net/ivgid/a958831ebc.mp4",
     "minutes_file_id": 1343
-  }
+  },
+  "visual_draft_watermark": null
 }

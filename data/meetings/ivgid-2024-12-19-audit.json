@@ -134,11 +134,13 @@
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2024-12-19-audit",
   "minutes_status": null,
+  "minutes_status_basis": null,
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1038,
     "event_id": 501,
     "media_url": "https://cpmedia.azureedge.net/ivgid/1fba9926ca.mp4",
     "minutes_file_id": 1051
-  }
+  },
+  "visual_draft_watermark": null
 }

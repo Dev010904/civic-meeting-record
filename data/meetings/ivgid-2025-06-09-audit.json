@@ -265,11 +265,13 @@
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-06-09-audit",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1382,
     "event_id": 647,
     "media_url": "https://cpmedia.azureedge.net/ivgid/d048b2f8e8.mp4",
     "minutes_file_id": 1527
-  }
+  },
+  "visual_draft_watermark": null
 }

@@ -222,17 +222,19 @@
         }
       ],
       "number": "F.3",
-      "title": "In accordance with NRS 241.0395(1), Receive a Report Acknowledging the Attorney General's February 5, 2026, Findings of Fact and Conclusions of Law regarding Open Meeting Law Complaint Filed by Mr. Aaron Katz (OAG File No.: 13897-530). Note: Pursuant to NRS 241.0395(2), an acknowledgment of an Attorney General’s findings of fact and conclusions of law is not an admission of wrongdoing for the purposes of a civil action, criminal prosecution, or injunctive relief. (Requesting Staff Member: District Legal Counsel David Rigdon, Esq.) - pages 127 - 137 The full discussion related to the Report of the Attorney General's findings of fact and conclusions of law related to Mr. Katz's Open Meeting Law (OML) complaint is available to"
+      "title": "In accordance with NRS 241.0395(1), Receive a Report Acknowledging the Attorney General's February 5, 2026, Findings of Fact and Conclusions of Law regarding Open Meeting Law Complaint Filed by Mr. Aaron Katz (OAG File No.: 13897-530). Note: Pursuant to NRS 241.0395(2), an acknowledgment of an Attorney General’s findings of fact and conclusions of law is not an admission of wrongdoing for the purposes of a civil action, criminal prosecution, or injunctive relief. (Requesting Staff Member: District Legal Counsel David Rigdon, Esq.) - pages 127 - 137 The full discussion related to the Report of the Attorney General's findings of fact and conclusions of law related to Mr. Katz's Open Meeting Law (OML)"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2026-02-25-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1624,
     "event_id": 750,
     "media_url": "https://cpmedia.azureedge.net/ivgid/81650c56c4.mp4",
     "minutes_file_id": 2649
-  }
+  },
+  "visual_draft_watermark": null
 }

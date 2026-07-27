@@ -39,6 +39,9 @@ MEETINGS_DIR = DATA_DIR / "meetings"
 CACHE_DIR = REPO_ROOT / "cache"
 SLUG = "ivgid"
 BEFORE_DATE = "2026-07-26"
+# Hand-verified observations about source PDFs that cannot be extracted from
+# them (currently: visible DRAFT watermarks that leave no text layer).
+OBSERVATIONS = REPO_ROOT / "benchmark" / "source-observations.json"
 
 
 def assemble(slug: str, before_date: str) -> list[dict[str, Any]]:
@@ -71,6 +74,13 @@ def assemble(slug: str, before_date: str) -> list[dict[str, Any]]:
 
 def main() -> None:
     docs = assemble(SLUG, BEFORE_DATE)
+    observed: dict[int, dict[str, Any]] = {}
+    if OBSERVATIONS.exists():
+        observed = {
+            int(k): v
+            for k, v in json.loads(OBSERVATIONS.read_text(encoding="utf-8")).items()
+            if k.isdigit()
+        }
 
     in_scope: list[dict[str, Any]] = []
     skipped: list[dict[str, Any]] = []
@@ -122,6 +132,9 @@ def main() -> None:
             agenda_file_id=doc["agenda_file_id"],
             media_url=doc["media_url"],
             disambiguate=bases[base] > 1,
+            visual_draft_watermark=observed.get(file_id, {}).get(
+                "visual_draft_watermark"
+            ),
         )
 
         violations = records.validate_record(record)

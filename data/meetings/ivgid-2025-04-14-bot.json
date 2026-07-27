@@ -86,7 +86,7 @@
             "aye": 1,
             "nay": 4
           },
-          "text": "called for a vote on the request to remove this item from the agenda.",
+          "text": "Chair Tonking called for a vote on the request to remove this item from the agenda.",
           "yeas": [
             "Trustee Tulloch"
           ]
@@ -157,17 +157,19 @@
         }
       ],
       "number": "E.1",
-      "title": "Review, Discuss and Approve Additional Play Pass Options along with season Pass Sales Incentives and Rate Adjustment to the Pricing of the PM Season Pass. (Requesting Staff Member: Senior Head Golf Professional Rob Bruce) Full staff report and Board discussion for Item E.1. can be viewed/heard at"
+      "title": "Review, Discuss and Approve Additional Play Pass Options along with season Pass Sales Incentives and Rate Adjustment to the Pricing of the PM Season Pass. (Requesting Staff Member: Senior Head Golf Professional Rob Bruce)"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-04-14-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1250,
     "event_id": 659,
     "media_url": "https://cpmedia.azureedge.net/ivgid/460bc674e2.mp4",
     "minutes_file_id": 1342
-  }
+  },
+  "visual_draft_watermark": true
 }

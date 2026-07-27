@@ -170,7 +170,7 @@
         }
       ],
       "number": "G.1",
-      "title": "Review and Acknowledge Receipt of the Incline Village General Improvement District’s Draft Audited Financial Statements, Auditor's report, and report on internal control for the fiscal year ended June 30, 2024, as presented; and, authorize the Director of Finance to proceed with Distribution of the District’s Annual Comprehensive Financial Report (ACFR), once produced, for public record, as required by law. (Requesting Staff Member: Director of Finance Jessica O'Connell, and Jennifer Farr with Davis Farr LLP - Certified Public Accountants) Item G.1. The Districts Draft Audited Financial Statements presentation and discussion can be viewed/heard at"
+      "title": "Review and Acknowledge Receipt of the Incline Village General Improvement District’s Draft Audited Financial Statements, Auditor's report, and report on internal control for the fiscal year ended June 30, 2024, as presented; and, authorize the Director of Finance to proceed with Distribution of the District’s Annual Comprehensive Financial Report (ACFR), once produced, for public record, as required by law. (Requesting Staff Member: Director of Finance Jessica O'Connell, and Jennifer Farr with Davis Farr LLP - Certified Public Accountants)"
     },
     {
       "disposition": "passed",
@@ -261,7 +261,7 @@
         }
       ],
       "number": "G.2",
-      "title": "Interview of Firms who submitted Legal Counsel Services responses to the District’s Request for Proposal and authorize Staff to move forward with preparing a contract for legal counsel services for the District effective July 1, 2025. (Requesting Staff Member: Director of Administrative Services Susan Herron) Item G.2. Interviews with law firms for the Districts' Legal Counsel Service needs can be"
+      "title": "Interview of Firms who submitted Legal Counsel Services responses to the District’s Request for Proposal and authorize Staff to move forward with preparing a contract for legal counsel services for the District effective July 1, 2025. (Requesting Staff Member: Director of Administrative Services Susan Herron)"
     },
     {
       "disposition": "passed",
@@ -325,7 +325,7 @@
         }
       ],
       "number": "G.3",
-      "title": "Review, Discuss, and Approve the Employee Pass Program for Beach Access; Review, Discuss, and Approve Any Applicable Fees; Direct Staff to Send Correspondence to Property Owners to Determine Whether Any Property Owners Elect to Designate Staff (and Their Dependents) As Their Guests for Beach Access; Direct Staff to Monitor Daily Beach Visits and P rovide Weekly Reports. (Requesting Board Member: Trustee Dave Noble) Item G.3. Employee Pass Program for Beach Access can be viewed/heard"
+      "title": "Review, Discuss, and Approve the Employee Pass Program for Beach Access; Review, Discuss, and Approve Any Applicable Fees; Direct Staff to Send Correspondence to Property Owners to Determine Whether Any Property Owners Elect to Designate Staff (and Their Dependents) As Their Guests for Beach Access; Direct Staff to Monitor Daily Beach Visits and P rovide Weekly Reports. (Requesting Board Member: Trustee Dave Noble)"
     },
     {
       "disposition": "passed",
@@ -429,7 +429,7 @@
         }
       ],
       "number": "G.4",
-      "title": "Review, Discuss and Possibly Approve an Agreement with The Abbi Agency for District Media Buying Services. (Requesting Staff Member: Marketing & Communications Manager Paul Raymore) Item G.4. Abbi Agency District Media Buying Services Agreement can be viewed/heard"
+      "title": "Review, Discuss and Possibly Approve an Agreement with The Abbi Agency for District Media Buying Services. (Requesting Staff Member: Marketing & Communications Manager Paul Raymore)"
     },
     {
       "disposition": "passed",
@@ -492,7 +492,7 @@
         }
       ],
       "number": "G.5",
-      "title": "Review, Discuss and Approve a change to Policy Resolution 137 - Public Records (Requesting Staff Member: District General Counsel Sergio Rudin) Item G.5. Changes to Policy Procedure 137 - Resolution No. 1918 can be viewed/heard"
+      "title": "Review, Discuss and Approve a change to Policy Resolution 137 - Public Records (Requesting Staff Member: District General Counsel Sergio Rudin) Item G.5. Changes to Policy Procedure 137 - Resolution No"
     },
     {
       "disposition": "passed",
@@ -556,7 +556,7 @@
         }
       ],
       "number": "G.6",
-      "title": "Adopt Resolution No. 1919 - A Resolution to Codify the Value of a Recreation Punch Card and the Cost of an Additional Recreation Pass and/or Punch Card as determined at the May 30, 2025, Board of Trustees meeting. (Requesting Staff Member: Director of Administrative Services Susan Herron) Item G.6. Resolution No. 1919 - Codifying the Value of a Recreation Punch Card and the Cost of an additional Recreation Pass and/or Punch Card can be viewed/heard at"
+      "title": "Adopt Resolution No. 1919 - A Resolution to Codify the Value of a Recreation Punch Card and the Cost of an Additional Recreation Pass and/or Punch Card as determined at the May 30, 2025, Board of Trustees meeting. (Requesting Staff Member: Director of Administrative Services Susan Herron) Item G.6. Resolution No"
     },
     {
       "disposition": "passed",
@@ -619,17 +619,19 @@
         }
       ],
       "number": "G.7",
-      "title": "Review, Discuss and possibly Adopt Resolution 1913 – A Resolution that Temporarily Revises Ordinance 7, paragraph 106. Administration – Effective Date June 12, 2025, End Date December 31, 2025. (Requesting Staff Member: Director of Administrative Services Susan Herron) Item G.7. Resolution No. 1913 - Temporarily revising Ordinance 7, can be viewed/heard"
+      "title": "Review, Discuss and possibly Adopt Resolution 1913 – A Resolution that Temporarily Revises Ordinance 7, paragraph 106. Administration – Effective Date June 12, 2025, End Date December 31, 2025. (Requesting Staff Member: Director of Administrative Services Susan Herron) Item G.7. Resolution No"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-06-11-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1394,
     "event_id": 578,
     "media_url": "https://cpmedia.azureedge.net/ivgid/f684378f79.mp4",
     "minutes_file_id": 1465
-  }
+  },
+  "visual_draft_watermark": null
 }

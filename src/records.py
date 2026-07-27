@@ -452,6 +452,7 @@ def build_record(
     agenda_file_id: Optional[int] = None,
     media_url: Optional[str] = None,
     disambiguate: bool = False,
+    visual_draft_watermark: Optional[bool] = None,
 ) -> dict[str, Any]:
     """Assemble one spec §2.4 meeting record as a plain JSON-ready dict.
 
@@ -521,6 +522,18 @@ def build_record(
         # not positively identified as approved is treated as draft
         # downstream. None means undetermined, never "approved".
         "minutes_status": parsed.minutes_status,
+        # What the status claim rests on: "file_name" is the clerk's own
+        # naming and is uncorroborated by the document itself.
+        "minutes_status_basis": parsed.minutes_status_basis,
+        # A human opened the PDF and saw a DRAFT watermark. Not machine
+        # detectable — it leaves no extractable text and no distinguishing
+        # image or vector content — so this is a hand-verified observation
+        # from benchmark/source-observations.json. True means observed;
+        # None means NOT INSPECTED, never "no watermark". Published beside
+        # minutes_status so a page can surface the discrepancy rather than
+        # silently resolving it: a reader following the source link may see
+        # DRAFT on a document this record calls approved.
+        "visual_draft_watermark": visual_draft_watermark,
         "source": {
             "event_id": event_id,
             "agenda_file_id": agenda_file_id,

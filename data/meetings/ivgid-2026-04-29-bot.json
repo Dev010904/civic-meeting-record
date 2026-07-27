@@ -73,7 +73,7 @@
         }
       ],
       "number": "H.1",
-      "title": "Adopt a Proclamation Recognizing and Thanking Steven Phillips for his Service to the District. Item H.1. Proclamation Recognizing and Thanking Steven Phillips for his service and dedication to Incline Village General Improvement District is available to be viewed/heard at"
+      "title": "Adopt a Proclamation Recognizing and Thanking Steven Phillips for his Service to the District"
     },
     {
       "disposition": "passed",
@@ -136,7 +136,7 @@
         }
       ],
       "number": "H.2",
-      "title": "Adopt a Proclamation Recognizing and Thanking Alfonso Gutierrez for his Service to the District. Item H.2. Proclamation Recognizing and Thanking Alfonzo Gutierrez for his service and dedication to Incline Village General Improvement District is available to be viewed/heard at"
+      "title": "Adopt a Proclamation Recognizing and Thanking Alfonso Gutierrez for his Service to the District"
     },
     {
       "disposition": "passed",
@@ -263,7 +263,7 @@
         }
       ],
       "number": "H.3",
-      "title": "First Reading of Ordinance 7 and Set the Time and Date of the Public Hearing for 4:00 p.m. on Wednesday, May 13, 2026. (Requesting Staff Member: Director of Administrative Services Susan Herron) Discussion on Item H.3. First Reading of Ordinance 7, and setting the Time and Date of the Public Hearing is available to be viewed/heard at"
+      "title": "First Reading of Ordinance 7 and Set the Time and Date of the Public Hearing for 4:00 p.m. on Wednesday, May 13, 2026. (Requesting Staff Member: Director of Administrative Services Susan Herron)"
     },
     {
       "disposition": "passed",
@@ -368,7 +368,7 @@
         }
       ],
       "number": "H.5",
-      "title": "Review, Discuss and Possibly Approve the addition of a District Sports Field Rental Product for Youth Non-Profit at a Rate of $30 per hour for Residents and $38 for Non-Residents. (Requesting Staff Member: Director of Community Services Mike Bandelin) The Full discussion on Item H.5. regarding the additional District Sports Field Rental Product for Youth Non-Profit is available to be viewed/heard at"
+      "title": "Review, Discuss and Possibly Approve the addition of a District Sports Field Rental Product for Youth Non-Profit at a Rate of $30 per hour for Residents and $38 for Non-Residents. (Requesting Staff Member: Director of Community Services Mike Bandelin)"
     },
     {
       "disposition": "passed",
@@ -414,7 +414,7 @@
         }
       ],
       "number": "H.7",
-      "title": "Review, Discuss and Accept the Five-Year Capital Plan. (Requesting Staff Members: District Project Manager Bree Waters and Director of Finance Noemi Barter) Following a 5-minute break, the Board reconvened to consider Item H.6, previously Item H.7. The full discussion on Item H.6, a review to accept the 5-year capital plan, is available to be"
+      "title": "Review, Discuss and Accept the Five-Year Capital Plan. (Requesting Staff Members: District Project Manager Bree Waters and Director of Finance Noemi Barter)"
     },
     {
       "disposition": "passed",
@@ -514,7 +514,7 @@
         }
       ],
       "number": "H.8",
-      "title": "Review, Discuss, and Accept the Facility Fee, and Punch Card Values for Fiscal Year 2027. (Requesting Staff Member: Director of Finance Noemi Barter) Item H.8. discussion and approval of the Facility Fee and Punch Card values is available to"
+      "title": "Review, Discuss, and Accept the Facility Fee, and Punch Card Values for Fiscal Year 2027. (Requesting Staff Member: Director of Finance Noemi Barter)"
     },
     {
       "disposition": "passed",
@@ -559,7 +559,7 @@
         }
       ],
       "number": "H.10",
-      "title": "Review and Approve the Business Impact Statement Related to Proposed Amendments to the Water and Wastewater Rate Schedules in Compliance with Nevada Revised Statutes (NRS) 237.080. (Requesting Staff Member: Director of Public Works Kate Nelson) Item H.9. Formerly H.10. Discussion and approval of the Business Impact Statement related to proposed amendments to the water and wastewater Rate Schedules is available to be"
+      "title": "Review and Approve the Business Impact Statement Related to Proposed Amendments to the Water and Wastewater Rate Schedules in Compliance with Nevada Revised Statutes (NRS) 237.080. (Requesting Staff Member: Director of Public Works Kate Nelson) Item H.9. Formerly H.10"
     },
     {
       "disposition": "passed",
@@ -640,7 +640,7 @@
         }
       ],
       "number": "H.11",
-      "title": "Approve and authorize the Board Chair and Board Secretary to Sign and Execute a Construction Manager At Risk (CMAR) Agreement between Incline Village General Improvement District and Advanced Companies, Inc. for the Championship Course Cart Path Reconstruction GMP1 Project; FY2025/26 Community Services; Championship Golf; CIP #3141LI1202; in the Amount of $2,230,662.28; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson) Item H.10. Formerly Item H.11. Discussion and approval of a CMAR construction agreement between Incline Village General Improvement District and Advanced Companies, Inc for Champion Golf Cart Path Reconstruction GMP 1 Project is available to be viewed/heard"
+      "title": "Approve and authorize the Board Chair and Board Secretary to Sign and Execute a Construction Manager At Risk (CMAR) Agreement between Incline Village General Improvement District and Advanced Companies, Inc. for the Championship Course Cart Path Reconstruction GMP1 Project; FY2025/26 Community Services; Championship Golf; CIP #3141LI1202; in the Amount of $2,230,662.28; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson) Item H.10. Formerly Item H.11"
     },
     {
       "disposition": "passed",
@@ -710,11 +710,13 @@
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2026-04-29-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 2708,
     "event_id": 751,
     "media_url": "https://cpmedia.azureedge.net/ivgid/ca5e6a1c16.mp4",
     "minutes_file_id": 2778
-  }
+  },
+  "visual_draft_watermark": null
 }

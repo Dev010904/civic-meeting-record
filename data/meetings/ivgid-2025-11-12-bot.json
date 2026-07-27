@@ -138,7 +138,7 @@
         }
       ],
       "number": "H.1",
-      "title": "Approve and Authorize the District General Manager to Sign and Execute a Grant Agreement between Incline Village General Improvement District and Michael Gross Family Charitable Fund for the Installation of a Memorial Plaza at the Village Green. (Requesting Staff Member: District General Manager Robert Harrison) The Discussion and Approval of the Grant Agreement for the Installation of a Memorial Plaza at the Village Green is available to be viewed or heard at"
+      "title": "Approve and Authorize the District General Manager to Sign and Execute a Grant Agreement between Incline Village General Improvement District and Michael Gross Family Charitable Fund for the Installation of a Memorial Plaza at the Village Green. (Requesting Staff Member: District General Manager Robert Harrison)"
     },
     {
       "disposition": "passed",
@@ -201,7 +201,7 @@
         }
       ],
       "number": "H.2",
-      "title": "Review, Discuss and possibly Approve Super Senior Rate(s) at the Recreation Center. (Requesting Staff Member: District General Manager Robert Harrison) The Discussion and Approval of the Super Senior Rate at the Recreation Center is available"
+      "title": "Review, Discuss and possibly Approve Super Senior Rate(s) at the Recreation Center. (Requesting Staff Member: District General Manager Robert Harrison)"
     },
     {
       "disposition": "passed",
@@ -265,7 +265,7 @@
         }
       ],
       "number": "H.3",
-      "title": "Revision to Policy 18.1.0 Adoption of Central Service Cost Allocation Plan, Budgeting and Fiscal Management. (Requesting Staff Member: Director of Finance Jessica O'Connell) The Discussion and Adoption of Revised Policy 18.1.0 is available to be viewed or heard at"
+      "title": "Revision to Policy 18.1.0 Adoption of Central Service Cost Allocation Plan, Budgeting and Fiscal Management. (Requesting Staff Member: Director of Finance Jessica O'Connell)"
     },
     {
       "disposition": "passed",
@@ -361,7 +361,7 @@
         }
       ],
       "number": "H.4",
-      "title": "Review, Discuss and Possibly Approve the Agreement between Incline Village General Improvement District and Miles Construction Incorporated for Removal and Replacement of the Existing Recreation Center HVAC System FY 2025/26 Community Services: Rec Center CIP #4899BD2502; in the Amount of $3,154,402; and Authorize Staff to Execute Change Orders for Additional Work if required, of Approximately 10% of the Construction Contract Value; not to Exceed $315,440; FY 2025/26 Community Services: Rec Center CIP #4899BD2502; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson). The Discussion and Approval of the Agreement with Miles Construction for removal and replacement of the Existing Recreation Center HVAC System is available to be viewed or"
+      "title": "Review, Discuss and Possibly Approve the Agreement between Incline Village General Improvement District and Miles Construction Incorporated for Removal and Replacement of the Existing Recreation Center HVAC System FY 2025/26 Community Services: Rec Center CIP #4899BD2502; in the Amount of $3,154,402; and Authorize Staff to Execute Change Orders for Additional Work if required, of Approximately 10% of the Construction Contract Value; not to Exceed $315,440; FY 2025/26 Community Services: Rec Center CIP #4899BD2502; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson)"
     },
     {
       "disposition": "passed",
@@ -424,17 +424,19 @@
         }
       ],
       "number": "H.5",
-      "title": "Review, discuss, and possibly approve execution of a contract with Hometown Health Providers Insurance Company, Inc. to provide employee medical insurance coverage from January 1, 2026, to June 30, 2026. (Requesting Staff Member: Director of Human Resources Eric Milavsky) The Discussion and Approval of an agreement with Hometown Health Providers for Employee Medical Insurance is available to be viewed or heard at"
+      "title": "Review, discuss, and possibly approve execution of a contract with Hometown Health Providers Insurance Company, Inc. to provide employee medical insurance coverage from January 1, 2026, to June 30, 2026. (Requesting Staff Member: Director of Human Resources Eric Milavsky)"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-11-12-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1538,
     "event_id": 587,
     "media_url": "https://cpmedia.azureedge.net/ivgid/5149597995.mp4",
     "minutes_file_id": 1559
-  }
+  },
+  "visual_draft_watermark": null
 }

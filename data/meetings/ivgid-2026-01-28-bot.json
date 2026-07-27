@@ -91,7 +91,7 @@
         }
       ],
       "number": "G.1",
-      "title": "Approval of the IVGID Board of Trustees Meeting Minutes for January 14, 2026. (Requesting Staff Member: District Clerk Heidi White) - pages 3 - 18 Discussion on Consent Calendar Item G.1. Approval of the IVGID Board of Trustees Meeting Minutes for January 14, 2026, is available to be viewed/ heard at"
+      "title": "Approval of the IVGID Board of Trustees Meeting Minutes for January 14, 2026. (Requesting Staff Member: District Clerk Heidi White)"
     },
     {
       "disposition": "passed",
@@ -137,17 +137,19 @@
         }
       ],
       "number": "H.1",
-      "title": "Review, Discuss and possibly Approve the Employee Separation Incentive Program. (Requesting Staff Member: District General Manager Robert Harrison) - pages 19 - 22 Item H.1. Discussion on the Employee Separation Incentive Program is available to be"
+      "title": "Review, Discuss and possibly Approve the Employee Separation Incentive Program. (Requesting Staff Member: District General Manager Robert Harrison)"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2026-01-28-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1580,
     "event_id": 749,
     "media_url": "https://cpmedia.azureedge.net/ivgid/dc2ee1af96.mp4",
     "minutes_file_id": 2636
-  }
+  },
+  "visual_draft_watermark": null
 }

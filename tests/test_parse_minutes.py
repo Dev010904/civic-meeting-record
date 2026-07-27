@@ -541,7 +541,7 @@ def _parse_lines(lines: list[pm._BodyLine], file_id: int = 999):
     for k, bl in enumerate(scan):
         if k in consumed or not pm._dekern(bl.text).startswith("YEAS"):
             continue
-        start, intro, word = pm._find_introducer(scan, k, consumed)
+        start, intro, word, prefix = pm._find_introducer(scan, k, consumed)
         block = [scan[start]]
         j = start + 1
         while j < len(scan) and len(block) < pm.MAX_MOTION_BLOCK_LINES:
@@ -689,16 +689,24 @@ def test_minutes_status_detection():
 
     blank = [_pt.Page(page_number=1, text="Some minutes body text here", char_count=27)]
     # File-name signals win (the clerk's own labelling):
-    assert pm._minutes_status("2025-0530 Minutes Draft (For Approval)", blank, []) == "draft"
-    assert pm._minutes_status("Minutes - Approved 0430", blank, []) == "approved"
+    # _minutes_status returns (status, basis): the signal matters as much as
+    # the status, because a file-name reading is uncorroborated by the document.
+    assert pm._minutes_status(
+        "2025-0530 Minutes Draft (For Approval)", blank, []
+    ) == ("draft", "file_name")
+    assert pm._minutes_status("Minutes - Approved 0430", blank, []) == (
+        "approved", "file_name"
+    )
     # Standalone uppercase watermark line:
     marked = [_pt.Page(page_number=1, text="Body\nD R A F T\nMore", char_count=20)]
-    assert pm._minutes_status(None, marked, []) == "draft"
+    assert pm._minutes_status(None, marked, []) == ("draft", "document_text")
     # Watermark leaking as single-letter noise:
-    assert pm._minutes_status(None, blank, ["t", "f", "a", "r", "D"]) == "draft"
+    assert pm._minutes_status(None, blank, ["t", "f", "a", "r", "D"]) == (
+        "draft", "watermark_noise"
+    )
     # Prose mention is NOT a signal (a motion about "the draft letter"):
     prose = [_pt.Page(page_number=1, text="to Approve the draft letter", char_count=27)]
-    assert pm._minutes_status(None, prose, []) is None
+    assert pm._minutes_status(None, prose, []) == (None, None)
 
 
 def test_chair_called_vote_with_prose_outcome():

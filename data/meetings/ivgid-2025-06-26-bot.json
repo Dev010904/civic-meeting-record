@@ -199,7 +199,7 @@
         }
       ],
       "number": "H.1",
-      "title": "Approve the Designation of an Auditing Firm, and Accept a Letter of Engagement from Clifton Larson Allen LLP, for Fiscal Year 2024/2025. (Requesting Staff Member: District General Manager Robert Harrison) Item H.3. Approve the Designation of an Auditing Firm can be viewed/heard at"
+      "title": "Approve the Designation of an Auditing Firm, and Accept a Letter of Engagement from Clifton Larson Allen LLP, for Fiscal Year 2024/2025. (Requesting Staff Member: District General Manager Robert Harrison)"
     },
     {
       "disposition": "passed",
@@ -286,7 +286,7 @@
         }
       ],
       "number": "G.3",
-      "title": "Approval of Settlement Agreement with Sheila A. Leijon in Amount of $105,000 Relating to Leijon v. Incline Village General Improvement District, Employee-Management Relations Board Case No. 2024-022. (Requesting Staff Member: District General Counsel Sergio Rudin) General Business H.1. formerly G.3. Approval of Settlement Agreement with Sheila A. Leijon in Amount of $105,000 Relating to Leijon v. Incline Village General Improvement District, Employee-Management Relations Board Case No. 2024-022 can be viewed/ heard at"
+      "title": "Approval of Settlement Agreement with Sheila A. Leijon in Amount of $105,000 Relating to Leijon v. Incline Village General Improvement District, Employee-Management Relations Board Case No. 2024-022. (Requesting Staff Member: District General Counsel Sergio Rudin) General Business H.1. formerly G.3. Approval of Settlement Agreement with Sheila A. Leijon in Amount of $105,000 Relating to Leijon v. Incline Village General Improvement District, Employee-Management Relations Board Case No"
     },
     {
       "disposition": "passed",
@@ -585,7 +585,7 @@
         }
       ],
       "number": "H.5",
-      "title": "Formerly H.3. Draft Communication to Parcel Owners regarding District Employees Beach Access can be viewed/ heard at"
+      "title": "Formerly H.3. Draft Communication to Parcel Owners regarding District Employees Beach Access can"
     },
     {
       "disposition": "passed",
@@ -648,17 +648,19 @@
         }
       ],
       "number": "H.6",
-      "title": "formerly H.4. Appointing a Trustee to Serve on the Interview Panel can be viewed/heard"
+      "title": "formerly H.4. Appointing a Trustee to Serve on the Interview Panel can"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-06-26-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1410,
     "event_id": 579,
     "media_url": "https://cpmedia.azureedge.net/ivgid/194aea0b09.mp4",
     "minutes_file_id": 1489
-  }
+  },
+  "visual_draft_watermark": null
 }

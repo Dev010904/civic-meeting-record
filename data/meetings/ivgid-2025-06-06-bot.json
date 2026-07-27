@@ -105,17 +105,19 @@
         }
       ],
       "number": "E.1",
-      "title": "Authorize the District General Manager to Execute a Contract Amendment Increasing the Baker Tilly Contract by $27,000 for Additional Accounting Resources Required to Support Continued Work on Daily operational Activities and Special Projects as Previously Prioritized by the Board. (Requesting Staff Member: Director of Finance Jessica O'Connell) Full discussion on Item E.1. can be viewed/heard at"
+      "title": "Authorize the District General Manager to Execute a Contract Amendment Increasing the Baker Tilly Contract by $27,000 for Additional Accounting Resources Required to Support Continued Work on Daily operational Activities and Special Projects as Previously Prioritized by the Board. (Requesting Staff Member: Director of Finance Jessica O'Connell)"
     }
   ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-06-06-bot",
   "minutes_status": "approved",
+  "minutes_status_basis": "file_name",
   "schema_version": 1,
   "source": {
     "agenda_file_id": 1374,
     "event_id": 712,
     "media_url": "https://cpmedia.azureedge.net/ivgid/9f4325fe30.mp4",
     "minutes_file_id": 2748
-  }
+  },
+  "visual_draft_watermark": null
 }
