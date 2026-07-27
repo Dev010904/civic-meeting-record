@@ -17,6 +17,108 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:05:35",
+        "provenance": {
+          "file_id": 1490,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:03:29"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:05:35",
+          "provenance": {
+            "file_id": 1490,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:03:29"
+        },
+        {
+          "end": "00:05:35",
+          "provenance": {
+            "file_id": 1490,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:03:49"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 2,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 2,
+      "title": "GENERAL BUSINESS"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -78,7 +180,65 @@
         }
       ],
       "number": "E.1",
+      "page": 2,
       "title": "Appoint a Trustee to Serve on the Interview Panel for the Director of Human Resource Position. (Requesting Staff Member: District G eneral Manager Robert Harrison)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:10:04",
+        "provenance": {
+          "file_id": 1490,
+          "page": 3,
+          "type": "pdf"
+        },
+        "start": "00:07:29"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:10:04",
+          "provenance": {
+            "file_id": 1490,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:07:29"
+        },
+        {
+          "end": "00:10:04",
+          "provenance": {
+            "file_id": 1490,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:08:13"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 3,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G",
+      "page": 4,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

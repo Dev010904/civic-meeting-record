@@ -32,6 +32,231 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1344,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:04:40"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:04:40"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:04:45"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:08:05"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:11:36"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:15:08"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:17:06"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:20:45"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:20:59"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:21:16"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:27:11"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 3,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1344,
+          "page": 3,
+          "type": "pdf"
+        },
+        "start": "00:29:09"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:29:09"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 3,
+      "title": "REPORTS TO THE BOARD - Reports are intended to inform the Board"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1344,
+          "page": 3,
+          "type": "pdf"
+        },
+        "start": "00:29:14"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:29:14"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E.1",
+      "page": 3,
+      "title": "Verbal Report to the Board Regarding the Utility Master Plan and How it is Being Implemented in the CIP. (Requesting Staff Member: Director of Public Works Kate Nelson). Director of Public Works Kate Nelson's full report can be found as added supplemental material for Item E.1"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "flagged",
@@ -128,7 +353,116 @@
         }
       ],
       "number": "F",
+      "page": 4,
       "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "F.1",
+      "page": 5,
+      "title": "Approval of the IVGID Board of Trustees Meeting Minutes for March 12, 2025, for possible Action. (Requesting Staff Member: District Clerk Heidi W hite)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "F.2",
+      "page": 5,
+      "title": "Approval of the IVGID Board of Trustees Special Meeting Minutes for March 19, 2025, for possible Action. (Requesting Staff Member: District Clerk Heidi White)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "F.3",
+      "page": 5,
+      "title": "Approve and Authorize the District General Manager to Sign and Execute an Agreement between Incline Village General Improvement District and Construction Material Engineers, Inc., to provide Professional Services for Full-Time Construction Inspection and Materials Testing, for an Amount Not to Exceed $553,925 Effluent Export Line Project, GMP2 - FY24/25 Capital Improvement Project; Fund: Utilities; Division: Sewer; Project #2524SS1010; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "F.4",
+      "page": 5,
+      "title": "Approve and Authorize a Purchase Agreement between the District and American Hazmat Rentals (AHR) for Procurement of a Hazardous Waste Storage Container - FY 2024/25 Capital Improvement Project; Fund: Utilities; Division: Solid Waste; in the amount of $100,301; Discussion and Possible Action. (Requesting Staff Member: Public Works Director Kate Nelson)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G",
+      "page": 5,
+      "title": "GENERAL BUSINESS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1344,
+          "page": 5,
+          "type": "pdf"
+        },
+        "start": "00:28:09"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:28:09"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "G.1",
+      "page": 5,
+      "title": "Review, Discuss, and Approve the Replacement of the Charcoal Grills with Propane Grills at Burnt Cedar Beach in an Amount Not to Exceed $34,000 for FY 2024/2025 (Requesting Staff Members: Director of Parks and Recreation Karen Crocker and Director of Public Works Kate Nelson) Item G.1. was rescheduled for April 30, 2025; Approval of the Agenda Item D"
     },
     {
       "disposition": "passed",
@@ -190,6 +524,7 @@
         }
       ],
       "number": "G.2",
+      "page": 5,
       "title": "Approve and Authorize the District General Manager to Sign and Execute Amendment 2 of the Retail Concession Agreement between Incline Village General Improvement District and Incline Spirits Inc. to Provide Services at the Restricted Access Beaches Managed by the Incline Village General Improvement District, Discussion and possible Action. (Requesting Staff Member: Director of Parks and Recreation Karen Crocker)"
     },
     {
@@ -252,7 +587,41 @@
         }
       ],
       "number": "G.3",
+      "page": 6,
       "title": "Set the Date and Time for the Public Hearing to Implement Amendments to the Sewer and Water rates, as well as Adjustments to the Fee Schedule, for Wednesday, May 14, 2025, at 5:00 p.m. or as Otherwise Determined by the Board of Trustees. (Requesting Staff Member: Director of Public Works Kate Nelson)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1344,
+          "page": 7,
+          "type": "pdf"
+        },
+        "start": "00:59:57"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "00:59:57"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "G.4",
+      "page": 6,
+      "title": "Discuss and possibly provide direction to Staff on the Initiative of implementing a pilot program to provide Boat and Trailer Parking at the Diamond Peak Ski Venue during the Summer of 2025 (Requesting Staff: Diamond Peak General Manager Mike Bandelin)"
     },
     {
       "disposition": "passed",
@@ -315,7 +684,239 @@
         }
       ],
       "number": "G.5",
+      "page": 8,
       "title": "Adopt Resolution No. 1912 Codifying the transfer of the Parks Operations from Community Services to the General Fund in Fiscal Year 2023/2024 and Codifying the transfer of the Parks Operations back to Community Services from the General Fund effective July 1, 2025; Discussion and possible Action (Requesting Staff Member: Director of Administrative Services Susan Herron)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1344,
+          "page": 8,
+          "type": "pdf"
+        },
+        "start": "01:11:14"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "01:11:14"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "G.6",
+      "page": 8,
+      "title": "Review, Discuss and Provide Direction related to Potential Amendment to Ordinance 7. (Requesting Staff Member: Director of Administrative S ervices Susan Herron)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 9,
+      "title": "REDACTIONS FOR PENDING PUBLIC RECORDS REQUESTS (for possible"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1344,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "01:18:22"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "01:18:22"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "I",
+      "page": 9,
+      "title": "LONG RANGE CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1344,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "01:18:28"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "01:18:28"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "I.1",
+      "page": 9,
+      "title": "Long Range Calendar Long-Range Calendar discussion can"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "J",
+      "page": 10,
+      "title": "BOARD OF TRUSTEES UPDATE"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1344,
+          "page": 10,
+          "type": "pdf"
+        },
+        "start": "01:24:46"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "01:24:46"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "01:24:54"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "01:27:48"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "01:30:50"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "01:31:00"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "01:31:21"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1344,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "01:32:51"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "K",
+      "page": 10,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes in"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "L",
+      "page": 11,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

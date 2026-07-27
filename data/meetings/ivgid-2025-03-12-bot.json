@@ -32,6 +32,204 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1262,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:24:52"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:24:52"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:25:09"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:28:09"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:31:27"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:34:24"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:35:59"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:37:50"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:41:18"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS - Limited to a maximum of three minutes in"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 2,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 3,
+      "title": "REPORTS TO THE BOARD - Reports are intended to inform the Board"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1262,
+          "page": 3,
+          "type": "pdf"
+        },
+        "start": "00:43:23"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:43:23"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:45:59"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E.1",
+      "page": 3,
+      "title": "District General Manager's Monthly Status Report. (Requesting Staff Member: District General Manager Robert Harrison)"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -109,7 +307,38 @@
         }
       ],
       "number": "F",
+      "page": 3,
       "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "F.1",
+      "page": 4,
+      "title": "Approve and Authorize the District General Manager to execute a Payment between Incline General Improvement District and the Nevada Department of Transportation for the Adjustment of Manholes, Valve Covers and Meter Boxes; FY 2024/25 Utilities Fund Operating Budget #20002297-7510; in the Amount of $102,385.58; Discussion and Possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson) – Consent Calendar approved"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G",
+      "page": 4,
+      "title": "GENERAL BUSINESS"
     },
     {
       "disposition": "passed",
@@ -172,6 +401,7 @@
         }
       ],
       "number": "G.1",
+      "page": 4,
       "title": "Review, Discuss and Appoint a Board Liaison to attend the Interviews of Candidates for the General Manager of Golf Operations Position and Provide Feedback to Staff. (Requesting Staff Member: Director of Human Resources Erin Feore)"
     },
     {
@@ -253,6 +483,7 @@
         }
       ],
       "number": "G.2",
+      "page": 5,
       "title": "Approve and Authorize the Board Chair and Secretary to Sign an Agreement between the District and CORE West Inc. dba CORE Construction for the 100% Construction Development Contract for Incline Beach House Project - FY 2024/25 Capital Improvement Project; Fund: Community Services; Division: Beaches; Project #3973LI1302; in the amount of $755,000; Discussion and Possible Action. (Requesting Staff Member: Public Works Director Kate Nelson)"
     },
     {
@@ -339,7 +570,41 @@
         }
       ],
       "number": "G.3",
+      "page": 5,
       "title": "Review, Discuss and Provide Direction for the Final Design-Build Construction Contract for Skate Park Enhancement Project - FY 2024/25 Capital Improvement Project Fund: General; Division: Parks: Project #4378BD2202; (Requesting Staff Member: Director of Public Works Kate Nelson)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1262,
+          "page": 6,
+          "type": "pdf"
+        },
+        "start": "02:24:42"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "02:24:42"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "G.4",
+      "page": 6,
+      "title": "Review, Discuss, and Possibly Provide Budgetary Feedback on the Point-of-Sale Assessment Project. (Requesting Staff Member: Director of Information Technology Mike Gove)"
     },
     {
       "disposition": "passed",
@@ -402,7 +667,215 @@
         }
       ],
       "number": "G.5",
+      "page": 7,
       "title": "Review, Discuss and Possibly Approve Engagement Letter Agreement with Thorndal Armstrong, PC. (Requesting Staff Members: District General Manager Robert Harrison and District Legal Counsel Sergio Rudin)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1262,
+          "page": 7,
+          "type": "pdf"
+        },
+        "start": "02:57:18"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "02:57:18"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "03:01:49"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "03:30:29"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "03:44:45"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "03:54:50"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "04:04:06"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "G.6",
+      "page": 7,
+      "title": "Budget Workshop for Fiscal Year 2025-26 for the General Fund and Utilities Fund; Discussion, Direction, and possible Action. (Requesting Staff Member: District General Manager Robert Harrison, and Director of Finance Jessica O'Connell)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 9,
+      "title": "REDACTIONS FOR PENDING PUBLIC RECORDS REQUESTS (for"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1262,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "04:18:14"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "04:18:14"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "I.1",
+      "page": 9,
+      "title": "Long-Range Calendar Item I.1. Long-Range Calendar review can"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "J",
+      "page": 10,
+      "title": "BOARD OF TRUSTEES UPDATE"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1262,
+          "page": 10,
+          "type": "pdf"
+        },
+        "start": "04:22:51"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "04:22:51"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "04:23:03"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1262,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "04:23:31"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "K",
+      "page": 10,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes in"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "L",
+      "page": 10,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

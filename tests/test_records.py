@@ -64,9 +64,11 @@ def test_every_record_has_the_spec_2_4_shape(built):
         assert isinstance(source["minutes_file_id"], int)
         for item in record["items"]:
             assert set(item) == {
-                "number", "title", "disposition", "motions", "money",
+                "number", "title", "page", "disposition", "motions", "money",
                 "media_timestamp", "media_timestamps", "extraction",
             }
+            # Every item is traceable to a page, including motion-free ones.
+            assert isinstance(item["page"], int) and item["page"] >= 1
             assert item["extraction"]["stage"] == "A"
             assert item["extraction"]["confidence"] in ("exact", "flagged")
             assert item["disposition"] in (
@@ -90,6 +92,62 @@ def test_minutes_status_is_present_and_valid_on_every_record(built):
     for record in built:
         assert "minutes_status" in record
         assert record["minutes_status"] in (None, "draft", "approved")
+
+
+def test_motion_free_agenda_items_are_emitted(built):
+    """A record where "this item produced no motion" and "this item was
+    never on the agenda" look identical is a silent inaccuracy, and it hides
+    spec §2.5's vanishing-item pattern. The agenda skeleton is published
+    whole."""
+    motion_free = [
+        item for record in built for item in record["items"] if not item["motions"]
+    ]
+    assert motion_free, "records carry only motion-bearing items again"
+    for item in motion_free:
+        assert item["money"] == []
+        assert item["disposition"] is None
+        assert item["page"] >= 1
+    # Every meeting has a skeleton, not just the items that voted.
+    for record in built:
+        assert len(record["items"]) >= 1, record["meeting_id"]
+
+
+def test_removal_vote_targets_are_present_in_their_own_record(built):
+    """The item a removal vote was aimed at must be findable in the same
+    meeting's record — that is what makes the vote linkable to its target."""
+    by_id = {r["meeting_id"]: r for r in built}
+    for meeting_id, number in (
+        ("ivgid-2025-05-14-bot", "H.1"),
+        ("ivgid-2025-12-10-bot", "H.5"),
+        ("ivgid-2025-04-14-bot", "E.2"),
+    ):
+        record = by_id[meeting_id]
+        matches = [i for i in record["items"] if i["number"] == number]
+        assert matches, f"{meeting_id} has no item {number}"
+
+
+def test_item_numbers_repeat_only_where_the_document_renumbers(built):
+    """A duplicate number makes cross-meeting matching ambiguous, so the
+    parser must not manufacture one: sub-items ("E.1.A") get their own
+    number, headings after adjournment are attachment text and are not
+    collected, and a consent list wrapping mid-reference ("… Items F.4.,
+    F.5., and / F.6., as submitted") is a continuation, not a heading.
+
+    One meeting still repeats numbers, and it is the document doing it: the
+    26 June 2025 minutes renumber items mid-meeting and carry both
+    numberings, annotated "formerly H.2." That ambiguity is the source's,
+    and resolving it would mean discarding a real heading.
+    """
+    for record in built:
+        numbers = [i["number"] for i in record["items"] if i["number"]]
+        duplicates = {n for n in numbers if numbers.count(n) > 1}
+        if not duplicates:
+            continue
+        renumbered = [
+            i for i in record["items"]
+            if i["number"] in duplicates and "formerly" in (i["title"] or "").lower()
+        ]
+        assert renumbered, (record["meeting_id"], sorted(duplicates))
 
 
 def test_minutes_status_basis_is_recorded_on_every_record(built):

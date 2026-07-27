@@ -43,7 +43,335 @@
       50
     ]
   },
-  "items": [],
+  "items": [
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1427,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:07:07"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1427,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:07:07"
+        },
+        {
+          "end": "00:11:00",
+          "provenance": {
+            "file_id": 1427,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:08:05"
+        },
+        {
+          "end": "00:12:59",
+          "provenance": {
+            "file_id": 1427,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:11:10"
+        },
+        {
+          "end": "00:15:59",
+          "provenance": {
+            "file_id": 1427,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:13:11"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1427,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:16:11"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 5,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 5,
+      "title": "GENERAL BUSINESS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1427,
+          "page": 5,
+          "type": "pdf"
+        },
+        "start": "00:19:10"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1427,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:19:10"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.1",
+      "page": 5,
+      "title": "Fiscal Year 2025-2026 Budget Update and Review, Discussion and possible Feedback. (Requesting Staff Member: Director of Finance Jessica O’Connell)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 7,
+      "title": "REPORTS TO THE BOARD - Reports are intended to inform the Board"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1427,
+          "page": 7,
+          "type": "pdf"
+        },
+        "start": "00:52:25"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1427,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "00:52:25"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E.1",
+      "page": 7,
+      "title": "Verbal Report from the District General Managers Capital Investment Committee Member Jim Novack to present the Capital Investment Committee’s recommendation on the District Facility Fee. (Requesting Staff Member: District General Manager Robert H arrison)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1427,
+          "page": 8,
+          "type": "pdf"
+        },
+        "start": "01:03:45"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1427,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "01:03:45"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.2",
+      "page": 8,
+      "title": "Capital Improvement Project Workshop; for Discussion and Possible Direction and to include a discussion regarding the individual value of a Recreational Punch Card. (Requesting Staff Member: Diamond Peak Ski Resort Manager Mike Bandelin and Director of Public Works Kate Nelson) Full discussion on Item F.1. The Capital Improvement Project Workshop can"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:40:54",
+        "provenance": {
+          "file_id": 1427,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "01:37:46"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:40:54",
+          "provenance": {
+            "file_id": 1427,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "01:37:46"
+        },
+        {
+          "end": "01:41:20",
+          "provenance": {
+            "file_id": 1427,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "01:41:08"
+        },
+        {
+          "end": "01:41:20",
+          "provenance": {
+            "file_id": 1427,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "01:41:08"
+        },
+        {
+          "end": "01:46:38",
+          "provenance": {
+            "file_id": 1427,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "01:45:38"
+        },
+        {
+          "end": "01:49:41",
+          "provenance": {
+            "file_id": 1427,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "01:46:52"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "G",
+      "page": 9,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 12,
+      "title": "ADJOURNMENT"
+    }
+  ],
   "jurisdiction": "ivgid",
   "meeting_id": "ivgid-2025-05-21-bot",
   "minutes_status": "draft",

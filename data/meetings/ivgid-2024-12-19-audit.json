@@ -11,6 +11,51 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "ROLL CALL OF THE AUDIT COMMITTEE MEMBERS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -53,7 +98,23 @@
         }
       ],
       "number": "D",
+      "page": 2,
       "title": "GENERAL BUSINESS ITEMS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 4,
+      "title": "LONG RANGE CALENDAR REVIEW"
     },
     {
       "disposition": "passed",
@@ -128,7 +189,38 @@
         }
       ],
       "number": "F",
+      "page": 4,
       "title": "MEETING MINUTES"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G",
+      "page": 5,
+      "title": "PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 5,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

@@ -39,6 +39,186 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:36:30",
+        "provenance": {
+          "file_id": 1570,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:04:49"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:36:30",
+          "provenance": {
+            "file_id": 1570,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:04:49"
+        },
+        {
+          "end": "00:08:03",
+          "provenance": {
+            "file_id": 1570,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:04:55"
+        },
+        {
+          "end": "00:11:09",
+          "provenance": {
+            "file_id": 1570,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:08:04"
+        },
+        {
+          "end": "00:14:11",
+          "provenance": {
+            "file_id": 1570,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:11:10"
+        },
+        {
+          "end": "00:16:50",
+          "provenance": {
+            "file_id": 1570,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:14:12"
+        },
+        {
+          "end": "00:20:11",
+          "provenance": {
+            "file_id": 1570,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:16:53"
+        },
+        {
+          "end": "00:23:34",
+          "provenance": {
+            "file_id": 1570,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:20:12"
+        },
+        {
+          "end": "00:24:57",
+          "provenance": {
+            "file_id": 1570,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:23:36"
+        },
+        {
+          "end": "00:28:13",
+          "provenance": {
+            "file_id": 1570,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:24:59"
+        },
+        {
+          "end": "00:30:10",
+          "provenance": {
+            "file_id": 1570,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "00:28:15"
+        },
+        {
+          "end": "00:33:30",
+          "provenance": {
+            "file_id": 1570,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "00:30:13"
+        },
+        {
+          "end": "00:36:30",
+          "provenance": {
+            "file_id": 1570,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "00:33:38"
+        },
+        {
+          "end": "00:34:58",
+          "provenance": {
+            "file_id": 1570,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "00:33:38"
+        },
+        {
+          "end": "00:36:30",
+          "provenance": {
+            "file_id": 1570,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "03:35:00"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
       "disposition": "failed",
       "extraction": {
         "confidence": "exact",
@@ -102,7 +282,233 @@
         }
       ],
       "number": "D",
+      "page": 8,
       "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:46:00",
+        "provenance": {
+          "file_id": 1570,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "00:37:25"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:46:00",
+          "provenance": {
+            "file_id": 1570,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "00:37:25"
+        },
+        {
+          "end": "00:41:18",
+          "provenance": {
+            "file_id": 1570,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "00:37:30"
+        },
+        {
+          "end": "00:42:13",
+          "provenance": {
+            "file_id": 1570,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "00:41:20"
+        },
+        {
+          "end": "00:46:01",
+          "provenance": {
+            "file_id": 1570,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "00:42:15"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 9,
+      "title": "BOARD OF TRUSTEES UPDATE - Updates are intended"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:36:01",
+        "provenance": {
+          "file_id": 1570,
+          "page": 11,
+          "type": "pdf"
+        },
+        "start": "00:46:01"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:36:01",
+          "provenance": {
+            "file_id": 1570,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "00:46:01"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 11,
+      "title": "REPORTS TO THE BOARD - Reports are intended to"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:01:40",
+        "provenance": {
+          "file_id": 1570,
+          "page": 11,
+          "type": "pdf"
+        },
+        "start": "00:46:06"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:01:40",
+          "provenance": {
+            "file_id": 1570,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "00:46:06"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.1",
+      "page": 11,
+      "title": "Report provided by the Incline Village Crystal Bay Association by Executive Director Linda Offerdahl The Presentation from IVCBA by Executive Director Linda Offerdahl is available to"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:13:11",
+        "provenance": {
+          "file_id": 1570,
+          "page": 12,
+          "type": "pdf"
+        },
+        "start": "01:01:41"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:13:11",
+          "provenance": {
+            "file_id": 1570,
+            "page": 12,
+            "type": "pdf"
+          },
+          "start": "01:01:41"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.2",
+      "page": 12,
+      "title": "District General Manager's Monthly Status Report. (Requesting Staff Member: District General Manager Robert Harrison) The District General Managers' Monthly Venue Status update discussion and report are"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1570,
+          "page": 13,
+          "type": "pdf"
+        },
+        "start": "01:13:12"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1570,
+            "page": 13,
+            "type": "pdf"
+          },
+          "start": "01:13:12"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.3",
+      "page": 13,
+      "title": "Employee Recognition. (Requesting Staff Member: Director of Human Resources Eric Milavsky)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:36:01",
+        "provenance": {
+          "file_id": 1570,
+          "page": 14,
+          "type": "pdf"
+        },
+        "start": "01:18:31"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:36:01",
+          "provenance": {
+            "file_id": 1570,
+            "page": 14,
+            "type": "pdf"
+          },
+          "start": "01:18:31"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.4",
+      "page": 14,
+      "title": "Financial Reports Covering October 2025 Results; to include the Board Treasurer's Report, Monthly Bill Pay Report and Monthly District Financial Report. (Requesting Staff Member: Interim Director of Finance Noemi Barter)"
     },
     {
       "disposition": "passed",
@@ -207,7 +613,68 @@
         }
       ],
       "number": "G",
+      "page": 15,
       "title": "C ONSENT CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.1",
+      "page": 16,
+      "title": "Approval of the IVGID Board of Trustees Meeting Minutes for November 12, 2025. (Requesting Staff Member: District Clerk Heidi White) Approved in Consent Calendar Slate"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.2",
+      "page": 16,
+      "title": "Review, Discuss and possibly Approve an additional $861.91 for the BB&K purchase order - total cost will be $100,891.61. (Requesting Staff Member: Director of Administrative Services Susan Herron) Approved in Consent Calendar Slate"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.3",
+      "page": 16,
+      "title": "Review and Discuss a Request for the Board of Trustees to waive the requirements of Board Policy and Procedure 144; Resolution No. 1911 (B); and Authorize the District General Manager to Appoint Noemi Barter to the Director of Finance Position, without posting said Position Externally or Requiring a Trustee to sit in on the Interview Process. (Requesting Staff Member: District General Manager Robert Harrison) Approved in Consent Calendar Slate"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 16,
+      "title": "GENERAL BUSINESS"
     },
     {
       "disposition": "passed",
@@ -310,6 +777,7 @@
         }
       ],
       "number": "H.1",
+      "page": 16,
       "title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute the Design-Build Construction Agreement with CORE West Inc., dba CORE Construction in the amount of $9,415,617 and an approximate 2.5% Owners Design-Build Contract Contingency, not to Exceed $235,000, for the Incline Beach House Project - FY 2025/26 Capital Improvement Project; Fund: Beach; Division: Incline Beach; Project #3973LI1302. (Requesting Staff Member: Public Works Director Kate Nelson and District Asset and Project Manager Bree Waters) Full discussion and approval of the Design-Build Construction Agreement between IVGID and Core West Inc"
     },
     {
@@ -407,6 +875,7 @@
         }
       ],
       "number": "H.2",
+      "page": 17,
       "title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and American Ramp Company for Construction of the Incline Bike Park - Phase II in the Amount of $297,000; and Authorize Staff to Execute Change Orders for Additional Work if Required, of Approximately 10% of the Construction Contract Value; not to Exceed $29,700; Project funding via combination of private donor funds and IVGID Capital Funds; FY 2025/26 Capital Improvement Project; Fund: Community Services; Division: Parks; Project #4378LI2601. Discussion and Possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson)"
     },
     {
@@ -470,6 +939,7 @@
         }
       ],
       "number": "H.3",
+      "page": 17,
       "title": "Approve and Authorize the District General Manager to Sign and Execute an Agreement with the Incline Tahoe Foundation for Improvements at the Disc Golf Course. (Requesting Board Member: Trustee Dave Noble)"
     },
     {
@@ -534,7 +1004,41 @@
         }
       ],
       "number": "H.4",
+      "page": 18,
       "title": "Approve and Authorize the District General Manager to Sign and Execute an Agreement between Incline Village General Improvement District and West Shore Technologies Inc, (dba, Paddles and Peaks) for the renting of the District's Pickleball Courts. (Requesting Staff Member: Director of Community Services Mike Bandelin)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:38:02",
+        "provenance": {
+          "file_id": 1570,
+          "page": 18,
+          "type": "pdf"
+        },
+        "start": "02:21:32"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:38:02",
+          "provenance": {
+            "file_id": 1570,
+            "page": 18,
+            "type": "pdf"
+          },
+          "start": "02:21:32"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "H.5",
+      "page": 18,
+      "title": "Review, Discuss, and provide Direction regarding Ordinance 7: Review of paragraphs 100: Misconduct; 101: Hold Accountable; 102: Disciplinary Procedures for Misconduct; and 106: Administration. (Requesting Staff Member: Director of Administrative Services Susan Herron)"
     },
     {
       "disposition": "passed",
@@ -598,6 +1102,7 @@
         }
       ],
       "number": "H.6",
+      "page": 20,
       "title": "Review, Discuss and possibly Approve Resolution 1920 - Guest Employee Beach Access Program. (Requesting Staff Member: Director of Administrative Services Susan Herron) Staff and Board discussion, and adoption Resolution No"
     },
     {
@@ -661,6 +1166,7 @@
         }
       ],
       "number": "H.7",
+      "page": 21,
       "title": "Review, Discuss and possibly Approve the District General Manager's Proposed Goals. (Requesting Staff and Board Member: Director of Human Resources Eric Milavsky and Trustee Vice Chair Michelle Jezycki)"
     },
     {
@@ -725,7 +1231,113 @@
         }
       ],
       "number": "H.8",
+      "page": 22,
       "title": "Election of Board of Trustees Officers for the 2026 Term. (Requesting Staff Member: District Clerk Heidi White)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "I",
+      "page": 22,
+      "title": "LONG RANGE CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "03:09:02",
+        "provenance": {
+          "file_id": 1570,
+          "page": 22,
+          "type": "pdf"
+        },
+        "start": "03:03:11"
+      },
+      "media_timestamps": [
+        {
+          "end": "03:09:02",
+          "provenance": {
+            "file_id": 1570,
+            "page": 22,
+            "type": "pdf"
+          },
+          "start": "03:03:11"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "I.1",
+      "page": 22,
+      "title": "Review, Discuss and possibly Add or Remove Long Range Calendar Items to future Board of Trustees Agendas. (Requesting Staff Member: Director of Administrative Services Susan Herron)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "03:11:43",
+        "provenance": {
+          "file_id": 1570,
+          "page": 23,
+          "type": "pdf"
+        },
+        "start": "03:09:04"
+      },
+      "media_timestamps": [
+        {
+          "end": "03:11:43",
+          "provenance": {
+            "file_id": 1570,
+            "page": 23,
+            "type": "pdf"
+          },
+          "start": "03:09:04"
+        },
+        {
+          "end": "03:11:40",
+          "provenance": {
+            "file_id": 1570,
+            "page": 23,
+            "type": "pdf"
+          },
+          "start": "03:09:27"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "J",
+      "page": 23,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes in duration"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "K",
+      "page": 23,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

@@ -14,6 +14,120 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1343,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:04:53"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1343,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:04:53"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1343,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:05:05"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1343,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:08:18"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1343,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:11:40"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1343,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:15:07"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 2,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "flagged",
@@ -95,7 +209,68 @@
         }
       ],
       "number": "E",
+      "page": 2,
       "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E.1",
+      "page": 3,
+      "title": "Approval of the IVGID Board of Trustees Meeting Minutes for February 26, 2025, for possible Action. (Requesting Staff Member: District Clerk Heidi White)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E.2",
+      "page": 3,
+      "title": "Approval of the IVGID Board of Trustees Meeting Minutes for March 5, 2025, for possible Action. (Requesting Staff Member: District Clerk Heidi White)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E.3",
+      "page": 3,
+      "title": "Review, Discuss and Approve a District Purchase Order for the Procurement for 1,860 Residential Water Meter Registers and 1,970 Transponders - FY 2024/25 Utilities Fund: Operating Budget #20002299-7510; Vendor: Hydro Specialties Co., in the Amount of $387,712.60; for possible Action. (Requesting Staff Member: D irector of Public Works Kate Nelson)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 3,
+      "title": "GENERAL BUSINESS"
     },
     {
       "disposition": "passed",
@@ -181,6 +356,7 @@
         }
       ],
       "number": "F.1",
+      "page": 3,
       "title": "Review, Discuss and Approve the Update to the Water Management Plan and the Purchase of 8.81 ac-ft of IVGID Water Rights for $140,960 by Incline Hotel LLC; for possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson)"
     },
     {
@@ -244,7 +420,41 @@
         }
       ],
       "number": "F.2",
+      "page": 4,
       "title": "Set the date and time for Public Hearing for the FY2025/2026 Budget and Recreation Roll for Wednesday, May 21, 2025, at 5:00 p.m. or as determined by the Board of Trustees (Requesting Staff M ember: Director of Finance Jessica O'Connell)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1343,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "00:34:39"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1343,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:34:39"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.3",
+      "page": 4,
+      "title": "Review, Discuss, and Approve an Auditor for the 2024/2025 fiscal year. (Requesting Staff Members: District General Manager Robert Harrison and Director of Finance Jessica O'Connell) District General Manager Robert Harrison provided an update on the search for an Auditing Firm for the 2024/2025 fiscal year"
     },
     {
       "disposition": "passed",
@@ -331,7 +541,170 @@
         }
       ],
       "number": "F.4",
+      "page": 4,
       "title": "Review, Discuss, and Possibly Provide Budgetary Feedback on the rebuilding of Capstone at a value of up to $400,000 (Ordinance 7 Database). (Requesting Staff Members: Director of Admin. Services Susan Herron and Director of Information Technology M ike Gove) Director of Administrative Services Susan Herron and Director of Information Technology Mike Gove provided a brief overview of the Budgetary Feedback and what District staff are requesting on the rebuilding of Capstone"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G",
+      "page": 5,
+      "title": "REDACTIONS FOR PENDING PUBLIC RECORDS REQUESTS (for"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1343,
+          "page": 5,
+          "type": "pdf"
+        },
+        "start": "00:47:11"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1343,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:47:11"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 5,
+      "title": "LONG RANGE CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H.1",
+      "page": 5,
+      "title": "Review, Discuss, and provide Feedback on the Long-Range Calendar, Discussion, and possible Feedback. The following matters were reviewed during the Long-Range Calendar discussion: Chair Tonking stated that the April 2, 2025, meeting will be canceled, and a Special Meeting will be held on Monday, (Stated May) updated to April 14th. Director Herron provided an overview of the changes made to the Long-Range Calendar and stated that the GM Goals have been added to the calendar. Additional information on the beach barbecues (an item the Trustees would like to bring back). There are 24 barbecues between the two beaches. There is some funding in the beach budget to take care of some of them this year, and staff are working on the funding for all of them"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "I",
+      "page": 6,
+      "title": "BOARD OF TRUSTEES UPDATE"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1343,
+          "page": 6,
+          "type": "pdf"
+        },
+        "start": "00:53:12"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1343,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:53:12"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1343,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:53:23"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1343,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:56:25"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1343,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "00:57:07"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1343,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "00:58:32"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "J",
+      "page": 6,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "K",
+      "page": 7,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

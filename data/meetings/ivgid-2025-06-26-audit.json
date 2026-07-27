@@ -75,6 +75,120 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "ROLL CALL OF THE AUDIT COMMITTEE MEMBERS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:11:57",
+        "provenance": {
+          "file_id": 1528,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:05:49"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:11:57",
+          "provenance": {
+            "file_id": 1528,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:05:49"
+        },
+        {
+          "end": "00:08:40",
+          "provenance": {
+            "file_id": 1528,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:05:57"
+        },
+        {
+          "end": "00:11:55",
+          "provenance": {
+            "file_id": 1528,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:08:52"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 3,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:17:59",
+        "provenance": {
+          "file_id": 1528,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "00:12:27"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:17:59",
+          "provenance": {
+            "file_id": 1528,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:12:27"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 3,
+      "title": "REPORTS TO THE COMMITTEE - Reports are intended to inform the"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -134,7 +248,53 @@
         }
       ],
       "number": "E",
+      "page": 5,
       "title": "GENERAL BUSINESS ITEMS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 6,
+      "title": "LONG RANGE CALENDAR REVIEW"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G",
+      "page": 7,
+      "title": "PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 7,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

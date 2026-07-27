@@ -463,14 +463,27 @@ def build_record(
     date = event_date[:10]
     body, code = identify_body(event_name)
 
-    # Group in first-appearance order; motions already arrive in document
-    # order, so this is stable without sorting by anything invented.
+    # The agenda skeleton in document order, then motions attached to it.
+    # Every heading is emitted, including ones that produced no motion: a
+    # record where "this item produced no motion" and "this item was never
+    # on the agenda" look identical is a silent inaccuracy, and it hides
+    # spec §2.5's pattern of an item appearing and not returning.
     order: list[tuple[Optional[str], Optional[str]]] = []
     grouped: dict[tuple[Optional[str], Optional[str]], list[parse_minutes.Motion]] = {}
+    pages: dict[tuple[Optional[str], Optional[str]], int] = {}
+    for agenda_item in parsed.items:
+        key = (agenda_item.number, agenda_item.title)
+        if key not in grouped:
+            grouped[key] = []
+            pages[key] = agenda_item.page
+            order.append(key)
     for motion in parsed.motions:
         key = (motion.item_number, motion.item_title)
         if key not in grouped:
+            # A motion before any heading, or under a heading the skeleton
+            # walk did not record. Kept rather than dropped.
             grouped[key] = []
+            pages[key] = motion.provenance.page
             order.append(key)
         grouped[key].append(motion)
 
@@ -492,6 +505,9 @@ def build_record(
             {
                 "number": key[0],
                 "title": key[1],
+                # Where the heading appears, so a motion-free item is still
+                # traceable to a page (spec §2.7 rule 7).
+                "page": pages[key],
                 "disposition": _disposition(motions),
                 "motions": [_motion_dict(m) for m in motions],
                 "money": [_money_dict(e) for e in money],

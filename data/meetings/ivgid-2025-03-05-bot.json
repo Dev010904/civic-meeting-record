@@ -15,6 +15,132 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1229,
+          "page": 2,
+          "type": "pdf"
+        },
+        "start": "00:06:11"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1229,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:06:11"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1229,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:09:26"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1229,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:12:55"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 2,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 2,
+      "title": "GENERAL BUSINESS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E.1",
+      "page": 2,
+      "title": "Review and Discuss Fiscal Year 2024/2025 Mid-Year Budget; Discussion, Direction, and Possible Action. (Requesting Staff Members: District General Manager Robert Harrison, and Director o f Finance Jessica O'Connell) - This Item was removed by staff"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -75,6 +201,7 @@
         }
       ],
       "number": "E.2",
+      "page": 2,
       "title": "Review, Discuss and possibly Approve the 2025/2026 Group Picnic Rental Fee Rate Schedule. (Requesting Staff Member: Parks and Recreation Director Karen Crocker)"
     },
     {
@@ -182,6 +309,7 @@
         }
       ],
       "number": "E.3",
+      "page": 3,
       "title": "Review, Discuss and Possibly Approve the Fields Fee Rate Schedule. (Requesting Staff Member: Director Parks and Recreation Karen Crocker)"
     },
     {
@@ -247,7 +375,80 @@
         }
       ],
       "number": "E.4",
+      "page": 3,
       "title": "Review, Discuss and Provide Direction Regarding Funding of the Parks Division; Currently part of the General Fund and the recommendation to move the Parks Division to the Community Services Fund for Fiscal Year 2025-26 and Subsequent Years. (Requesting Staff Members Director of Finance Jessica O'Connell and Director of Parks and Recreation Karen Crocker)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 4,
+      "title": "BOARD OF TRUSTEES UPDATE"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1229,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "01:07:44"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1229,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "01:07:44"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1229,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "01:09:52"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "G",
+      "page": 4,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 4,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

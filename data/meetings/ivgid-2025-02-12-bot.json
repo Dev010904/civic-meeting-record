@@ -32,7 +32,7 @@
   },
   "items": [
     {
-      "disposition": "passed",
+      "disposition": null,
       "extraction": {
         "confidence": "exact",
         "flags": [],
@@ -40,6 +40,291 @@
       },
       "media_timestamp": null,
       "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1171,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:12:58"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1171,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:12:58"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1171,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:15:52"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS - Limited to a maximum of three minutes in"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1171,
+          "page": 2,
+          "type": "pdf"
+        },
+        "start": "00:18:58"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1171,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:18:58"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 2,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 2,
+      "title": "REPORTS TO THE BOARD - Reports are intended to inform the Board"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1171,
+          "page": 2,
+          "type": "pdf"
+        },
+        "start": "00:42:16"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1171,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:42:16"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E.1",
+      "page": 2,
+      "title": "Time Certain 5:30 PM - Presentation by Lyon County's Director of Finance Josh Foli, on Capital Planning and Funding. (Requesting Staff Member: Director of Public Works Kate Nelson) Director of Public Works Kate Nelson introduced Lyon County's Director of Finance, Josh Foli, who provided a presentation on Capital Planning and Funding, reviewing Budgeting, reporting Capital Outlay-Governmental Funds, Capital Improvement Plans, Budget Augmentations, Budget Violations and reviewed IVGID General Fund from Fiscal year 2023 highlighting the variances. Once Mr. Folis' presentation was complete, he opened the floor to the Board for questions and discussion. Media"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1171,
+          "page": 2,
+          "type": "pdf"
+        },
+        "start": "00:23:21"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1171,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:23:21"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E.2",
+      "page": 2,
+      "title": "District General Manager's Monthly Status Report. (Requesting Staff Member: District General Manager Robert Harrison) District General Manager Harrison provided an overview of his first couple of weeks with the District and opened the floor to the Board for questions and discussion. Media"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1171,
+          "page": 3,
+          "type": "pdf"
+        },
+        "start": "01:20:45"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1171,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "01:20:45"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E.3",
+      "page": 2,
+      "title": "Verbal Update on the Tyler Enterprises ERP Implementation, the Committee for Local Government Finance, and the Fiscal Year 2024/2025 Audit Progress. (Requesting Staff Member: Director of Finance Jessica O'Connell) District General Manager Harrison provided a brief overview of the activities related to the Audited Financial Statements, and the deadlines set by the Committee of Government Finance (CLGF). He went on to report that Davis Farr intends to file a disclaimer of opinion for the Districts 2024 Financial Statements, and that the district has contracted with Baker Tilly for assistance in these areas. Director of Finance Jessica O’Connell then provided an update on audit activities within the department and highlighted completed items such as Department efficiencies, internal controls and the segregation of duties. She went on to explain"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1171,
+          "page": 3,
+          "type": "pdf"
+        },
+        "start": "00:34:29"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1171,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:34:29"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E.4",
+      "page": 3,
+      "title": "Verbal Update on the Agreement between Incline Village General Improvement District and Waste Management. (Requesting Staff Member: Director of Public Works Kate Nelson) Director of Public Works provided an overview of the forthcoming contract negotiation"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E.5",
+      "page": 3,
+      "title": "Verbal Update on the Veterans Memorial Project. (Requesting Staff Member: Director of Public Works Kate Nelson) Director of Public Works Nelson provided an update on the status of the Veteran's Memorial, and matters related to the TRPA determining land coverage allowance, and possible remediation of coverage on the proposed site. Director Nelson then opened the floor to the Board for questions and discussion. Media Timestamp 00:36:48"
+    },
+    {
+      "disposition": "passed",
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1171,
+          "page": 3,
+          "type": "pdf"
+        },
+        "start": "02:00:34"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1171,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "02:00:34"
+        }
+      ],
       "money": [],
       "motions": [
         {
@@ -74,7 +359,230 @@
         }
       ],
       "number": "F",
+      "page": 3,
       "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G",
+      "page": 4,
+      "title": "GENERAL BUSINESS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1171,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "02:02:09"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1171,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "02:02:09"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "G.1",
+      "page": 4,
+      "title": "Review, Discuss, and Direct Staff to Draft the District General Manager's Goals through Fiscal Year 2024-2025. (Requesting Staff Member: Human Resource Director Erin Feore) Director of Human Resources Erin Feore provided a brief overview of the drafted District General Managers Goals designed to start the conversation. Board and Staff discussion followed: Trustee Jezycki summed up the Board conversation by stating that there are some urgent objectives that can be extracted from the Trustee and Staff discussion. She then offered to assist the HR director and the GM with the input provided by Board members to finalize a draft of the Goals to return for approval at the February 26, 2025, meeting. Human Resource Director Feore clarified that the trustees are to send her their"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1171,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "02:15:46"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1171,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "02:15:46"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "G.2",
+      "page": 4,
+      "title": "Review, Discuss and Direct Staff to Draft the Preferred District General Manager Evaluation Process. (Requesting Staff Member: Director of Human Resources Erin Feore) Director of Human Resources Erin Feore provided a brief explanation and the history of the Districts Evaluation process. The Director of Human Resources then opened the floor for Board questions and discussion. During the Board discussion, Trustee Jezycki stated that, for the sake of time, her recommendation would be that the Board use the presented evaluation process for the 4-month evaluation plan. She additionally offered her assistance in the development of a more useful Evaluation System. Following the additional Board discussion, Trustee Jezycki ensured her fellow Trustees that when the goals are fleshed out properly that they will be measurable"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1171,
+          "page": 5,
+          "type": "pdf"
+        },
+        "start": "02:23:48"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1171,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "02:23:48"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "G.3",
+      "page": 4,
+      "title": "Review, Discuss, and Direct Staff to Schedule Interviews for the At-Large Audit Committee Member Applicant(s), and/ or Extend the current Deadline for Applications by (30) days, Discussion, Direction, and possible Action. (Requesting Staff Member: District General Manager Robert Harrison) District General Manager Robert Harrison provided an overview of the process for appointing applicants for the Audit Committee At-large members. During the Board and Staff discussion, Trustee Tulloch mentioned concerns related to previous applicants and that he had not seen any current applications. Trustee Homan spoke regarding his confidence in the qualifications of current applicants. Trustee Noble recommended that the Board move forward and schedule the interview process for the Board meeting on February 26, 2025. It was further agreed that the"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 5,
+      "title": "REDACTIONS FOR PENDING PUBLIC RECORDS REQUESTS (for possible"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "I",
+      "page": 5,
+      "title": "LONG RANGE CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "I.1",
+      "page": 5,
+      "title": "Long-Range Calendar Additions to the Long-Range Calendar: February 26th Meeting to have the following Items: District General Manager Goals; Audit Committee At-Large Candidate Interviews, Board Member Audit Committee Appointment for expiring term; Ski Venue Rates. July 9th Board Meeting to have the following Items: GM Goals for the next Fiscal Year; and GM Evaluation Sheet and Tools March 26 Meeting to have the following Items: Pricing be drafted by North Lake Tahoe Fire Protection District to retrofit the Charcoal Barbeque Grills at Burnt Cedar (Grill Count 12) to use Portable Propane Date to be determined - Legal Counsel Dual Track: in-house Recruitment/ RFP Budget Hearing Dates to include Rates for Golf Venues"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "J",
+      "page": 5,
+      "title": "B OARD OF TRUSTEES UPDATE"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1171,
+          "page": 5,
+          "type": "pdf"
+        },
+        "start": "02:36:10"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1171,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "02:36:10"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "K",
+      "page": 5,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes in"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "L",
+      "page": 5,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

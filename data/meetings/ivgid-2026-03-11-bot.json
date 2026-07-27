@@ -21,6 +21,294 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:14:28",
+        "provenance": {
+          "file_id": 2665,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:07:52"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:14:28",
+          "provenance": {
+            "file_id": 2665,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:07:52"
+        },
+        {
+          "end": "00:11:06",
+          "provenance": {
+            "file_id": 2665,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:08:04"
+        },
+        {
+          "end": "00:14:28",
+          "provenance": {
+            "file_id": 2665,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:11:08"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:15:00",
+        "provenance": {
+          "file_id": 2665,
+          "page": 3,
+          "type": "pdf"
+        },
+        "start": "00:14:29"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:15:00",
+          "provenance": {
+            "file_id": 2665,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:14:29"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 3,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:17:09",
+        "provenance": {
+          "file_id": 2665,
+          "page": 3,
+          "type": "pdf"
+        },
+        "start": "00:15:01"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:17:09",
+          "provenance": {
+            "file_id": 2665,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:15:01"
+        },
+        {
+          "end": "00:17:09",
+          "provenance": {
+            "file_id": 2665,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:15:01"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 3,
+      "title": "BOARD OF TRUSTEES UPDATE - Updates are intended"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:30:23",
+        "provenance": {
+          "file_id": 2665,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "00:17:19"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:30:23",
+          "provenance": {
+            "file_id": 2665,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:17:19"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 3,
+      "title": "REPORTS TO THE BOARD - Reports are intended to"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:38:37",
+        "provenance": {
+          "file_id": 2665,
+          "page": 5,
+          "type": "pdf"
+        },
+        "start": "00:30:11"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:38:37",
+          "provenance": {
+            "file_id": 2665,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:30:11"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.2",
+      "page": 5,
+      "title": "Verbal Presentation by North Lake Tahoe Fire Protection District 2026/2027 Defensible Space Work Plan in accordance with paragraph 2 of the Cooperative Agreement dated March 19, 2025. (Requesting Staff Member: Director of Public Works Kate Nelson) The North Lake Tahoe Fire Protection District defensible space work plan presentation is"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:49:56",
+        "provenance": {
+          "file_id": 2665,
+          "page": 7,
+          "type": "pdf"
+        },
+        "start": "00:38:39"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:49:56",
+          "provenance": {
+            "file_id": 2665,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "00:38:39"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.3",
+      "page": 7,
+      "title": "District General Manager's Monthly Status Report. (Requesting Staff Member: District General Manager Robert Harrison)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:03:51",
+        "provenance": {
+          "file_id": 2665,
+          "page": 8,
+          "type": "pdf"
+        },
+        "start": "00:49:58"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:03:51",
+          "provenance": {
+            "file_id": 2665,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "00:49:58"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.4",
+      "page": 8,
+      "title": "Financial Reports Covering January 2026 Results; to include the Board Treasurer's Report, Monthly Bill Pay Report and Monthly District Financial Report. (Requesting Staff Member: Director of Finance Noemi Barter)"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -81,7 +369,53 @@
         }
       ],
       "number": "G",
+      "page": 9,
       "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.1",
+      "page": 10,
+      "title": "Approval of the IVGID Board of Trustees Meeting Minutes for February 25, 2026. (Requesting Staff Member: District Clerk Heidi White) - pages 87 - 192 Action: Approved as submitted"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.2",
+      "page": 10,
+      "title": "Review, Discuss and Approve the Memorial Monument Design at the Village Green. (Requesting Staff Member: District General Manager Robert Harrison) - pages 193 - 210 Action: Approved as submitted"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 10,
+      "title": "GENERAL BUSINESS"
     },
     {
       "disposition": "passed",
@@ -166,6 +500,7 @@
         }
       ],
       "number": "G.3",
+      "page": 10,
       "title": "Review, Discuss and Approve the Change Order #2 for the Snowflake Lodge Needs Assessment, FY 2025.26 Ski, CIP #3653BD1502; Consultant: Snow Engineering Group; $40,000. (Requesting Staff Member: Director of Public Works Kate Nelson). - pages 211 - 516 Full discussion and approval of ItemH.1"
     },
     {
@@ -291,6 +626,7 @@
         }
       ],
       "number": "H.1",
+      "page": 11,
       "title": "Discuss and Possibly Approve a Community Services Budget Transfer to Increase Capital Funds Available for Construction of the Incline Bike Park - Phase II to Authorize a Change Order to Pave the Existing and New Pump Tracks in the Amount of $112,000; IVGID Portion of $56,000, Private Donor Portion of $56,000; FY 2025/26 Capital Improvement Project; Fund: Community Services; Division: Parks; Project #4378LI2601. Discussion and Possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson)"
     },
     {
@@ -638,7 +974,86 @@
         }
       ],
       "number": "H.2",
+      "page": 12,
       "title": "Review, Discuss and possibly Approve Key Rates and Charges within the District's Community Services Division. (Requesting Staff Member: Director of Community Services Mike Bandelin)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "I",
+      "page": 16,
+      "title": "LONG RANGE CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:35:41",
+        "provenance": {
+          "file_id": 2665,
+          "page": 16,
+          "type": "pdf"
+        },
+        "start": "02:29:01"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:35:41",
+          "provenance": {
+            "file_id": 2665,
+            "page": 16,
+            "type": "pdf"
+          },
+          "start": "02:29:01"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "I.1",
+      "page": 16,
+      "title": "Review, Discuss and possibly Add or Remove Long Range Calendar Items to future Board of Trustees Agendas. (Requesting Staff Member: District Clerk Heidi White)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "J",
+      "page": 16,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes in duration"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "K",
+      "page": 16,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

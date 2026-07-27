@@ -58,6 +58,96 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "ROLL CALL OF THE AUDIT COMMITTEE MEMBERS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1527,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:07:38"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1527,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:07:38"
+        },
+        {
+          "end": "00:11:01",
+          "provenance": {
+            "file_id": 1527,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:07:43"
+        },
+        {
+          "end": "00:12:46",
+          "provenance": {
+            "file_id": 1527,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:11:12"
+        },
+        {
+          "end": "00:16:04",
+          "provenance": {
+            "file_id": 1527,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:13:06"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 4,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -196,7 +286,41 @@
         }
       ],
       "number": "D",
+      "page": 4,
       "title": "GENERAL BUSINESS ITEMS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1527,
+          "page": 6,
+          "type": "pdf"
+        },
+        "start": "01:05:30"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1527,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "01:05:30"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 6,
+      "title": "LONG RANGE CALENDAR REVIEW"
     },
     {
       "disposition": "passed",
@@ -259,7 +383,92 @@
         }
       ],
       "number": "F",
+      "page": 7,
       "title": "MEETING MINUTES"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1527,
+          "page": 7,
+          "type": "pdf"
+        },
+        "start": "01:12:01"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1527,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "01:12:01"
+        },
+        {
+          "end": "01:15:04",
+          "provenance": {
+            "file_id": 1527,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "01:12:24"
+        },
+        {
+          "end": "01:18:28",
+          "provenance": {
+            "file_id": 1527,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "01:15:25"
+        },
+        {
+          "end": "01:21:49",
+          "provenance": {
+            "file_id": 1527,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "01:18:45"
+        },
+        {
+          "end": "01:23:53",
+          "provenance": {
+            "file_id": 1527,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "01:22:13"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "G",
+      "page": 7,
+      "title": "PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 10,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

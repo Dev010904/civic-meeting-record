@@ -72,6 +72,14 @@ PATTERNS = {
         "A recorded vote on removing an item from the agenda, and what the "
         "published records show about that item afterwards."
     ),
+    "item_vanished_from_agenda": (
+        "An item the minutes show was explicitly removed — named in a "
+        "recorded removal vote, or carrying a note that staff removed it — "
+        "which produced no motion of its own, with what the published set "
+        "shows about it afterwards (spec §2.5). Restricted to explicit "
+        "removals: an item simply appearing once and not returning is the "
+        "ordinary shape of a discussion or report item, not a finding."
+    ),
 }
 
 # Patterns that link two or more meetings. Findings of these types must
@@ -230,7 +238,11 @@ def _uk_date(iso: str) -> str:
 
 
 def _item_page(item: dict[str, Any], fallback: int = 1) -> int:
-    """The earliest page any claim on this item was drawn from."""
+    """The page this item is traceable to: where its heading appears, or
+    failing that the earliest page any claim on it was drawn from. A
+    motion-free item has only the heading, which is why records carry it."""
+    if isinstance(item.get("page"), int) and item["page"] >= 1:
+        return item["page"]
     pages = [m["provenance"]["page"] for m in item["motions"]]
     pages += [m["provenance"]["page"] for m in item["money"]]
     return min(pages) if pages else fallback
@@ -579,6 +591,24 @@ def detect_agenda_removals(records: list[dict[str, Any]]) -> list[Finding]:
                 )
                 endpoints = [_endpoint(record, item, page)]
                 later_hits: list[dict[str, Any]] = []
+                # The item the vote was about sits in this same meeting's
+                # agenda. Before the record layer carried motion-free items
+                # it was invisible, so the vote could not be linked to what
+                # it was aimed at.
+                same_meeting: list[dict[str, Any]] = []
+                for target in targets:
+                    for target_item in record["items"]:
+                        if (target_item.get("number") or "").upper() != target:
+                            continue
+                        same_meeting.append({
+                            "target": target,
+                            "item_title": target_item.get("title"),
+                            "motions_recorded": len(target_item["motions"]),
+                            "disposition": target_item["disposition"],
+                        })
+                        endpoints.append(
+                            _endpoint(record, target_item, _item_page(target_item))
+                        )
                 for target in targets:
                     for later in records[index + 1:]:
                         for later_item in later["items"]:
@@ -606,6 +636,17 @@ def detect_agenda_removals(records: list[dict[str, Any]]) -> list[Finding]:
                     f"removing an item from the agenda{named}. {outcome_phrase} "
                     f"({_tally_phrase(motion)})."
                 )
+                for hit in same_meeting:
+                    if hit["motions_recorded"]:
+                        summary += (
+                            f" Item {hit['target']} of the same meeting records "
+                            f"{hit['motions_recorded']} motion(s)."
+                        )
+                    else:
+                        summary += (
+                            f" Item {hit['target']} appears on the agenda of the same "
+                            "meeting with no motion recorded against it."
+                        )
                 if targets and not later_hits:
                     summary += (
                         f" The published set contains no later meeting whose minutes "
@@ -627,10 +668,120 @@ def detect_agenda_removals(records: list[dict[str, Any]]) -> list[Finding]:
                             "yeas": motion["yeas"],
                             "nays": motion["nays"],
                             "named_items": targets,
+                            "same_meeting_targets": same_meeting,
                             "later_appearances": later_hits,
                         },
                     )
                 )
+    return _dedupe(findings)
+
+
+# --- Pattern: an item explicitly removed from an agenda -------------------
+
+# The minutes recording that an item was taken off, in the clerk's own words
+# rather than inferred from the item not recurring.
+_REMOVED_NOTE_RE = re.compile(
+    r"\b(?:was|were)\s+removed\b|\bremoved\s+by\s+staff\b"
+    r"|\bpulled\s+from\s+the\s+agenda\b",
+    re.IGNORECASE,
+)
+
+
+def detect_vanished_items(records: list[dict[str, Any]]) -> list[Finding]:
+    """Report items the minutes show were explicitly removed and produced no
+    motion, with what the published set shows about them afterwards.
+
+    Deliberately restricted to explicit removals. Any motion-free item that
+    does not recur would be a far larger set — 199 of them in this corpus —
+    but it is dominated by verbal updates, workshop presentations and
+    consent-calendar entries disposed of by a motion on their parent item.
+    Reporting those as items that vanished would assert a pattern where the
+    records show only that something was discussed once, which is the
+    ordinary shape of a report item.
+    """
+    findings: list[Finding] = []
+    for index, record in enumerate(records):
+        # Items named in a removal vote at this meeting.
+        named: dict[str, dict[str, Any]] = {}
+        for item in record["items"]:
+            for motion in item["motions"]:
+                if not _REMOVAL_RE.search(motion["text"]):
+                    continue
+                for match in _TARGET_ITEM_RE.finditer(motion["text"]):
+                    named[match.group(1).upper()] = {
+                        "motion": motion, "vote_item": item,
+                    }
+
+        for item in record["items"]:
+            number = (item.get("number") or "").upper()
+            note = _REMOVED_NOTE_RE.search(item.get("title") or "")
+            vote = named.get(number)
+            if not note and not vote:
+                continue
+            if item["motions"]:
+                # Removed but still acted on: not a vanishing item.
+                continue
+
+            reason = (
+                "the minutes note that the item was removed"
+                if note else
+                "the item is named in a recorded vote on removing an item "
+                "from the agenda"
+            )
+            endpoints = [_endpoint(record, item, _item_page(item))]
+            later_hits = []
+            for later in records[index + 1:]:
+                for later_item in later["items"]:
+                    if similarity(item["title"], later_item["title"]) < CANDIDATE_SIMILARITY:
+                        continue
+                    later_hits.append({
+                        "meeting_id": later["meeting_id"],
+                        "date": later["date"],
+                        "item_number": later_item.get("number"),
+                        "motions_recorded": len(later_item["motions"]),
+                    })
+                    endpoints.append(
+                        _endpoint(later, later_item, _item_page(later_item))
+                    )
+            summary = (
+                f"The minutes of {_uk_date(record['date'])} record item {number} on "
+                f"the agenda with no motion against it, and {reason}."
+            )
+            if later_hits:
+                first = later_hits[0]
+                summary += (
+                    f" The minutes of {_uk_date(first['date'])} record item "
+                    f"{first['item_number']} on a matching title."
+                )
+            else:
+                summary += (
+                    " No later meeting in the published set records an item on a "
+                    "matching title."
+                )
+            findings.append(
+                Finding(
+                    pattern="item_vanished_from_agenda",
+                    confidence=CONFIDENCE_ASSERTED if note else CONFIDENCE_CANDIDATE,
+                    match_basis=(
+                        "removal recorded in the item heading" if note
+                        else "item named in a recorded agenda-removal vote"
+                    ),
+                    summary=summary,
+                    endpoints=endpoints,
+                    detail={
+                        "item_number": item.get("number"),
+                        "item_title": item.get("title"),
+                        "removal_note": bool(note),
+                        "removal_vote_outcome": (
+                            vote["motion"]["outcome"] if vote else None
+                        ),
+                        "removal_vote_text": (
+                            vote["motion"]["text"] if vote else None
+                        ),
+                        "later_appearances": later_hits,
+                    },
+                )
+            )
     return _dedupe(findings)
 
 
@@ -654,6 +805,7 @@ def detect_all(records: list[dict[str, Any]]) -> list[Finding]:
         + detect_amount_increases(ordered)
         + detect_continuations(ordered)
         + detect_agenda_removals(ordered)
+        + detect_vanished_items(ordered)
     )
 
 

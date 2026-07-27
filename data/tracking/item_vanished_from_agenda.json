@@ -1,0 +1,95 @@
+{
+  "asserted": 1,
+  "candidates": 2,
+  "count": 3,
+  "description": "An item the minutes show was explicitly removed — named in a recorded removal vote, or carrying a note that staff removed it — which produced no motion of its own, with what the published set shows about it afterwards (spec §2.5). Restricted to explicit removals: an item simply appearing once and not returning is the ordinary shape of a discussion or report item, not a finding.",
+  "findings": [
+    {
+      "confidence": "asserted",
+      "detail": {
+        "item_number": "E.1",
+        "item_title": "Review and Discuss Fiscal Year 2024/2025 Mid-Year Budget; Discussion, Direction, and Possible Action. (Requesting Staff Members: District General Manager Robert Harrison, and Director o f Finance Jessica O'Connell) - This Item was removed by staff",
+        "later_appearances": [],
+        "removal_note": true,
+        "removal_vote_outcome": null,
+        "removal_vote_text": null
+      },
+      "endpoints": [
+        {
+          "body": "Board of Trustees",
+          "date": "2025-03-05",
+          "item_number": "E.1",
+          "item_title": "Review and Discuss Fiscal Year 2024/2025 Mid-Year Budget; Discussion, Direction, and Possible Action. (Requesting Staff Members: District General Manager Robert Harrison, and Director o f Finance Jessica O'Connell) - This Item was removed by staff",
+          "meeting_id": "ivgid-2025-03-05-bot",
+          "provenance": {
+            "file_id": 1229,
+            "page": 2,
+            "type": "pdf"
+          }
+        }
+      ],
+      "match_basis": "removal recorded in the item heading",
+      "pattern": "item_vanished_from_agenda",
+      "summary": "The minutes of 5 March 2025 record item E.1 on the agenda with no motion against it, and the minutes note that the item was removed. No later meeting in the published set records an item on a matching title."
+    },
+    {
+      "confidence": "candidate",
+      "detail": {
+        "item_number": "H.1",
+        "item_title": "Review, Discuss, and Approve the Employee Pass Program for Beach A ccess. (Requesting Board Member Trustee Dave Noble)",
+        "later_appearances": [],
+        "removal_note": false,
+        "removal_vote_outcome": "failed",
+        "removal_vote_text": "All in favor of Removing Item H.1. Review, discuss, and possibly approve the Employee Pass Program for Beach access; From the Agenda, please vote by saying \"Yea\", all those opposed say \"Nay.\""
+      },
+      "endpoints": [
+        {
+          "body": "Board of Trustees",
+          "date": "2025-05-14",
+          "item_number": "H.1",
+          "item_title": "Review, Discuss, and Approve the Employee Pass Program for Beach A ccess. (Requesting Board Member Trustee Dave Noble)",
+          "meeting_id": "ivgid-2025-05-14-bot",
+          "provenance": {
+            "file_id": 1428,
+            "page": 15,
+            "type": "pdf"
+          }
+        }
+      ],
+      "match_basis": "item named in a recorded agenda-removal vote",
+      "pattern": "item_vanished_from_agenda",
+      "summary": "The minutes of 14 May 2025 record item H.1 on the agenda with no motion against it, and the item is named in a recorded vote on removing an item from the agenda. No later meeting in the published set records an item on a matching title."
+    },
+    {
+      "confidence": "candidate",
+      "detail": {
+        "item_number": "H.5",
+        "item_title": "Review, Discuss, and provide Direction regarding Ordinance 7: Review of paragraphs 100: Misconduct; 101: Hold Accountable; 102: Disciplinary Procedures for Misconduct; and 106: Administration. (Requesting Staff Member: Director of Administrative Services Susan Herron)",
+        "later_appearances": [],
+        "removal_note": false,
+        "removal_vote_outcome": "failed",
+        "removal_vote_text": "To remove Item H.5. from the Agenda, Trustee Chair Tonking called for a Vote to remove Item H.5. from the agenda as requested."
+      },
+      "endpoints": [
+        {
+          "body": "Board of Trustees",
+          "date": "2025-12-10",
+          "item_number": "H.5",
+          "item_title": "Review, Discuss, and provide Direction regarding Ordinance 7: Review of paragraphs 100: Misconduct; 101: Hold Accountable; 102: Disciplinary Procedures for Misconduct; and 106: Administration. (Requesting Staff Member: Director of Administrative Services Susan Herron)",
+          "meeting_id": "ivgid-2025-12-10-bot",
+          "provenance": {
+            "file_id": 1570,
+            "page": 18,
+            "type": "pdf"
+          }
+        }
+      ],
+      "match_basis": "item named in a recorded agenda-removal vote",
+      "pattern": "item_vanished_from_agenda",
+      "summary": "The minutes of 10 December 2025 record item H.5 on the agenda with no motion against it, and the item is named in a recorded vote on removing an item from the agenda. No later meeting in the published set records an item on a matching title."
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "pattern": "item_vanished_from_agenda",
+  "schema_version": 1
+}

@@ -163,7 +163,21 @@ _NARRATIVE_RE = re.compile(
 # "G. MEETING MINUTES (For possible Action)". Audit Committee minutes carry
 # no numbered items at all, so a motion there associates with its section —
 # both forms are verbatim document structure, never inferred.
-_ITEM_NUMBER_RE = re.compile(r"^\s*([A-Z]\.\d+(?:\.\d+)*)[.)]?\s*(.*)$")
+# "E.1", "E.1.2" and the lettered sub-item form "E.1.A" the clerks use for
+# a public hearing's parts. Without the trailing letter, "E.1.A Review …"
+# reads as item E.1 with a title beginning "A Review …", colliding with the
+# real E.1 in the same meeting.
+_ITEM_NUMBER_RE = re.compile(r"^\s*([A-Z]\.\d+(?:\.\d+)*(?:\.[A-Z])?)[.)]?\s*(.*)$")
+# The minutes body ends at adjournment; everything after it is appended
+# correspondence and staff attachments, whose lines can look exactly like
+# item headings ("H.1. Employee Beach Access — Supportive" is a line from an
+# emailed talking-points note, not an agenda item). The skeleton stops there.
+_ADJOURNMENT_RE = re.compile(r"\badjourn", re.IGNORECASE)
+# A line left dangling mid-item-reference: ends on "Item"/"Items" or on an
+# item number. The next line continuing that list is not a heading.
+_ITEM_LIST_TAIL_RE = re.compile(
+    r"(?:\bitems?|\b[A-Z]\.\d+)\s*[.,;]*\s*(?:and\s*)?[.,;]*\s*$", re.IGNORECASE
+)
 _SECTION_NUMBER_RE = re.compile(r"^\s*([A-Z])[.)]\s*(.*)$")
 # The procedural action marker is a Nevada open-meeting annotation on the
 # heading, not part of the item's title.
@@ -392,6 +406,23 @@ class Motion:
 
 
 @dataclass
+class AgendaItem:
+    """One heading in the document's agenda skeleton, whether or not it
+    produced a motion (spec §2.2: item number, title, disposition).
+
+    Emitted for every heading so a record can say that an item was on the
+    agenda and produced nothing — which is a different fact from the item
+    not being there at all, and the one spec §2.5's vanishing-item pattern
+    depends on. ``number`` is a lettered section ("G") or a numbered item
+    ("H.5"); ``page`` is where the heading appears.
+    """
+
+    number: Optional[str]
+    title: Optional[str]
+    page: int
+
+
+@dataclass
 class MediaTimestamp:
     """A clerk-written ``Media Timestamp (HH:MM:SS - HH:MM:SS)`` range —
     human-verified alignment ground truth (spec §2.2). Draft minutes also
@@ -424,6 +455,9 @@ class ParsedMinutes:
     public_comments: list[PublicComment]
     unparseable_pages: list[int]
     flags: list[str]
+    # The agenda skeleton in document order — every heading, including ones
+    # that produced no motion.
+    items: list[AgendaItem] = field(default_factory=list)
     # Spec §2.7 rule 2: pages built from unapproved minutes must be labelled
     # draft. "draft" | "approved" | None (undetermined — treat as draft
     # downstream rather than assuming approval).
@@ -604,9 +638,12 @@ def _title_continues(bl: _BodyLine) -> bool:
 
 def _item_context(
     body: list[_BodyLine],
-) -> dict[tuple[int, int], tuple[Optional[str], Optional[str]]]:
-    """Map every body line to the agenda item it sits under, as
-    ``(number, title)`` keyed by ``(page, line)``.
+) -> tuple[
+    dict[tuple[int, int], tuple[Optional[str], Optional[str]]],
+    list["AgendaItem"],
+]:
+    """Map every body line to the agenda item it sits under, and return the
+    agenda skeleton in document order.
 
     A numbered item heading ("E.1 …") wins over the lettered section it sits
     in, and a new section clears the current item. Where a body numbers no
@@ -614,13 +651,41 @@ def _item_context(
     its section heading instead. Both are read verbatim from the document;
     nothing is inferred, and a motion appearing before any heading maps to
     ``(None, None)``.
+
+    The second return value is every heading the document carries, whether
+    or not it produced a motion. Without it a record cannot distinguish
+    "this item produced no motion" from "this item was never on the agenda"
+    — the two look identical, which is a silent inaccuracy and hides the
+    spec §2.5 pattern of an item appearing and then not returning.
     """
     context: dict[tuple[int, int], tuple[Optional[str], Optional[str]]] = {}
     section: tuple[Optional[str], Optional[str]] = (None, None)
     item: Optional[tuple[Optional[str], Optional[str]]] = None
+    items: list[AgendaItem] = []
+    seen: set[tuple[Optional[str], Optional[str]]] = set()
+
+    adjourned = False
+
+    def record(key: tuple[Optional[str], Optional[str]], page: int) -> None:
+        if adjourned:
+            return
+        if key != (None, None) and key not in seen:
+            seen.add(key)
+            items.append(
+                AgendaItem(number=key[0], title=key[1], page=page)
+            )
 
     for index, bl in enumerate(body):
         heading, is_item = _is_heading(bl.text)
+        # A consent calendar lists its members inline ("… and Item F.3.
+        # Approval of a Donation …", "Items F.1., F.2., F.3., F.4., F.5 /
+        # F.6., as submitted."). When that sentence wraps so a number lands
+        # at the start of a line it looks exactly like a heading. What marks
+        # it as a continuation is the line above ending mid-reference — on
+        # the word "Item(s)" or on another item number. A real heading never
+        # follows either.
+        if is_item and index and _ITEM_LIST_TAIL_RE.search(body[index - 1].text):
+            heading = False
         if heading:
             pattern = _ITEM_NUMBER_RE if is_item else _SECTION_NUMBER_RE
             match = pattern.match(bl.text)
@@ -634,11 +699,15 @@ def _item_context(
                         break
                     parts.append(following.text)
                 item = (number, _clean_title(" ".join(parts)) or None)
+                record(item, bl.page)
             else:
                 section = (number, _clean_title(remainder) or None)
                 item = None
+                record(section, bl.page)
+                if _ADJOURNMENT_RE.search(section[1] or ""):
+                    adjourned = True
         context[(bl.page, bl.line)] = item if item is not None else section
-    return context
+    return context, items
 
 
 def _fix_wrap_hyphens(text: str) -> str:
@@ -1074,7 +1143,7 @@ def parse_minutes(
     body, comments = _mark_comment_regions(body, file_id)
     # Agenda-item association, computed after comment segmentation so a
     # title can never absorb public-comment text.
-    item_context = _item_context(body)
+    item_context, agenda_items = _item_context(body)
 
     def item_at(bl: _BodyLine) -> tuple[Optional[str], Optional[str]]:
         return item_context.get((bl.page, bl.line), (None, None))
@@ -1175,6 +1244,7 @@ def parse_minutes(
         public_comments=comments,
         unparseable_pages=unparseable,
         flags=doc_flags,
+        items=agenda_items,
         minutes_status=status,
         minutes_status_basis=basis,
     )

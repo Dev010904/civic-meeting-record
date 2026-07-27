@@ -44,6 +44,192 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1432,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:05:45"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1432,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:05:45"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1432,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:05:57"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1432,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:09:22"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1432,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:12:36"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 4,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 4,
+      "title": "GENERAL BUSINESS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1432,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "00:16:14"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1432,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:16:14"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E.1",
+      "page": 4,
+      "title": "District General Manager Budget Report - Fiscal Year 2025-26 - Review, Discuss and provide Feedback to the District General Manager regarding the Board of Trustees questions provided to the District General Manager following the first Budget Workshop and incorporated reorganization (Requesting Staff Member: District General Manager Robert Harrison)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1432,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "00:53:06"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1432,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "00:53:06"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E.2",
+      "page": 9,
+      "title": "Budget Workshop Presentation - Fiscal Year 2025–26 - Presentation by the Facilities; Marketing and Communications; Food and Beverage teams regarding their Budgets with Discussion and possible Feedback from the Board of Trustees (Requesting Staff Member: Diamond Peak General Manager Mike Bandelin)"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -104,6 +290,7 @@
         }
       ],
       "number": "E.3",
+      "page": 16,
       "title": "Budget Workshop Presentation - Fiscal Year 2025-26 - Review, Discuss and possibly Adopt proposed Changes to Policy 7.1.0 - Budgeting and Fiscal Management, Appropriate Level of Reserves, Effective Fiscal Year Ending June 30, 2022; Policy 18.1.0 - Budgeting and Fiscal Management, Adoption of Central Service Cost Allocation Plan, Effective Fiscal Year Ending June 30, 2022; Policy 21.1.0 - Purchasing Policy for Goods and Services, Effective February 14, 2024; and Policy 21.2.0 - Purchasing Policy for Public Works Contracts - Effective February 14, 2024 (Requesting Staff M ember: Director of Finance Jessica O'Connell)"
     },
     {
@@ -168,7 +355,53 @@
         }
       ],
       "number": "E.4",
+      "page": 16,
       "title": "Review, Discuss and Approval to reset the date and time for the Public Hearing(s) for the FY 2025/2026 Budget and Recreation Roll Page 100 of 295 for Friday, May 30, 2025, at 12 noon (Requesting Staff Member: Director of Finance Jessica O'Connell) Full discussion on Item E.4. to Approve to reset the date and time for Public Hearing(s)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 17,
+      "title": "BOARD OF TRUSTEES UPDATE"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G",
+      "page": 17,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 17,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

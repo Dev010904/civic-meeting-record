@@ -7,6 +7,129 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "ROLL CALL OF THE AUDIT COMMITTEE MEMBERS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:40:30",
+        "provenance": {
+          "file_id": 2721,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:10:56"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:40:30",
+          "provenance": {
+            "file_id": 2721,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:10:56"
+        },
+        {
+          "end": "00:19:30",
+          "provenance": {
+            "file_id": 2721,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:11:00"
+        },
+        {
+          "end": "00:26:07",
+          "provenance": {
+            "file_id": 2721,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:19:36"
+        },
+        {
+          "end": "00:29:35",
+          "provenance": {
+            "file_id": 2721,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:26:07"
+        },
+        {
+          "end": "00:39:00",
+          "provenance": {
+            "file_id": 2721,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:29:38"
+        },
+        {
+          "end": "00:40:35",
+          "provenance": {
+            "file_id": 2721,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:39:04"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 1,
+      "title": "REPORTS TO THE COMMITTEE"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -145,7 +268,74 @@
         }
       ],
       "number": "E",
+      "page": 7,
       "title": "GENERAL BUSINESS ITEMS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:20:40",
+        "provenance": {
+          "file_id": 2721,
+          "page": 11,
+          "type": "pdf"
+        },
+        "start": "01:10:31"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:20:40",
+          "provenance": {
+            "file_id": 2721,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "01:10:31"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E.4",
+      "page": 11,
+      "title": "Discussion and Feedback related to the content of the Audit Committee Annual Report to be submitted to the Board of Trustees Assessing the Results of the Fulfillment of the Audit Committee's Duties and Responsibilities as required by Board Policy 15.1.0, Section 2.9., is"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:23:25",
+        "provenance": {
+          "file_id": 2721,
+          "page": 11,
+          "type": "pdf"
+        },
+        "start": "01:20:43"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:23:25",
+          "provenance": {
+            "file_id": 2721,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "01:20:43"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 11,
+      "title": "LONG RANGE CALENDAR REVIEW"
     },
     {
       "disposition": "passed",
@@ -208,7 +398,38 @@
         }
       ],
       "number": "G",
+      "page": 12,
       "title": "MEETING MINUTES"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 12,
+      "title": "PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "I",
+      "page": 12,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

@@ -14,6 +14,117 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 2748,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:07:54"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 2748,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:07:54"
+        },
+        {
+          "end": "00:10:30",
+          "provenance": {
+            "file_id": 2748,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:08:10"
+        },
+        {
+          "end": "00:13:52",
+          "provenance": {
+            "file_id": 2748,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:10:50"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 3,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 3,
+      "title": "G ENERAL BUSINESS"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "flagged",
@@ -105,7 +216,38 @@
         }
       ],
       "number": "E.1",
+      "page": 3,
       "title": "Authorize the District General Manager to Execute a Contract Amendment Increasing the Baker Tilly Contract by $27,000 for Additional Accounting Resources Required to Support Continued Work on Daily operational Activities and Special Projects as Previously Prioritized by the Board. (Requesting Staff Member: Director of Finance Jessica O'Connell)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 4,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes in"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G",
+      "page": 4,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

@@ -34,6 +34,192 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:31:07",
+        "provenance": {
+          "file_id": 1540,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:06:26"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:31:07",
+          "provenance": {
+            "file_id": 1540,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:06:26"
+        },
+        {
+          "end": "00:10:01",
+          "provenance": {
+            "file_id": 1540,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:06:46"
+        },
+        {
+          "end": "00:13:24",
+          "provenance": {
+            "file_id": 1540,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:10:23"
+        },
+        {
+          "end": "00:16:12",
+          "provenance": {
+            "file_id": 1540,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:13:31"
+        },
+        {
+          "end": "00:19:32",
+          "provenance": {
+            "file_id": 1540,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:16:29"
+        },
+        {
+          "end": "00:22:56",
+          "provenance": {
+            "file_id": 1540,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:19:55"
+        },
+        {
+          "end": "00:24:14",
+          "provenance": {
+            "file_id": 1540,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:23:07"
+        },
+        {
+          "end": "00:25:56",
+          "provenance": {
+            "file_id": 1540,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:24:23"
+        },
+        {
+          "end": "00:29:05",
+          "provenance": {
+            "file_id": 1540,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:26:11"
+        },
+        {
+          "end": "00:30:58",
+          "provenance": {
+            "file_id": 1540,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:29:20"
+        },
+        {
+          "end": "00:31:12",
+          "provenance": {
+            "file_id": 1540,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:30:59"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:31:20",
+        "provenance": {
+          "file_id": 1540,
+          "page": 6,
+          "type": "pdf"
+        },
+        "start": "00:31:13"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:31:20",
+          "provenance": {
+            "file_id": 1540,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:31:13"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 6,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -160,6 +346,7 @@
         }
       ],
       "number": "E",
+      "page": 7,
       "title": "PUBLIC HEARINGS Reference: Nevada Revised Statutes"
     },
     {
@@ -224,7 +411,125 @@
         }
       ],
       "number": "E.1",
+      "page": 8,
       "title": "Approve and Authorize the Board Chair and Secretary to Sign and Execute the Collective Bargaining Agreements between Incline Village General Improvement District and the Operating Engineers Local Union No. 3, Skilled Workforce Bargaining Unit, Supervisors Bargaining Unit and the Superintendents’ Bargaining Unit, from July 1, 2025, through and including June 30, 2027. (Requesting Staff Member: District General Manager Robert Harrison) The full discussion on Item E.1. Agreements between Incline Village General Improvement District and Operating Engineers Local Union No"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:56:09",
+        "provenance": {
+          "file_id": 1540,
+          "page": 10,
+          "type": "pdf"
+        },
+        "start": "00:52:48"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:56:09",
+          "provenance": {
+            "file_id": 1540,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "00:52:48"
+        },
+        {
+          "end": "00:54:07",
+          "provenance": {
+            "file_id": 1540,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "00:52:48"
+        },
+        {
+          "end": "00:56:09",
+          "provenance": {
+            "file_id": 1540,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "00:54:07"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 10,
+      "title": "BOARD OF TRUSTEES UPDATE - Updates are intended"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:11:27",
+        "provenance": {
+          "file_id": 1540,
+          "page": 11,
+          "type": "pdf"
+        },
+        "start": "00:56:34"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:11:27",
+          "provenance": {
+            "file_id": 1540,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "00:56:34"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "G",
+      "page": 11,
+      "title": "REPORTS TO THE BOARD - Reports are intended to"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:22:39",
+        "provenance": {
+          "file_id": 1540,
+          "page": 12,
+          "type": "pdf"
+        },
+        "start": "01:11:27"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:22:39",
+          "provenance": {
+            "file_id": 1540,
+            "page": 12,
+            "type": "pdf"
+          },
+          "start": "01:11:27"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "G.2",
+      "page": 12,
+      "title": "Financial Reports Covering August 2025 Results; to include the Board Treasurer's Report, Monthly Bill Pay Report and Monthly District Financial Report (Requesting Staff Member: Director of Finance Jessica O'Connell) The full discussion related to Item G.2. Financial Reports covering the August 2025 results"
     },
     {
       "disposition": "passed",
@@ -287,7 +592,38 @@
         }
       ],
       "number": "H",
+      "page": 13,
       "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H.1",
+      "page": 14,
+      "title": "Approval of the IVGID Board of Trustees Meeting Minutes for August 27, 2025. (Requesting Staff Member: District Clerk Heidi White)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "I",
+      "page": 14,
+      "title": "GENERAL BUSINESS"
     },
     {
       "disposition": "passed",
@@ -350,6 +686,7 @@
         }
       ],
       "number": "I.1",
+      "page": 14,
       "title": "Review, discuss and possibly send a letter to Ms. Joy Gumz asking if she has received all the records she requested on PRR 24-116 (A request for the Rubin Brown work papers). (Requesting Staff Member: Director of Administrative Services Susan Herron) The full discussion related to Item I.1. Public Records (Rubin Brown Work papers) review can"
     },
     {
@@ -423,6 +760,7 @@
         }
       ],
       "number": "I.2",
+      "page": 14,
       "title": "Review, Discuss and Possibly Reaffirm and/or Amend the Prior Approval of the Added Alternates #1: Fire Pits and #2: Band Stand, for the Incline Beach House Project, CIP #3973L1302. (Requesting Staff Member: Project Manager Bree Waters)"
     },
     {
@@ -486,6 +824,7 @@
         }
       ],
       "number": "I.3",
+      "page": 15,
       "title": "Review, Discuss and possibly provide Feedback regarding the District General Manager’s Plan for Outreach and Engagement of the Hispanic Community; and, Possibly Appoint a Board Liaison to Participate in the Focus Groups and Data Collection Process. (Requesting Staff Member: District General Manager Robert Harrison) The full discussion of Item I.3. GM's Plan for engagement of the Hispanic Community"
     },
     {
@@ -574,7 +913,23 @@
         }
       ],
       "number": "I.4",
+      "page": 15,
       "title": "Approve and Authorize the General Manager to Sign and Execute an Agreement with the Incline Ice Foundation for the Incline Village General Improvement District to Accept a Donation of an Ice Rink Package and a Grant of $50,000+ to Support the Ice Rink Activities. (Requesting Board Member: David Noble)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "J",
+      "page": 16,
+      "title": "LONG RANGE CALENDAR"
     },
     {
       "disposition": "passed",
@@ -637,7 +992,38 @@
         }
       ],
       "number": "J.1",
+      "page": 16,
       "title": "Review, discuss and possibly Add or Remove Long Range Calendar Items to Future Board of Trustee Agendas"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "K",
+      "page": 17,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes in duration"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "L",
+      "page": 17,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

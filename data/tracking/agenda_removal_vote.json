@@ -24,6 +24,7 @@
           "mover_not_recorded"
         ],
         "outcome": null,
+        "same_meeting_targets": [],
         "tally": {
           "absent": 0,
           "abstain": 0,
@@ -72,6 +73,14 @@
           "mover_not_recorded"
         ],
         "outcome": "failed",
+        "same_meeting_targets": [
+          {
+            "disposition": null,
+            "item_title": "Review, Discuss, and Approve the Employee Pass Program for Beach A ccess. (Requesting Board Member Trustee Dave Noble)",
+            "motions_recorded": 0,
+            "target": "H.1"
+          }
+        ],
         "tally": {
           "absent": 0,
           "abstain": 0,
@@ -94,11 +103,23 @@
             "page": 8,
             "type": "pdf"
           }
+        },
+        {
+          "body": "Board of Trustees",
+          "date": "2025-05-14",
+          "item_number": "H.1",
+          "item_title": "Review, Discuss, and Approve the Employee Pass Program for Beach A ccess. (Requesting Board Member Trustee Dave Noble)",
+          "meeting_id": "ivgid-2025-05-14-bot",
+          "provenance": {
+            "file_id": 1428,
+            "page": 15,
+            "type": "pdf"
+          }
         }
       ],
       "match_basis": "removal language in a recorded vote",
       "pattern": "agenda_removal_vote",
-      "summary": "The minutes of 14 May 2025 record a vote on removing an item from the agenda, naming item H.1. The motion is recorded as failed (1 in favour, 4 against). The published set contains no later meeting whose minutes record item H.1 on a matching title."
+      "summary": "The minutes of 14 May 2025 record a vote on removing an item from the agenda, naming item H.1. The motion is recorded as failed (1 in favour, 4 against). Item H.1 appears on the agenda of the same meeting with no motion recorded against it. The published set contains no later meeting whose minutes record item H.1 on a matching title."
     },
     {
       "confidence": "asserted",
@@ -119,6 +140,14 @@
           "no_seconder"
         ],
         "outcome": "failed",
+        "same_meeting_targets": [
+          {
+            "disposition": null,
+            "item_title": "Review, Discuss, and provide Direction regarding Ordinance 7: Review of paragraphs 100: Misconduct; 101: Hold Accountable; 102: Disciplinary Procedures for Misconduct; and 106: Administration. (Requesting Staff Member: Director of Administrative Services Susan Herron)",
+            "motions_recorded": 0,
+            "target": "H.5"
+          }
+        ],
         "tally": {
           "absent": 0,
           "abstain": 0,
@@ -141,11 +170,23 @@
             "page": 9,
             "type": "pdf"
           }
+        },
+        {
+          "body": "Board of Trustees",
+          "date": "2025-12-10",
+          "item_number": "H.5",
+          "item_title": "Review, Discuss, and provide Direction regarding Ordinance 7: Review of paragraphs 100: Misconduct; 101: Hold Accountable; 102: Disciplinary Procedures for Misconduct; and 106: Administration. (Requesting Staff Member: Director of Administrative Services Susan Herron)",
+          "meeting_id": "ivgid-2025-12-10-bot",
+          "provenance": {
+            "file_id": 1570,
+            "page": 18,
+            "type": "pdf"
+          }
         }
       ],
       "match_basis": "removal language in a recorded vote",
       "pattern": "agenda_removal_vote",
-      "summary": "The minutes of 10 December 2025 record a vote on removing an item from the agenda, naming item H.5. The motion is recorded as failed (1 in favour, 4 against). The published set contains no later meeting whose minutes record item H.5 on a matching title."
+      "summary": "The minutes of 10 December 2025 record a vote on removing an item from the agenda, naming item H.5. The motion is recorded as failed (1 in favour, 4 against). Item H.5 appears on the agenda of the same meeting with no motion recorded against it. The published set contains no later meeting whose minutes record item H.5 on a matching title."
     }
   ],
   "jurisdiction": "ivgid",

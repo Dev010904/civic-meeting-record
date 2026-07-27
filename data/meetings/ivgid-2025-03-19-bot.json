@@ -42,6 +42,162 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1261,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:05:15"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1261,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:05:15"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1261,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:05:24"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1261,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:08:38"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1261,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:11:31"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1261,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:14:48"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1261,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:18:13"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1261,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:21:34"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1261,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:24:14"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 2,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 3,
+      "title": "GENERAL BUSINESS"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -168,7 +324,86 @@
         }
       ],
       "number": "E.1",
+      "page": 3,
       "title": "Review, Discuss and Approve the Amended and Restated Cooperative Agreement with North Lake Tahoe Fire Protection District for Fire Reduction (Defensible Space) Services: FY 2025/26 Fund: Community Services; Division: Administration; GL# 30364999-7560 (50% - $100,000): Fund: Utilities; Division; Water; GL#20002299-7560 (25% - $50,000): Fund: Utilities; Division; Sewer; GL#20002599-7560 (25% - $50,000), in an Amount Not to Exceed $200,000. (Requesting Staff Member: Director of Public Works Kate Nelson) Following the introduction to Item E.1. - Chair Tonking recused herself, noting a conflict of interest"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1261,
+          "page": 3,
+          "type": "pdf"
+        },
+        "start": "00:40:25"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1261,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:40:25"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1261,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:49:16"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1261,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "01:16:03"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1261,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "01:17:30"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1261,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "01:34:13"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1261,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "01:51:00"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E.2",
+      "page": 3,
+      "title": "Budget Workshop Presentation - Fiscal Year 2025-26 Community Recreation and Internal Services; Communications, and Discussion, and possible Feedback. (Requesting Staff Member: District General Manager Robert Harrison, and Director of Finance Jessica O'Connell)"
     },
     {
       "disposition": "passed",
@@ -231,6 +466,7 @@
         }
       ],
       "number": "E.3",
+      "page": 6,
       "title": "Review, and possibly Approve the Beach (Ski, Incline and Burnt Cedar) Rates for the 2025 Season: Discussion and possible Action. (Requesting Staff Member: Director of Parks and Recreation Karen Crocker)"
     },
     {
@@ -294,7 +530,89 @@
         }
       ],
       "number": "E.4",
+      "page": 6,
       "title": "Review and Discuss Historical Financial results of District-Owned Golf Courses (Mountain, and Championship) and possibly Approve the Recommended Rates, Rate Structure and Course Operations for the 2025 Golf Season: Discussion, and Possible Action. (Requesting Staff Member: Senior Head Golf Professional Rob Bruce) The full Board discussion regarding Item E.4. to Approve District-owned Golf Courses (Mountain, and Championship)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1261,
+          "page": 7,
+          "type": "pdf"
+        },
+        "start": "03:05:46"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1261,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "03:05:46"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 7,
+      "title": "BOARD OF TRUSTEES UPDATE"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1261,
+          "page": 7,
+          "type": "pdf"
+        },
+        "start": "03:08:38"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1261,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "03:08:38"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "G",
+      "page": 7,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes in"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 7,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

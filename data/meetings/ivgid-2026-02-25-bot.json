@@ -99,6 +99,177 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:13:48",
+        "provenance": {
+          "file_id": 2649,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:04:12"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:13:48",
+          "provenance": {
+            "file_id": 2649,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:04:12"
+        },
+        {
+          "end": "00:07:32",
+          "provenance": {
+            "file_id": 2649,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:04:20"
+        },
+        {
+          "end": "00:10:34",
+          "provenance": {
+            "file_id": 2649,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:07:39"
+        },
+        {
+          "end": "00:13:39",
+          "provenance": {
+            "file_id": 2649,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:10:44"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:14:19",
+        "provenance": {
+          "file_id": 2649,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "00:13:52"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:14:19",
+          "provenance": {
+            "file_id": 2649,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:13:52"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 4,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 4,
+      "title": "GENERAL BUSINESS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:20:16",
+        "provenance": {
+          "file_id": 2649,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "00:14:24"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:20:16",
+          "provenance": {
+            "file_id": 2649,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:14:24"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "H.1",
+      "page": 4,
+      "title": "Budget Workshop #3 - Community Services & Beaches to include Venue Rates and Fees Proposal. (Requesting Staff Member: Director of Finance Noemi Barter)"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -159,7 +330,203 @@
         }
       ],
       "number": "G",
+      "page": 7,
       "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.1",
+      "page": 7,
+      "title": "Approval of the IVGID Board of Trustees Meeting Minutes for January 28, 2026. (Requesting Staff Member: District Clerk Heidi White) Action: Approved as submitted"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.2",
+      "page": 7,
+      "title": "Review and Accept the Annual Summary of Claims for the year of 2025 as submitted by District Legal Counsel. (Requesting Staff Member: District Legal Counsel David Rigdon) Action: Approved as submitted"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.3",
+      "page": 7,
+      "title": "Approve and Authorize the Board Chair and Secretary to sign an Agreement between Incline Village General Improvement District and F.W. Carson Construction for the Capital Improvement Water Main Replacement - Incline Ct., FY 2025/26 Utilities: Water: CIP #2299WS1803, in the Amount of $613,821; and, Authorize Staff to Execute Change Orders for Additional Work if Required up to Approximately 15% of the Construction Contract Value; not to Exceed $92,000; FY 2025/26 Utilities: Water: CIP #2299WS1803 (Requesting Staff Member: Director of Public Works Kate Nelson). Action: Approved as submitted"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:24:29",
+        "provenance": {
+          "file_id": 2649,
+          "page": 8,
+          "type": "pdf"
+        },
+        "start": "01:21:07"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:24:29",
+          "provenance": {
+            "file_id": 2649,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "01:21:07"
+        },
+        {
+          "end": "01:23:40",
+          "provenance": {
+            "file_id": 2649,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "01:21:16"
+        },
+        {
+          "end": "01:24:29",
+          "provenance": {
+            "file_id": 2649,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "01:23:42"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 8,
+      "title": "BOARD OF TRUSTEES UPDATE - Updates are intended"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:49:37",
+        "provenance": {
+          "file_id": 2649,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "01:24:30"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:49:37",
+          "provenance": {
+            "file_id": 2649,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "01:24:30"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 9,
+      "title": "REPORTS TO THE BOARD - Reports are intended to"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:33:06",
+        "provenance": {
+          "file_id": 2649,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "01:24:33"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:33:06",
+          "provenance": {
+            "file_id": 2649,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "01:24:33"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.1",
+      "page": 9,
+      "title": "District General Manager's Monthly Status Report. (Requesting Staff Member: District General Manager Robert Harrison)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:45:30",
+        "provenance": {
+          "file_id": 2649,
+          "page": 10,
+          "type": "pdf"
+        },
+        "start": "01:33:08"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:45:30",
+          "provenance": {
+            "file_id": 2649,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "01:33:08"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.2",
+      "page": 10,
+      "title": "Financial Reports Covering December 2025 Results; to include the Board Treasurer's Report, Monthly Bill Pay Report and Monthly District Financial Report. (Requesting Staff Member: Director of Finance Noemi Barter)"
     },
     {
       "disposition": "passed",
@@ -222,7 +589,113 @@
         }
       ],
       "number": "F.3",
+      "page": 12,
       "title": "In accordance with NRS 241.0395(1), Receive a Report Acknowledging the Attorney General's February 5, 2026, Findings of Fact and Conclusions of Law regarding Open Meeting Law Complaint Filed by Mr. Aaron Katz (OAG File No.: 13897-530). Note: Pursuant to NRS 241.0395(2), an acknowledgment of an Attorney General’s findings of fact and conclusions of law is not an admission of wrongdoing for the purposes of a civil action, criminal prosecution, or injunctive relief. (Requesting Staff Member: District Legal Counsel David Rigdon, Esq.) - pages 127 - 137 The full discussion related to the Report of the Attorney General's findings of fact and conclusions of law related to Mr. Katz's Open Meeting Law (OML)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "I",
+      "page": 13,
+      "title": "LONG RANGE CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:50:40",
+        "provenance": {
+          "file_id": 2649,
+          "page": 13,
+          "type": "pdf"
+        },
+        "start": "01:49:42"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:50:40",
+          "provenance": {
+            "file_id": 2649,
+            "page": 13,
+            "type": "pdf"
+          },
+          "start": "01:49:42"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "I.1",
+      "page": 13,
+      "title": "Review, Discuss and possibly Add or Remove Long Range Calendar Items to future Board of Trustees Agendas. (Requesting Staff Member: District Clerk Heidi White)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:53:14",
+        "provenance": {
+          "file_id": 2649,
+          "page": 13,
+          "type": "pdf"
+        },
+        "start": "01:50:42"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:53:14",
+          "provenance": {
+            "file_id": 2649,
+            "page": 13,
+            "type": "pdf"
+          },
+          "start": "01:50:42"
+        },
+        {
+          "end": "01:53:14",
+          "provenance": {
+            "file_id": 2649,
+            "page": 13,
+            "type": "pdf"
+          },
+          "start": "01:50:53"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "J",
+      "page": 13,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes in duration"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "K",
+      "page": 14,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

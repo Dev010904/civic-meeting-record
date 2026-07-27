@@ -46,9 +46,10 @@ def _money(raw, usd, vendor, purpose, ref, file_id, page, role="amount"):
     }
 
 
-def _item(number, title, motions, money):
+def _item(number, title, motions, money, page=1):
     return {
-        "number": number, "title": title, "disposition": "passed",
+        "number": number, "title": title, "page": page,
+        "disposition": "passed" if motions else None,
         "motions": motions, "money": money, "media_timestamp": None,
         "media_timestamps": [],
         "extraction": {"stage": "A", "confidence": "exact", "flags": []},
@@ -203,6 +204,75 @@ def test_shared_vendor_with_unrelated_title_does_not_link():
     )
     assert [f for f in findings
             if f.pattern == "amount_increase_after_prior_approval"] == []
+
+
+# --- Motion-free items and the vanishing pattern -------------------------
+
+
+def _removal_meeting(target_has_motion: bool):
+    target_motions = (
+        [_motion("to Approve the Employee Pass Program.", 1428, 15)]
+        if target_has_motion else []
+    )
+    return _record("ivgid-2025-05-14-bot", "2025-05-14", 1428, [
+        _item("D", "APPROVAL OF AGENDA",
+              [_motion('All in favor of Removing Item H.1. Review, discuss, and '
+                       'possibly approve the Employee Pass Program for Beach '
+                       'access; From the Agenda, please vote by saying "Yea".',
+                       1428, 8, outcome="failed")], [], page=7),
+        _item("H.1", "Review, Discuss, and Approve the Employee Pass Program "
+                     "for Beach Access at District Beaches",
+              target_motions, [], page=15),
+    ])
+
+
+def test_a_removal_vote_links_to_the_item_it_named():
+    """The target sits in the same meeting. Before records carried
+    motion-free items it was invisible, so the vote could not be linked to
+    what it was aimed at."""
+    findings = tracking.detect_all([_removal_meeting(target_has_motion=False)])
+    vote = next(f for f in findings if f.pattern == "agenda_removal_vote")
+    assert len(vote.endpoints) == 2
+    assert vote.endpoints[1].item_number == "H.1"
+    assert vote.endpoints[1].page == 15
+    assert "Item H.1 appears on the agenda of the same meeting" in vote.summary
+
+
+def test_a_named_item_that_produced_no_motion_is_reported_as_vanished():
+    findings = tracking.detect_all([_removal_meeting(target_has_motion=False)])
+    vanished = [f for f in findings if f.pattern == "item_vanished_from_agenda"]
+    assert len(vanished) == 1
+    assert vanished[0].confidence == tracking.CONFIDENCE_CANDIDATE
+    assert vanished[0].endpoints[0].item_number == "H.1"
+
+
+def test_a_named_item_that_was_acted_on_is_not_reported_as_vanished():
+    """Removed-but-still-acted-on is not a vanishing item."""
+    findings = tracking.detect_all([_removal_meeting(target_has_motion=True)])
+    assert [f for f in findings if f.pattern == "item_vanished_from_agenda"] == []
+
+
+def test_an_explicit_removal_note_is_asserted_not_a_candidate():
+    record = _record("ivgid-2025-03-05-bot", "2025-03-05", 1229, [
+        _item("E.1", "Review and Discuss Fiscal Year 2024/2025 Mid-Year Budget; "
+                     "Discussion, Direction, and Possible Action - This Item was "
+                     "removed by staff", [], [], page=2),
+    ])
+    findings = tracking.detect_all([record])
+    vanished = [f for f in findings if f.pattern == "item_vanished_from_agenda"]
+    assert len(vanished) == 1
+    assert vanished[0].confidence == tracking.CONFIDENCE_ASSERTED
+    assert "removal recorded in the item heading" == vanished[0].match_basis
+
+
+def test_an_ordinary_motion_free_item_is_not_reported_as_vanished():
+    """A verbal update that appears once and does not recur is the ordinary
+    shape of a report item, not a finding."""
+    record = _record("ivgid-2025-02-12-bot", "2025-02-12", 1171, [
+        _item("E.3", "Verbal Update on the Tyler Enterprises ERP Implementation "
+                     "and the Committee Structure", [], [], page=2),
+    ])
+    assert tracking.detect_all([record]) == []
 
 
 # --- Provenance is required at every end ---------------------------------

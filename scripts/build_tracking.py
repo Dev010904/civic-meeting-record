@@ -38,13 +38,14 @@ NOT_DETECTED = {
         "them as a separate extraction target). Comparing two minutes "
         "figures would answer a different question, so nothing is reported."
     ),
-    "item_appeared_on_agenda_then_vanished": (
-        "Not detected: the record layer carries only items that produced a "
-        "motion, because items[] is built by grouping motions. An item that "
-        "appeared on an agenda and produced no motion is therefore absent "
-        "from the records by construction, and cannot be distinguished from "
-        "an item that was never on the agenda. Detecting this needs either "
-        "the agenda layer above, or 6a extended to emit motion-free items."
+    "item_appeared_on_agenda_then_vanished_without_an_explicit_removal": (
+        "Not detected: reported only where the minutes record an explicit "
+        "removal (see item_vanished_from_agenda). The unrestricted form — "
+        "any motion-free item that does not recur — matches 199 items in "
+        "this corpus, almost all of them verbal updates, workshop "
+        "presentations and consent-calendar entries disposed of by a motion "
+        "on their parent item. Reporting those would assert a pattern where "
+        "the records show only that something was discussed once."
     ),
 }
 

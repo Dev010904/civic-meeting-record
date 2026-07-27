@@ -27,6 +27,96 @@
     {
       "disposition": null,
       "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1342,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:04:05"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1342,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:04:05"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1342,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:02:49"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1342,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:07:35"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1342,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "0:10:51"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
         "confidence": "flagged",
         "flags": [
           "missing_outcome"
@@ -93,7 +183,23 @@
         }
       ],
       "number": "D",
+      "page": 2,
       "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 2,
+      "title": "GENERAL BUSINESS"
     },
     {
       "disposition": "passed",
@@ -157,7 +263,116 @@
         }
       ],
       "number": "E.1",
+      "page": 2,
       "title": "Review, Discuss and Approve Additional Play Pass Options along with season Pass Sales Incentives and Rate Adjustment to the Pricing of the PM Season Pass. (Requesting Staff Member: Senior Head Golf Professional Rob Bruce)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1342,
+          "page": 3,
+          "type": "pdf"
+        },
+        "start": "00:28:25"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1342,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:28:25"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1342,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:28:40"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E.2",
+      "page": 3,
+      "title": "Review, discuss and approve the District's Tentative Budget as filed on Nevada State Form 4404LGF. (Requesting Staff Member: Director of Finance Jessica O'Connell)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1342,
+          "page": 6,
+          "type": "pdf"
+        },
+        "start": "01:07:06"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1342,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "01:07:06"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1342,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "01:07:12"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1342,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "01:10:19"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 6,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes in"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G",
+      "page": 7,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

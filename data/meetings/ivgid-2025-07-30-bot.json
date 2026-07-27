@@ -54,6 +54,111 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:16:48",
+        "provenance": {
+          "file_id": 1491,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:08:42"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:16:48",
+          "provenance": {
+            "file_id": 1491,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:08:42"
+        },
+        {
+          "end": "00:11:48",
+          "provenance": {
+            "file_id": 1491,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:08:42"
+        },
+        {
+          "end": "00:13:55",
+          "provenance": {
+            "file_id": 1491,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:12:06"
+        },
+        {
+          "end": "00:16:48",
+          "provenance": {
+            "file_id": 1491,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:13:57"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 4,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -96,7 +201,173 @@
         }
       ],
       "number": "E",
+      "page": 4,
       "title": "CLOSED SESSION - 4:00 P.M. or as soon thereafter as possible. The Board"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:12:05",
+        "provenance": {
+          "file_id": 1491,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "00:45:10"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:12:05",
+          "provenance": {
+            "file_id": 1491,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:45:10"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 4,
+      "title": "REPORTS TO THE BOARD - Reports are intended"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:16:05",
+        "provenance": {
+          "file_id": 1491,
+          "page": 5,
+          "type": "pdf"
+        },
+        "start": "01:12:10"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:16:05",
+          "provenance": {
+            "file_id": 1491,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "01:12:10"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.2",
+      "page": 5,
+      "title": "Report and Update on Incline Village Fireworks Incident, and Next Steps. (Requesting Staff Member: Diamond Peak Ski General Manager Mike Bandelin)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:18:40",
+        "provenance": {
+          "file_id": 1491,
+          "page": 6,
+          "type": "pdf"
+        },
+        "start": "01:16:09"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:18:40",
+          "provenance": {
+            "file_id": 1491,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "01:16:09"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.3",
+      "page": 6,
+      "title": "Report and Update on Revised Form 4404LGF which includes any Augmentation to Resolutions from June 25, 2025, and Final FY24 Audit Numbers. (Requesting Staff Member: Director of Finance Jessica O'Connell)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:24:50",
+        "provenance": {
+          "file_id": 1491,
+          "page": 7,
+          "type": "pdf"
+        },
+        "start": "01:18:42"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:24:50",
+          "provenance": {
+            "file_id": 1491,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "01:18:42"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.4",
+      "page": 6,
+      "title": "Verbal Report for Effluent Export Pipeline Replacement GMP#1 project close out. (Requesting Staff Member: Director of Public Works Kate Nelson)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:30:52",
+        "provenance": {
+          "file_id": 1491,
+          "page": 7,
+          "type": "pdf"
+        },
+        "start": "01:24:52"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:30:52",
+          "provenance": {
+            "file_id": 1491,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "01:24:52"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.5",
+      "page": 7,
+      "title": "Verbal Report and Update on Project Costs to Date for the Effluent Export Pipeline Replacement GMP #2. (Requesting Staff Member: Director of Public Works Kate Nelson)"
     },
     {
       "disposition": "passed",
@@ -141,7 +412,128 @@
         }
       ],
       "number": "G",
+      "page": 8,
       "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.1",
+      "page": 8,
+      "title": "Approval of the IVGID Board of Trustees Special Meeting Minutes for May 21, 2025. (Requesting Staff Member: District Clerk Heidi White)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.2",
+      "page": 8,
+      "title": "Approval of the IVGID Board of Trustees Special Meeting Minutes for May 30, 2025. (Requesting Staff Member: District Clerk Heidi White)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.3",
+      "page": 8,
+      "title": "Approval of the IVGID Board of Trustees Special Meeting Minutes for June 6, 2025. (Requesting Staff Member: District Clerk Heidi White)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.4",
+      "page": 8,
+      "title": "Approval of the IVGID Board of Trustees Meeting Minutes for June 11, 2025. (Requesting Staff Member: District Clerk Heidi White)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.5",
+      "page": 8,
+      "title": "Review, Discuss and Possibly Approve a Change Order to Increase the Blanket Purchase Order (PO#22600021) for Olin Corporation in the Amount of $55,000 for Water Operations GL#20002223-7425. (Requesting Staff Member: Director of Public Works Kate Nelson)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.6",
+      "page": 9,
+      "title": "Review, Discuss and Possibly Approve an Equipment Purchase Order for the Manufacturing and Delivery of Diamond Peak Replacement Staff Outdoor Uniforms; Fund: Community Services; Division: Ski; Project Type; Expense; GL Uniforms 30343499 7430; Vendor: Pacific Crest Uniform Company dba Mountain Uniforms in the Amount of $139,775. (Requesting Staff Member: Diamond Peak General Manager Mike Bandelin)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.7",
+      "page": 9,
+      "title": "Review, Discuss and possibly Approve an Equipment Purchase Order for the Procurement of a replacement 32 - Passenger Shuttle Bus, FY2026 Capital Project: Fund: Community Services; Division: Ski; Project Type; Rolling Stock; Vendor: Model 1 Commercial Vehicles Inc., in the amount of $180,967 and an Estimated $12,500 in Additional Equipment including Ski Racks and Decals for a Total Project Amount of $193,467. (Requesting Staff Member: Diamond Peak General Manager Mike Bandelin)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 9,
+      "title": "GENERAL BUSINESS"
     },
     {
       "disposition": "passed",
@@ -204,6 +596,7 @@
         }
       ],
       "number": "H.1",
+      "page": 9,
       "title": "Approve and Authorize the District General Manager to Sign and Execute an Agreement between Incline Village General Improvement District and CCMedia Publishing for Magazine Publishing Services During Calendar Years 2026 Through 2030. (Requesting Staff Member: Marketing & Communications Manager Paul Raymore)"
     },
     {
@@ -300,6 +693,7 @@
         }
       ],
       "number": "H.2",
+      "page": 9,
       "title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and K.G. Walters Construction for the Replacement of the Burnt Cedar Backup Generator Fuel Tank; FY 2025/26 Utilities: Water: CIP #2299DI1707; in the Amount of $425,000; and Authorize staff to Execute Change Orders for Additional Work if required, of Approximately 5% of the Construction Contract Value; not to Exceed $21,250; FY 2025/26 Utilities: Water: CIP#2299DI1707; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson)"
     },
     {
@@ -396,6 +790,7 @@
         }
       ],
       "number": "H.3",
+      "page": 10,
       "title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and Spohn Ranch, Inc. for the 100% Design-Build Contract for Skate Park Enhancement Project - FY 2025/26 Capital Improvement Project; Fund: Community Services; Division: Parks; Project #4378BD2202; in an Amount of $400,000; and Approve a Construction Contingency of 10% in an Amount Not to Exceed $40,000; Discussion and possible Action. (Requesting Staff Member: District Asset and Project Manager Bree Waters)"
     },
     {
@@ -459,6 +854,7 @@
         }
       ],
       "number": "H.4",
+      "page": 11,
       "title": "Review, Discuss, and Possibly Approve a Proposed Amendment to Ordinance #2 - Sewer to Revise a Single Section to Allow Use of Hydromechanical Grease Interceptors within the District. (Requesting Staff Member: Director of Public Works Kate Nelson)"
     },
     {
@@ -707,7 +1103,83 @@
         }
       ],
       "number": "H.5",
+      "page": 11,
       "title": "Review, Discuss and Possibly Approve the Added Alternates for the Incline Beach House Project, CIP #3973LI1302. (Requesting Staff Members: Director of Public Works Kate Nelson, and District Project Manager Bree Waters)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "I",
+      "page": 12,
+      "title": "LONG RANGE CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "I.1",
+      "page": 12,
+      "title": "Review, discuss and possibly Add or Remove Long Range Calendar Items to Future Board of Trustee Agendas. Items added to the August Meeting Report and update - Effluent Pipeline Financials Davis Farr Contract Amendment Items added to the September Meeting GM Strategic Planning Committee Board and Community Member Appointments Items added to the October Meeting Final debrief on Watercraft Parking Pilot Program Items added to the November/ December Meeting Beach House update"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "J",
+      "page": 13,
+      "title": "BOARD OF TRUSTEES UPDATE - Updates are"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "K",
+      "page": 13,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes in"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "L",
+      "page": 14,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

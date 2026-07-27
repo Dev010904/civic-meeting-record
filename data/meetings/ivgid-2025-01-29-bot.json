@@ -7,6 +7,111 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS - Limited to a maximum of three minutes in"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 2,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 2,
+      "title": "REPORTS TO THE BOARD - Reports are intended to inform the Board and/or"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E.1",
+      "page": 2,
+      "title": "Verbal Update of the Fiscal Year 2024/2025 Audit (for discussion only, no action). (Requesting Staff Member: Director of Finance Jessica O'Connell) Director of Finance (DOF) Jessica O'Connell provided a brief update of the progress of the Fiscal Year 2024/2025 Audit and stated that the finance team is making progress and is scheduled to present a draft of the Audited Financial Statements at the February 26, 2025, Board meeting. DOF O'Connell opened the floor to the Board for questions and discussion. Trustee Michelle Jezycki acknowledged that the finance team has put in many hours and asked if the records that were requested by the Auditor (Davis Farr) have been sent out to them. She additionally confirmed with the DOF the timeline for documents to be submitted to Davis Farr in order to meet deadlines to receive the draft Audited Financial Statement as the two had previously discussed"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 3,
+      "title": "C ONSENT CALENDAR"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -48,7 +153,23 @@
         }
       ],
       "number": "F.1",
+      "page": 3,
       "title": "Approval of the IVGID Board of Trustees Meeting Minutes for January 8, 2025. (Requesting Staff Member: District Clerk Heidi White) Trustee Dave Noble made a motion to Approve the Board Meeting Minutes for January 8, 2025, without exception. Chair Tonking asked if there was a second for the motion, or discussion. Trustee Michelle Jezycki provided a brief acknowledgment, stating that pages 4 - 122 of the Board Packet reiterates the same concern discussed at the last Board Meeting in looking at ways to be more efficient. She noted that AI can create summaries and pointed to the cost per page in the minutes"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G",
+      "page": 3,
+      "title": "GENERAL BUSINESS"
     },
     {
       "disposition": "passed",
@@ -93,6 +214,7 @@
         }
       ],
       "number": "G.1",
+      "page": 3,
       "title": "Review, Discuss and Possibly Approve the Employment Contract with Robert W. Harrison to Serve as District General Manager (GM). (Requesting Staff Member: Director of Human Resources Erin Feore) Director of Human Resources Erin Feore began with a brief summary of her memorandum regarding the District General Manager Employment Contract as it relates to the changes to the agreement that were negotiated with Mr. Harrison and opened the floor to Board questions and discussion. Trustee Michelle Jezycki provided her feedback related to the negotiation of the employment agreement with Mr. Harrison. She noted the initial contract terms as it relates to severance pay would not be added to the terms until July 1, 2025, allowing the Board time to work with Mr. Harrison, and Mr. Harrison time to kick the tires on the"
     },
     {
@@ -137,6 +259,7 @@
         }
       ],
       "number": "G.2",
+      "page": 5,
       "title": "Review, Discuss and Possibly Approve the Request for Qualifications document for a Needs Assessment including Diamond Peak's Snowflake Lodge facility. (Requesting Staff Member: (Acting General Manager and General Manager of Diamond Peak Ski Resort Mike Bandelin) Acting General Manager and General Manager (GM) of Diamond Peak Ski Resort Mike Bandelin opened the discussion by providing an overview of the staff report and background on the Request for Qualifications (RFQ) document related to Needs Assessment, including key components for Diamond Peak's Snowflake Lodge facility. GM Bandelin opened the floor for questions and Board discussion. Trustee Noble made a motion to approve the Request for Qualifications (RFQ) document to perform a Needs Assessment of Diamond Peak's Snowflake Lodge Facility"
     },
     {
@@ -181,7 +304,113 @@
         }
       ],
       "number": "G.3",
+      "page": 6,
       "title": "Open Discussion and Possible Direction on Proceeding with (a) a Request for Qualifications for District General Counsel Services and/or (b) Proceed with a Professional Recruitment of a District General Counsel (in house). (Requesting Staff Member: Acting General Manager Mike Bandelin and Director of Administrative Services Susan Herron) Director of Administrative Services Susan Herron provided an introduction and recommendation to move forward with Professional Recruitment of an In-House District General Counsel and/ or direction for staff to proceed with the RFQ for District General Counsel Services Trustee Tulloch asked who the District General Counsel would be reporting to and stated that the Board of Trustees and Staff should have separate attorneys. Trustee Noble disagreed with fellow Trustee Tulloch's comments as they related to the"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.4",
+      "page": 7,
+      "title": "Open Discussion and Possible Direction on the Incline Beach House and Access Projects. (Requesting Staff Member: Director of Public Works Kate Nelson) Director of Public Works Kate Nelson provided a brief overview of the materials provided related to the Beach House and Access Projects. IVGID Project Manager Bree Waters began by providing a three-step process in the design process, the first being the hiring of the design build team and getting the 30% design; the second step is the matter before the Board at this meeting. The discussion will be on the following: construction development, the permitting, the bidding, and getting to that Guaranteed Maximum Price (GMP) number, then Staff would return the item to the board. The 3rd step in the process is the construction contract and the final construction with this team. Project Manager Waters then asked if this project was still"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.5",
+      "page": 9,
+      "title": "Capital Improvement Project Workshop; for Discussion and Possible Direction. (Requesting Staff Member: Acting General Manager Mike Bandelin and Director of Public Works Kate Nelson) Director of Public Works Kate Nelson provided an update and a summary of the projects on the Capital Improvement Projects and how they are broken out; what funds are being used and where they are in the projects' progress. Trustee Tulloch provided his feedback and requested a list of projects that will not be started this year and requested the total value of those projects, and what funds have been collected. This information will be provided by Director Nelson at a later date. Discussion continued. Diamond Peak General Manager Mike Bandelin provided an explanation of capital projects and the quarterly updates"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 11,
+      "title": "LONG RANGE CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H.1",
+      "page": 11,
+      "title": "Discussion and Direction on Long Range Calendar. Minutes Meeting of January 29, 2025 Page 12 Director of Administrative Services Susan Herron provided a detailed review of an updated Long-Range Calendar as follows: • Board meeting of February 12, 2025 - Staff would like to recommend that the meeting start at 3:30 PM or sooner, as staff has invited Josh Foli of Lyon County (who is also a member of the assigned subcommittee by the CLGF) to make a presentation regarding Capital Projects and Funding. • Staff has moved two items: 1) the GM Evaluation process, Form, etc. (which will move back to Feb. 12th; and 2) The District Strategic Plan (2025/2027) to move"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "I",
+      "page": 13,
+      "title": "BOARD OF TRUSTEES UPDATE"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "J",
+      "page": 13,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes in"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "K",
+      "page": 13,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

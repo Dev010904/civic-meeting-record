@@ -33,6 +33,210 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:17:32",
+        "provenance": {
+          "file_id": 2636,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:14:38"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:17:32",
+          "provenance": {
+            "file_id": 2636,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:14:38"
+        },
+        {
+          "end": "00:17:32",
+          "provenance": {
+            "file_id": 2636,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:14:54"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:17:46",
+        "provenance": {
+          "file_id": 2636,
+          "page": 2,
+          "type": "pdf"
+        },
+        "start": "00:17:41"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:17:46",
+          "provenance": {
+            "file_id": 2636,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:17:41"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 2,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:23:44",
+        "provenance": {
+          "file_id": 2636,
+          "page": 2,
+          "type": "pdf"
+        },
+        "start": "00:17:47"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:23:44",
+          "provenance": {
+            "file_id": 2636,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:17:47"
+        },
+        {
+          "end": "00:21:28",
+          "provenance": {
+            "file_id": 2636,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:17:53"
+        },
+        {
+          "end": "00:23:44",
+          "provenance": {
+            "file_id": 2636,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:21:30"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 2,
+      "title": "BOARD OF TRUSTEES UPDATE"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:38:20",
+        "provenance": {
+          "file_id": 2636,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "00:23:51"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:38:20",
+          "provenance": {
+            "file_id": 2636,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:23:51"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 3,
+      "title": "REPORTS TO THE BOARD - Reports are intended to"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G",
+      "page": 4,
+      "title": "CONSENT CALENDAR"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -91,7 +295,23 @@
         }
       ],
       "number": "G.1",
+      "page": 4,
       "title": "Approval of the IVGID Board of Trustees Meeting Minutes for January 14, 2026. (Requesting Staff Member: District Clerk Heidi White)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 5,
+      "title": "GENERAL BUSINESS"
     },
     {
       "disposition": "passed",
@@ -137,7 +357,71 @@
         }
       ],
       "number": "H.1",
+      "page": 5,
       "title": "Review, Discuss and possibly Approve the Employee Separation Incentive Program. (Requesting Staff Member: District General Manager Robert Harrison)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:27:40",
+        "provenance": {
+          "file_id": 2636,
+          "page": 5,
+          "type": "pdf"
+        },
+        "start": "01:02:42"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:27:40",
+          "provenance": {
+            "file_id": 2636,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "01:02:42"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "H.2",
+      "page": 5,
+      "title": "Budget Workshop #2 - General Fund & Utilities. (Requesting Staff Member: Director of Finance Noemi Barter)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "I",
+      "page": 7,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes in duration"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "J",
+      "page": 7,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

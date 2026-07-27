@@ -15,6 +15,420 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:43:46",
+        "provenance": {
+          "file_id": 1559,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:09:04"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:43:46",
+          "provenance": {
+            "file_id": 1559,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:09:04"
+        },
+        {
+          "end": "00:12:12",
+          "provenance": {
+            "file_id": 1559,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:09:12"
+        },
+        {
+          "end": "00:13:40",
+          "provenance": {
+            "file_id": 1559,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:12:13"
+        },
+        {
+          "end": "00:16:51",
+          "provenance": {
+            "file_id": 1559,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:13:41"
+        },
+        {
+          "end": "00:20:02",
+          "provenance": {
+            "file_id": 1559,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:16:52"
+        },
+        {
+          "end": "00:21:21",
+          "provenance": {
+            "file_id": 1559,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:20:03"
+        },
+        {
+          "end": "00:24:11",
+          "provenance": {
+            "file_id": 1559,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:21:22"
+        },
+        {
+          "end": "00:25:36",
+          "provenance": {
+            "file_id": 1559,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:24:12"
+        },
+        {
+          "end": "00:28:17",
+          "provenance": {
+            "file_id": 1559,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:25:37"
+        },
+        {
+          "end": "00:31:13",
+          "provenance": {
+            "file_id": 1559,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:28:18"
+        },
+        {
+          "end": "00:34:34",
+          "provenance": {
+            "file_id": 1559,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:31:14"
+        },
+        {
+          "end": "00:36:44",
+          "provenance": {
+            "file_id": 1559,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "00:34:35"
+        },
+        {
+          "end": "00:40:16",
+          "provenance": {
+            "file_id": 1559,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "00:36:45"
+        },
+        {
+          "end": "00:43:46",
+          "provenance": {
+            "file_id": 1559,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "00:40:17"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:44:44",
+        "provenance": {
+          "file_id": 1559,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "00:43:47"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:44:44",
+          "provenance": {
+            "file_id": 1559,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "00:43:47"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 9,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:54:14",
+        "provenance": {
+          "file_id": 1559,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "00:44:45"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:54:14",
+          "provenance": {
+            "file_id": 1559,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "00:44:45"
+        },
+        {
+          "end": "00:46:13",
+          "provenance": {
+            "file_id": 1559,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "00:44:45"
+        },
+        {
+          "end": "00:49:53",
+          "provenance": {
+            "file_id": 1559,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "00:46:14"
+        },
+        {
+          "end": "00:51:45",
+          "provenance": {
+            "file_id": 1559,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "00:49:54"
+        },
+        {
+          "end": "00:54:14",
+          "provenance": {
+            "file_id": 1559,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "00:51:46"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 9,
+      "title": "BOARD OF TRUSTEES UPDATE - Updates are intended"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "1:05:53",
+        "provenance": {
+          "file_id": 1559,
+          "page": 11,
+          "type": "pdf"
+        },
+        "start": "00:54:15"
+      },
+      "media_timestamps": [
+        {
+          "end": "1:05:53",
+          "provenance": {
+            "file_id": 1559,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "00:54:15"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 11,
+      "title": "REPORTS TO THE BOARD - Reports are intended to"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:56:40",
+        "provenance": {
+          "file_id": 1559,
+          "page": 12,
+          "type": "pdf"
+        },
+        "start": "00:54:18"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:56:40",
+          "provenance": {
+            "file_id": 1559,
+            "page": 12,
+            "type": "pdf"
+          },
+          "start": "00:54:18"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.1",
+      "page": 11,
+      "title": "District General Manager's Monthly Status Report. (Requesting Staff Member: District General Manager Robert Harrison)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:04:00",
+        "provenance": {
+          "file_id": 1559,
+          "page": 12,
+          "type": "pdf"
+        },
+        "start": "00:56:41"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:04:00",
+          "provenance": {
+            "file_id": 1559,
+            "page": 12,
+            "type": "pdf"
+          },
+          "start": "00:56:41"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.2",
+      "page": 12,
+      "title": "Financial Reports Covering September 2025 Results; to include the Board Treasurer's Report, Monthly Bill Pay Report and Monthly District Financial Report (Requesting Staff Member: Director of Finance Jessica O'Connell)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:05:54",
+        "provenance": {
+          "file_id": 1559,
+          "page": 13,
+          "type": "pdf"
+        },
+        "start": "01:04:01"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:05:54",
+          "provenance": {
+            "file_id": 1559,
+            "page": 13,
+            "type": "pdf"
+          },
+          "start": "01:04:01"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.3",
+      "page": 13,
+      "title": "In accordance with NRS 241.0395(1), Receive a Report Acknowledging the Attorney General's September 29, 2025, Findings of Fact and Conclusions of Law regarding Open Meeting Law Complaints Filed by Mr. Aaron Katz (OAG File No. 13897-501). Note: Pursuant to NRS 241.0395(2), an acknowledgment of an Attorney General’s findings of fact and conclusions of law is not an admission of wrongdoing for the purposes of a civil action, criminal prosecution, or injunctive relief. (Requesting Staff Member: District Legal Counsel David Rigdon, Esq.)"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -75,7 +489,149 @@
         }
       ],
       "number": "G",
+      "page": 14,
       "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.1",
+      "page": 14,
+      "title": "Approval of the IVGID Board of Trustees Meeting Minutes for September 17, 2025. (Requesting Staff Member: District Clerk Heidi White)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.2",
+      "page": 14,
+      "title": "Review, Discuss and Possibly Approve the Agreement for the Initial Assessment for the Tennis Court Reconstruction Project - FY 2025/26 Capital Improvement Project; Fund: Community Services; Division: Tennis; Project #TENNISCRT; Consultant: Lloyd Consulting Group in the amount of $101,285. (Requesting Staff Member: Director of Public Works Kate Nelson)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.3",
+      "page": 14,
+      "title": "Approve and Authorize the District General Manager to Sign and Execute the Eighth Amendment to Extend the Lease Agreement between Incline Village General Improvement District and the Hyatt Corporation through April 30, 2026. (Requesting Staff Member: Director of Community Services Mike Bandelin)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.4",
+      "page": 14,
+      "title": "Review, Discuss, and possibly Approve the Single Audit Report on Federal Awards as of June 30, 2023. (Requesting Staff Member: Director of Finance Jessica O'Connell)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 14,
+      "title": "GENERAL BUSINESS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:21:07",
+        "provenance": {
+          "file_id": 1559,
+          "page": 14,
+          "type": "pdf"
+        },
+        "start": "01:06:36"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:21:07",
+          "provenance": {
+            "file_id": 1559,
+            "page": 14,
+            "type": "pdf"
+          },
+          "start": "01:06:36"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "H.7",
+      "page": 14,
+      "title": "Review, Discuss and provide Direction regarding Ordinance No. 7: Specifically, a Proposed Schedule of Paragraph Review and Setting of the Facility Fees, Article X. Paragraphs 91 and 94, Unbuildables, and paragraph 79, Watercraft Launching which was deleted by Resolution 1915. (Requesting Staff Members: Director of Administrative Services Susan Herron, and Director of Community Services Mike Bandelin) The Review of Ordinance No. 7: Specifically, a proposed schedule of paragraph review is"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:41:59",
+        "provenance": {
+          "file_id": 1559,
+          "page": 16,
+          "type": "pdf"
+        },
+        "start": "01:21:23"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:41:59",
+          "provenance": {
+            "file_id": 1559,
+            "page": 16,
+            "type": "pdf"
+          },
+          "start": "01:21:23"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "H.8",
+      "page": 16,
+      "title": "Review, Discuss and possibly Approve Resolution 1920 - Guest Employee Beach Access Program. (Requesting Staff Member: Director of Administrative Services Susan Herron) The Review and Discussion of proposed Adoption of Resolution No"
     },
     {
       "disposition": "passed",
@@ -138,6 +694,7 @@
         }
       ],
       "number": "H.1",
+      "page": 17,
       "title": "Approve and Authorize the District General Manager to Sign and Execute a Grant Agreement between Incline Village General Improvement District and Michael Gross Family Charitable Fund for the Installation of a Memorial Plaza at the Village Green. (Requesting Staff Member: District General Manager Robert Harrison)"
     },
     {
@@ -201,6 +758,7 @@
         }
       ],
       "number": "H.2",
+      "page": 17,
       "title": "Review, Discuss and possibly Approve Super Senior Rate(s) at the Recreation Center. (Requesting Staff Member: District General Manager Robert Harrison)"
     },
     {
@@ -265,6 +823,7 @@
         }
       ],
       "number": "H.3",
+      "page": 18,
       "title": "Revision to Policy 18.1.0 Adoption of Central Service Cost Allocation Plan, Budgeting and Fiscal Management. (Requesting Staff Member: Director of Finance Jessica O'Connell)"
     },
     {
@@ -361,6 +920,7 @@
         }
       ],
       "number": "H.4",
+      "page": 19,
       "title": "Review, Discuss and Possibly Approve the Agreement between Incline Village General Improvement District and Miles Construction Incorporated for Removal and Replacement of the Existing Recreation Center HVAC System FY 2025/26 Community Services: Rec Center CIP #4899BD2502; in the Amount of $3,154,402; and Authorize Staff to Execute Change Orders for Additional Work if required, of Approximately 10% of the Construction Contract Value; not to Exceed $315,440; FY 2025/26 Community Services: Rec Center CIP #4899BD2502; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson)"
     },
     {
@@ -424,7 +984,191 @@
         }
       ],
       "number": "H.5",
+      "page": 20,
       "title": "Review, discuss, and possibly approve execution of a contract with Hometown Health Providers Insurance Company, Inc. to provide employee medical insurance coverage from January 1, 2026, to June 30, 2026. (Requesting Staff Member: Director of Human Resources Eric Milavsky)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "03:48:58",
+        "provenance": {
+          "file_id": 1559,
+          "page": 21,
+          "type": "pdf"
+        },
+        "start": "02:29:12"
+      },
+      "media_timestamps": [
+        {
+          "end": "03:48:58",
+          "provenance": {
+            "file_id": 1559,
+            "page": 21,
+            "type": "pdf"
+          },
+          "start": "02:29:12"
+        },
+        {
+          "end": "02:53:10",
+          "provenance": {
+            "file_id": 1559,
+            "page": 21,
+            "type": "pdf"
+          },
+          "start": "02:33:04"
+        },
+        {
+          "end": "03:13:09",
+          "provenance": {
+            "file_id": 1559,
+            "page": 22,
+            "type": "pdf"
+          },
+          "start": "02:53:11"
+        },
+        {
+          "end": "03:23:15",
+          "provenance": {
+            "file_id": 1559,
+            "page": 24,
+            "type": "pdf"
+          },
+          "start": "03:13:10"
+        },
+        {
+          "end": "03:34:50",
+          "provenance": {
+            "file_id": 1559,
+            "page": 25,
+            "type": "pdf"
+          },
+          "start": "03:23:16"
+        },
+        {
+          "end": "03:48:58",
+          "provenance": {
+            "file_id": 1559,
+            "page": 26,
+            "type": "pdf"
+          },
+          "start": "03:34:51"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "H.6",
+      "page": 21,
+      "title": "Review, Discuss and Provide possible Direction on the 2025 End of Season Reports for Golf, Food & Beverage, Facilities and Parks and Recreation. (Requesting Staff Member: Director of Community Services Mike Bandelin)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "I",
+      "page": 27,
+      "title": "LONG RANGE CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "03:51:27",
+        "provenance": {
+          "file_id": 1559,
+          "page": 27,
+          "type": "pdf"
+        },
+        "start": "03:49:02"
+      },
+      "media_timestamps": [
+        {
+          "end": "03:51:27",
+          "provenance": {
+            "file_id": 1559,
+            "page": 27,
+            "type": "pdf"
+          },
+          "start": "03:49:02"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "I.1",
+      "page": 27,
+      "title": "Review, Discuss and possibly Add or Remove Long Range Calendar Items to Future Board of Trustees Agendas"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "03:57:07",
+        "provenance": {
+          "file_id": 1559,
+          "page": 28,
+          "type": "pdf"
+        },
+        "start": "03:51:28"
+      },
+      "media_timestamps": [
+        {
+          "end": "03:57:07",
+          "provenance": {
+            "file_id": 1559,
+            "page": 28,
+            "type": "pdf"
+          },
+          "start": "03:51:28"
+        },
+        {
+          "end": "03:54:23",
+          "provenance": {
+            "file_id": 1559,
+            "page": 28,
+            "type": "pdf"
+          },
+          "start": "03:51:52"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "J",
+      "page": 28,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes in duration"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "K",
+      "page": 29,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

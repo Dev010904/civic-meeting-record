@@ -7,6 +7,99 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 2783,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:16:31"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 2783,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:16:31"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 1,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 2,
+      "title": "GENERAL BUSINESS"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -99,7 +192,71 @@
         }
       ],
       "number": "E.1",
+      "page": 2,
       "title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and Olympus & Associates, Inc. for Exterior Re-coating of Water Reservoir R6C-1; FY2025/26 Utilities: Water: CIP #2221WS22601; in the Amount of $199,000.00; and Authorize staff to Execute Change Orders for Additional Work if required, of Approximately 5% of the Construction Contract Value not to Exceed $10,000; FY 2025/26; Utilities: Water: CIP #2221WS22601; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson) - pages 3 - 12 Item E.1 – Approval of Agreement for Exterior Recoating of Water Reservoir R6C-1 is"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:13:00",
+        "provenance": {
+          "file_id": 2783,
+          "page": 2,
+          "type": "pdf"
+        },
+        "start": "00:18:20"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:13:00",
+          "provenance": {
+            "file_id": 2783,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:18:20"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E.2",
+      "page": 2,
+      "title": "Update and Final Review of the Fiscal Year 2026 - 2027 Budget, Discussion and possible Feedback. (Requesting Staff Member: Director of Finance Noemi Barter)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 3,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes in duration"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G",
+      "page": 3,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

@@ -76,6 +76,348 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "CLOSED SESSION - TIME CERTAIN - 4:00 P.M. TO 4:30 P.M. - The Board may"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:32:18",
+        "provenance": {
+          "file_id": 1489,
+          "page": 2,
+          "type": "pdf"
+        },
+        "start": "00:06:45"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:32:18",
+          "provenance": {
+            "file_id": 1489,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:06:45"
+        },
+        {
+          "end": "00:10:18",
+          "provenance": {
+            "file_id": 1489,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:07:15"
+        },
+        {
+          "end": "00:12:43",
+          "provenance": {
+            "file_id": 1489,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:10:33"
+        },
+        {
+          "end": "00:15:52",
+          "provenance": {
+            "file_id": 1489,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:12:56"
+        },
+        {
+          "end": "00:19:02",
+          "provenance": {
+            "file_id": 1489,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:16:07"
+        },
+        {
+          "end": "00:22:27",
+          "provenance": {
+            "file_id": 1489,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:19:25"
+        },
+        {
+          "end": "00:25:49",
+          "provenance": {
+            "file_id": 1489,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:22:46"
+        },
+        {
+          "end": "00:25:53",
+          "provenance": {
+            "file_id": 1489,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:25:56"
+        },
+        {
+          "end": "00:32:17",
+          "provenance": {
+            "file_id": 1489,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "00:29:13"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 2,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 7,
+      "title": "A PPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H.7",
+      "page": 7,
+      "title": "and will follow sequentially. Item H.7. formerly H.5. was moved to the July 30 Meeting following the Break"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 8,
+      "title": "REPORTS TO THE BOARD - Reports are intended to inform the Board and/or the"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:15:00",
+        "provenance": {
+          "file_id": 1489,
+          "page": 8,
+          "type": "pdf"
+        },
+        "start": "00:35:58"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:15:00",
+          "provenance": {
+            "file_id": 1489,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "00:35:58"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.1",
+      "page": 8,
+      "title": "Verbal update on the Incline Beach House project. (Requesting Staff Member: P roject Manager Bree Waters)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "F.2",
+      "page": 9,
+      "title": "Verbal update on the Effluent Export Pipeline and Storage Tank. (Requesting Staff Member: Interim Engineering Manager Hudson Klein) Item F.2. Report and updates on the Effluent Export Pipeline and Storage Tank Projects can"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:11:44",
+        "provenance": {
+          "file_id": 1489,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "01:38:02"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:11:44",
+          "provenance": {
+            "file_id": 1489,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "01:38:02"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.3",
+      "page": 9,
+      "title": "Verbal update from the Tennis Pickleball Center Staff. (Requesting Staff Member: Diamond Peak Ski Resort Manager Mike Bandelin)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:11:44",
+        "provenance": {
+          "file_id": 1489,
+          "page": 10,
+          "type": "pdf"
+        },
+        "start": "01:38:02"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:11:44",
+          "provenance": {
+            "file_id": 1489,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "01:38:02"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.4",
+      "page": 10,
+      "title": "Notification of Budget Transfer within the General Fund per NRS 354.598005(2). (Requesting Staff Member: District General Manager Robert Harrison)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:30:00",
+        "provenance": {
+          "file_id": 1489,
+          "page": 11,
+          "type": "pdf"
+        },
+        "start": "02:28:04"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:30:00",
+          "provenance": {
+            "file_id": 1489,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "02:28:04"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.5",
+      "page": 10,
+      "title": "Receive and Discuss the Districts' Final Financial Statements, Auditor's Opinion on Internal Controls, and Management Letter, as submitted to the State, closing out the 2024 Audit. (Requesting Staff Member: District General Manager Robert Harrison)"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -136,7 +478,98 @@
         }
       ],
       "number": "G",
+      "page": 11,
       "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.1",
+      "page": 11,
+      "title": "Approval of the IVGID Board of Trustees Meeting Minutes for May 7, 2025, for p ossible Action. (Requesting Staff Member: District Clerk Heidi White) Approved without exception"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.2",
+      "page": 11,
+      "title": "Approval of the IVGID Board of Trustees Meeting Minutes for May 14, 2025, for p ossible Action. (Requesting Staff Member: District Clerk Heidi White) Approved without exception"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.5",
+      "page": 11,
+      "title": "Approve an Agreement with Taggart & Taggart for Legal Counsel Services Effective July 1, 2025. (Requesting Staff Member: Director of Administrative Services Susan Herron) Approved without exception"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.6",
+      "page": 12,
+      "title": "Approve Main Line Extension for a Proposed Residence to be Located at 0 Summers Loop Lot 5 Crystal Bay, Nevada for the installation of approximately 675 LF of 8\" ductile iron or PVC pipe. (Requesting Staff Member: Director of Public Works Kate Nelson) Approved without exception"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.7",
+      "page": 12,
+      "title": "Approve Blanket Purchase Orders Request for Fiscal Year 2025/2026. (Requesting Staff Member: Diamond Peak Ski Resort General Manager Mike Bandelin) Approved without exception"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 12,
+      "title": "GENERAL BUSINESS"
     },
     {
       "disposition": "passed",
@@ -199,6 +632,7 @@
         }
       ],
       "number": "H.1",
+      "page": 12,
       "title": "Approve the Designation of an Auditing Firm, and Accept a Letter of Engagement from Clifton Larson Allen LLP, for Fiscal Year 2024/2025. (Requesting Staff Member: District General Manager Robert Harrison)"
     },
     {
@@ -286,7 +720,23 @@
         }
       ],
       "number": "G.3",
+      "page": 13,
       "title": "Approval of Settlement Agreement with Sheila A. Leijon in Amount of $105,000 Relating to Leijon v. Incline Village General Improvement District, Employee-Management Relations Board Case No. 2024-022. (Requesting Staff Member: District General Counsel Sergio Rudin) General Business H.1. formerly G.3. Approval of Settlement Agreement with Sheila A. Leijon in Amount of $105,000 Relating to Leijon v. Incline Village General Improvement District, Employee-Management Relations Board Case No"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.4",
+      "page": 13,
+      "title": "Review, discuss and possibly approve a proposed additional Tennis Center product consisting of a Tennis 10-visit play pass at the following prices: Adult (ages 18 +): $153 non-resident, $128 IVGID Recreation Pass and Junior (ages 13-17): $112 non-resident, $88 IVGID Recreation Pass. (Requesting Staff Member: Diamond Peak Ski Resort Manager Mike Bandelin)"
     },
     {
       "disposition": "passed",
@@ -429,7 +879,23 @@
         }
       ],
       "number": "H.2",
+      "page": 13,
       "title": "formerly G.4. Review, discuss and possibly approve a proposed additional Tennis Center"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H.2",
+      "page": 14,
+      "title": "Approve the Cooperative Agreement with the North Lake Tahoe Fire Protection District for Defensible Space Spending for Fiscal Year 2025/2026 with the Amount Approved in the Fiscal Year 2025/2026 Budget. (Requesting Staff Member: District General Manager Robert Harrison)"
     },
     {
       "disposition": "passed",
@@ -494,7 +960,23 @@
         }
       ],
       "number": "H.4",
+      "page": 14,
       "title": "formerly H.2. Approve the Cooperative Agreement with the North Lake Tahoe Fire"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H.3",
+      "page": 14,
+      "title": "Review, Discuss and Provide Feedback on a Draft Communication to Parcel Owners regarding their interest in Sponsoring Incline Village General Improvement District Employees Beach Access. (Requesting Staff Member: Director of Administrative Services Susan Herron)"
     },
     {
       "disposition": "passed",
@@ -585,7 +1067,23 @@
         }
       ],
       "number": "H.5",
+      "page": 14,
       "title": "Formerly H.3. Draft Communication to Parcel Owners regarding District Employees Beach Access can"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H.4",
+      "page": 17,
+      "title": "Appoint a Trustee to Serve on the Interview Panel for the Director of Community Services Position. (Requesting Staff Member: District General Manager Robert Harrison)"
     },
     {
       "disposition": "passed",
@@ -648,7 +1146,116 @@
         }
       ],
       "number": "H.6",
+      "page": 17,
       "title": "formerly H.4. Appointing a Trustee to Serve on the Interview Panel can"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H.5",
+      "page": 17,
+      "title": "Review, Discuss and Conduct Incline Village General Improvement District’s General Manager, Robert W. Harrison, Six-Month Performance Evaluation; Direct Staff to work with Board to Establish FY 2026 Goals (Requesting Board Member: Chair Michaela Tonking) This item was moved to the Agenda for the Board Meeting in July"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "I",
+      "page": 18,
+      "title": "LONG RANGE CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "03:30:33",
+        "provenance": {
+          "file_id": 1489,
+          "page": 18,
+          "type": "pdf"
+        },
+        "start": "03:26:06"
+      },
+      "media_timestamps": [
+        {
+          "end": "03:30:33",
+          "provenance": {
+            "file_id": 1489,
+            "page": 18,
+            "type": "pdf"
+          },
+          "start": "03:26:06"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "I.1",
+      "page": 18,
+      "title": "L ong Range Calendar The full discussion on the Long-Range Calendar items can"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "J",
+      "page": 18,
+      "title": "BOARD OF TRUSTEES UPDATE"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "K",
+      "page": 18,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes in duration"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "L",
+      "page": 18,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

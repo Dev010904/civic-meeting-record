@@ -11,6 +11,108 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 2779,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:04:28"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 2779,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:04:28"
+        },
+        {
+          "end": "00:09:40",
+          "provenance": {
+            "file_id": 2779,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:05:24"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 3,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 3,
+      "title": "GENERAL BUSINESS 1"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -101,6 +203,7 @@
         }
       ],
       "number": "E.1",
+      "page": 3,
       "title": "PUBLIC HEARING - Time: Not earlier than 4:00 PM and as soon thereafter as practicable. - page 5 Public Hearings for the Proposed amendments to Ordinance No. 7 - An Ordinance Establishing Rates, Rules and Regulations for Recreation Passes and Recreation Punch Cards by the Incline Village General Improvement District. Public Comments will be taken separately on this item. The Board Chair will set the time limit for these comments at the meeting. It is anticipated that the time limit will be set at 3 minutes. Item E.1. Public Hearing for proposed amendments to Ordinance No"
     },
     {
@@ -164,8 +267,9 @@
           ]
         }
       ],
-      "number": "E.1",
-      "title": "A. Review, Discuss and Possibly Adopt Resolution No. 1924 - A Resolution Approving Amendment to Ordinance No. 7 (Requesting Staff Member: Director of Community Services Mike Bandelin) - pages 6 – 63 Item E.1.A. Review and Discussion of the proposed Adoption of Resolution No. 1924 Approving the Amendments to Ordinance No"
+      "number": "E.1.A",
+      "page": 5,
+      "title": "Review, Discuss and Possibly Adopt Resolution No. 1924 - A Resolution Approving Amendment to Ordinance No. 7 (Requesting Staff Member: Director of Community Services Mike Bandelin) - pages 6 – 63 Item E.1.A. Review and Discussion of the proposed Adoption of Resolution No. 1924 Approving the Amendments to Ordinance No"
     },
     {
       "disposition": "passed",
@@ -258,6 +362,7 @@
         }
       ],
       "number": "E.2",
+      "page": 6,
       "title": "PUBLIC HEARING - Time: Not earlier than 4:00 PM and as soon thereafter as practicable. - page 64 Public Hearings for Recommended Amendments to the Incline Village General Improvement District Water and Wastewater Rates and Adjustments to the Fee Schedule. Public Comments will be taken separately on this item. The Board Chair will set the time limit for these comments at the meeting. It is anticipated that the time limit will be set at 3 minutes"
     },
     {
@@ -321,8 +426,108 @@
           ]
         }
       ],
-      "number": "E.2",
-      "title": "A Review, Discuss, and Possibly Adopt Resolution No. 1923 – A Resolution Approving Amendments to the Water and Wastewater Rates and Adjustments to the Fee Schedule. Requesting Staff Member: Director of Public Works Kate Nelson) - pages 65 - 73 The Review and Discussion of Item E.2.A. Adopt Resolution No"
+      "number": "E.2.A",
+      "page": 8,
+      "title": "Review, Discuss, and Possibly Adopt Resolution No. 1923 – A Resolution Approving Amendments to the Water and Wastewater Rates and Adjustments to the Fee Schedule. Requesting Staff Member: Director of Public Works Kate Nelson) - pages 65 - 73 The Review and Discussion of Item E.2.A. Adopt Resolution No"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:57:01",
+        "provenance": {
+          "file_id": 2779,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "00:51:00"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:57:01",
+          "provenance": {
+            "file_id": 2779,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "00:51:00"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 9,
+      "title": "BOARD OF TRUSTEES UPDATE - Updates"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:06:25",
+        "provenance": {
+          "file_id": 2779,
+          "page": 10,
+          "type": "pdf"
+        },
+        "start": "00:56:55"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:06:25",
+          "provenance": {
+            "file_id": 2779,
+            "page": 10,
+            "type": "pdf"
+          },
+          "start": "00:56:55"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "G",
+      "page": 9,
+      "title": "REPORTS TO THE BOARD - Reports are"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:23:45",
+        "provenance": {
+          "file_id": 2779,
+          "page": 11,
+          "type": "pdf"
+        },
+        "start": "01:06:17"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:23:45",
+          "provenance": {
+            "file_id": 2779,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "01:06:17"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "G.2",
+      "page": 11,
+      "title": "Financial Reports Covering March 2026 Results; to include the Board Treasurer's Report, Monthly Bill Pay Report and Monthly District Financial Report. (Requesting Staff Member: Director of Finance Noemi Barter)"
     },
     {
       "disposition": "passed",
@@ -385,7 +590,53 @@
         }
       ],
       "number": "H",
+      "page": 12,
       "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H.1",
+      "page": 13,
+      "title": "Accept the Annual Audit Committee Assessment Report - An Assessment of the Fulfillment of the Audit Committee’s duties and responsibilities as required by Board Policy 15.1.0, section 2.9. (Requesting Committee Member: Chair Vito Brandle) - pages 136 - 140"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H.3",
+      "page": 13,
+      "title": "Acceptance of the Fiscal Year 2025 Draft Single Audit Report. (Requesting Staff Member: Director of Finance N oemi Barter) - pages 151 – 168"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "I",
+      "page": 13,
+      "title": "GENERAL BUSINESS 2"
     },
     {
       "disposition": "passed",
@@ -448,6 +699,7 @@
         }
       ],
       "number": "I.1",
+      "page": 13,
       "title": "Review, Discuss, and make a Determination on the Public Bid Protest Submitted by Resource Development Company in Reference to the Bid Submission by Olympus and Associates, Inc. for the IVGID Public Works Steel Reservoir R6C-1 Tank Recoating Project Bid Results. Fund: Utilities: Water; CIP #2221WS2601 (Requesting Staff Member: Director of Public Works Kate Nelson)"
     },
     {
@@ -511,6 +763,7 @@
         }
       ],
       "number": "I.2",
+      "page": 14,
       "title": "Review, Discuss and Approve the District General Manager's Annual Performance Review Template. (Requesting Staff Member: Director of Human Resources Eric M ilavsky)"
     },
     {
@@ -575,6 +828,7 @@
         }
       ],
       "number": "I.3",
+      "page": 15,
       "title": "Adopt Resolution No. 1925 - A Resolution Delegating Litigation Decision Authority to the Board Chair and District General Manager. (Requesting Staff Member: District Legal C ounsel David Rigdon) - pages 222 – 225 Item I.3. Discussion related to the Adoption of Resolution No"
     },
     {
@@ -638,6 +892,7 @@
         }
       ],
       "number": "H.2",
+      "page": 16,
       "title": "Approve Suggested Revisions to Policy 15.1.0 - Accounting, Auditing, and Financial Reporting, Audit Committee Charter, and Formally Adopt the Revisions, as recommended by the Audit Committee. (Requesting Staff Member: District Legal Counsel David Rigdon)"
     },
     {
@@ -701,7 +956,104 @@
         }
       ],
       "number": "H.4",
+      "page": 17,
       "title": "Adopt the Final Legislative Agenda for the 2027 Fiscal Year. (Requesting Staff Member: District General M anager Robert Harrison)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "J",
+      "page": 18,
+      "title": "LONG RANGE CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:52:49",
+        "provenance": {
+          "file_id": 2779,
+          "page": 18,
+          "type": "pdf"
+        },
+        "start": "01:49:24"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:52:49",
+          "provenance": {
+            "file_id": 2779,
+            "page": 18,
+            "type": "pdf"
+          },
+          "start": "01:49:24"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "J.1",
+      "page": 18,
+      "title": "Review, Discuss and possibly Add or Remove Long Range Calendar Items to future Board of Trustees Agendas. (Requesting Staff Member: District Clerk Heidi White)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:59:39",
+        "provenance": {
+          "file_id": 2779,
+          "page": 19,
+          "type": "pdf"
+        },
+        "start": "01:52:56"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:59:39",
+          "provenance": {
+            "file_id": 2779,
+            "page": 19,
+            "type": "pdf"
+          },
+          "start": "01:52:56"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "K",
+      "page": 18,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "L",
+      "page": 19,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

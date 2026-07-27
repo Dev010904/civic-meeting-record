@@ -14,6 +14,309 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:12:40",
+        "provenance": {
+          "file_id": 2720,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:10:38"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:12:40",
+          "provenance": {
+            "file_id": 2720,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:10:38"
+        },
+        {
+          "end": "00:12:35",
+          "provenance": {
+            "file_id": 2720,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:10:38"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:12:50",
+        "provenance": {
+          "file_id": 2720,
+          "page": 2,
+          "type": "pdf"
+        },
+        "start": "00:12:40"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:12:50",
+          "provenance": {
+            "file_id": 2720,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:12:40"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 2,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:14:50",
+        "provenance": {
+          "file_id": 2720,
+          "page": 2,
+          "type": "pdf"
+        },
+        "start": "00:12:59"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:14:50",
+          "provenance": {
+            "file_id": 2720,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:12:59"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 2,
+      "title": "BOARD OF TRUSTEES UPDATE - Updates are intended"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:05:25",
+        "provenance": {
+          "file_id": 2720,
+          "page": 3,
+          "type": "pdf"
+        },
+        "start": "00:14:52"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:05:25",
+          "provenance": {
+            "file_id": 2720,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:14:52"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 3,
+      "title": "REPORTS TO THE BOARD - Reports are intended to"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:31:58",
+        "provenance": {
+          "file_id": 2720,
+          "page": 3,
+          "type": "pdf"
+        },
+        "start": "00:14:55"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:31:58",
+          "provenance": {
+            "file_id": 2720,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:14:55"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.1",
+      "page": 3,
+      "title": "Presentation about Food and Beverage at Snowflake Lodge as presented by Food and Beverage Operations Manager Evan Carsman and Events Manager Brooke Smith La-Fata. (Requesting Staff Member Director of Community Services Mike Bandelin) Item F.1 – Report to the Board: Snowflake Lodge Food & Beverage and Events Overview is"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:43:20",
+        "provenance": {
+          "file_id": 2720,
+          "page": 4,
+          "type": "pdf"
+        },
+        "start": "00:32:00"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:43:20",
+          "provenance": {
+            "file_id": 2720,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:32:00"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.2",
+      "page": 4,
+      "title": "District General Manager's Monthly Status Report. (Requesting Staff Member: District General Manager Robert Harrison)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:59:08",
+        "provenance": {
+          "file_id": 2720,
+          "page": 5,
+          "type": "pdf"
+        },
+        "start": "00:43:22"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:59:08",
+          "provenance": {
+            "file_id": 2720,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:43:22"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.3",
+      "page": 5,
+      "title": "FY27 Personnel Updates, to Include Early Separation Incentive Program (ESIP) Results. (Requesting Staff Member: Human Resource Director Eric Milavsky) Item F.3: FY27 Personnel Updates and Early Separation Incentive Program (ESIP) Results"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:05:24",
+        "provenance": {
+          "file_id": 2720,
+          "page": 6,
+          "type": "pdf"
+        },
+        "start": "00:59:10"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:05:24",
+          "provenance": {
+            "file_id": 2720,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:59:10"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F.4",
+      "page": 6,
+      "title": "Financial Reports Covering February 2026 Results; to include the Board Treasurer's Report, Monthly Bill Pay Report and Monthly District Financial Report. (Requesting Staff Member: Director of Finance Noemi Barter)"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -74,7 +377,101 @@
         }
       ],
       "number": "G",
+      "page": 7,
       "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.1",
+      "page": 8,
+      "title": "Approval of the IVGID Board of Trustees Meeting Minutes for March 25, 2026. (Requesting Staff Member: District Clerk Heidi White) Action: Approve"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.2",
+      "page": 8,
+      "title": "Receive the Audit Committee Chair's Quarterly Report of Whistleblower Complaints for the First Quarter of 2026. (Requesting Committee Member: Audit Committee Chair Vito Brandle) Action: Approve"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.3",
+      "page": 8,
+      "title": "Approve a Site Use Agreement between the District and Lake Tahoe Markets, LLC which Authorizes the Establishment and Operation of a Farmers Market at the Diamond Peak Ski Resort for the use of the Ski Venues Main Lodge Parking Area every Thursday starting May 21, 2026, and continuing through September 3, 2026. (Requesting Staff Member: Director of Community Services Mike Bandelin) Action: Approve"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.4",
+      "page": 8,
+      "title": "Approve renewal agreement with Hometown Health for Employee Health Benefits for the plan year 7/1/26 to 6/30/27. (Requesting Staff Member: Director of Human Resources Eric Milavsky) A ction: Approve"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:55:30",
+        "provenance": {
+          "file_id": 2720,
+          "page": 8,
+          "type": "pdf"
+        },
+        "start": "01:06:41"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:55:30",
+          "provenance": {
+            "file_id": 2720,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "01:06:41"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 8,
+      "title": "GENERAL BUSINESS"
     },
     {
       "disposition": "passed",
@@ -84,15 +481,24 @@
         "stage": "A"
       },
       "media_timestamp": {
-        "end": "01:30:10",
+        "end": "01:28:50",
         "provenance": {
           "file_id": 2720,
-          "page": 10,
+          "page": 8,
           "type": "pdf"
         },
-        "start": "01:28:57"
+        "start": "01:06:50"
       },
       "media_timestamps": [
+        {
+          "end": "01:28:50",
+          "provenance": {
+            "file_id": 2720,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "01:06:50"
+        },
         {
           "end": "01:30:10",
           "provenance": {
@@ -136,8 +542,9 @@
           ]
         }
       ],
-      "number": "H.2",
-      "title": "Set the Date and Time for the Public Hearing to Implement Amendments to the Water and Wastewater rates, as well as Adjustments to the Fee Schedule, for Wednesday, May 13, 2026, at 5:00 p.m. or as Otherwise Determined by the Board of Trustees. (Requesting Staff Member: Director of Public Works Kate Nelson)"
+      "number": "H.1",
+      "page": 8,
+      "title": "Review, Discuss and Provide Direction on the Proposed Water and Wastewater Rates for FY 2026/27 Following a Presentation by HDR (Requesting Staff Member: Director of Public Works Kate Nelson)"
     },
     {
       "disposition": "passed",
@@ -201,7 +608,41 @@
         }
       ],
       "number": "H.3",
+      "page": 10,
       "title": "Contract Extension of Six Months via Memorandum of Understanding with Waste Management for Solid Waste Services, Fund: Utilities; Division: Solid Waste (Requesting Staff Member: Director of Public Works Kate Nelson) Item H.3 – Contract Extension (Six Months)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:27:38",
+        "provenance": {
+          "file_id": 2720,
+          "page": 11,
+          "type": "pdf"
+        },
+        "start": "01:41:25"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:27:38",
+          "provenance": {
+            "file_id": 2720,
+            "page": 11,
+            "type": "pdf"
+          },
+          "start": "01:41:25"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "H.4",
+      "page": 11,
+      "title": "Review, Discuss and Provide Direction for the Tennis Court Reconstruction Project - FY 2025/26 Capital Improvement Project; Fund: Community Services; Division: Tennis; Project #TENNISCRT with a Presentation of the 30% Design Memorandum by Lloyd Consulting Group. (Requesting Staff Member: District Project Manager Bree Waters) Item H.4: Presentation, Discussion and Direction for the Tennis Court Reconstruction Project"
     },
     {
       "disposition": "passed",
@@ -264,7 +705,41 @@
         }
       ],
       "number": "H.5",
+      "page": 13,
       "title": "Review, Discuss and Approve the Draft Audited Financial Statements for Fiscal Year Ending June 30, 2025, as presented by Clifton Larson Allen. (Requesting Staff Member: Director of Finance Noemi Barter)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:53:54",
+        "provenance": {
+          "file_id": 2720,
+          "page": 14,
+          "type": "pdf"
+        },
+        "start": "02:41:01"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:53:54",
+          "provenance": {
+            "file_id": 2720,
+            "page": 14,
+            "type": "pdf"
+          },
+          "start": "02:41:01"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "H.6",
+      "page": 14,
+      "title": "Review, Discuss, and provide Feedback on the Tentative Budget as Filed on Nevada State Form 4404LGF. (Requesting Staff Member: Director of Finance Noemi Barter) Item H.6 – Review and Discussion of Tentative Budget (Nevada State Form 4404LGF) is"
     },
     {
       "disposition": "passed",
@@ -327,7 +802,113 @@
         }
       ],
       "number": "H.7",
+      "page": 16,
       "title": "Set the Date and Time for Public Hearing for the FY2026/2027 Budget and Recreation Roll for Wednesday, May 27, 2026, at 4:00 p.m. or as determined by the Board of Trustees (Requesting Staff Member: Director of Finance Noemi Barter)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "I",
+      "page": 16,
+      "title": "LONG RANGE CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:58:13",
+        "provenance": {
+          "file_id": 2720,
+          "page": 16,
+          "type": "pdf"
+        },
+        "start": "02:55:44"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:58:13",
+          "provenance": {
+            "file_id": 2720,
+            "page": 16,
+            "type": "pdf"
+          },
+          "start": "02:55:44"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "I.1",
+      "page": 16,
+      "title": "Review, Discuss and possibly Add or Remove Long Range Calendar Items to future Board of Trustees Agendas. (Requesting Staff Member: District Clerk Heidi White)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "03:00:45",
+        "provenance": {
+          "file_id": 2720,
+          "page": 17,
+          "type": "pdf"
+        },
+        "start": "02:58:15"
+      },
+      "media_timestamps": [
+        {
+          "end": "03:00:45",
+          "provenance": {
+            "file_id": 2720,
+            "page": 17,
+            "type": "pdf"
+          },
+          "start": "02:58:15"
+        },
+        {
+          "end": "03:00:45",
+          "provenance": {
+            "file_id": 2720,
+            "page": 17,
+            "type": "pdf"
+          },
+          "start": "02:58:15"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "J",
+      "page": 17,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes in duration"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "K",
+      "page": 17,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

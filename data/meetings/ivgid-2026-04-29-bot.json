@@ -13,6 +13,207 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:32:19",
+        "provenance": {
+          "file_id": 2778,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:04:17"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:32:19",
+          "provenance": {
+            "file_id": 2778,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:04:17"
+        },
+        {
+          "end": "00:07:49",
+          "provenance": {
+            "file_id": 2778,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:04:22"
+        },
+        {
+          "end": "00:08:58",
+          "provenance": {
+            "file_id": 2778,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:07:51"
+        },
+        {
+          "end": "00:12:13",
+          "provenance": {
+            "file_id": 2778,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:09:00"
+        },
+        {
+          "end": "00:14:12",
+          "provenance": {
+            "file_id": 2778,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:12:15"
+        },
+        {
+          "end": "00:17:32",
+          "provenance": {
+            "file_id": 2778,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:14:14"
+        },
+        {
+          "end": "00:21:00",
+          "provenance": {
+            "file_id": 2778,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:17:34"
+        },
+        {
+          "end": "00:24:04",
+          "provenance": {
+            "file_id": 2778,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:21:01"
+        },
+        {
+          "end": "00:25:40",
+          "provenance": {
+            "file_id": 2778,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:24:06"
+        },
+        {
+          "end": "00:28:04",
+          "provenance": {
+            "file_id": 2778,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:25:42"
+        },
+        {
+          "end": "00:32:19",
+          "provenance": {
+            "file_id": 2778,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:28:04"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:34:25",
+        "provenance": {
+          "file_id": 2778,
+          "page": 7,
+          "type": "pdf"
+        },
+        "start": "00:32:21"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:34:25",
+          "provenance": {
+            "file_id": 2778,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "00:32:21"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "D",
+      "page": 7,
+      "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "L",
+      "page": 7,
+      "title": "G ENERAL BUSINESS"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -73,6 +274,7 @@
         }
       ],
       "number": "H.1",
+      "page": 7,
       "title": "Adopt a Proclamation Recognizing and Thanking Steven Phillips for his Service to the District"
     },
     {
@@ -136,7 +338,92 @@
         }
       ],
       "number": "H.2",
+      "page": 8,
       "title": "Adopt a Proclamation Recognizing and Thanking Alfonso Gutierrez for his Service to the District"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "00:52:12",
+        "provenance": {
+          "file_id": 2778,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "00:43:48"
+      },
+      "media_timestamps": [
+        {
+          "end": "00:52:12",
+          "provenance": {
+            "file_id": 2778,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "00:43:48"
+        },
+        {
+          "end": "00:48:12",
+          "provenance": {
+            "file_id": 2778,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "00:46:54"
+        },
+        {
+          "end": "00:52:10",
+          "provenance": {
+            "file_id": 2778,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "00:48:14"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 8,
+      "title": "BOARD OF TRUSTEES UPDATE - Updates are intended"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "01:08:00",
+        "provenance": {
+          "file_id": 2778,
+          "page": 9,
+          "type": "pdf"
+        },
+        "start": "00:52:16"
+      },
+      "media_timestamps": [
+        {
+          "end": "01:08:00",
+          "provenance": {
+            "file_id": 2778,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "00:52:16"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 9,
+      "title": "REPORTS TO THE BOARD - Reports are intended to"
     },
     {
       "disposition": "passed",
@@ -199,7 +486,143 @@
         }
       ],
       "number": "G",
+      "page": 11,
       "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.1",
+      "page": 12,
+      "title": "Approval of the IVGID Board of Trustees Meeting Minutes for April 8, 2026. (Requesting Staff Member: District Clerk Heidi White)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.2",
+      "page": 12,
+      "title": "Grant of Easement to NV Energy on District Property APN 131-280-05 (SPS-08) and 131-240-02 (Championship Golf) for the purposes of Constructing, Operating, Adding to, Modifying, Removing, Accessing and Maintaining Above and Below Ground Communication Facilities and Electric Line Systems. (Requesting Staff Member: Director of Public Works Kate Nelson)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.3",
+      "page": 12,
+      "title": "Approval of a Memorandum of Understanding (MOU) between Nevada Tahoe Conservation District and Incline Village General Improvement District for the Lower Rosewood Creek Aquatic Organism Passage Project. (Requesting Staff Member: Director of Public Works Kate Nelson)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.4",
+      "page": 12,
+      "title": "Grant of Easement to Sierra Pacific Power Company, doing business as (dba) NV Energy on District Property APN 127-280-01 (Incline Beach) Purposes of Constructing, Operating, Adding to, Modifying, Removing, Accessing and Maintaining Above and Below Ground Communication Facilities, Electric Line Systems, and Associated Appurtenances. (Requesting Staff Member: Director of Public Works Kate Nelson)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.5",
+      "page": 12,
+      "title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and Olympus & Associates, Inc. for Exterior Re-coating of Water Reservoir R6C-1; FY2025/26 Utilities: Water: CIP #2221WS22601; in the Amount of $199,000.00; and Authorize staff to Execute Change Orders for Additional Work if required, of Approximately 5% of the Construction Contract Value not to Exceed $10,000; FY 2025/26; Utilities: Water: CIP #2221WS22601; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.6",
+      "page": 12,
+      "title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and Affordable Striping & Sealing LLC., for the 2026 Spring Pavement Maintenance Project in an amount of $183,412.18; FY 2025/26 various venue-object-7512; and Authorize staff to Execute Change Orders for Additional Work as required, of Approximately 10% of the Construction Contract Value; not to Exceed $18,500; FY 2025/26 various venue/Object-7512; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.7",
+      "page": 13,
+      "title": "Review and Accept the Final Changes to the Reserve Policy 7.1, as Revised per Board Discussed in May 2025. (Requesting Staff Member: Director of Finance Noemi Barter)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.9",
+      "page": 13,
+      "title": "Approve and Adopt Revisions to Whistleblower Policy & Procedure 15.2, as Recommended by the IVGID Audit Committee on March 31, 2026. (Requesting Staff Member: District Legal Counsel David Rigdon)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 13,
+      "title": "GENERAL BUSINESS"
     },
     {
       "disposition": "passed",
@@ -263,7 +686,23 @@
         }
       ],
       "number": "H.3",
+      "page": 13,
       "title": "First Reading of Ordinance 7 and Set the Time and Date of the Public Hearing for 4:00 p.m. on Wednesday, May 13, 2026. (Requesting Staff Member: Director of Administrative Services Susan Herron)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H.4",
+      "page": 14,
+      "title": "Review, Discuss, and provide Feedback on the Proposed Legislative Agenda for the 2027 Fiscal Year. (Requesting Staff Member: District General Manager Robert Harrison)"
     },
     {
       "disposition": "passed",
@@ -368,7 +807,23 @@
         }
       ],
       "number": "H.5",
+      "page": 15,
       "title": "Review, Discuss and Possibly Approve the addition of a District Sports Field Rental Product for Youth Non-Profit at a Rate of $30 per hour for Residents and $38 for Non-Residents. (Requesting Staff Member: Director of Community Services Mike Bandelin)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H.6",
+      "page": 15,
+      "title": "Review, Discuss and Provide Feedback on the FY2027 Districts Senior Program Operating Plan. (Requesting Staff Member: Director of Community Services Mike Bandelin) This Item has been moved to a future meeting"
     },
     {
       "disposition": "passed",
@@ -414,6 +869,7 @@
         }
       ],
       "number": "H.7",
+      "page": 15,
       "title": "Review, Discuss and Accept the Five-Year Capital Plan. (Requesting Staff Members: District Project Manager Bree Waters and Director of Finance Noemi Barter)"
     },
     {
@@ -514,7 +970,41 @@
         }
       ],
       "number": "H.8",
+      "page": 17,
       "title": "Review, Discuss, and Accept the Facility Fee, and Punch Card Values for Fiscal Year 2027. (Requesting Staff Member: Director of Finance Noemi Barter)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "02:58:23",
+        "provenance": {
+          "file_id": 2778,
+          "page": 18,
+          "type": "pdf"
+        },
+        "start": "02:42:19"
+      },
+      "media_timestamps": [
+        {
+          "end": "02:58:23",
+          "provenance": {
+            "file_id": 2778,
+            "page": 18,
+            "type": "pdf"
+          },
+          "start": "02:42:19"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "H.9",
+      "page": 18,
+      "title": "Review, Discuss, and Provide Direction to Staff following a Presentation by HDR Engineering, Inc. on Alternative Water and Wastewater Rate Scenarios for Fiscal Year 2026/27 (Requesting Staff Member: Director of Public Works Kate Nelson) Item H.9. Updated presentation by HDR and Alternate Water and Wastewater scenarios is"
     },
     {
       "disposition": "passed",
@@ -559,6 +1049,7 @@
         }
       ],
       "number": "H.10",
+      "page": 19,
       "title": "Review and Approve the Business Impact Statement Related to Proposed Amendments to the Water and Wastewater Rate Schedules in Compliance with Nevada Revised Statutes (NRS) 237.080. (Requesting Staff Member: Director of Public Works Kate Nelson) Item H.9. Formerly H.10"
     },
     {
@@ -640,6 +1131,7 @@
         }
       ],
       "number": "H.11",
+      "page": 19,
       "title": "Approve and authorize the Board Chair and Board Secretary to Sign and Execute a Construction Manager At Risk (CMAR) Agreement between Incline Village General Improvement District and Advanced Companies, Inc. for the Championship Course Cart Path Reconstruction GMP1 Project; FY2025/26 Community Services; Championship Golf; CIP #3141LI1202; in the Amount of $2,230,662.28; Discussion and possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson) Item H.10. Formerly Item H.11"
     },
     {
@@ -704,7 +1196,140 @@
         }
       ],
       "number": "G.8",
+      "page": 20,
       "title": "Eliminate Parks Superintendent and Administrative Services Director Positions and Approve the following Re-Classifications to absorb the Duties: (1) Buildings Superintendent to Buildings & Grounds Superintendent; (2) Parks Supervisor to Assistant Superintendent – Parks; (3) District Clerk to District Clerk / Executive Assistant; and (4) Director of HR to Director of HR / Administrative Services. (Requesting Staff Member: Director of Human Resources Eric Milavsky) Item H.11. Formerly G.8. to eliminate positions and approve re-classifications to absorb duties"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "I",
+      "page": 21,
+      "title": "LONG RANGE CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "03:22:48",
+        "provenance": {
+          "file_id": 2778,
+          "page": 21,
+          "type": "pdf"
+        },
+        "start": "03:19:07"
+      },
+      "media_timestamps": [
+        {
+          "end": "03:22:48",
+          "provenance": {
+            "file_id": 2778,
+            "page": 21,
+            "type": "pdf"
+          },
+          "start": "03:19:07"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "I.1",
+      "page": 21,
+      "title": "Review, Discuss and possibly Add or Remove Long Range Calendar Items to future Board of Trustees Agendas. (Requesting Staff Member: District Clerk Heidi White)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": "03:34:57",
+        "provenance": {
+          "file_id": 2778,
+          "page": 21,
+          "type": "pdf"
+        },
+        "start": "03:22:49"
+      },
+      "media_timestamps": [
+        {
+          "end": "03:34:57",
+          "provenance": {
+            "file_id": 2778,
+            "page": 21,
+            "type": "pdf"
+          },
+          "start": "03:22:49"
+        },
+        {
+          "end": "03:26:45",
+          "provenance": {
+            "file_id": 2778,
+            "page": 21,
+            "type": "pdf"
+          },
+          "start": "03:23:12"
+        },
+        {
+          "end": "03:30:00",
+          "provenance": {
+            "file_id": 2778,
+            "page": 22,
+            "type": "pdf"
+          },
+          "start": "03:26:46"
+        },
+        {
+          "end": "03:32:33",
+          "provenance": {
+            "file_id": 2778,
+            "page": 22,
+            "type": "pdf"
+          },
+          "start": "03:30:01"
+        },
+        {
+          "end": "03:34:57",
+          "provenance": {
+            "file_id": 2778,
+            "page": 23,
+            "type": "pdf"
+          },
+          "start": "03:22:49"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "J",
+      "page": 21,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes in duration"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "K",
+      "page": 23,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

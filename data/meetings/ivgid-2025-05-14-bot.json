@@ -30,6 +30,159 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1428,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:09:02"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1428,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:09:02"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1428,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:09:28"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1428,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:12:16"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1428,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:15:19"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1428,
+            "page": 3,
+            "type": "pdf"
+          },
+          "start": "00:17:56"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1428,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:21:19"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1428,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:24:39"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1428,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:27:54"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1428,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:31:02"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1428,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:34:55"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1428,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "00:38:10"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
       "disposition": "failed",
       "extraction": {
         "confidence": "exact",
@@ -94,7 +247,23 @@
         }
       ],
       "number": "D",
+      "page": 7,
       "title": "APPROVAL OF AGENDA"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "E",
+      "page": 8,
+      "title": "GENERAL BUSINESS 1"
     },
     {
       "disposition": "passed",
@@ -232,6 +401,7 @@
         }
       ],
       "number": "E.1",
+      "page": 8,
       "title": "PUBLIC HEARING - Time: Not earlier than 5:00 PM and as soon thereafter as practicable. Recommended Amendments to the Sewer and Water Rate Fee Schedule Public Comments will be taken Separately on this item. The Board Chair will set the time limit for these comments at the meeting. It is anticipated that the time limit will be set at 3 minutes"
     },
     {
@@ -277,8 +447,39 @@
           ]
         }
       ],
-      "number": "E.1",
-      "title": "A Review Discuss and possibly Adopt Resolution No. 1914 - a Resolution approving the Amendments to the Sewer and Water Rates, as well as Adjustments to the Fee Schedule"
+      "number": "E.1.A",
+      "page": 12,
+      "title": "Review Discuss and possibly Adopt Resolution No. 1914 - a Resolution approving the Amendments to the Sewer and Water Rates, as well as Adjustments to the Fee Schedule"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "F",
+      "page": 12,
+      "title": "REPORTS TO THE BOARD - Reports are intended to inform the Board"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "F.1",
+      "page": 13,
+      "title": "District General Manager's Monthly Status Report. (Requesting Staff Member: District General Manager Robert Harrison)"
     },
     {
       "disposition": "passed",
@@ -341,7 +542,407 @@
         }
       ],
       "number": "G",
+      "page": 14,
       "title": "CONSENT CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.1",
+      "page": 14,
+      "title": "Approval of the IVGID Board of Trustees Meeting Minutes for April 30, 2025, for possible Action. (Requesting Staff Member: District Clerk H eidi White)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G.2",
+      "page": 14,
+      "title": "Review, Discuss and possibly Approve a $146,084 increase to an existing Approved Blanket Purchase Order of $479,500 for Vendor; US Foods; Purchase Order #32500003. (Requesting Staff Member: Diamond Peak Ski General Manager Mike Bandelin)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 15,
+      "title": "GENERAL BUSINESS 2"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1428,
+          "page": 15,
+          "type": "pdf"
+        },
+        "start": "01:19:18"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1428,
+            "page": 15,
+            "type": "pdf"
+          },
+          "start": "01:19:18"
+        },
+        {
+          "end": "1:21:03",
+          "provenance": {
+            "file_id": 1428,
+            "page": 15,
+            "type": "pdf"
+          },
+          "start": "1:20:55"
+        },
+        {
+          "end": "1:21:10",
+          "provenance": {
+            "file_id": 1428,
+            "page": 15,
+            "type": "pdf"
+          },
+          "start": "1:21:05"
+        },
+        {
+          "end": "1:21:17",
+          "provenance": {
+            "file_id": 1428,
+            "page": 15,
+            "type": "pdf"
+          },
+          "start": "1:21:11"
+        },
+        {
+          "end": "1:26:31",
+          "provenance": {
+            "file_id": 1428,
+            "page": 15,
+            "type": "pdf"
+          },
+          "start": "1:21:18"
+        },
+        {
+          "end": "1:26:33",
+          "provenance": {
+            "file_id": 1428,
+            "page": 16,
+            "type": "pdf"
+          },
+          "start": "1:26:31"
+        },
+        {
+          "end": "1:26:35",
+          "provenance": {
+            "file_id": 1428,
+            "page": 17,
+            "type": "pdf"
+          },
+          "start": "1:26:35"
+        },
+        {
+          "end": "1:26:39",
+          "provenance": {
+            "file_id": 1428,
+            "page": 17,
+            "type": "pdf"
+          },
+          "start": "1:26:36"
+        },
+        {
+          "end": "1:26:44",
+          "provenance": {
+            "file_id": 1428,
+            "page": 17,
+            "type": "pdf"
+          },
+          "start": "1:26:40"
+        },
+        {
+          "end": "1:26:46",
+          "provenance": {
+            "file_id": 1428,
+            "page": 17,
+            "type": "pdf"
+          },
+          "start": "1:26:44"
+        },
+        {
+          "end": "1:27:00",
+          "provenance": {
+            "file_id": 1428,
+            "page": 17,
+            "type": "pdf"
+          },
+          "start": "1:26:46"
+        },
+        {
+          "end": "1:27:04",
+          "provenance": {
+            "file_id": 1428,
+            "page": 17,
+            "type": "pdf"
+          },
+          "start": "1:27:01"
+        },
+        {
+          "end": "1:30:58",
+          "provenance": {
+            "file_id": 1428,
+            "page": 17,
+            "type": "pdf"
+          },
+          "start": "1:27:05"
+        },
+        {
+          "end": "1:33:16",
+          "provenance": {
+            "file_id": 1428,
+            "page": 18,
+            "type": "pdf"
+          },
+          "start": "1:31:03"
+        },
+        {
+          "end": "1:34:05",
+          "provenance": {
+            "file_id": 1428,
+            "page": 18,
+            "type": "pdf"
+          },
+          "start": "1:33:19"
+        },
+        {
+          "end": "1:34:26",
+          "provenance": {
+            "file_id": 1428,
+            "page": 18,
+            "type": "pdf"
+          },
+          "start": "1:34:06"
+        },
+        {
+          "end": "1:34:40",
+          "provenance": {
+            "file_id": 1428,
+            "page": 19,
+            "type": "pdf"
+          },
+          "start": "1:34:31"
+        },
+        {
+          "end": "1:34:41",
+          "provenance": {
+            "file_id": 1428,
+            "page": 19,
+            "type": "pdf"
+          },
+          "start": "1:34:40"
+        },
+        {
+          "end": "1:34:43",
+          "provenance": {
+            "file_id": 1428,
+            "page": 19,
+            "type": "pdf"
+          },
+          "start": "1:34:41"
+        },
+        {
+          "end": "1:34:43",
+          "provenance": {
+            "file_id": 1428,
+            "page": 19,
+            "type": "pdf"
+          },
+          "start": "1:34:43"
+        },
+        {
+          "end": "1:34:51",
+          "provenance": {
+            "file_id": 1428,
+            "page": 19,
+            "type": "pdf"
+          },
+          "start": "1:34:44"
+        },
+        {
+          "end": "1:36:32",
+          "provenance": {
+            "file_id": 1428,
+            "page": 19,
+            "type": "pdf"
+          },
+          "start": "1:34:52"
+        },
+        {
+          "end": "1:36:51",
+          "provenance": {
+            "file_id": 1428,
+            "page": 19,
+            "type": "pdf"
+          },
+          "start": "1:36:32"
+        },
+        {
+          "end": "1:37:01",
+          "provenance": {
+            "file_id": 1428,
+            "page": 20,
+            "type": "pdf"
+          },
+          "start": "1:36:51"
+        },
+        {
+          "end": "1:37:08",
+          "provenance": {
+            "file_id": 1428,
+            "page": 20,
+            "type": "pdf"
+          },
+          "start": "1:37:01"
+        },
+        {
+          "end": "1:37:18",
+          "provenance": {
+            "file_id": 1428,
+            "page": 20,
+            "type": "pdf"
+          },
+          "start": "1:37:09"
+        },
+        {
+          "end": "1:37:42",
+          "provenance": {
+            "file_id": 1428,
+            "page": 20,
+            "type": "pdf"
+          },
+          "start": "1:37:19"
+        },
+        {
+          "end": "1:37:47",
+          "provenance": {
+            "file_id": 1428,
+            "page": 20,
+            "type": "pdf"
+          },
+          "start": "1:37:43"
+        },
+        {
+          "end": "1:37:52",
+          "provenance": {
+            "file_id": 1428,
+            "page": 20,
+            "type": "pdf"
+          },
+          "start": "1:37:47"
+        },
+        {
+          "end": "1:37:52",
+          "provenance": {
+            "file_id": 1428,
+            "page": 20,
+            "type": "pdf"
+          },
+          "start": "1:37:52"
+        },
+        {
+          "end": "1:38:31",
+          "provenance": {
+            "file_id": 1428,
+            "page": 20,
+            "type": "pdf"
+          },
+          "start": "1:38:29"
+        },
+        {
+          "end": "1:38:33",
+          "provenance": {
+            "file_id": 1428,
+            "page": 20,
+            "type": "pdf"
+          },
+          "start": "1:38:32"
+        },
+        {
+          "end": "1:38:37",
+          "provenance": {
+            "file_id": 1428,
+            "page": 21,
+            "type": "pdf"
+          },
+          "start": "1:38:33"
+        },
+        {
+          "end": "1:38:41",
+          "provenance": {
+            "file_id": 1428,
+            "page": 21,
+            "type": "pdf"
+          },
+          "start": "1:38:38"
+        },
+        {
+          "end": "1:39:15",
+          "provenance": {
+            "file_id": 1428,
+            "page": 21,
+            "type": "pdf"
+          },
+          "start": "1:38:42"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "H.1",
+      "page": 15,
+      "title": "Review, Discuss, and Approve the Employee Pass Program for Beach A ccess. (Requesting Board Member Trustee Dave Noble)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "H.2",
+      "page": 21,
+      "title": "Review, Discuss and possibly Adopt Resolution No. 1913 – a Resolution that Temporarily Revises Ordinance 7, paragraph 106. Administration that may, upon Request and Proof, allow a Parcel Owner to be issued additional Picture Passes and/or Punch Cards at a Cost that is consistent with other sections of this Ordinance, in accordance with the Family Tree within Ordinance 7, based upon their Family Size and the District General Manager shall follow the approved Procedure to make such changes - effective date May 1, 2025, end date December 31, 2025 (Requesting Staff Member: Director of Administrative Services Susan Herron) Full discussion on Item H.2. Adopt Resolution No"
     },
     {
       "disposition": "passed",
@@ -404,6 +1005,7 @@
         }
       ],
       "number": "H.3",
+      "page": 21,
       "title": "Review, Discuss and possibly Adopt Resolution No.1915 – a Resolution prohibiting Commercial Watercraft Launching where prohibited by the Tahoe Regional Planning Agency (TRPA) Code of Ordinances and directing changes to Ordinance 7 – effective immediately (Requesting Staff Member: Director of Administrative Services Susan Herron) Full discussion on Item H.3. To Adopt Resolution No"
     },
     {
@@ -468,7 +1070,137 @@
         }
       ],
       "number": "H.4",
+      "page": 22,
       "title": "Review, Discuss and Possibly Adopt Resolution No. 1916 - a Resolution Preliminarily Approving the Report for Collection of Recreation Standby and Service Charges for Fiscal Year 2025/2026 and Confirming the Public Hearing Date for Friday, May 30, 2025, at 12: 00 p.m. (Requesting Staff Members: District General Manager Robert Harrison and Director of Administrative Services Susan Herron) Full discussion on Item H.4. To Adopt Resolution No"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "I",
+      "page": 22,
+      "title": "REDACTIONS FOR PENDING PUBLIC RECORDS REQUESTS (for possible"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "J",
+      "page": 22,
+      "title": "LONG RANGE CALENDAR"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1428,
+          "page": 22,
+          "type": "pdf"
+        },
+        "start": "02:00:50"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1428,
+            "page": 22,
+            "type": "pdf"
+          },
+          "start": "02:00:50"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "K",
+      "page": 22,
+      "title": "BOARD OF TRUSTEES UPDATE"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1428,
+          "page": 23,
+          "type": "pdf"
+        },
+        "start": "02:02:42"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1428,
+            "page": 23,
+            "type": "pdf"
+          },
+          "start": "02:02:42"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1428,
+            "page": 23,
+            "type": "pdf"
+          },
+          "start": "00:09:28"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1428,
+            "page": 23,
+            "type": "pdf"
+          },
+          "start": "02:06:33"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "L",
+      "page": 23,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes in"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "M",
+      "page": 24,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",

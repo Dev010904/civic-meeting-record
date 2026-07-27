@@ -81,6 +81,177 @@
   },
   "items": [
     {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "A",
+      "page": 1,
+      "title": "PLEDGE OF ALLEGIANCE*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "B",
+      "page": 1,
+      "title": "ROLL CALL OF TRUSTEES*"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1433,
+          "page": 1,
+          "type": "pdf"
+        },
+        "start": "00:10:16"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1433,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:10:16"
+        },
+        {
+          "end": "00:12:59",
+          "provenance": {
+            "file_id": 1433,
+            "page": 1,
+            "type": "pdf"
+          },
+          "start": "00:10:33"
+        },
+        {
+          "end": "00:13:29",
+          "provenance": {
+            "file_id": 1433,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:13:12"
+        },
+        {
+          "end": "00:16:45",
+          "provenance": {
+            "file_id": 1433,
+            "page": 2,
+            "type": "pdf"
+          },
+          "start": "00:13:39"
+        },
+        {
+          "end": "00:22:46",
+          "provenance": {
+            "file_id": 1433,
+            "page": 4,
+            "type": "pdf"
+          },
+          "start": "00:19:50"
+        },
+        {
+          "end": "00:25:25",
+          "provenance": {
+            "file_id": 1433,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:22:55"
+        },
+        {
+          "end": "00:27:57",
+          "provenance": {
+            "file_id": 1433,
+            "page": 5,
+            "type": "pdf"
+          },
+          "start": "00:25:40"
+        },
+        {
+          "end": "00:31:22",
+          "provenance": {
+            "file_id": 1433,
+            "page": 6,
+            "type": "pdf"
+          },
+          "start": "00:28:19"
+        },
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1433,
+            "page": 7,
+            "type": "pdf"
+          },
+          "start": "00:31:42"
+        },
+        {
+          "end": "00:38:01",
+          "provenance": {
+            "file_id": 1433,
+            "page": 8,
+            "type": "pdf"
+          },
+          "start": "00:34:48"
+        },
+        {
+          "end": "00:40:30",
+          "provenance": {
+            "file_id": 1433,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "00:38:28"
+        },
+        {
+          "end": "00:41:04",
+          "provenance": {
+            "file_id": 1433,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "00:40:43"
+        },
+        {
+          "end": "00:42:15",
+          "provenance": {
+            "file_id": 1433,
+            "page": 9,
+            "type": "pdf"
+          },
+          "start": "00:41:06"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "C",
+      "page": 1,
+      "title": "INITIAL PUBLIC COMMENTS"
+    },
+    {
       "disposition": "passed",
       "extraction": {
         "confidence": "exact",
@@ -214,6 +385,7 @@
         }
       ],
       "number": "E",
+      "page": 10,
       "title": "PUBLIC HEARING - Public Hearing for the Incline"
     },
     {
@@ -472,6 +644,7 @@
         }
       ],
       "number": "E.1",
+      "page": 13,
       "title": "Adopt the Fiscal Year 2025/2026 Incline Village General Improvement District Budgets of which there are six (6) components: (1) Operating Budget; (2) Capital Improvement Projects Budget; (3) Facility Fees (consisting of a Recreation Facility Fee and Beach Facility Fee); (4) Authorized Positions List; (5) Final Form 4404LGF; and (6) Central Services Cost Allrocation Plan (Requesting Staff Member: Director of Finance Jessica O'Connell)"
     },
     {
@@ -590,6 +763,7 @@
         }
       ],
       "number": "F",
+      "page": 15,
       "title": "PUBLIC HEARING - Public Hearing for the Incline"
     },
     {
@@ -694,7 +868,23 @@
         }
       ],
       "number": "F.1",
+      "page": 18,
       "title": "Review, Discuss and Possibly Adopt Resolution No. 1917 - A Resolution Approving the Report for Collection of Recreation Standby and Service Charges (Also Known as the Recreation Facility Fee and Beach Facility Fee), for Fiscal Year 2025-2026 (Requesting Staff Member: Director of F inance Jessica O'Connell) Full discussion on Item F.1. Adopt Resolution No"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "G",
+      "page": 19,
+      "title": "GENERAL BUSINESS"
     },
     {
       "disposition": "passed",
@@ -756,7 +946,74 @@
         }
       ],
       "number": "G.1",
+      "page": 19,
       "title": "Review, discuss and possibly approve setting a fee for the purchase of an Additional Recreation Pass for 2025/2026 in accordance with Ordinance 7, paragraph 104 (Requesting Staff Member: Diamond Peak Ski Resort Manager Mike Bandelin)"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": {
+        "end": null,
+        "provenance": {
+          "file_id": 1433,
+          "page": 19,
+          "type": "pdf"
+        },
+        "start": "02:45:53"
+      },
+      "media_timestamps": [
+        {
+          "end": null,
+          "provenance": {
+            "file_id": 1433,
+            "page": 19,
+            "type": "pdf"
+          },
+          "start": "02:45:53"
+        },
+        {
+          "end": "02:49:01",
+          "provenance": {
+            "file_id": 1433,
+            "page": 19,
+            "type": "pdf"
+          },
+          "start": "02:46:02"
+        },
+        {
+          "end": "02:52:00",
+          "provenance": {
+            "file_id": 1433,
+            "page": 20,
+            "type": "pdf"
+          },
+          "start": "02:49:28"
+        }
+      ],
+      "money": [],
+      "motions": [],
+      "number": "H",
+      "page": 19,
+      "title": "FINAL PUBLIC COMMENTS - Limited to a maximum of three minutes in"
+    },
+    {
+      "disposition": null,
+      "extraction": {
+        "confidence": "exact",
+        "flags": [],
+        "stage": "A"
+      },
+      "media_timestamp": null,
+      "media_timestamps": [],
+      "money": [],
+      "motions": [],
+      "number": "I",
+      "page": 21,
+      "title": "ADJOURNMENT"
     }
   ],
   "jurisdiction": "ivgid",
