@@ -1,0 +1,26 @@
+{
+  "built_by": "scripts/build_tracking.py",
+  "confidence": {
+    "asserted": 6
+  },
+  "counts": {
+    "agenda_removal_vote": 3,
+    "amount_increase_after_prior_approval": 1,
+    "continued_then_acted": 0,
+    "project_referenced_at_multiple_meetings": 2
+  },
+  "date_range": [
+    "2024-12-19",
+    "2026-05-20"
+  ],
+  "jurisdiction": "ivgid",
+  "meetings_scanned": 39,
+  "not_detected": {
+    "contract_value_changed_between_agenda_and_minutes": "Not detected: requires the agenda's stated value, and no agenda layer exists. Records carry source.agenda_file_id but agenda and agenda-packet PDFs are never fetched or parsed (spec §2.2 lists them as a separate extraction target). Comparing two minutes figures would answer a different question, so nothing is reported.",
+    "item_appeared_on_agenda_then_vanished": "Not detected: the record layer carries only items that produced a motion, because items[] is built by grouping motions. An item that appeared on an agenda and produced no motion is therefore absent from the records by construction, and cannot be distinguished from an item that was never on the agenda. Detecting this needs either the agenda layer above, or 6a extended to emit motion-free items."
+  },
+  "note": "Findings report what the published records show. An absence is an absence from the published set of 39 meetings, not from the district's record.",
+  "rejected": [],
+  "schema_version": 1,
+  "source": "data/meetings/ (live-format published records only)"
+}

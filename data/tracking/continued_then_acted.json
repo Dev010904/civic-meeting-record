@@ -1,0 +1,10 @@
+{
+  "asserted": 0,
+  "candidates": 0,
+  "count": 0,
+  "description": "An item the records show was continued, tabled or deferred at one meeting and taken up at a later one (spec §2.5).",
+  "findings": [],
+  "jurisdiction": "ivgid",
+  "pattern": "continued_then_acted",
+  "schema_version": 1
+}

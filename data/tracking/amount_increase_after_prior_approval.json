@@ -1,0 +1,89 @@
+{
+  "asserted": 1,
+  "candidates": 0,
+  "count": 1,
+  "description": "A motion raising, extending or adding to an amount the records show was committed at an earlier meeting (spec §2.5: a change order raising a previously approved amount). Distinguished from the pattern above by explicit increase language in the later motion — a change order, additional funding, or a contract amendment.",
+  "findings": [
+    {
+      "confidence": "asserted",
+      "detail": {
+        "earlier_amounts": [
+          {
+            "amount_raw": "$29,700",
+            "amount_usd": 29700.0,
+            "flags": [],
+            "purpose": "Construction of the Incline Bike Park - Phase II",
+            "role": "not_to_exceed",
+            "vendor": "American Ramp Company"
+          },
+          {
+            "amount_raw": "$297,000",
+            "amount_usd": 297000.0,
+            "flags": [],
+            "purpose": "Construction of the Incline Bike Park - Phase II",
+            "role": "amount",
+            "vendor": "American Ramp Company"
+          }
+        ],
+        "later_amounts": [
+          {
+            "amount_raw": "$112,000",
+            "amount_usd": 112000.0,
+            "flags": [
+              "purpose_not_extracted",
+              "vendor_not_extracted"
+            ],
+            "purpose": null,
+            "role": "amount",
+            "vendor": null
+          },
+          {
+            "amount_raw": "$56,000",
+            "amount_usd": 56000.0,
+            "flags": [
+              "purpose_not_extracted",
+              "vendor_not_extracted"
+            ],
+            "purpose": null,
+            "role": "unclassified",
+            "vendor": null
+          }
+        ],
+        "later_motion_outcome": "passed",
+        "later_motion_text": "to Approve a Community Services Budget Transfer to Increase Capital Funds Available for Construction of the Incline Bike Park - Phase II to Authorize a Change Order to Pave the Existing and New Pump Tracks in the Amount of $112,000; IVGID Portion of $56,000, Private Donor Portion of $56,000; FY 2025/26 Capital Improvement Project; Fund: Community Services; Division: Parks; Project #4378LI2601."
+      },
+      "endpoints": [
+        {
+          "body": "Board of Trustees",
+          "date": "2025-12-10",
+          "item_number": "H.2",
+          "item_title": "Approve and Authorize the Board Chair and Board Secretary to Sign and Execute an Agreement between Incline Village General Improvement District and American Ramp Company for Construction of the Incline Bike Park - Phase II in the Amount of $297,000; and Authorize Staff to Execute Change Orders for Additional Work if Required, of Approximately 10% of the Construction Contract Value; not to Exceed $29,700; Project funding via combination of private donor funds and IVGID Capital Funds; FY 2025/26 Capital Improvement Project; Fund: Community Services; Division: Parks; Project #4378LI2601. Discussion and Possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson)",
+          "meeting_id": "ivgid-2025-12-10-bot",
+          "provenance": {
+            "file_id": 1570,
+            "page": 17,
+            "type": "pdf"
+          }
+        },
+        {
+          "body": "Board of Trustees",
+          "date": "2026-03-11",
+          "item_number": "H.1",
+          "item_title": "Discuss and Possibly Approve a Community Services Budget Transfer to Increase Capital Funds Available for Construction of the Incline Bike Park - Phase II to Authorize a Change Order to Pave the Existing and New Pump Tracks in the Amount of $112,000; IVGID Portion of $56,000, Private Donor Portion of $56,000; FY 2025/26 Capital Improvement Project; Fund: Community Services; Division: Parks; Project #4378LI2601. Discussion and Possible Action. (Requesting Staff Member: Director of Public Works Kate Nelson)",
+          "meeting_id": "ivgid-2026-03-11-bot",
+          "provenance": {
+            "file_id": 2665,
+            "page": 11,
+            "type": "pdf"
+          }
+        }
+      ],
+      "match_basis": "shared project reference Project #4378LI2601",
+      "pattern": "amount_increase_after_prior_approval",
+      "summary": "The minutes of 10 December 2025 record amounts under item H.2. The minutes of 11 March 2026 record a motion under item H.1 referring to a change order, additional funding or a contract amendment; that motion is recorded as passed. The figures on each side are listed below."
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "pattern": "amount_increase_after_prior_approval",
+  "schema_version": 1
+}

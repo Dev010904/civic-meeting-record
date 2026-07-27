@@ -1,0 +1,154 @@
+{
+  "asserted": 3,
+  "candidates": 0,
+  "count": 3,
+  "description": "A recorded vote on removing an item from the agenda, and what the published records show about that item afterwards.",
+  "findings": [
+    {
+      "confidence": "asserted",
+      "detail": {
+        "flags": [
+          "missing_outcome"
+        ],
+        "later_appearances": [],
+        "motion_text": "Chair Tonking called for a vote on the request to remove this item from the agenda.",
+        "named_items": [],
+        "nays": [
+          "Trustee Noble",
+          "Trustee Homan",
+          "Trustee Jezycki",
+          "Trustee Tonking"
+        ],
+        "notes": [
+          "label_variant:CALLED FOR A VOTE",
+          "mover_not_recorded"
+        ],
+        "outcome": null,
+        "tally": {
+          "absent": 0,
+          "abstain": 0,
+          "aye": 1,
+          "nay": 4
+        },
+        "yeas": [
+          "Trustee Tulloch"
+        ]
+      },
+      "endpoints": [
+        {
+          "body": "Board of Trustees",
+          "date": "2025-04-14",
+          "item_number": "D",
+          "item_title": "APPROVAL OF AGENDA",
+          "meeting_id": "ivgid-2025-04-14-bot",
+          "provenance": {
+            "file_id": 1342,
+            "page": 2,
+            "type": "pdf"
+          }
+        }
+      ],
+      "match_basis": "removal language in a recorded vote",
+      "pattern": "agenda_removal_vote",
+      "summary": "The minutes of 14 April 2025 record a vote on removing an item from the agenda. No outcome is recorded for the motion (1 in favour, 4 against)."
+    },
+    {
+      "confidence": "asserted",
+      "detail": {
+        "flags": [],
+        "later_appearances": [],
+        "motion_text": "All in favor of Removing Item H.1. Review, discuss, and possibly approve the Employee Pass Program for Beach access; From the Agenda, please vote by saying \"Yea\", all those opposed say \"Nay.\"",
+        "named_items": [
+          "H.1"
+        ],
+        "nays": [
+          "Trustee Noble",
+          "Trustee Homan",
+          "Trustee Jezycki",
+          "Chair Tonking"
+        ],
+        "notes": [
+          "label_variant:QUESTION",
+          "mover_not_recorded"
+        ],
+        "outcome": "failed",
+        "tally": {
+          "absent": 0,
+          "abstain": 0,
+          "aye": 1,
+          "nay": 4
+        },
+        "yeas": [
+          "Trustee Tulloch"
+        ]
+      },
+      "endpoints": [
+        {
+          "body": "Board of Trustees",
+          "date": "2025-05-14",
+          "item_number": "D",
+          "item_title": "APPROVAL OF AGENDA",
+          "meeting_id": "ivgid-2025-05-14-bot",
+          "provenance": {
+            "file_id": 1428,
+            "page": 8,
+            "type": "pdf"
+          }
+        }
+      ],
+      "match_basis": "removal language in a recorded vote",
+      "pattern": "agenda_removal_vote",
+      "summary": "The minutes of 14 May 2025 record a vote on removing an item from the agenda, naming item H.1. The motion is recorded as failed (1 in favour, 4 against). The published set contains no later meeting whose minutes record item H.1 on a matching title."
+    },
+    {
+      "confidence": "asserted",
+      "detail": {
+        "flags": [],
+        "later_appearances": [],
+        "motion_text": "To remove Item H.5. from the Agenda, Trustee Chair Tonking called for a Vote to remove Item H.5. from the agenda as requested.",
+        "named_items": [
+          "H.5"
+        ],
+        "nays": [
+          "Trustee Secretary Noble",
+          "Trustee Treasurer Homan",
+          "Trustee Vice Chair Jezycki",
+          "Trustee Chair Tonking"
+        ],
+        "notes": [
+          "no_seconder"
+        ],
+        "outcome": "failed",
+        "tally": {
+          "absent": 0,
+          "abstain": 0,
+          "aye": 1,
+          "nay": 4
+        },
+        "yeas": [
+          "Trustee Tulloch"
+        ]
+      },
+      "endpoints": [
+        {
+          "body": "Board of Trustees",
+          "date": "2025-12-10",
+          "item_number": "D",
+          "item_title": "APPROVAL OF AGENDA",
+          "meeting_id": "ivgid-2025-12-10-bot",
+          "provenance": {
+            "file_id": 1570,
+            "page": 9,
+            "type": "pdf"
+          }
+        }
+      ],
+      "match_basis": "removal language in a recorded vote",
+      "pattern": "agenda_removal_vote",
+      "summary": "The minutes of 10 December 2025 record a vote on removing an item from the agenda, naming item H.5. The motion is recorded as failed (1 in favour, 4 against). The published set contains no later meeting whose minutes record item H.5 on a matching title."
+    }
+  ],
+  "jurisdiction": "ivgid",
+  "pattern": "agenda_removal_vote",
+  "schema_version": 1
+}
